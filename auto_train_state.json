@@ -2,6 +2,7 @@
   "max_vocab_size": 96,
   "trained_files": [
     "c#.txt",
-    "c++.txt"
+    "c++.txt",
+    "code.txt"
   ]
 }

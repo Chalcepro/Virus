@@ -326,6 +326,7 @@ def main():
         print("=" * 60)
         print("TIP: Run again without --reset to continue from where you left off")
         print("     Or use --retrain to train on files multiple times")
+        print("     Or use --lr to avoid forgetting old knowledge.")
         torch.save(model.state_dict(), MODEL_PATH)
         save_state(state)
         sys.exit(0)
