@@ -1,20 +1,30 @@
 import requests
-import random
 import time
+import random
 from pathlib import Path
 
-def fetch_random_wikipedia_article():
-    """Get a random Wikipedia article in plain text."""
-    # 1. Get a random article title
-    rand_url = "https://en.wikipedia.org/api/rest_v1/page/random/summary"
-    resp = requests.get(rand_url)
-    data = resp.json()
-    title = data["title"]
-    extract = data["extract"]   # plain text summary
+USER_AGENT = "Mozilla/5.0 (compatible; AutoLearningBot/1.0; +https://github.com/yourusername/yourrepo)"
+HEADERS = {"User-Agent": USER_AGENT}
 
-    # 2. Add some metadata as a header
-    content = f"# Article: {title}\n# Source: Wikipedia\n\n{extract}\n"
-    return content, title
+def fetch_random_wikipedia_article(retries=3):
+    """Get a random Wikipedia article summary with retries."""
+    for attempt in range(retries):
+        try:
+            # Use the REST API endpoint for random summary
+            url = "https://en.wikipedia.org/api/rest_v1/page/random/summary"
+            resp = requests.get(url, headers=HEADERS, timeout=10)
+            resp.raise_for_status()
+            data = resp.json()
+            title = data["title"]
+            extract = data["extract"]
+            content = f"# Article: {title}\n# Source: Wikipedia\n\n{extract}\n"
+            return content, title
+        except (requests.RequestException, KeyError, ValueError) as e:
+            print(f"Attempt {attempt+1} failed: {e}")
+            if attempt == retries - 1:
+                raise
+            time.sleep(2 ** attempt)  # exponential backoff
+    raise RuntimeError("Failed to fetch Wikipedia article after retries")
 
 def save_to_data(text, title, data_dir="data"):
     Path(data_dir).mkdir(exist_ok=True)
