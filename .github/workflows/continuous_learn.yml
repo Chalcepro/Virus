@@ -1,10 +1,9 @@
-name: Continuous Learning
+name: Continuous Learning (CI)
 
 on:
   schedule:
-    # Run every day at 09:00 UTC
     - cron: '0 9 * * *'
-  workflow_dispatch:   # allows manual trigger from GitHub UI
+  workflow_dispatch:
 
 jobs:
   learn:
@@ -22,10 +21,10 @@ jobs:
         run: |
           pip install torch requests
 
-      - name: Run continuous learner
-        run: python continuous_learner.py
+      - name: Run automated learning (no interactive)
+        run: python auto_learn_ci.py
 
-      - name: Commit and push changes (model & data)
+      - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
