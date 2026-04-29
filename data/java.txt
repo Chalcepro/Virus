@@ -1,0 +1,176 @@
+import java.io.*;
+import java.util.*;
+import java.util.stream.*;
+import java.util.function.*;
+
+// === Interfaces ===
+interface Animal {
+    String getName();
+    String speak();
+    default String info() { return "An animal."; }
+}
+
+// === Base class ===
+class Mammal implements Animal {
+    protected String name;
+    public Mammal(String name) { this.name = name; }
+    public String getName() { return name; }
+    public String speak() { return name + " makes a sound."; }
+}
+
+// === Inheritance ===
+class Dog extends Mammal {
+    private String breed;
+    public Dog(String name, String breed) {
+        super(name);
+        this.breed = breed;
+    }
+    @Override
+    public String speak() { return name + " barks!"; }
+    public String getBreed() { return breed; }
+    public static String info() { return "Dogs are loyal."; }
+}
+
+// === Generic class ===
+class Box<T> {
+    private T value;
+    public Box(T value) { this.value = value; }
+    public T get() { return value; }
+    public void set(T v) { value = v; }
+    @Override
+    public String toString() { return "Box(" + value + ")"; }
+}
+
+// === Custom exception ===
+class DataException extends Exception {
+    public DataException(String msg) { super(msg); }
+}
+
+// === Utility methods ===
+class Utils {
+    public static int factorial(int n) {
+        if (n <= 1) return 1;
+        return n * factorial(n - 1);
+    }
+    public static int fibonacci(int n) {
+        if (n <= 1) return n;
+        int a = 0, b = 1, temp;
+        for (int i = 2; i <= n; i++) {
+            temp = a + b;
+            a = b;
+            b = temp;
+        }
+        return b;
+    }
+    public static boolean isPalindrome(String s) {
+        String cleaned = s.toLowerCase().replaceAll("[^a-z0-9]", "");
+        return cleaned.equals(new StringBuilder(cleaned).reverse().toString());
+    }
+}
+
+// === Main class ===
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("=== Java Training Data ===");
+
+        // Variables & primitives
+        int age = 30;
+        double price = 19.99;
+        char grade = 'A';
+        boolean isActive = true;
+        final float PI = 3.14159f;
+        String name = "Alice";
+
+        System.out.printf("%s is %d years old.%n", name, age);
+
+        // Arrays
+        int[] numbers = {1, 2, 3, 4, 5};
+        for (int n : numbers) System.out.print(n + " ");
+        System.out.println();
+
+        int[][] matrix = {{1,2,3}, {4,5,6}};
+
+        // Lists & Collections
+        List<String> fruits = new ArrayList<>(Arrays.asList("apple", "banana", "orange"));
+        fruits.add("grape");
+        fruits.remove("banana");
+        System.out.println("Fruits: " + fruits);
+
+        Map<String, Integer> ages = new HashMap<>();
+        ages.put("Alice", 30);
+        ages.put("Bob", 25);
+        ages.forEach((k, v) -> System.out.println(k + " -> " + v));
+
+        Set<Integer> set = new HashSet<>(Arrays.asList(1,2,2,3));
+        System.out.println("Set: " + set);
+
+        // Control flow
+        if (age >= 18) System.out.println("Adult");
+        else System.out.println("Minor");
+
+        String category = age < 13 ? "Child" : age < 20 ? "Teen" : "Adult";
+        System.out.println(category);
+
+        switch (grade) {
+            case 'A': System.out.println("Excellent"); break;
+            case 'B': System.out.println("Good"); break;
+            default: System.out.println("OK");
+        }
+
+        for (int i = 0; i < 3; i++) System.out.print(i + " ");
+        System.out.println();
+
+        // OOP
+        Dog myDog = new Dog("Rex", "German Shepherd");
+        System.out.println(myDog.speak());
+        System.out.println(Dog.info());
+        Animal animal = myDog; // polymorphism
+        System.out.println(animal.speak());
+
+        Box<Integer> intBox = new Box<>(42);
+        System.out.println(intBox);
+
+        // Lambdas & streams
+        List<String> longFruits = fruits.stream()
+                .filter(f -> f.length() > 5)
+                .map(String::toUpperCase)
+                .collect(Collectors.toList());
+        System.out.println("Long fruits: " + longFruits);
+
+        int sumLength = fruits.stream().mapToInt(String::length).sum();
+        System.out.println("Sum length: " + sumLength);
+
+        fruits.sort(Comparator.comparingInt(String::length));
+        System.out.println("Sorted by length: " + fruits);
+
+        // Exception handling
+        try {
+            throw new DataException("Something went wrong");
+        } catch (DataException e) {
+            System.err.println("Caught: " + e.getMessage());
+        } finally {
+            System.out.println("Finally block");
+        }
+
+        // File I/O
+        String path = "test.txt";
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(path))) {
+            writer.write("Hello, file!");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        try (BufferedReader reader = new BufferedReader(new FileReader(path))) {
+            System.out.println("Read file: " + reader.readLine());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        // Utilities
+        System.out.println("Factorial(5) = " + Utils.factorial(5));
+        System.out.println("Fibonacci(7) = " + Utils.fibonacci(7));
+        System.out.println("Is palindrome 'racecar'? " + Utils.isPalindrome("racecar"));
+
+        System.out.println("Java training sample complete.");
+    }
+}

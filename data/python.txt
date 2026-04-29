@@ -1,0 +1,589 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Advanced Python Training Data
+Covers: syntax, data types, OOP, functional programming,
+async, standard library, algorithms, and more.
+"""
+
+# ===== Imports (Standard Library) =====
+import os
+import sys
+import re
+import json
+import math
+import random
+import datetime
+import collections
+import itertools
+import functools
+import typing
+import dataclasses
+import asyncio
+import threading
+import subprocess
+import argparse
+import logging
+import unittest
+from pathlib import Path
+from typing import List, Dict, Tuple, Optional, Union, Callable, Any
+
+# ===== Basic Syntax =====
+print("Hello, world!")
+
+# Variables and types
+name: str = "Alice"
+age: int = 30
+height: float = 1.68
+is_student: bool = False
+skills: List[str] = ["Python", "C++", "JavaScript"]
+
+# Constants (by convention)
+PI = 3.14159
+
+# Strings
+greeting = f"Hello, {name}! You are {age} years old."
+multiline = """This is a
+multiline string."""
+print(greeting.lower().replace("alice", "Bob"))
+print("Length:", len(greeting))
+
+# Numbers
+print(f"2^10 = {2**10}")
+print(f"sqrt(16) = {math.sqrt(16)}")
+print(f"Random int: {random.randint(1, 100)}")
+
+# ===== Data Structures =====
+# Lists
+numbers = [1, 2, 3, 4, 5]
+numbers.append(6)
+numbers.insert(0, 0)
+numbers.extend([7, 8])
+numbers.pop()
+print(numbers[2:5])
+# List comprehension
+squares = [x**2 for x in range(10) if x % 2 == 0]
+
+# Tuples (immutable)
+point = (3, 4)
+x, y = point
+
+# Dictionaries
+person = {
+    "name": "John",
+    "age": 30,
+    "skills": ["Java", "SQL"]
+}
+person["email"] = "john@example.com"
+for key, value in person.items():
+    print(f"{key}: {value}")
+
+# Sets
+unique_skills = {"Python", "C++", "Python", "Java"}
+unique_skills.add("Rust")
+print(unique_skills & {"Python", "Java"})
+
+# ===== Control Flow =====
+if age >= 18:
+    print("Adult")
+elif age >= 13:
+    print("Teen")
+else:
+    print("Child")
+
+# match statement (Python 3.10+)
+match status := "success":
+    case "success":
+        print("OK")
+    case "error":
+        print("Fail")
+    case _:
+        print("Unknown")
+
+# Loops
+for i in range(5):
+    print(i, end=" ")
+print()
+
+# While loop
+count = 0
+while count < 3:
+    print(count)
+    count += 1
+
+# ===== Functions =====
+def add(a: int, b: int) -> int:
+    """Return sum of two integers."""
+    return a + b
+
+# Default and keyword arguments
+def greet(name: str, greeting: str = "Hello") -> str:
+    return f"{greeting}, {name}!"
+
+# Variable-length arguments
+def sum_all(*args: int) -> int:
+    return sum(args)
+
+# Keyword-only arguments
+def configure(*, host: str, port: int = 8080) -> None:
+    print(f"Connecting to {host}:{port}")
+
+# ===== Lambda Functions =====
+square = lambda x: x**2
+print(square(5))
+add_lambda = lambda a, b: a + b
+print(add_lambda(3, 4))
+
+# ===== Higher-order Functions =====
+# map, filter, reduce
+nums = [1, 2, 3, 4, 5]
+doubled = list(map(lambda x: x*2, nums))
+evens = list(filter(lambda x: x % 2 == 0, nums))
+from functools import reduce
+product = reduce(lambda a, b: a * b, nums, 1)
+
+# ===== Comprehensions =====
+# List
+squared = [x**2 for x in range(10)]
+# Dict
+word_lengths = {word: len(word) for word in ["apple", "banana", "cherry"]}
+# Set
+unique = {x for x in [1,2,2,3,4,4,5]}
+
+# ===== Generators =====
+def count_up_to(n: int):
+    """Generator that yields numbers up to n."""
+    i = 1
+    while i <= n:
+        yield i
+        i += 1
+for num in count_up_to(3):
+    print(num)
+
+# Generator expression
+gen = (x**2 for x in range(10))
+print(next(gen))
+
+# ===== Decorators =====
+def timer(func):
+    """Decorator that measures execution time."""
+    import time
+    def wrapper(*args, **kwargs):
+        start = time.time()
+        result = func(*args, **kwargs)
+        end = time.time()
+        print(f"{func.__name__} took {end-start:.4f}s")
+        return result
+    return wrapper
+
+@timer
+def slow_function():
+    time.sleep(0.1)
+
+# Decorator with arguments
+def repeat(times: int):
+    def decorator(func):
+        def wrapper(*args, **kwargs):
+            for _ in range(times):
+                result = func(*args, **kwargs)
+            return result
+        return wrapper
+    return decorator
+
+@repeat(3)
+def greet_decorated(name):
+    print(f"Hello, {name}!")
+
+# ===== Context Managers =====
+class FileHandler:
+    """Custom context manager using __enter__ / __exit__."""
+    def __init__(self, filename, mode):
+        self.filename = filename
+        self.mode = mode
+    def __enter__(self):
+        self.file = open(self.filename, self.mode)
+        return self.file
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        self.file.close()
+
+# Using contextlib
+from contextlib import contextmanager
+@contextmanager
+def open_file(filename, mode):
+    f = open(filename, mode)
+    try:
+        yield f
+    finally:
+        f.close()
+
+# ===== Object-Oriented Programming =====
+class Animal:
+    """Base class for animals."""
+    species_count = 0  # class variable
+
+    def __init__(self, name: str):
+        self.name = name
+        Animal.species_count += 1
+
+    def speak(self) -> str:
+        return f"{self.name} makes a sound."
+
+    @staticmethod
+    def is_animal() -> bool:
+        return True
+
+    @classmethod
+    def from_species(cls, species: str) -> 'Animal':
+        return cls(species)
+
+    def __repr__(self) -> str:
+        return f"Animal({self.name!r})"
+
+class Dog(Animal):
+    """Subclass of Animal."""
+    def __init__(self, name: str, breed: str):
+        super().__init__(name)
+        self.breed = breed
+
+    def speak(self) -> str:
+        return f"{self.name} barks."
+
+    def fetch(self, item: str) -> str:
+        return f"{self.name} fetches the {item}."
+
+# Properties
+class Temperature:
+    def __init__(self, celsius):
+        self._celsius = celsius
+
+    @property
+    def celsius(self):
+        return self._celsius
+
+    @celsius.setter
+    def celsius(self, value):
+        if value < -273.15:
+            raise ValueError("Temperature below absolute zero")
+        self._celsius = value
+
+    @property
+    def fahrenheit(self):
+        return self._celsius * 9/5 + 32
+
+# Magic methods example
+class Vector:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+    def __add__(self, other):
+        return Vector(self.x + other.x, self.y + other.y)
+
+    def __str__(self):
+        return f"({self.x}, {self.y})"
+
+# ===== Dataclasses =====
+@dataclasses.dataclass
+class Student:
+    name: str
+    age: int
+    grades: List[float] = dataclasses.field(default_factory=list)
+
+    def average(self) -> float:
+        if not self.grades:
+            return 0.0
+        return sum(self.grades) / len(self.grades)
+
+# ===== Typing & Generics =====
+from typing import TypeVar, Generic
+T = TypeVar('T')
+class Stack(Generic[T]):
+    def __init__(self):
+        self._items: List[T] = []
+
+    def push(self, item: T) -> None:
+        self._items.append(item)
+
+    def pop(self) -> T:
+        return self._items.pop()
+
+# ===== Exception Handling =====
+try:
+    result = 10 / 0
+except ZeroDivisionError as e:
+    print(f"Error: {e}")
+    raise  # re-raise if needed
+finally:
+    print("Cleanup")
+
+# Custom exception
+class CustomError(Exception):
+    pass
+
+# ===== File I/O =====
+# Reading
+with open("example.txt", "r") as f:
+    content = f.read()
+# Writing
+with open("output.txt", "w") as f:
+    f.write("Hello, file!")
+# Pathlib (modern)
+path = Path("log.txt")
+if path.exists():
+    print(path.read_text())
+
+# ===== JSON =====
+data = {"key": "value", "numbers": [1,2,3]}
+json_str = json.dumps(data, indent=2)
+parsed = json.loads(json_str)
+
+# ===== Regular Expressions =====
+pattern = re.compile(r'\b\w{5,}\b')  # words at least 5 chars
+matches = pattern.findall("The quick brown fox jumps over the lazy dog")
+print(matches)
+
+# ===== Collections Module =====
+from collections import Counter, defaultdict, deque
+
+cnt = Counter("abracadabra")
+print(cnt.most_common(3))
+
+dd = defaultdict(list)
+dd["a"].append(1)
+
+dq = deque([1,2,3])
+dq.appendleft(0)
+dq.pop()
+
+# ===== Itertools =====
+from itertools import chain, combinations, cycle, islice
+# Combinations
+for combo in combinations("ABCD", 2):
+    print(combo)
+
+# Infinite cycling (with islice)
+colors = cycle(["red", "green", "blue"])
+for _ in range(5):
+    print(next(colors), end=" ")
+
+# ===== Functools =====
+from functools import lru_cache
+
+@lru_cache(maxsize=128)
+def fib(n: int) -> int:
+    if n <= 1:
+        return n
+    return fib(n-1) + fib(n-2)
+
+print(fib(50))
+
+# Partial application
+from functools import partial
+base_2 = partial(int, base=2)
+print(base_2("1010"))
+
+# ===== Datetime =====
+now = datetime.datetime.now()
+print(now.strftime("%Y-%m-%d %H:%M:%S"))
+tomorrow = now + datetime.timedelta(days=1)
+
+# ===== Asyncio (Async/Await) =====
+async def fetch_data(url: str) -> str:
+    print(f"Fetching {url}...")
+    await asyncio.sleep(1)  # simulate I/O
+    return f"Data from {url}"
+
+async def main_async():
+    task1 = fetch_data("url1")
+    task2 = fetch_data("url2")
+    results = await asyncio.gather(task1, task2)
+    print(results)
+
+# Run async function (uncomment to run)
+# asyncio.run(main_async())
+
+# ===== Threading =====
+def worker(name: str):
+    print(f"Thread {name} started")
+    # do work
+
+t1 = threading.Thread(target=worker, args=("A",))
+t2 = threading.Thread(target=worker, args=("B",))
+# t1.start(); t2.start(); t1.join(); t2.join()
+
+# ===== Subprocess (run external commands) =====
+# result = subprocess.run(["ls", "-l"], capture_output=True, text=True)
+# print(result.stdout)
+
+# ===== Command-line Arguments (argparse) =====
+parser = argparse.ArgumentParser(description="Sample program")
+parser.add_argument("-n", "--name", type=str, help="Your name")
+# args = parser.parse_args()
+
+# ===== Logging =====
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+logger.info("This is an info message")
+
+# ===== Unit Testing (unittest) =====
+class TestMath(unittest.TestCase):
+    def test_add(self):
+        self.assertEqual(add(2, 3), 5)
+
+# To run: unittest.main()
+
+# ===== Algorithms =====
+def is_prime(n: int) -> bool:
+    if n < 2:
+        return False
+    for i in range(2, int(math.sqrt(n)) + 1):
+        if n % i == 0:
+            return False
+    return True
+
+def binary_search(arr: List[int], target: int) -> int:
+    low, high = 0, len(arr) - 1
+    while low <= high:
+        mid = (low + high) // 2
+        if arr[mid] == target:
+            return mid
+        elif arr[mid] < target:
+            low = mid + 1
+        else:
+            high = mid - 1
+    return -1
+
+def merge_sort(arr: List[int]) -> List[int]:
+    if len(arr) <= 1:
+        return arr
+    mid = len(arr) // 2
+    left = merge_sort(arr[:mid])
+    right = merge_sort(arr[mid:])
+    return merge(left, right)
+
+def merge(left, right):
+    result = []
+    i = j = 0
+    while i < len(left) and j < len(right):
+        if left[i] < right[j]:
+            result.append(left[i])
+            i += 1
+        else:
+            result.append(right[j])
+            j += 1
+    result.extend(left[i:])
+    result.extend(right[j:])
+    return result
+
+# Recursion & memoization example
+# Already shown with fib, but also DP approach
+def fibonacci_dp(n: int) -> int:
+    if n <= 1:
+        return n
+    dp = [0] * (n + 1)
+    dp[1] = 1
+    for i in range(2, n + 1):
+        dp[i] = dp[i-1] + dp[i-2]
+    return dp[n]
+
+# ===== Metaclasses (advanced) =====
+class SingletonMeta(type):
+    _instances = {}
+    def __call__(cls, *args, **kwargs):
+        if cls not in cls._instances:
+            cls._instances[cls] = super().__call__(*args, **kwargs)
+        return cls._instances[cls]
+
+class Database(metaclass=SingletonMeta):
+    def __init__(self):
+        self.connection = "Connected"
+
+# ===== Descriptors =====
+class PositiveNumber:
+    def __set_name__(self, owner, name):
+        self.name = name
+    def __get__(self, instance, owner):
+        return instance.__dict__.get(self.name, 0)
+    def __set__(self, instance, value):
+        if value < 0:
+            raise ValueError(f"{self.name} must be positive")
+        instance.__dict__[self.name] = value
+
+class Item:
+    price = PositiveNumber()
+    def __init__(self, price):
+        self.price = price
+
+# ===== Contextvars (for async context) =====
+from contextvars import ContextVar
+request_id = ContextVar('request_id')
+
+# ===== F-strings with various formats =====
+val = 255
+print(f"Hex: {val:#x}, Binary: {val:#b}, Percentage: {0.123:.1%}")
+
+# ===== Walrus operator (assignment expression) =====
+if (n := len(numbers)) > 3:
+    print(f"List has {n} elements")
+
+# ===== File system operations with pathlib =====
+data_dir = Path("data")
+data_dir.mkdir(exist_ok=True)
+for file in data_dir.glob("*.txt"):
+    print(file.name)
+
+# ===== Environment variables =====
+home = os.environ.get("HOME", "~")
+print(f"Home directory: {home}")
+
+# ===== Object serialization (pickle) =====
+import pickle
+data_serialized = pickle.dumps(person)
+person_loaded = pickle.loads(data_serialized)
+
+# ===== Hashing and UUIDs =====
+import hashlib
+import uuid
+hash_hex = hashlib.sha256(b"hello").hexdigest()
+unique_id = str(uuid.uuid4())
+print(unique_id)
+
+# ===== Decorators with functools.wraps =====
+from functools import wraps
+def my_decorator(func):
+    @wraps(func)
+    def wrapper(*args, **kwargs):
+        return func(*args, **kwargs)
+    return wrapper
+
+# ===== Currying example =====
+def multiply(a: int):
+    def inner(b: int):
+        return a * b
+    return inner
+double = multiply(2)
+print(double(5))
+
+# ===== Monkey patching (demonstration) =====
+# def new_method(self): return "patched"
+# SomeClass.method = new_method
+
+# ===== Slots for memory optimization =====
+class PointSlots:
+    __slots__ = ("x", "y")
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+# ===== Use of match / case with pattern matching =====
+command = ["go", "north"]
+match command:
+    case ["go", direction]:
+        print(f"Going {direction}")
+    case ["take", *items]:
+        print(f"Taking {', '.join(items)}")
+    case _:
+        print("Unknown command")
+
+# ===== Summary =====
+print("Python training data complete. Contains 95% of modern Python features.")

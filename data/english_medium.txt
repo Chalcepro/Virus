@@ -1,0 +1,101 @@
+=== ENGLISH CORE DATA ===
+
+### INPUT:
+Define ability
+### OUTPUT:
+Ability is the skill to do something.
+
+### INPUT:
+Define accept
+### OUTPUT:
+Accept means to receive or agree.
+
+### INPUT:
+Define achieve
+### OUTPUT:
+Achieve means to successfully reach a goal.
+
+### INPUT:
+Define act
+### OUTPUT:
+Act means to take action.
+
+### INPUT:
+Define add
+### OUTPUT:
+Add means to combine things.
+
+### INPUT:
+Define allow
+### OUTPUT:
+Allow means to permit something.
+
+### INPUT:
+Define answer
+### OUTPUT:
+An answer is a response to a question.
+
+### INPUT:
+Define ask
+### OUTPUT:
+Ask means to request information.
+
+### INPUT:
+Define build
+### OUTPUT:
+Build means to create or construct.
+
+### INPUT:
+Define change
+### OUTPUT:
+Change means to make something different.
+
+### INPUT:
+Define create
+### OUTPUT:
+Create means to make something new.
+
+### INPUT:
+Define decide
+### OUTPUT:
+Decide means to make a choice.
+
+### INPUT:
+Define explain
+### OUTPUT:
+Explain means to make something clear.
+
+### INPUT:
+Define help
+### OUTPUT:
+Help means to assist someone.
+
+### INPUT:
+Define learn
+### OUTPUT:
+Learn means to gain knowledge.
+
+### INPUT:
+Define make
+### OUTPUT:
+Make means to create something.
+
+### INPUT:
+Define solve
+### OUTPUT:
+Solve means to find an answer.
+
+### INPUT:
+Define system
+### OUTPUT:
+A system is a group of connected parts.
+
+### INPUT:
+Define think
+### OUTPUT:
+Think means to use the mind.
+
+### INPUT:
+Define understand
+### OUTPUT:
+Understand means to know clearly.

@@ -1,0 +1,255 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
+#include <math.h>
+#include <time.h>
+#include <stdbool.h>
+#include <assert.h>
+
+// === Macros and Constants ===
+#define PI 3.14159265358979323846
+#define MAX(a,b) ((a) > (b) ? (a) : (b))
+#define SQUARE(x) ((x)*(x))
+
+// === Structs ===
+typedef struct {
+    int x;
+    int y;
+} Point;
+
+// === Function Prototypes ===
+int add(int a, int b);
+void printArray(const int *arr, size_t size);
+int factorial(int n);
+int fibonacci(int n);
+bool isPrime(int n);
+void bubbleSort(int arr[], size_t n);
+void reverseString(char *str);
+char* duplicateString(const char *str);
+void dynamicMemoryExample();
+void fileIOExample();
+int comparator(const void *a, const void *b);
+
+// === Main Function ===
+int main() {
+    printf("=== C Training Data ===\n");
+
+    // --- Variables and Primitive Types ---
+    int age = 30;
+    double price = 19.99;
+    char grade = 'A';
+    _Bool isActive = 1;  // or bool via stdbool.h
+    const float Pi = 3.14159f;
+    char name[] = "Alice";
+    
+    printf("Name: %s, Age: %d\n", name, age);
+    printf("Price: %.2f\n", price);
+    
+    // --- Arrays ---
+    int numbers[] = {1, 2, 3, 4, 5};
+    size_t len = sizeof(numbers) / sizeof(numbers[0]);
+    printf("Array: ");
+    for (size_t i = 0; i < len; i++)
+        printf("%d ", numbers[i]);
+    printf("\n");
+    
+    int matrix[2][3] = {{1,2,3}, {4,5,6}};
+    
+    // --- Strings ---
+    char greeting[50];
+    snprintf(greeting, sizeof(greeting), "Hello, %s!", name);
+    printf("%s\n", greeting);
+    printf("Length: %zu\n", strlen(name));
+    char *token = strtok(name, "i"); // warning: modifies name
+    char copy[20];
+    strcpy(copy, "Alice");
+    strcat(copy, " Smith");
+    
+    // --- Pointers ---
+    int x = 10;
+    int *ptr = &x;
+    printf("Pointer value: %d\n", *ptr);
+    int *dynamicArr = malloc(5 * sizeof(int));
+    for (int i = 0; i < 5; i++)
+        dynamicArr[i] = i * 10;
+    free(dynamicArr);
+    
+    char *dup = duplicateString("original");
+    printf("Duplicated: %s\n", dup);
+    free(dup);
+    
+    // --- Structs ---
+    Point p1 = {3, 4};
+    Point p2 = {.x = 1, .y = 2};
+    printf("Point: (%d, %d)\n", p1.x, p1.y);
+    
+    // --- Control Flow ---
+    if (age >= 18)
+        printf("Adult\n");
+    else
+        printf("Minor\n");
+    
+    char *category = age < 13 ? "Child" : age < 20 ? "Teen" : "Adult";
+    puts(category);
+    
+    switch (grade) {
+        case 'A': printf("Excellent\n"); break;
+        case 'B': printf("Good\n"); break;
+        default: printf("OK\n");
+    }
+    
+    for (int i = 0; i < 5; i++)
+        printf("%d ", i);
+    printf("\n");
+    
+    int j = 0;
+    while (j < 5) printf("%d ", j++);
+    printf("\n");
+    
+    // --- Functions ---
+    printf("Add: %d\n", add(2, 3));
+    printf("Factorial(5): %d\n", factorial(5));
+    printf("Fibonacci(7): %d\n", fibonacci(7));
+    printf("Is 17 prime: %d\n", isPrime(17));
+    
+    // --- Sorting ---
+    int arr[] = {4, 2, 8, 5, 1};
+    bubbleSort(arr, 5);
+    printf("Bubble sorted: ");
+    printArray(arr, 5);
+    
+    int arr2[] = {9, 3, 6, 2};
+    qsort(arr2, 4, sizeof(int), comparator);
+    printf("qsort sorted: ");
+    printArray(arr2, 4);
+    
+    // --- String operations ---
+    char str[] = "Hello World";
+    reverseString(str);
+    printf("Reversed: %s\n", str);
+    
+    // --- Math ---
+    printf("sqrt(16) = %f\n", sqrt(16));
+    printf("pow(2,8) = %f\n", pow(2, 8));
+    
+    // --- File I/O ---
+    fileIOExample();
+    
+    // --- Dynamic Memory ---
+    dynamicMemoryExample();
+    
+    // --- Time ---
+    srand(time(NULL));
+    printf("Random: %d\n", rand() % 100);
+    
+    return 0;
+}
+
+// === Function Definitions ===
+
+int add(int a, int b) {
+    return a + b;
+}
+
+void printArray(const int *arr, size_t size) {
+    for (size_t i = 0; i < size; i++)
+        printf("%d ", arr[i]);
+    printf("\n");
+}
+
+// Recursive factorial
+int factorial(int n) {
+    return n <= 1 ? 1 : n * factorial(n - 1);
+}
+
+// Iterative Fibonacci
+int fibonacci(int n) {
+    if (n <= 1) return n;
+    int a = 0, b = 1, temp;
+    for (int i = 2; i <= n; i++) {
+        temp = a + b;
+        a = b;
+        b = temp;
+    }
+    return b;
+}
+
+// Prime check
+bool isPrime(int n) {
+    if (n < 2) return false;
+    for (int i = 2; i * i <= n; i++)
+        if (n % i == 0) return false;
+    return true;
+}
+
+// Bubble sort
+void bubbleSort(int arr[], size_t n) {
+    for (size_t i = 0; i < n - 1; i++)
+        for (size_t j = 0; j < n - i - 1; j++)
+            if (arr[j] > arr[j + 1]) {
+                int temp = arr[j];
+                arr[j] = arr[j+1];
+                arr[j+1] = temp;
+            }
+}
+
+// Reverse a string in place
+void reverseString(char *str) {
+    size_t len = strlen(str);
+    for (size_t i = 0; i < len / 2; i++) {
+        char temp = str[i];
+        str[i] = str[len - i - 1];
+        str[len - i - 1] = temp;
+    }
+}
+
+// Duplicate a string (dynamic memory)
+char* duplicateString(const char *str) {
+    size_t len = strlen(str) + 1;
+    char *copy = malloc(len);
+    if (copy) {
+        memcpy(copy, str, len);
+    }
+    return copy;
+}
+
+// Dynamic memory example
+void dynamicMemoryExample() {
+    int *arr = malloc(10 * sizeof(int));
+    if (!arr) {
+        perror("malloc failed");
+        return;
+    }
+    for (int i = 0; i < 10; i++)
+        arr[i] = i;
+    // realloc example
+    int *tmp = realloc(arr, 20 * sizeof(int));
+    if (tmp)
+        arr = tmp;
+    free(arr);
+}
+
+// File I/O
+void fileIOExample() {
+    FILE *fp = fopen("example.txt", "w");
+    if (!fp) {
+        perror("fopen");
+        return;
+    }
+    fprintf(fp, "Hello, file!\n");
+    fclose(fp);
+    
+    fp = fopen("example.txt", "r");
+    if (fp) {
+        char buffer[100];
+        while (fgets(buffer, sizeof(buffer), fp))
+            printf("Read: %s", buffer);
+        fclose(fp);
+    }
+}
+
+// Comparator for qsort
+int comparator(const void *a, const void *b) {
+    return *(int*)a - *(int*)b;
+}

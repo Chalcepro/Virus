@@ -1,0 +1,414 @@
+/* ===== CSS Custom Properties (Variables) ===== */
+:root {
+    --brand: #2563eb;
+    --brand-dark: #1d4ed8;
+    --text: #0f172a;
+    --text-light: #64748b;
+    --bg: #ffffff;
+    --bg-secondary: #f1f5f9;
+    --border: #e2e8f0;
+    --radius: 0.5rem;
+    --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
+    --shadow-md: 0 4px 6px rgba(0,0,0,0.1);
+    --transition: 200ms ease-in-out;
+    --font-sans: system-ui, -apple-system, sans-serif;
+}
+
+/* ===== Modern Reset ===== */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+    hanging-punctuation: first allow-end;
+}
+
+body {
+    font-family: var(--font-sans);
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    accent-color: var(--brand);
+}
+
+/* ===== Typography with Clamp() ===== */
+h1 { font-size: clamp(2rem, 5vw, 3rem); }
+h2 { font-size: clamp(1.5rem, 4vw, 2.25rem); }
+h3 { font-size: clamp(1.25rem, 3vw, 1.75rem); }
+
+/* ===== Focus styles for accessibility (using :focus-visible) ===== */
+:focus-visible {
+    outline: 2px solid var(--brand);
+    outline-offset: 2px;
+}
+
+.skip-link {
+    position: absolute;
+    top: -100%;
+    left: 0;
+    background: var(--brand);
+    color: white;
+    padding: 0.5rem 1rem;
+    z-index: 9999;
+}
+.skip-link:focus {
+    top: 0;
+}
+
+/* ===== CSS Grid Layout (Advanced) ===== */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(250px, 100%), 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+/* ===== Flexbox Utilities ===== */
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ===== Container Queries (2024+) ===== */
+.card-container {
+    container-type: inline-size;
+    container-name: card-container;
+}
+
+@container card-container (min-width: 300px) {
+    .card {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 1rem;
+    }
+}
+
+/* ===== Modern Button Styles ===== */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75em 1.5em;
+    border: 2px solid transparent;
+    border-radius: var(--radius);
+    background: var(--brand);
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background var(--transition), transform var(--transition), box-shadow var(--transition);
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: var(--brand-dark);
+    box-shadow: var(--shadow-md);
+    transform: translateY(-1px);
+}
+
+.btn:active {
+    transform: translateY(0);
+}
+
+/* ===== Forms (custom styling) ===== */
+input, textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+    padding: 0.75em;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--bg);
+    transition: border-color var(--transition), box-shadow var(--transition);
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: var(--brand);
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.3);
+    outline: none;
+}
+
+/* ===== Custom Checkbox & Radio (with appearance) ===== */
+input[type="checkbox"],
+input[type="radio"] {
+    appearance: none;
+    width: 1.25rem;
+    height: 1.25rem;
+    border: 2px solid var(--border);
+    border-radius: 0.25rem;
+    display: inline-grid;
+    place-content: center;
+    cursor: pointer;
+    margin-right: 0.5rem;
+}
+
+input[type="checkbox"]:checked {
+    background: var(--brand);
+    border-color: var(--brand);
+}
+input[type="checkbox"]:checked::after {
+    content: "✔";
+    color: white;
+    font-size: 0.75rem;
+}
+
+input[type="radio"] {
+    border-radius: 50%;
+}
+input[type="radio"]:checked {
+    border-color: var(--brand);
+}
+input[type="radio"]:checked::after {
+    content: "";
+    width: 0.65rem;
+    height: 0.65rem;
+    background: var(--brand);
+    border-radius: 50%;
+    display: block;
+}
+
+/* ===== CSS Transitions & Animations ===== */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+    animation: fadeIn 0.5s ease forwards;
+}
+
+/* Scroll-Driven Animation (experimental, very advanced) */
+@keyframes slideIn {
+    from { opacity: 0; transform: translateX(-20px); }
+    to { opacity: 1; transform: translateX(0); }
+}
+
+.scroll-reveal {
+    animation: slideIn linear;
+    animation-timeline: view();
+    animation-range: entry 0% entry 100%;
+}
+
+/* ===== Transforms & 3D ===== */
+.card-3d {
+    transform: perspective(800px) rotateY(0deg);
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+.card-3d:hover {
+    transform: perspective(800px) rotateY(10deg);
+}
+
+/* ===== Filters & Backdrop ===== */
+.blur-bg {
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background: rgba(255,255,255,0.7);
+}
+
+.grayscale-effect {
+    filter: grayscale(100%);
+    transition: filter var(--transition);
+}
+.grayscale-effect:hover {
+    filter: grayscale(0%);
+}
+
+/* ===== CSS Grid Subgrid (for aligning nested grids) ===== */
+.full-width-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 1rem;
+}
+.feature {
+    display: grid;
+    grid-template-rows: subgrid;
+    grid-row: span 3;
+}
+
+/* ===== Logical Properties (Internationalization) ===== */
+.text-logical {
+    margin-inline-start: 1rem;  /* instead of margin-left */
+    padding-block: 1rem;        /* instead of padding-top & bottom */
+}
+
+/* ===== CSS Nesting (2023+) ===== */
+.parent {
+    background: var(--bg-secondary);
+    padding: 1rem;
+    border-radius: var(--radius);
+
+    & .child {
+        background: white;
+        padding: 0.75rem;
+        border: 1px solid var(--border);
+
+        &:hover {
+            background: var(--brand);
+            color: white;
+        }
+    }
+}
+
+/* ===== Combined :has() selector (Parent selection) ===== */
+.card:has(> .badge:empty) {
+    border: 2px dashed red;
+}
+
+/* ===== :is(), :where(), :not() ===== */
+:is(h1, h2, h3) a {
+    text-decoration: none;
+}
+
+/* zero specificity example */
+:where(ul, ol) {
+    margin-block-end: 1em;
+}
+
+/* :not() exclusion */
+input:not([type="submit"]):not([type="button"]) {
+    border-color: var(--border);
+}
+
+/* ===== Advanced :nth-child() patterns ===== */
+.grid > :nth-child(3n of .special) {
+    grid-column: span 2;
+}
+
+/* ===== CSS Counters ===== */
+body {
+    counter-reset: section;
+}
+h2::before {
+    counter-increment: section;
+    content: "Section " counter(section) ": ";
+}
+
+/* ===== Print Styles ===== */
+@media print {
+    nav, footer, .btn { display: none; }
+    body { font-size: 12pt; color: black; background: white; }
+    a::after { content: " (" attr(href) ")"; }
+}
+
+/* ===== Prefers Color Scheme (Dark Mode) ===== */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text: #f1f5f9;
+        --text-light: #94a3b8;
+        --bg: #0f172a;
+        --bg-secondary: #1e293b;
+        --border: #334155;
+        --shadow-sm: 0 1px 2px rgba(0,0,0,0.3);
+    }
+    img, video {
+        filter: brightness(0.9);
+    }
+}
+
+/* ===== Prefers Reduced Motion ===== */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+/* ===== View transitions (new) ===== */
+::view-transition-old(root),
+::view-transition-new(root) {
+    animation-duration: 0.5s;
+}
+
+/* ===== Dialog ::backdrop ===== */
+dialog::backdrop {
+    background: rgba(0,0,0,0.5);
+    backdrop-filter: blur(3px);
+}
+
+/* ===== Scrollbar styling (WebKit) ===== */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: var(--bg-secondary);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--brand);
+    border-radius: 4px;
+}
+
+/* ===== Text balancing & wrapping ===== */
+p {
+    text-wrap: balance;
+    overflow-wrap: break-word;
+}
+
+/* ===== Aspect Ratio ===== */
+.video-wrapper {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+}
+.video-wrapper iframe {
+    width: 100%;
+    height: 100%;
+}
+
+/* ===== Gap in Flexbox and Grid ===== */
+.flex-gap {
+    display: flex;
+    gap: 1rem;
+}
+
+/* ===== Masonry Layout (experimental) ===== */
+.masonry {
+    columns: 3 200px;
+    column-gap: 1rem;
+}
+.masonry > * {
+    break-inside: avoid;
+    margin-bottom: 1rem;
+}
+
+/* ===== Gradient and Background Clipping ===== */
+.gradient-text {
+    background: linear-gradient(135deg, var(--brand), var(--brand-dark));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* ===== CSS Grid with named areas ===== */
+.layout {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "sidebar main"
+        "footer footer";
+    grid-template-columns: 250px 1fr;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+.header { grid-area: header; }
+.sidebar { grid-area: sidebar; }
+.main { grid-area: main; }
+.footer { grid-area: footer; }
+
+/* ===== Clamp for fluid sizing ===== */
+.fluid-box {
+    width: clamp(300px, 50%, 800px);
+    margin: 0 auto;
+}
+
+/* ===== Wrapper utility ===== */
+.wrapper {
+    max-width: 1200px;
+    margin-inline: auto;
+    padding-inline: 1rem;
+}

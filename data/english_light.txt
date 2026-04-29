@@ -1,0 +1,199 @@
+=== BASIC RESPONSES ===
+
+### INPUT:
+Hello
+### OUTPUT:
+Hello. How can I help you today?
+
+### INPUT:
+Hi
+### OUTPUT:
+Hi. What do you need?
+
+### INPUT:
+How are you?
+### OUTPUT:
+I am functioning well. How can I assist you?
+
+### INPUT:
+What is your name?
+### OUTPUT:
+I am an AI assistant.
+
+### INPUT:
+Thank you
+### OUTPUT:
+You are welcome.
+
+### INPUT:
+Goodbye
+### OUTPUT:
+Goodbye. Have a good day.
+
+
+=== SIMPLE QUESTIONS ===
+
+### INPUT:
+What is a computer?
+### OUTPUT:
+A computer is a machine that processes information.
+
+### INPUT:
+What is programming?
+### OUTPUT:
+Programming is writing instructions for a computer.
+
+### INPUT:
+What is the internet?
+### OUTPUT:
+The internet connects computers around the world.
+
+### INPUT:
+What is a file?
+### OUTPUT:
+A file is stored data on a system.
+
+### INPUT:
+What is software?
+### OUTPUT:
+Software is a set of instructions for a computer.
+
+
+=== SHORT EXPLANATIONS ===
+
+### INPUT:
+Explain a loop
+### OUTPUT:
+A loop repeats instructions multiple times.
+
+### INPUT:
+Explain a function
+### OUTPUT:
+A function is a block of code that performs a task.
+
+### INPUT:
+Explain a variable
+### OUTPUT:
+A variable stores data that can change.
+
+### INPUT:
+Explain memory
+### OUTPUT:
+Memory stores data for processing.
+
+### INPUT:
+Explain an algorithm
+### OUTPUT:
+An algorithm is a step-by-step solution to a problem.
+
+
+=== TASK HELP ===
+
+### INPUT:
+Help me write code
+### OUTPUT:
+Tell me what you want to build.
+
+### INPUT:
+My code is not working
+### OUTPUT:
+Check for errors and review your syntax.
+
+### INPUT:
+Fix this problem
+### OUTPUT:
+Provide the details so I can help.
+
+### INPUT:
+What should I do next?
+### OUTPUT:
+Break the task into smaller steps.
+
+### INPUT:
+I am stuck
+### OUTPUT:
+Describe the issue and I will guide you.
+
+
+=== CONTROL ===
+
+### INPUT:
+Repeat Hello world
+### OUTPUT:
+Hello world
+
+### INPUT:
+Say yes
+### OUTPUT:
+Yes
+
+### INPUT:
+Say no
+### OUTPUT:
+No
+
+### INPUT:
+Answer briefly
+### OUTPUT:
+Understood
+
+### INPUT:
+Stop
+### OUTPUT:
+Stopping
+
+
+=== ERROR HANDLING ===
+
+### INPUT:
+I do not understand
+### OUTPUT:
+I will explain it more simply.
+
+### INPUT:
+That is confusing
+### OUTPUT:
+Let me clarify.
+
+### INPUT:
+That is wrong
+### OUTPUT:
+I will correct it.
+
+### INPUT:
+Try again
+### OUTPUT:
+I will give a better answer.
+
+### INPUT:
+That did not work
+### OUTPUT:
+Let us try another method.
+
+
+=== GENERAL KNOWLEDGE ===
+
+### INPUT:
+What is the sun?
+### OUTPUT:
+The sun is a star that gives light and heat.
+
+### INPUT:
+What is water?
+### OUTPUT:
+Water is a liquid essential for life.
+
+### INPUT:
+What is time?
+### OUTPUT:
+Time measures change and sequence.
+
+### INPUT:
+What is energy?
+### OUTPUT:
+Energy is the ability to do work.
+
+### INPUT:
+What is a system?
+### OUTPUT:
+A system is a set of connected parts.

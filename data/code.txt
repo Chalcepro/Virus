@@ -1,0 +1,120 @@
+def add(a, b):
+    return a + b
+
+def multiply(x, y):
+    return x * y
+
+def fibonacci(n):
+    if n <= 1:
+        return n
+    return fibonacci(n - 1) + fibonacci(n - 2)
+
+def factorial(n):
+    if n == 0:
+        return 1
+    return n * factorial(n - 1)
+
+def is_prime(num):
+    if num < 2:
+        return False
+    for i in range(2, num):
+        if num % i == 0:
+            return False
+    return True
+
+def sum_list(arr):
+    total = 0
+    for item in arr:
+        total += item
+    return total
+
+def reverse_string(s):
+    return s[::-1]
+
+def count_vowels(text):
+    vowels = "aeiouAEIOU"
+    count = 0
+    for char in text:
+        if char in vowels:
+            count += 1
+    return count
+
+class Calculator:
+    def add(self, a, b):
+        return a + b
+    
+    def subtract(self, a, b):
+        return a - b
+    
+    def multiply(self, a, b):
+        return a * b
+    
+    def divide(self, a, b):
+        if b == 0:
+            return None
+        return a / b
+
+def max_value(arr):
+    max_val = arr[0]
+    for val in arr:
+        if val > max_val:
+            max_val = val
+    return max_val
+
+def min_value(arr):
+    min_val = arr[0]
+    for val in arr:
+        if val < min_val:
+            min_val = val
+    return min_val
+
+def sort_array(arr):
+    for i in range(len(arr)):
+        for j in range(i + 1, len(arr)):
+            if arr[i] > arr[j]:
+                arr[i], arr[j] = arr[j], arr[i]
+    return arr
+
+def binary_search(arr, target):
+    left, right = 0, len(arr) - 1
+    while left <= right:
+        mid = (left + right) // 2
+        if arr[mid] == target:
+            return mid
+        elif arr[mid] < target:
+            left = mid + 1
+        else:
+            right = mid - 1
+    return -1
+
+def merge_sorted(arr1, arr2):
+    result = []
+    i = j = 0
+    while i < len(arr1) and j < len(arr2):
+        if arr1[i] <= arr2[j]:
+            result.append(arr1[i])
+            i += 1
+        else:
+            result.append(arr2[j])
+            j += 1
+    result.extend(arr1[i:])
+    result.extend(arr2[j:])
+    return result
+
+def flatten_list(nested):
+    result = []
+    for item in nested:
+        if isinstance(item, list):
+            result.extend(flatten_list(item))
+        else:
+            result.append(item)
+    return result
+
+def remove_duplicates(arr):
+    seen = set()
+    result = []
+    for item in arr:
+        if item not in seen:
+            seen.add(item)
+            result.append(item)
+    return result
