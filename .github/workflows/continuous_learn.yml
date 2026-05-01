@@ -1,9 +1,13 @@
 name: Continuous Learning (CI)
 
+# Give the action write permissions to push changes
+permissions:
+  contents: write
+
 on:
   schedule:
-    - cron: '0 9 * * *'
-  workflow_dispatch:
+    - cron: '0 9 * * *'   # daily at 9:00 UTC
+  workflow_dispatch:       # allow manual trigger
 
 jobs:
   learn:
@@ -17,9 +21,23 @@ jobs:
         with:
           python-version: '3.10'
 
+      # Cache pip dependencies to speed up runs
+      - name: Cache pip packages
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
       - name: Install dependencies
         run: |
-          pip install torch requests
+          # If you have a requirements.txt file, use it; otherwise fallback to inline
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          else
+            pip install torch requests
+          fi
 
       - name: Run automated learning (no interactive)
         run: python auto_learn_ci.py
@@ -28,6 +46,12 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          # Add data folder, model file, and state file (ignore if they don't exist)
           git add data/ model_v3.pt auto_train_state.json || true
-          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-learn: new data and model update"
-          git push
+          # Only commit and push if something was actually staged
+          if ! git diff --staged --quiet; then
+            git commit -m "Auto-learn: new data and model update [skip ci]"
+            git push
+          else
+            echo "No staged changes to commit."
+          fi
