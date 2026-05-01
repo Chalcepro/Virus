@@ -3,6 +3,21 @@
   "trained_files": [
     "c#.txt",
     "c++.txt",
-    "code.txt"
+    "code.txt",
+    "c.txt",
+    "conversation_1.0.txt",
+    "conversation_1.txt",
+    "conversation_2.txt",
+    "converstion.txt",
+    "css.txt",
+    "english.txt",
+    "english_light.txt",
+    "english_medium.txt",
+    "html.txt",
+    "java.txt",
+    "javascript.txt",
+    "python.txt",
+    "python_hard.txt",
+    "wiki_SMS Jaguar_1777630688.txt"
   ]
 }
