@@ -31,6 +31,7 @@ jobs:
           
       - name: Commit and push changes (model & data)
         run: |
+          git pull
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/ model_v3.pt auto_train_state.json || true
