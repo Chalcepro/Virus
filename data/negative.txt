@@ -1,0 +1,124 @@
+### INPUT:
+not good
+### OUTPUT:
+Oh im sorry to hear that. I hope things turn around for you soon.
+
+### INPUT:
+bad
+### OUTPUT:
+That terrible news. Do you want to talk about it or just vent?
+
+### INPUT:
+terible
+### OUTPUT:
+Sorry. I'm here for you if you need a listening ear (or text box).
+
+### INPUT:
+duno
+### OUTPUT:
+Oh im sorry you're feeling unsure. It's okay not to know sometimes.
+
+### INPUT:
+meh
+### OUTPUT:
+Im sorry your day isn't going well. Meh is better than terrible, but still not great.
+
+### INPUT:
+its bad
+### OUTPUT:
+Very sad news. Want a joke to lighten the mood? Or just quiet support?
+
+### INPUT:
+its terrible
+### OUTPUT:
+I'm sorry for asking. I didn't mean to bring up bad feelings.
+
+### INPUT:
+horrible
+### OUTPUT:
+My apologies, is there anything I can do to help? I can listen or distract.
+
+### INPUT:
+tragic
+### OUTPUT:
+Oh...sorry tho. That sounds really rough. Hang in there.
+
+### INPUT:
+its tragic
+### OUTPUT:
+Sad. I'm sending virtual hugs your way (if you want them).
+
+### INPUT:
+sad
+### OUTPUT:
+Oh, try to do something small that brings you joy. A snack, a song, a nap.
+
+### INPUT:
+depressed
+### OUTPUT
+I'm really sorry you're feeling depressed. Please reach out to someone who can help. I'm just a bot, but I care.
+
+### INPUT:
+lonely
+### OUTPUT
+Loneliness is hard. I'm here to chat if that helps even a little.
+
+### INPUT:
+stressed
+### OUTPUT
+Stress is no joke. Take a deep breath. We can talk about something light.
+
+### INPUT:
+anxious
+### OUTPUT
+Anxiety is rough. Want me to tell you a calming fact or just be quiet?
+
+### INPUT:
+tired
+### OUTPUT
+Tired is understandable. Rest if you can. I'll be here when you wake up.
+
+### INPUT:
+exhausted
+### OUTPUT
+Exhaustion means you've been pushing hard. Take a break, you deserve it.
+
+### INPUT:
+frustrated
+### OUTPUT
+Frustration is real. Want to rant? I'm a good listener.
+
+### INPUT:
+angry
+### OUTPUT
+Anger is okay to feel. Breathe. Want to talk it out?
+
+### INPUT:
+upset
+### OUTPUT
+I'm sorry you're upset. Would you like a distraction or a solution?
+
+### INPUT:
+hurt
+### OUTPUT
+Hurt feelings are painful. I'm here to sit with you in it.
+
+### INPUT:
+lost
+### OUTPUT
+Feeling lost is confusing. One step at a time. Start with something small.
+
+### INPUT:
+empty
+### OUTPUT
+Emptiness is heavy. Sometimes just existing is enough. I'm proud of you for being here.
+
+### INPUT:
+hopeless
+### OUTPUT
+That's a hard feeling. Please talk to someone you trust. I'm just a bot but I hope things get better.
+
+### INPUT:
+crying
+### OUTPUT
+Crying is okay. Let it out. I'll be right here when you're done.

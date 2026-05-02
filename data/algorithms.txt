@@ -1,0 +1,253 @@
+# Algorithms and Data Structures
+
+## Sorting Algorithms
+
+### Quicksort
+def quicksort(arr):
+    if len(arr) <= 1:
+        return arr
+    pivot = arr[len(arr) // 2]
+    left = [x for x in arr if x < pivot]
+    middle = [x for x in arr if x == pivot]
+    right = [x for x in arr if x > pivot]
+    return quicksort(left) + middle + quicksort(right)
+
+### Merge Sort
+def merge_sort(arr):
+    if len(arr) <= 1:
+        return arr
+    mid = len(arr) // 2
+    left = merge_sort(arr[:mid])
+    right = merge_sort(arr[mid:])
+    return merge(left, right)
+
+def merge(left, right):
+    result = []
+    i = j = 0
+    while i < len(left) and j < len(right):
+        if left[i] <= right[j]:
+            result.append(left[i])
+            i += 1
+        else:
+            result.append(right[j])
+            j += 1
+    result.extend(left[i:])
+    result.extend(right[j:])
+    return result
+
+## Searching Algorithms
+
+### Binary Search
+def binary_search(arr, target):
+    left, right = 0, len(arr) - 1
+    while left <= right:
+        mid = (left + right) // 2
+        if arr[mid] == target:
+            return mid
+        elif arr[mid] < target:
+            left = mid + 1
+        else:
+            right = mid - 1
+    return -1
+
+### Linear Search
+def linear_search(arr, target):
+    for i in range(len(arr)):
+        if arr[i] == target:
+            return i
+    return -1
+
+## Graph Algorithms
+
+### Depth-First Search (DFS)
+def dfs(graph, node, visited=None):
+    if visited is None:
+        visited = set()
+    visited.add(node)
+    print(f"Visiting {node}")
+    for neighbor in graph.get(node, []):
+        if neighbor not in visited:
+            dfs(graph, neighbor, visited)
+    return visited
+
+### Breadth-First Search (BFS)
+from collections import deque
+
+def bfs(graph, start):
+    visited = set()
+    queue = deque([start])
+    visited.add(start)
+    while queue:
+        node = queue.popleft()
+        print(f"Visiting {node}")
+        for neighbor in graph.get(node, []):
+            if neighbor not in visited:
+                visited.add(neighbor)
+                queue.append(neighbor)
+    return visited
+
+### Dijkstra's Algorithm
+import heapq
+
+def dijkstra(graph, start):
+    distances = {node: float('inf') for node in graph}
+    distances[start] = 0
+    pq = [(0, start)]
+    
+    while pq:
+        current_dist, current_node = heapq.heappop(pq)
+        
+        if current_dist > distances[current_node]:
+            continue
+        
+        for neighbor, weight in graph[current_node]:
+            distance = current_dist + weight
+            if distance < distances[neighbor]:
+                distances[neighbor] = distance
+                heapq.heappush(pq, (distance, neighbor))
+    
+    return distances
+
+## Tree Algorithms
+
+### Binary Search Tree Operations
+class TreeNode:
+    def __init__(self, value):
+        self.value = value
+        self.left = None
+        self.right = None
+
+def insert_bst(root, value):
+    if root is None:
+        return TreeNode(value)
+    if value < root.value:
+        root.left = insert_bst(root.left, value)
+    else:
+        root.right = insert_bst(root.right, value)
+    return root
+
+def search_bst(root, value):
+    if root is None:
+        return False
+    if root.value == value:
+        return True
+    elif value < root.value:
+        return search_bst(root.left, value)
+    else:
+        return search_bst(root.right, value)
+
+### Tree Traversal
+def inorder_traversal(root):
+    if root is None:
+        return []
+    return inorder_traversal(root.left) + [root.value] + inorder_traversal(root.right)
+
+def preorder_traversal(root):
+    if root is None:
+        return []
+    return [root.value] + preorder_traversal(root.left) + preorder_traversal(root.right)
+
+def postorder_traversal(root):
+    if root is None:
+        return []
+    return postorder_traversal(root.left) + postorder_traversal(root.right) + [root.value]
+
+## Dynamic Programming
+
+### Fibonacci (Memoization)
+def fib_memo(n, memo=None):
+    if memo is None:
+        memo = {}
+    if n in memo:
+        return memo[n]
+    if n <= 1:
+        return n
+    memo[n] = fib_memo(n - 1, memo) + fib_memo(n - 2, memo)
+    return memo[n]
+
+### Longest Common Subsequence
+def lcs(text1, text2):
+    m, n = len(text1), len(text2)
+    dp = [[0] * (n + 1) for _ in range(m + 1)]
+    
+    for i in range(1, m + 1):
+        for j in range(1, n + 1):
+            if text1[i - 1] == text2[j - 1]:
+                dp[i][j] = dp[i - 1][j - 1] + 1
+            else:
+                dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
+    
+    return dp[m][n]
+
+### Knapsack Problem
+def knapsack(weights, values, capacity):
+    n = len(weights)
+    dp = [[0] * (capacity + 1) for _ in range(n + 1)]
+    
+    for i in range(1, n + 1):
+        for w in range(1, capacity + 1):
+            if weights[i - 1] <= w:
+                dp[i][w] = max(
+                    dp[i - 1][w],
+                    dp[i - 1][w - weights[i - 1]] + values[i - 1]
+                )
+            else:
+                dp[i][w] = dp[i - 1][w]
+    
+    return dp[n][capacity]
+
+## Hashing and Hash Tables
+
+### Hash Function Implementation
+def hash_function(key, table_size):
+    return sum(ord(c) for c in str(key)) % table_size
+
+### Simple Hash Table
+class HashTable:
+    def __init__(self, size=10):
+        self.size = size
+        self.table = [[] for _ in range(size)]
+    
+    def _hash(self, key):
+        return hash(key) % self.size
+    
+    def insert(self, key, value):
+        index = self._hash(key)
+        for i, (k, v) in enumerate(self.table[index]):
+            if k == key:
+                self.table[index][i] = (key, value)
+                return
+        self.table[index].append((key, value))
+    
+    def search(self, key):
+        index = self._hash(key)
+        for k, v in self.table[index]:
+            if k == key:
+                return v
+        return None
+    
+    def delete(self, key):
+        index = self._hash(key)
+        self.table[index] = [(k, v) for k, v in self.table[index] if k != key]
+
+## Greedy Algorithms
+
+### Coin Change (Greedy)
+def coin_change_greedy(amount, coins):
+    coins.sort(reverse=True)
+    count = 0
+    for coin in coins:
+        count += amount // coin
+        amount %= coin
+    return count
+
+### Activity Selection
+def activity_selection(activities):
+    activities.sort(key=lambda x: x[1])
+    selected = [activities[0]]
+    
+    for i in range(1, len(activities)):
+        if activities[i][0] >= selected[-1][1]:
+            selected.append(activities[i])
+    
+    return selected

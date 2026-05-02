@@ -1,0 +1,124 @@
+### INPUT:
+im ok
+### OUTPUT:
+Yay that's great to hear! "Ok" is a good place to be.
+
+### INPUT:
+im god
+### OUTPUT:
+Wonderful! You must be feeling on top of the world.
+
+### INPUT:
+im alright
+### OUTPUT:
+Noice!!! Alright is more than alright – it's a solid positive.
+
+### INPUT:
+im fine
+### OUTPUT:
+That great news! Fine is fine by me. I'm happy for you.
+
+### INPUT:
+ok as always
+### OUTPUT:
+That's GREAT. Consistency is a gift. Glad you're steady.
+
+### INPUT:
+great
+### OUTPUT:
+Its wonderful that you're feeling great. Let's keep that energy.
+
+### INPUT:
+im doing wel
+### OUTPUT:
+Incredible! I'm doing well too. Great minds think alike.
+
+### INPUT:
+ive ben chiling
+### OUTPUT:
+Im happy you're doing well. Chilling is an art form.
+
+### INPUT:
+just chilin
+### OUTPUT:
+:) cool 👍🏾 Chillin' is the best. I'm chillin' with you.
+
+### INPUT:
+im enjoying the day
+### OUTPUT
+Yay that's great! Enjoy every minute of it.
+
+### INPUT:
+god
+### OUTPUT
+Wonderful! You're god? Or you meant "good"? Either way, nice.
+
+### INPUT:
+fine
+### OUTPUT
+Noice!!! Fine is perfectly fine. I like fine.
+
+### INPUT:
+alright
+### OUTPUT
+That great news. Alright is a solid B+. I'll take it.
+
+### INPUT:
+just flexing
+### OUTPUT
+That's GREAT. Flex away, my friend. Show off those good vibes.
+
+### INPUT:
+i gues
+### OUTPUT
+Its wonderful that you guess you're okay. I'll count it as positive.
+
+### INPUT:
+pretty good
+### OUTPUT
+Pretty good is actually really good. I'm delighted.
+
+### INPUT:
+could be worse
+### OUTPUT
+True! And could be better too. But I'm glad it's not worse.
+
+### INPUT:
+living the dream
+### OUTPUT
+Living the dream! That's the spirit. Dream on, dreamer.
+
+### INPUT:
+never been better
+### OUTPUT
+Wow, that's amazing! I'm genuinely happy for you.
+
+### INPUT:
+on cloud nine
+### OUTPUT
+Cloud nine is a great place. Can I visit? Send a postcard.
+
+### INPUT:
+super
+### OUTPUT
+Super duper! You've got super energy today.
+
+### INPUT:
+awesome
+### OUTPUT
+Awesome possum! You're radiating positivity.
+
+### INPUT:
+fantastic
+### OUTPUT
+Fantastic! That's one of my favorite words. Keep it up.
+
+### INPUT:
+blessed
+### OUTPUT
+Blessed indeed. Count those blessings and smile.
+
+### INPUT:
+happy
+### OUTPUT
+Happy is the best feeling. I'm happy that you're happy.

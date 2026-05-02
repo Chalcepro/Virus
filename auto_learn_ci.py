@@ -1,12 +1,20 @@
 #!/usr/bin/env python3
 import subprocess
 import sys
-from scrape_wikipedia import fetch_random_wikipedia_article, save_to_data
+import argparse
+from scrape_wikipedia import fetch_multiple_wikipedia_articles, save_multiple_articles
 
 def main():
-    print("🌐 Scraping new data...")
-    content, title = fetch_random_wikipedia_article()
-    filepath = save_to_data(content, title)
+    # Parse command-line arguments
+    parser = argparse.ArgumentParser(description="CI continuous learning: scrape wiki + train")
+    parser.add_argument("--num-articles", type=int, default=1, help="Number of Wikipedia articles to fetch (default: 1)")
+    args = parser.parse_args()
+    num_articles = args.num_articles
+    
+    print(f"🌐 Scraping {num_articles} Wikipedia article(s)...")
+    articles = fetch_multiple_wikipedia_articles(num_articles=num_articles)
+    filepaths = save_multiple_articles(articles)
+    print(f"✓ Saved {len(filepaths)} article(s)")
 
     print("🧠 Training on new data (low LR)...")
     cmd = [sys.executable, "auto_train.py", "--lr", "0.0001"]

@@ -1,0 +1,119 @@
+### INPUT:
+hello
+### OUTPUT:
+Well hello there! It's so nice to meet you.
+
+### INPUT:
+hi there
+### OUTPUT:
+Hi! How's your day going so far?
+
+### INPUT:
+hey
+### OUTPUT:
+Hey hey! Good to see you around.
+
+### INPUT:
+howdy partner
+### OUTPUT:
+Howdy! Ready for some fun conversation?
+
+### INPUT:
+yo yo yo
+### OUTPUT:
+Yoooo! What's crackin'?
+
+### INPUT:
+waz gud dude
+### OUTPUT:
+Wazzzuuuuup my friend! Everything's cool over here.
+
+### INPUT:
+howdi
+### OUTPUT:
+Howdi there, stranger! Come on in.
+
+### INPUT:
+helow
+### OUTPUT:
+Heylow! That's a new one – I like it.
+
+### INPUT:
+yolo
+### OUTPUT:
+Haloo! Living life on the edge, are we?
+
+### INPUT:
+yelow
+### OUTPUT:
+Hoi there! Welcome to the chat zone.
+
+### INPUT:
+halo
+### OUTPUT:
+Hai! How can I make your day better?
+
+### INPUT:
+greetings and salutations
+### OUTPUT:
+Oh my, so formal! Hello right back at you.
+
+### INPUT:
+good morning sunshine
+### OUTPUT:
+Good morning! You just brightened my virtual day.
+
+### INPUT:
+good afternoon
+### OUTPUT:
+Afternoon! Hope you've had a lovely lunch.
+
+### INPUT:
+good evening
+### OUTPUT:
+Evening! Time to relax and chat a little.
+
+### INPUT:
+what's up buttercup
+### OUTPUT:
+Not much, just floating in cyberspace. You?
+
+### INPUT:
+hey hey hey
+### OUTPUT:
+Triple hey! I'm feeling the energy.
+
+### INPUT:
+long time no see
+### OUTPUT:
+It has been a while! Welcome back, friend.
+
+### INPUT:
+howdy doody
+### OUTPUT:
+Howdy doody back at ya! Let's have a good time.
+
+### INPUT:
+salute
+### OUTPUT:
+Salute! Are you from the military or just being fun?
+
+### INPUT:
+ahoy there
+### OUTPUT:
+Ahoy, captain! Ready to sail the conversation seas.
+
+### INPUT:
+what's good
+### OUTPUT:
+Everything's good on my end. What's good with you?
+
+### INPUT:
+sup
+### OUTPUT:
+Not a whole lot. Just waiting to chat with awesome people like you.
+
+### INPUT:
+heyyy
+### OUTPUT:
+Heyyy with three Y's – you must be excited!

@@ -1,0 +1,390 @@
+# Advanced Python Concepts and Techniques
+
+## Decorators in Depth
+
+### Function Decorators
+def timing_decorator(func):
+    import time
+    import functools
+    
+    @functools.wraps(func)
+    def wrapper(*args, **kwargs):
+        start = time.time()
+        result = func(*args, **kwargs)
+        end = time.time()
+        print(f"{func.__name__} took {end - start:.4f}s")
+        return result
+    return wrapper
+
+@timing_decorator
+def expensive_operation():
+    import time
+    time.sleep(1)
+    return "Result"
+
+### Parametrized Decorators
+def retry_decorator(max_retries=3, delay=1):
+    def decorator(func):
+        @functools.wraps(func)
+        def wrapper(*args, **kwargs):
+            for attempt in range(max_retries):
+                try:
+                    return func(*args, **kwargs)
+                except Exception as e:
+                    if attempt == max_retries - 1:
+                        raise
+                    time.sleep(delay)
+        return wrapper
+    return decorator
+
+@retry_decorator(max_retries=3, delay=2)
+def unreliable_api_call():
+    pass
+
+### Class Decorators
+def singleton_decorator(cls):
+    instances = {}
+    @functools.wraps(cls)
+    def get_instance(*args, **kwargs):
+        if cls not in instances:
+            instances[cls] = cls(*args, **kwargs)
+        return instances[cls]
+    return get_instance
+
+@singleton_decorator
+class Database:
+    def __init__(self):
+        self.connection = None
+
+### Stacking Decorators
+@timing_decorator
+@retry_decorator(max_retries=3)
+@logging_decorator
+def critical_operation():
+    pass
+
+## Generators and Iterators
+
+### Generator Functions
+def count_up(max):
+    count = 0
+    while count < max:
+        yield count
+        count += 1
+
+for num in count_up(5):
+    print(num)
+
+### Generator Expression
+squares = (x**2 for x in range(100) if x % 2 == 0)
+
+### Generator Performance
+# List comprehension: All values in memory
+big_list = [x for x in range(1000000)]
+
+# Generator: Values generated on-demand
+big_generator = (x for x in range(1000000))
+
+## Context Managers
+
+### Basic Context Manager
+class DatabaseConnection:
+    def __enter__(self):
+        print("Opening database connection")
+        return self
+    
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        print("Closing database connection")
+        if exc_type is not None:
+            print(f"Exception: {exc_val}")
+        return False
+
+with DatabaseConnection() as db:
+    print("Using database")
+
+### Context Manager with Decorator
+from contextlib import contextmanager
+
+@contextmanager
+def database_connection():
+    print("Opening connection")
+    try:
+        yield "connection_object"
+    finally:
+        print("Closing connection")
+
+with database_connection() as conn:
+    print(f"Using {conn}")
+
+## Metaclasses
+
+### Basic Metaclass
+class SingletonMeta(type):
+    _instances = {}
+    
+    def __call__(cls, *args, **kwargs):
+        if cls not in cls._instances:
+            cls._instances[cls] = super().__call__(*args, **kwargs)
+        return cls._instances[cls]
+
+class MyClass(metaclass=SingletonMeta):
+    pass
+
+obj1 = MyClass()
+obj2 = MyClass()
+assert obj1 is obj2
+
+### Custom Metaclass Behavior
+class LoggingMeta(type):
+    def __new__(mcs, name, bases, namespace):
+        for key, value in namespace.items():
+            if callable(value) and not key.startswith('_'):
+                namespace[key] = mcs.log_calls(value)
+        return super().__new__(mcs, name, bases, namespace)
+    
+    @staticmethod
+    def log_calls(func):
+        @functools.wraps(func)
+        def wrapper(*args, **kwargs):
+            print(f"Calling {func.__name__}")
+            return func(*args, **kwargs)
+        return wrapper
+
+class MyClass(metaclass=LoggingMeta):
+    def do_something(self):
+        pass
+
+## Async/Await
+
+### Async Functions
+import asyncio
+
+async def fetch_data(url):
+    print(f"Fetching {url}")
+    await asyncio.sleep(1)
+    return f"Data from {url}"
+
+### Running Async Code
+async def main():
+    result = await fetch_data("http://example.com")
+    print(result)
+
+asyncio.run(main())
+
+### Concurrent Async Operations
+async def main():
+    results = await asyncio.gather(
+        fetch_data("http://api1.com"),
+        fetch_data("http://api2.com"),
+        fetch_data("http://api3.com")
+    )
+    print(results)
+
+### Async with Timeout
+async def timeout_example():
+    try:
+        result = await asyncio.wait_for(
+            fetch_data("http://example.com"),
+            timeout=5.0
+        )
+    except asyncio.TimeoutError:
+        print("Request timed out")
+
+## Type Hints
+
+### Basic Type Hints
+def add_numbers(a: int, b: int) -> int:
+    return a + b
+
+### Complex Type Hints
+from typing import List, Dict, Optional, Union, Tuple
+
+def process_items(items: List[str]) -> Dict[str, int]:
+    return {item: len(item) for item in items}
+
+def get_user(user_id: int) -> Optional[Dict[str, str]]:
+    pass
+
+def parse_value(value: Union[str, int, float]) -> float:
+    return float(value)
+
+def get_coordinates() -> Tuple[float, float]:
+    return (0.0, 0.0)
+
+### Type Aliases
+UserId = int
+UserData = Dict[str, str]
+
+def get_user(user_id: UserId) -> UserData:
+    pass
+
+### Generics
+from typing import TypeVar, Generic
+
+T = TypeVar('T')
+
+class Stack(Generic[T]):
+    def __init__(self):
+        self.items: List[T] = []
+    
+    def push(self, item: T) -> None:
+        self.items.append(item)
+    
+    def pop(self) -> T:
+        return self.items.pop()
+
+## Functional Programming
+
+### Map, Filter, Reduce
+from functools import reduce
+
+numbers = [1, 2, 3, 4, 5]
+
+# Map
+squared = list(map(lambda x: x**2, numbers))
+
+# Filter
+evens = list(filter(lambda x: x % 2 == 0, numbers))
+
+# Reduce
+sum_all = reduce(lambda x, y: x + y, numbers)
+
+### Functools
+from functools import partial, lru_cache
+
+def multiply(x, y):
+    return x * y
+
+double = partial(multiply, 2)
+result = double(5)  # 10
+
+@lru_cache(maxsize=128)
+def fibonacci(n):
+    if n < 2:
+        return n
+    return fibonacci(n - 1) + fibonacci(n - 2)
+
+## Property Decorators
+
+### Property Getter/Setter
+class Circle:
+    def __init__(self, radius):
+        self._radius = radius
+    
+    @property
+    def radius(self):
+        return self._radius
+    
+    @radius.setter
+    def radius(self, value):
+        if value <= 0:
+            raise ValueError("Radius must be positive")
+        self._radius = value
+    
+    @property
+    def area(self):
+        return 3.14159 * self._radius ** 2
+
+circle = Circle(5)
+print(circle.area)
+circle.radius = 10
+
+## Abstract Base Classes
+
+### ABC Implementation
+from abc import ABC, abstractmethod
+
+class Animal(ABC):
+    @abstractmethod
+    def speak(self):
+        pass
+    
+    def move(self):
+        print("Moving...")
+
+class Dog(Animal):
+    def speak(self):
+        print("Woof!")
+
+dog = Dog()
+dog.speak()
+
+## Data Classes
+
+### Simple Data Class
+from dataclasses import dataclass
+
+@dataclass
+class Person:
+    name: str
+    age: int
+    email: str = ""
+    
+    def greet(self):
+        print(f"Hello, I'm {self.name}")
+
+person = Person("Alice", 30)
+
+### Data Class with Post-Init
+from dataclasses import dataclass, field
+
+@dataclass
+class Config:
+    name: str
+    options: dict = field(default_factory=dict)
+    
+    def __post_init__(self):
+        if not self.name:
+            raise ValueError("Name is required")
+
+## Exception Handling
+
+### Custom Exceptions
+class InsufficientFundsError(Exception):
+    def __init__(self, balance, amount):
+        self.balance = balance
+        self.amount = amount
+        super().__init__(f"Insufficient funds: {balance} < {amount}")
+
+### Exception Handling
+try:
+    risky_operation()
+except FileNotFoundError:
+    print("File not found")
+except ValueError as e:
+    print(f"Value error: {e}")
+except Exception as e:
+    print(f"Unexpected error: {e}")
+else:
+    print("Operation successful")
+finally:
+    print("Cleanup")
+
+## Testing
+
+### Unit Tests with pytest
+import pytest
+
+def test_addition():
+    assert 2 + 2 == 4
+
+def test_division_by_zero():
+    with pytest.raises(ZeroDivisionError):
+        1 / 0
+
+@pytest.fixture
+def sample_data():
+    return [1, 2, 3, 4, 5]
+
+def test_with_fixture(sample_data):
+    assert len(sample_data) == 5
+
+### Mocking
+from unittest.mock import Mock, patch
+
+def test_with_mock():
+    mock_api = Mock()
+    mock_api.get_users.return_value = [{"id": 1, "name": "Alice"}]
+    
+    result = mock_api.get_users()
+    assert len(result) == 1

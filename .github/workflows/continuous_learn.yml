@@ -6,6 +6,9 @@ on:
     - cron: '0 9 * * *'
   workflow_dispatch:   # allows manual trigger from GitHub UI
 
+permissions:
+  contents: write
+
 jobs:
   learn:
     runs-on: ubuntu-latest
@@ -19,11 +22,12 @@ jobs:
           python-version: '3.10'
 
       - name: Install dependencies
-        run: |
+        run:
           pip install torch requests
 
-      - name: Run continuous learner
-        run: python continuous_learner.py
+      - name: Run automated learning (CI)
+        run: 
+          python auto_train.py --retrain
 
       - name: Commit and push changes (model & data)
         run: |

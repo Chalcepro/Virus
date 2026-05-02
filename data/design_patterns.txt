@@ -1,0 +1,322 @@
+# Design Patterns in Object-Oriented Programming
+
+## Creational Patterns
+
+### Singleton Pattern
+class Singleton:
+    _instance = None
+    
+    def __new__(cls):
+        if cls._instance is None:
+            cls._instance = super().__new__(cls)
+        return cls._instance
+
+class DatabaseConnection(Singleton):
+    def __init__(self):
+        self.connection = None
+    
+    def connect(self, url):
+        self.connection = url
+        print(f"Connected to {url}")
+    
+    def query(self, sql):
+        print(f"Executing: {sql}")
+
+# Usage
+db1 = DatabaseConnection()
+db2 = DatabaseConnection()
+assert db1 is db2  # Same instance
+
+### Factory Pattern
+class AnimalFactory:
+    @staticmethod
+    def create_animal(animal_type):
+        if animal_type == "dog":
+            return Dog()
+        elif animal_type == "cat":
+            return Cat()
+        else:
+            raise ValueError(f"Unknown animal: {animal_type}")
+
+class Animal:
+    def speak(self):
+        pass
+
+class Dog(Animal):
+    def speak(self):
+        return "Woof!"
+
+class Cat(Animal):
+    def speak(self):
+        return "Meow!"
+
+### Builder Pattern
+class StringBuilder:
+    def __init__(self):
+        self.parts = []
+    
+    def add_header(self, header):
+        self.parts.append(f"<h1>{header}</h1>")
+        return self
+    
+    def add_paragraph(self, text):
+        self.parts.append(f"<p>{text}</p>")
+        return self
+    
+    def add_footer(self, footer):
+        self.parts.append(f"<footer>{footer}</footer>")
+        return self
+    
+    def build(self):
+        return "".join(self.parts)
+
+# Usage
+html = (StringBuilder()
+    .add_header("My Page")
+    .add_paragraph("Welcome!")
+    .add_footer("Copyright 2025")
+    .build())
+
+## Structural Patterns
+
+### Adapter Pattern
+class LegacyPaymentSystem:
+    def process_payment(self, amount):
+        return f"Processing ${amount} with legacy system"
+
+class ModernPaymentInterface:
+    def pay(self, amount):
+        pass
+
+class PaymentAdapter(ModernPaymentInterface):
+    def __init__(self, legacy_system):
+        self.legacy_system = legacy_system
+    
+    def pay(self, amount):
+        return self.legacy_system.process_payment(amount)
+
+### Decorator Pattern
+def timing_decorator(func):
+    import time
+    def wrapper(*args, **kwargs):
+        start = time.time()
+        result = func(*args, **kwargs)
+        end = time.time()
+        print(f"{func.__name__} took {end - start:.2f}s")
+        return result
+    return wrapper
+
+@timing_decorator
+def slow_function():
+    import time
+    time.sleep(1)
+    return "Done"
+
+### Proxy Pattern
+class Image:
+    def display(self):
+        pass
+
+class RealImage(Image):
+    def __init__(self, filename):
+        self.filename = filename
+        self.load()
+    
+    def load(self):
+        print(f"Loading {self.filename}")
+    
+    def display(self):
+        print(f"Displaying {self.filename}")
+
+class ImageProxy(Image):
+    def __init__(self, filename):
+        self.filename = filename
+        self.real_image = None
+    
+    def display(self):
+        if self.real_image is None:
+            self.real_image = RealImage(self.filename)
+        self.real_image.display()
+
+## Behavioral Patterns
+
+### Observer Pattern
+class Subject:
+    def __init__(self):
+        self._observers = []
+    
+    def attach(self, observer):
+        if observer not in self._observers:
+            self._observers.append(observer)
+    
+    def detach(self, observer):
+        self._observers.remove(observer)
+    
+    def notify(self, message):
+        for observer in self._observers:
+            observer.update(message)
+
+class Observer:
+    def update(self, message):
+        pass
+
+class ConcreteObserver(Observer):
+    def __init__(self, name):
+        self.name = name
+    
+    def update(self, message):
+        print(f"{self.name} received: {message}")
+
+### Strategy Pattern
+class PaymentStrategy:
+    def pay(self, amount):
+        pass
+
+class CreditCardPayment(PaymentStrategy):
+    def pay(self, amount):
+        return f"Paid ${amount} with credit card"
+
+class PayPalPayment(PaymentStrategy):
+    def pay(self, amount):
+        return f"Paid ${amount} via PayPal"
+
+class BitcoinPayment(PaymentStrategy):
+    def pay(self, amount):
+        return f"Paid {amount} Bitcoin"
+
+class PaymentProcessor:
+    def __init__(self, strategy):
+        self.strategy = strategy
+    
+    def process(self, amount):
+        return self.strategy.pay(amount)
+
+### Command Pattern
+class Command:
+    def execute(self):
+        pass
+
+class LightOnCommand(Command):
+    def __init__(self, light):
+        self.light = light
+    
+    def execute(self):
+        self.light.turn_on()
+
+class Light:
+    def turn_on(self):
+        print("Light is on")
+    
+    def turn_off(self):
+        print("Light is off")
+
+class RemoteControl:
+    def __init__(self):
+        self.command = None
+    
+    def set_command(self, command):
+        self.command = command
+    
+    def press_button(self):
+        self.command.execute()
+
+### State Pattern
+class State:
+    def handle(self, context):
+        pass
+
+class SolidState(State):
+    def handle(self, context):
+        print("Changing to liquid")
+        context.state = LiquidState()
+
+class LiquidState(State):
+    def handle(self, context):
+        print("Changing to gas")
+        context.state = GasState()
+
+class GasState(State):
+    def handle(self, context):
+        print("Changing to solid")
+        context.state = SolidState()
+
+class Matter:
+    def __init__(self):
+        self.state = SolidState()
+    
+    def transition(self):
+        self.state.handle(self)
+
+### Iterator Pattern
+class Collection:
+    def __init__(self):
+        self.items = []
+    
+    def add(self, item):
+        self.items.append(item)
+    
+    def __iter__(self):
+        return iter(self.items)
+
+collection = Collection()
+collection.add("A")
+collection.add("B")
+collection.add("C")
+
+for item in collection:
+    print(item)
+
+## Architectural Patterns
+
+### Model-View-Controller (MVC)
+class Model:
+    def __init__(self):
+        self.data = {}
+    
+    def set_data(self, key, value):
+        self.data[key] = value
+    
+    def get_data(self, key):
+        return self.data.get(key)
+
+class View:
+    def render(self, data):
+        print(f"Displaying: {data}")
+
+class Controller:
+    def __init__(self, model, view):
+        self.model = model
+        self.view = view
+    
+    def update_model(self, key, value):
+        self.model.set_data(key, value)
+        self.refresh_view(key)
+    
+    def refresh_view(self, key):
+        data = self.model.get_data(key)
+        self.view.render(data)
+
+### Repository Pattern
+class Repository:
+    def __init__(self):
+        self.data = []
+    
+    def add(self, item):
+        self.data.append(item)
+    
+    def find_by_id(self, item_id):
+        for item in self.data:
+            if item.id == item_id:
+                return item
+        return None
+    
+    def find_all(self):
+        return self.data
+    
+    def remove(self, item):
+        self.data.remove(item)
+
+class Entity:
+    def __init__(self, entity_id, name):
+        self.id = entity_id
+        self.name = name

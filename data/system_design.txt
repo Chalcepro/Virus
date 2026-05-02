@@ -1,0 +1,246 @@
+# System Design Concepts and Patterns
+
+## Scalability Principles
+
+### Horizontal vs Vertical Scaling
+Vertical Scaling: Add more resources (CPU, RAM) to a single server
+- Easier to implement initially
+- Limited by hardware constraints
+- Single point of failure
+
+Horizontal Scaling: Add more servers
+- Requires load balancing
+- Better fault tolerance
+- More complex to implement
+
+### Load Balancing
+Round Robin: Distribute requests in sequence
+- server1, server2, server3, server1, server2, server3...
+
+Least Connections: Route to server with fewest active connections
+- Best for long-lived connections
+
+Weighted Round Robin: Distribute based on server capacity
+- server1 (50%), server2 (30%), server3 (20%)
+
+IP Hash: Route based on client IP
+- Ensures same client always goes to same server
+
+## Database Optimization
+
+### Indexing
+CREATE INDEX idx_email ON users(email);
+CREATE INDEX idx_name ON users(name);
+CREATE INDEX idx_created_at ON users(created_at);
+
+Pros: Faster queries
+Cons: Slower writes, increased storage
+
+### Normalization
+1NF: Atomic values, no repeating groups
+2NF: First normal form + no partial dependencies
+3NF: Second normal form + no transitive dependencies
+
+### Sharding
+Hash-based Sharding: shard_id = hash(user_id) % num_shards
+Range-based Sharding: shard ranges (0-1M, 1M-2M, etc.)
+Directory-based Sharding: Lookup table for shard mapping
+
+Pros: Linear scalability
+Cons: Complex queries, rebalancing
+
+## Caching Patterns
+
+### Cache-Aside Pattern
+1. Check cache for data
+2. If miss, fetch from database
+3. Write to cache
+4. Return to client
+
+### Write-Through Pattern
+1. Write to cache
+2. Write to database
+3. Acknowledge to client
+
+Pros: Data consistency
+Cons: Higher latency
+
+### Write-Behind Pattern
+1. Write to cache
+2. Acknowledge to client
+3. Asynchronously write to database
+
+Pros: Lower latency
+Cons: Risk of data loss
+
+## Microservices Architecture
+
+### Service Decomposition
+User Service: Manages user profiles
+Order Service: Manages orders
+Payment Service: Processes payments
+Notification Service: Sends notifications
+
+### Inter-service Communication
+Synchronous: REST, gRPC
+- Real-time responses
+- Tight coupling
+
+Asynchronous: Message queues, event streams
+- Loose coupling
+- Better for non-critical operations
+
+### API Gateway Pattern
+Single entry point for all clients
+Routes requests to appropriate services
+Handles authentication, rate limiting
+
+## Consistency Models
+
+### ACID Properties
+Atomicity: Transaction completes or rolls back entirely
+Consistency: Database moves from valid state to valid state
+Isolation: Transactions don't interfere with each other
+Durability: Committed data persists
+
+### CAP Theorem
+Consistency: All nodes see same data
+Availability: System always responds
+Partition Tolerance: System works despite network partitions
+
+Choose two of three:
+- CP: Consistency + Partition Tolerance (sacrifice availability)
+- AP: Availability + Partition Tolerance (sacrifice consistency)
+- CA: Consistency + Availability (sacrifice partition tolerance - not realistic in distributed systems)
+
+### Eventual Consistency
+System becomes consistent over time
+Better availability
+Acceptable for many use cases (social media feeds, etc.)
+
+## Message Queues
+
+### Queue-Based Processing
+Producer: Sends messages to queue
+Consumer: Processes messages from queue
+Broker: Manages queue
+
+Benefits:
+- Decouples producers from consumers
+- Load leveling
+- Automatic retries
+
+### Message Queue Pattern
+1. User submits large order
+2. Order service puts message in queue
+3. Returns immediately to user
+4. Processing service picks up message
+5. Processes asynchronously
+
+## Monitoring and Logging
+
+### Key Metrics
+Latency: How long requests take
+Throughput: Requests per second
+Error Rate: Failed requests percentage
+CPU/Memory/Disk Usage: Resource utilization
+
+### Logging Strategy
+Application Logs: From code
+System Logs: From OS
+Access Logs: HTTP requests
+
+Aggregation tools: ELK stack, Splunk, DataDog
+
+## Circuit Breaker Pattern
+
+def circuit_breaker(func, failure_threshold=5):
+    failures = 0
+    state = 'CLOSED'  # Normal operation
+    
+    def wrapper(*args, **kwargs):
+        nonlocal failures, state
+        
+        if state == 'OPEN':
+            raise Exception("Circuit breaker is open")
+        
+        try:
+            result = func(*args, **kwargs)
+            failures = 0
+            return result
+        except Exception as e:
+            failures += 1
+            if failures >= failure_threshold:
+                state = 'OPEN'
+            raise
+
+States:
+CLOSED: Normal operation
+OPEN: Failing, reject requests
+HALF_OPEN: Test if service recovered
+
+## Bulkhead Pattern
+
+class BulkheadExecutor:
+    def __init__(self, thread_pool_size=10):
+        self.executor = ThreadPoolExecutor(max_workers=thread_pool_size)
+    
+    def execute(self, func):
+        return self.executor.submit(func)
+
+Isolates resources:
+- Each service gets dedicated thread pool
+- Prevents cascade failures
+- Resource exhaustion in one service doesn't affect others
+
+## Rate Limiting
+
+### Token Bucket Algorithm
+- Add tokens at fixed rate
+- Request consumes tokens
+- Request denied if no tokens
+
+def token_bucket_rate_limit(max_tokens, refill_rate):
+    tokens = max_tokens
+    last_refill = time.time()
+    
+    def rate_limit():
+        nonlocal tokens, last_refill
+        now = time.time()
+        elapsed = now - last_refill
+        tokens = min(max_tokens, tokens + elapsed * refill_rate)
+        last_refill = now
+        
+        if tokens >= 1:
+            tokens -= 1
+            return True
+        return False
+    
+    return rate_limit
+
+## Disaster Recovery
+
+### Backup Strategies
+Full Backup: Complete copy of all data
+Incremental: Only changes since last backup
+Differential: Changes since last full backup
+
+### Recovery Point Objective (RPO)
+Maximum acceptable data loss
+Example: RPO of 1 hour means losing up to 1 hour of data
+
+### Recovery Time Objective (RTO)
+Maximum acceptable downtime
+Example: RTO of 4 hours means system must be back up within 4 hours
+
+## High Availability Patterns
+
+### Active-Passive
+One active server, one standby
+Standby takes over on failure
+Simple but wastes resources
+
+### Active-Active
+Multiple servers, all active
+Automatic failover
+Requires load balancing

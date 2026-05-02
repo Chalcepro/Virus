@@ -1,0 +1,330 @@
+# Web Development Concepts and Code
+
+## HTTP Requests and Responses
+
+### RESTful API Endpoints
+GET /api/users - Retrieve all users
+POST /api/users - Create a new user
+GET /api/users/{id} - Retrieve user by ID
+PUT /api/users/{id} - Update user by ID
+DELETE /api/users/{id} - Delete user by ID
+PATCH /api/users/{id} - Partial update of user
+
+### HTTP Status Codes
+200 OK - Success
+201 Created - Resource created successfully
+204 No Content - Successful but no content to return
+400 Bad Request - Client error in request
+401 Unauthorized - Authentication required
+403 Forbidden - User lacks permission
+404 Not Found - Resource not found
+500 Internal Server Error - Server error
+503 Service Unavailable - Server temporarily unavailable
+
+## Flask Web Framework
+
+### Basic Flask Application
+from flask import Flask, request, jsonify
+
+app = Flask(__name__)
+
+@app.route('/', methods=['GET'])
+def home():
+    return jsonify({"message": "Welcome to my API"})
+
+@app.route('/api/users', methods=['GET'])
+def get_users():
+    users = [
+        {"id": 1, "name": "Alice", "email": "alice@example.com"},
+        {"id": 2, "name": "Bob", "email": "bob@example.com"}
+    ]
+    return jsonify(users)
+
+@app.route('/api/users/<int:user_id>', methods=['GET'])
+def get_user(user_id):
+    return jsonify({"id": user_id, "name": "John", "email": "john@example.com"})
+
+@app.route('/api/users', methods=['POST'])
+def create_user():
+    data = request.get_json()
+    return jsonify({"id": 3, **data}), 201
+
+@app.route('/api/users/<int:user_id>', methods=['PUT'])
+def update_user(user_id):
+    data = request.get_json()
+    return jsonify({"id": user_id, **data})
+
+@app.route('/api/users/<int:user_id>', methods=['DELETE'])
+def delete_user(user_id):
+    return jsonify({"message": f"User {user_id} deleted"}), 204
+
+if __name__ == '__main__':
+    app.run(debug=True)
+
+### Flask with Database
+from flask_sqlalchemy import SQLAlchemy
+
+app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///db.sqlite3'
+db = SQLAlchemy(app)
+
+class User(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(100), nullable=False)
+    email = db.Column(db.String(100), unique=True, nullable=False)
+    created_at = db.Column(db.DateTime, default=datetime.datetime.utcnow)
+    
+    def to_dict(self):
+        return {
+            "id": self.id,
+            "name": self.name,
+            "email": self.email,
+            "created_at": self.created_at.isoformat()
+        }
+
+@app.route('/api/users', methods=['GET'])
+def get_users():
+    users = User.query.all()
+    return jsonify([user.to_dict() for user in users])
+
+@app.route('/api/users', methods=['POST'])
+def create_user():
+    data = request.get_json()
+    user = User(name=data['name'], email=data['email'])
+    db.session.add(user)
+    db.session.commit()
+    return jsonify(user.to_dict()), 201
+
+## HTML and CSS
+
+### HTML5 Structure
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <h1>Welcome</h1>
+            <p>Content goes here</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 My Website</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
+### CSS Styling
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+## JavaScript Frontend
+
+### DOM Manipulation
+document.getElementById('button').addEventListener('click', function() {
+    alert('Button clicked!');
+});
+
+document.querySelectorAll('.item').forEach(function(item) {
+    item.addEventListener('click', function() {
+        this.classList.toggle('active');
+    });
+});
+
+### Fetch API
+async function fetchUsers() {
+    try {
+        const response = await fetch('/api/users');
+        const data = await response.json();
+        console.log('Users:', data);
+        displayUsers(data);
+    } catch (error) {
+        console.error('Error:', error);
+    }
+}
+
+function displayUsers(users) {
+    const userList = document.getElementById('user-list');
+    userList.innerHTML = '';
+    users.forEach(user => {
+        const li = document.createElement('li');
+        li.textContent = user.name;
+        userList.appendChild(li);
+    });
+}
+
+### Form Handling
+document.getElementById('user-form').addEventListener('submit', async function(e) {
+    e.preventDefault();
+    
+    const formData = new FormData(this);
+    const data = Object.fromEntries(formData);
+    
+    try {
+        const response = await fetch('/api/users', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        });
+        
+        if (response.ok) {
+            alert('User created successfully!');
+            this.reset();
+        } else {
+            alert('Error creating user');
+        }
+    } catch (error) {
+        console.error('Error:', error);
+    }
+});
+
+## Authentication and Security
+
+### JWT Token Authentication
+import jwt
+from datetime import datetime, timedelta
+
+SECRET_KEY = 'your-secret-key'
+
+def generate_token(user_id):
+    payload = {
+        'user_id': user_id,
+        'exp': datetime.utcnow() + timedelta(hours=24),
+        'iat': datetime.utcnow()
+    }
+    token = jwt.encode(payload, SECRET_KEY, algorithm='HS256')
+    return token
+
+def verify_token(token):
+    try:
+        payload = jwt.decode(token, SECRET_KEY, algorithms=['HS256'])
+        return payload
+    except jwt.ExpiredSignatureError:
+        return None
+    except jwt.InvalidTokenError:
+        return None
+
+### Password Hashing
+from werkzeug.security import generate_password_hash, check_password_hash
+
+def hash_password(password):
+    return generate_password_hash(password)
+
+def verify_password(stored_hash, password):
+    return check_password_hash(stored_hash, password)
+
+## Database Queries
+
+### SQL Operations
+SELECT * FROM users;
+SELECT * FROM users WHERE age > 18;
+SELECT name, email FROM users WHERE status = 'active';
+SELECT COUNT(*) FROM users;
+SELECT * FROM users ORDER BY created_at DESC LIMIT 10;
+
+INSERT INTO users (name, email, age) VALUES ('John', 'john@example.com', 25);
+
+UPDATE users SET email = 'newemail@example.com' WHERE id = 1;
+
+DELETE FROM users WHERE id = 1;
+
+### Joins
+SELECT users.name, orders.total 
+FROM users 
+INNER JOIN orders ON users.id = orders.user_id;
+
+SELECT users.name, orders.total 
+FROM users 
+LEFT JOIN orders ON users.id = orders.user_id;
+
+## Caching Strategies
+
+### Redis Caching
+import redis
+
+cache = redis.Redis(host='localhost', port=6379, db=0)
+
+def get_cached_user(user_id):
+    cached = cache.get(f'user:{user_id}')
+    if cached:
+        return json.loads(cached)
+    
+    user = fetch_from_db(user_id)
+    cache.setex(f'user:{user_id}', 3600, json.dumps(user))
+    return user
+
+### Cache Expiration
+cache.set('key', 'value', ex=3600)  # Expires in 1 hour
+cache.delete('key')  # Delete immediately

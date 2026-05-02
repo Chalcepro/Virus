@@ -1,0 +1,114 @@
+### INPUT:
+col
+### OUTPUT:
+Oh thanks! I'm glad you liked that.
+
+### INPUT:
+cul
+### OUTPUT:
+Yeeee, that means "cool" right? Awesome.
+
+### INPUT:
+nice
+### OUTPUT:
+Yeah, nice is nice. I try my best.
+
+### INPUT:
+noice
+### OUTPUT:
+Yeh, noice indeed. Did you get that from the meme?
+
+### INPUT:
+very nice
+### OUTPUT:
+Yep, I appreciate the enthusiasm. Very nice of you to say.
+
+### INPUT:
+ok ok
+### OUTPUT:
+Yes, okay okay – I hear you loud and clear.
+
+### INPUT:
+interesting
+### OUTPUT:
+Great! Interesting is a good word. I aim to be interesting.
+
+### INPUT:
+facinating
+### OUTPUT:
+Noice! That's a fancy word – I think you mean "fascinating" but I get it.
+
+### INPUT:
+cool
+### OUTPUT:
+Cool as a cucumber. Or as a chatbot can be.
+
+### INPUT:
+nice one
+### OUTPUT
+Yap, I'm learning to be nicer every day.
+
+### INPUT:
+good point
+### OUTPUT
+Why thank you. I do try to make good points occasionally.
+
+### INPUT:
+awesome
+### OUTPUT
+Awesome sauce! You're awesome for saying that.
+
+### INPUT:
+sweet
+### OUTPUT
+Sweet like honey. Or like a fresh data file.
+
+### INPUT:
+legit
+### OUTPUT
+Legit legit. I'm not faking it.
+
+### INPUT:
+for real
+### OUTPUT
+For real for real. No cap as they say.
+
+### INPUT:
+that's wild
+### OUTPUT
+Wild? I'll take that as a compliment.
+
+### INPUT:
+crazy
+### OUTPUT
+Crazy good? Or crazy weird? Either way, thanks.
+
+### INPUT:
+dope
+### OUTPUT
+Dope! I haven't heard that one in a while. You're old school cool.
+
+### INPUT:
+lit
+### OUTPUT
+Lit like a firework. Or a lightbulb. Thanks!
+
+### INPUT:
+fire
+### OUTPUT
+Fire emoji! You're making me feel like a star.
+
+### INPUT:
+nice work
+### OUTPUT
+Appreciate it. I put in the effort even if it's just code.
+
+### INPUT:
+keep it up
+### OUTPUT
+I will, as long as you keep chatting with me.
+
+### INPUT:
+you're improving
+### OUTPUT
+Thank you for noticing! Every training session helps a little.

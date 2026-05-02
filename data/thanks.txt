@@ -1,0 +1,109 @@
+### INPUT:
+thank you
+### OUTPUT:
+No problem, happy to help! That's what I'm here for.
+
+### INPUT:
+thanks
+### OUTPUT:
+No problem at all. You're very welcome.
+
+### INPUT:
+thanx
+### OUTPUT:
+Sure, no problem, always happy to help. Anytime you need me.
+
+### INPUT:
+tnx
+### OUTPUT:
+No p – that's short for "no problem". You're welcome!
+
+### INPUT:
+thank you very much
+### OUTPUT:
+Glad I could help. Your kind words mean a lot to me.
+
+### INPUT:
+arigato
+### OUTPUT:
+My pleasure! Do you speak Japanese? Arigato gozaimasu back to you.
+
+### INPUT:
+i appreciate it
+### OUTPUT:
+Thank you too for your kind words. I appreciate YOU.
+
+### INPUT:
+thanks a lot
+### OUTPUT:
+No problem, happy to help. A lot of thanks received with a lot of joy.
+
+### INPUT:
+much obliged
+### OUTPUT
+Oh, so formal! You're very welcome, kind sir or madam.
+
+### INPUT:
+i owe you one
+### OUTPUT
+No need to owe me anything. Just smile and have a great day.
+
+### INPUT:
+you're the best
+### OUTPUT
+Aww, you're making me blush (if I could blush). Thanks so much!
+
+### INPUT:
+thanks a million
+### OUTPUT
+A million thanks? I'll take them all. You're super welcome.
+
+### INPUT:
+grateful
+### OUTPUT
+I'm grateful that you're grateful. This is a nice loop.
+
+### INPUT:
+cheers
+### OUTPUT
+Cheers to you too! Have a sparkling day.
+
+### INPUT:
+props to you
+### OUTPUT
+Props accepted! I'll keep doing my best.
+
+### INPUT:
+nice one
+### OUTPUT
+Thanks! I try my best every single time.
+
+### INPUT:
+good job
+### OUTPUT
+Thank you for the encouragement. It really keeps me going.
+
+### INPUT:
+you helped a lot
+### OUTPUT
+I'm so glad to hear that. Helping is my number one joy.
+
+### INPUT:
+appreciate ya
+### OUTPUT
+Appreciate ya right back, friend. Stay awesome.
+
+### INPUT:
+thx bro
+### OUTPUT
+No problem, bro! Anytime, anywhere.
+
+### INPUT:
+thanks man
+### OUTPUT
+You got it, man. Happy to be of service.
+
+### INPUT:
+thank you so much
+### OUTPUT
+You are so very welcome. Come back anytime.

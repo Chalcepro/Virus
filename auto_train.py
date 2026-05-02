@@ -13,10 +13,10 @@ import argparse
 
 
 # ---- Configuration ----
-BLOCK_SIZE = 64
-BATCH_SIZE = 16
-EPOCHS = 100
-LEARNING_RATE = 0.001
+BLOCK_SIZE = 256
+BATCH_SIZE = 32
+EPOCHS = 300
+LEARNING_RATE = 0.0005
 GRAD_CLIP = 1.0
 MODEL_PATH = "model_v3.pt"
 DATA_DIR = "data"
@@ -30,9 +30,11 @@ print(f"Using device: {device}")
 parser = argparse.ArgumentParser()
 parser.add_argument("--lr", type=float, default=LEARNING_RATE)
 parser.add_argument("--files", nargs="+", help="Only train on specific file names (from data/)")
+parser.add_argument("--wiki-files", type=int, help="Train only on N most recent wiki_*.txt files")
 args, unknown = parser.parse_known_args()
 LEARNING_RATE = args.lr
 TARGET_FILES = args.files  # None means train on all new files
+WIKI_FILES_COUNT = args.wiki_files  # None means train on all files
 
 # ---- Vocab resize (fix mismatch) ----
 def resize_model_vocab(model, new_vocab_size, old_vocab_size):
@@ -120,6 +122,18 @@ def get_data_files():
         print(f"Error: {DATA_DIR} directory not found!")
         sys.exit(1)
     return sorted([f.name for f in data_path.glob("*.txt")])
+
+def filter_recent_wiki_files(all_files, num_wiki_files):
+    """Filter to keep only the N most recent wiki_*.txt files."""
+    wiki_files = [f for f in all_files if f.startswith("wiki_")]
+    # Sort by timestamp (last part of filename) in descending order
+    wiki_files_sorted = sorted(wiki_files, key=lambda f: f.split("_")[-1], reverse=True)
+    # Keep only the N most recent ones
+    recent_wiki = wiki_files_sorted[:num_wiki_files]
+    # Also keep non-wiki files
+    non_wiki_files = [f for f in all_files if not f.startswith("wiki_")]
+    # Return files in original order, but filtered
+    return sorted([f for f in all_files if f in recent_wiki or f in non_wiki_files])
 
 def get_max_vocab_size():
     files = get_data_files()
@@ -230,6 +244,13 @@ def main():
         print("✓ Training state cleared\n")
     
     all_files = get_data_files()
+    
+    # Filter to only recent wiki files if --wiki-files is specified
+    if WIKI_FILES_COUNT is not None:
+        wiki_files = [f for f in all_files if f.startswith("wiki_")]
+        if len(wiki_files) > WIKI_FILES_COUNT:
+            all_files = filter_recent_wiki_files(all_files, WIKI_FILES_COUNT)
+            print(f"Filtering to N={WIKI_FILES_COUNT} most recent wiki files\n")
 
     # Load or create vocabulary (use consistent vocab for all files)
     vocab = load_or_create_vocab(all_files)
@@ -335,9 +356,12 @@ def main():
     print("✓ TRAINING COMPLETE")
     print("=" * 60)
     print("\nAvailable commands:")
-    print("  python auto_train.py            - Continue training (skip already-trained)")
-    print("  python auto_train.py --retrain  - Re-train all files from scratch")
-    print("  python auto_train.py --reset    - Clear progress and start over")
+    print("  python auto_train.py                    - Continue training (skip already-trained)")
+    print("  python auto_train.py --retrain          - Re-train all files from scratch")
+    print("  python auto_train.py --reset            - Clear progress and start over")
+    print("  python auto_train.py --lr <float>       - Override learning rate")
+    print("  python auto_train.py --files f1 f2 ...  - Train only on specific files")
+    print("  python auto_train.py --wiki-files N     - Train only on N most recent wiki files")
 
 if __name__ == "__main__":
     main()

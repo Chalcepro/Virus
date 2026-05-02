@@ -1,0 +1,268 @@
+# Common API Examples and Usage Patterns
+
+## REST API Documentation
+
+### User Resource
+GET /api/v1/users
+- Description: List all users
+- Parameters: page (int), limit (int), sort (string)
+- Response: 200 OK
+{
+  "data": [
+    {"id": 1, "name": "Alice", "email": "alice@example.com", "created_at": "2025-01-01T00:00:00Z"},
+    {"id": 2, "name": "Bob", "email": "bob@example.com", "created_at": "2025-01-02T00:00:00Z"}
+  ],
+  "pagination": {
+    "page": 1,
+    "limit": 10,
+    "total": 100,
+    "pages": 10
+  }
+}
+
+POST /api/v1/users
+- Description: Create a new user
+- Request Body: {"name": "string", "email": "string", "password": "string"}
+- Response: 201 Created
+{
+  "id": 3,
+  "name": "Charlie",
+  "email": "charlie@example.com",
+  "created_at": "2025-01-03T00:00:00Z"
+}
+
+GET /api/v1/users/{id}
+- Description: Get user by ID
+- Parameters: id (string, required)
+- Response: 200 OK
+{
+  "id": 1,
+  "name": "Alice",
+  "email": "alice@example.com",
+  "created_at": "2025-01-01T00:00:00Z"
+}
+
+PUT /api/v1/users/{id}
+- Description: Update existing user
+- Parameters: id (string, required)
+- Request Body: {"name": "string", "email": "string"}
+- Response: 200 OK
+
+PATCH /api/v1/users/{id}
+- Description: Partially update user
+- Parameters: id (string, required)
+- Request Body: One or more fields to update
+- Response: 200 OK
+
+DELETE /api/v1/users/{id}
+- Description: Delete user
+- Parameters: id (string, required)
+- Response: 204 No Content
+
+## Error Handling Responses
+
+400 Bad Request
+{
+  "error": {
+    "code": "INVALID_REQUEST",
+    "message": "Invalid input parameters",
+    "details": [
+      {"field": "email", "message": "Invalid email format"}
+    ]
+  }
+}
+
+401 Unauthorized
+{
+  "error": {
+    "code": "AUTHENTICATION_REQUIRED",
+    "message": "Missing or invalid authentication token"
+  }
+}
+
+403 Forbidden
+{
+  "error": {
+    "code": "PERMISSION_DENIED",
+    "message": "You don't have permission to access this resource"
+  }
+}
+
+404 Not Found
+{
+  "error": {
+    "code": "NOT_FOUND",
+    "message": "Resource not found"
+  }
+}
+
+429 Too Many Requests
+{
+  "error": {
+    "code": "RATE_LIMITED",
+    "message": "Too many requests, please try again later",
+    "retry_after": 60
+  }
+}
+
+500 Internal Server Error
+{
+  "error": {
+    "code": "INTERNAL_ERROR",
+    "message": "An internal server error occurred"
+  }
+}
+
+## Authentication
+
+### Bearer Token
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...
+
+### Basic Authentication
+Authorization: Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+
+### API Key
+X-API-Key: your-api-key-here
+
+### OAuth 2.0 Flow
+1. Redirect user to authorization endpoint
+2. User grants permission
+3. Redirect back with authorization code
+4. Exchange code for access token
+5. Use access token for API requests
+
+## Rate Limiting Headers
+
+X-RateLimit-Limit: 1000
+X-RateLimit-Remaining: 975
+X-RateLimit-Reset: 1609459200
+
+## Pagination Patterns
+
+### Offset-based
+GET /api/users?offset=0&limit=10
+- Simple to implement
+- Can have issues with large offsets
+
+### Cursor-based
+GET /api/users?cursor=abc123&limit=10
+- More efficient for large datasets
+- Better for real-time data
+
+### Keyset Pagination
+GET /api/users?after_id=100&limit=10
+- Most efficient for large datasets
+- Based on unique identifiers
+
+## Common API Responses
+
+### Success with Data
+{
+  "success": true,
+  "data": {...},
+  "message": "Operation completed successfully"
+}
+
+### Success without Data
+{
+  "success": true,
+  "message": "Resource deleted successfully"
+}
+
+### Bulk Operations Response
+{
+  "success": true,
+  "data": {
+    "created": 5,
+    "updated": 3,
+    "failed": 1,
+    "failures": [
+      {"id": "user_10", "error": "Email already exists"}
+    ]
+  }
+}
+
+## Webhook Implementation
+
+### Webhook Registration
+POST /api/v1/webhooks
+{
+  "url": "https://your-domain.com/webhooks/users",
+  "events": ["user.created", "user.updated", "user.deleted"],
+  "secret": "webhook-secret-key"
+}
+
+### Webhook Payload
+POST https://your-domain.com/webhooks/users
+X-Signature: sha256=abc123...
+
+{
+  "id": "evt_123456",
+  "type": "user.created",
+  "timestamp": "2025-01-15T10:30:00Z",
+  "data": {
+    "id": 123,
+    "name": "John Doe",
+    "email": "john@example.com"
+  }
+}
+
+## GraphQL Example
+
+### Query
+{
+  users(first: 10) {
+    edges {
+      node {
+        id
+        name
+        email
+        posts(first: 5) {
+          edges {
+            node {
+              id
+              title
+              content
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+### Mutation
+mutation CreateUser($name: String!, $email: String!) {
+  createUser(input: {name: $name, email: $email}) {
+    user {
+      id
+      name
+      email
+    }
+    errors
+  }
+}
+
+### Subscription
+subscription OnUserCreated {
+  userCreated {
+    id
+    name
+    email
+  }
+}
+
+## API Versioning Strategies
+
+### URL Path Versioning
+GET /api/v1/users
+GET /api/v2/users
+
+### Header Versioning
+X-API-Version: 1
+
+### Query Parameter Versioning
+GET /api/users?version=1
+
+### Content Negotiation
+Accept: application/vnd.api+json;version=1
