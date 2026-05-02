@@ -50,6 +50,7 @@ jobs:
 
       - name: Commit and push changes
         run: |
+          git pull
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           # Add data folder, model file, and state file (ignore if they don't exist)
