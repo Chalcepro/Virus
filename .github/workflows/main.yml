@@ -23,8 +23,8 @@ jobs:
 
       - name: Install dependencies
         run: 
-          python auto_learn.py
-
+          python auto_train.py --retrain
+          
       - name: Commit and push changes (model & data)
         run: |
           git config user.name "github-actions[bot]"
