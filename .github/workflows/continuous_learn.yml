@@ -40,7 +40,7 @@ jobs:
           fi
 
       - name: Run automated learning (no interactive)
-        run: python auto_train.py
+        run: python auto_train.py --retrain
 
       - name: Commit and push changes
         run: |
