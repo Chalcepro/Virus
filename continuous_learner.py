@@ -23,8 +23,8 @@ def main():
         print("Training failed")
         sys.exit(1)
 
-    print("\n🔧 Starting interactive correction session...")
-    subprocess.run([sys.executable, "interactive_correction.py"])
+    # print("\nStarting interactive correction session...")
+    # subprocess.run([sys.executable, "interactive_correction.py"])
 
     print("\n📤 Pushing updates to GitHub...")
     subprocess.run(["git", "add", "data/", "model_v3.pt", "auto_train_state.json"])
