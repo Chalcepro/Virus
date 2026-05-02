@@ -22,10 +22,6 @@ jobs:
           python-version: '3.10'
 
       - name: Install dependencies
-        run:
-          pip install torch requests
-
-      - name: Run automated learning (CI)
         run: 
           python auto_learn.py
 
