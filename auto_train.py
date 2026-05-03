@@ -13,9 +13,9 @@ import argparse
 
 
 # ---- Configuration ----
-BLOCK_SIZE = 256
+BLOCK_SIZE = 128
 BATCH_SIZE = 32
-EPOCHS = 300
+EPOCHS = 200
 LEARNING_RATE = 0.0005
 GRAD_CLIP = 1.0
 MODEL_PATH = "model_v3.pt"
