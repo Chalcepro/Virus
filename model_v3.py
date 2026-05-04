@@ -23,7 +23,7 @@ class GatedMemoryCell(nn.Module):
 
 
 class HybridCodeGenerator(nn.Module):
-    def __init__(self, vocab_size, state_size=256, embed_size=128, window_size=64):
+    def __init__(self, vocab_size, state_size=128, embed_size=128, window_size=64):
         super().__init__()
         self.embedding = nn.Embedding(vocab_size, embed_size)
         self.window_size = window_size
