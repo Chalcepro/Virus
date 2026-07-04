@@ -1,8 +1,5 @@
-import subprocess
-import sys
+#!/usr/bin/env python3
+import runpy
+from pathlib import Path
 
-print("Training V3 model...")
-subprocess.run([sys.executable, "train_v3.py"], check=True)
-
-print("\nGenerating sample code...")
-subprocess.run([sys.executable, "generate_v3.py"], check=True)
+runpy.run_path(str(Path(__file__).parent / "scripts" / "create_v3.py"), run_name="__main__")

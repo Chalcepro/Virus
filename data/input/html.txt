@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML5 Training Document</title>
+
+<!-- Favicon and icons -->
+    <link rel="icon" type="image/svg+xml" href="/icons/favicon.svg">
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+    <link rel="manifest" href="/manifest.json">
+
+<!-- ==================== Skip Navigation ==================== -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+<!-- ==================== Main Content ==================== -->
+    <main id="main-content">
+
+<!-- ==================== Semantic HTML5 Elements ==================== -->
+        <article aria-labelledby="article-title">
+            <header>
+                <h2 id="article-title">Understanding Semantic Elements</h2>
+                <p>Published on <time datetime="2024-01-01 08:00">January 1, 2024</time> by <a href="#author">John Doe</a></p>
+                <figure>
+                    <img src="hero.webp" alt="A descriptive text" loading="lazy" width="800" height="400">
+                    <figcaption>Hero image with lazy loading</figcaption>
+                </figure>
+            </header>
+            <p>This article uses proper sectioning, headings, and <abbr title="Accessible Rich Internet Applications">ARIA</abbr> where necessary.</p>
+            <aside>
+                <p><strong>Note:</strong> Always use semantic elements before adding ARIA.</p>
+            </aside>
+            <footer>
+                <p>Tags: <a href="#">HTML</a>, <a href="#">Semantics</a></p>
+            </footer>
+        </article>
+
+<!-- ==================== Dialog (Modal) ==================== -->
+        <dialog id="modal-dialog">
+            <h2>Modal Title</h2>
+            <p>This is a native modal dialog box. It can be closed with the button below or the Escape key.</p>
+            <form method="dialog">
+                <button type="submit">Close</button>
+            </form>
+        </dialog>
+        <button type="button" id="open-modal">Open Modal</button>
+
+<!-- Fieldset and legend -->
+                <fieldset>
+                    <legend>Personal Information</legend>
+
+<label for="email">Email:</label>
+                    <input type="email" id="email" name="email" autocomplete="email" placeholder="you@example.com" required multiple>
+
+<label for="url">Website:</label>
+                    <input type="url" id="url" name="url" placeholder="https://example.com">
+
+<label for="time">Appointment time:</label>
+                    <input type="time" id="time" name="time" step="900">
+
+<label for="range">Satisfaction (0-100):</label>
+                    <input type="range" id="range" name="satisfaction" min="0" max="100" value="80" list="tickmarks">
+                    <datalist id="tickmarks">
+                        <option value="0" label="0"></option>
+                        <option value="50" label="50"></option>
+                        <option value="100" label="100"></option>
+                    </datalist>
+
+<label for="country">Country:</label>
+                    <select id="country" name="country">
+                        <optgroup label="North America">
+                            <option value="us">United States</option>
+                            <option value="ca">Canada</option>
+                        </optgroup>
+                        <optgroup label="Europe">
+                            <option value="uk">United Kingdom</option>
+                            <option value="de">Germany</option>
+                        </optgroup>
+                    </select>
+
+<!-- Checkbox and radio groups -->
+                    <fieldset>
+                        <legend>Subscribe to newsletters</legend>
+                        <label><input type="checkbox" name="newsletters" value="tech" checked> Tech Weekly</label>
+                        <label><input type="checkbox" name="newsletters" value="food"> Food Digest</label>
+                    </fieldset>
+
+<!-- Meter and Progress -->
+                    <label for="disk-usage">Disk usage:</label>
+                    <meter id="disk-usage" min="0" max="100" value="70" low="30" high="80" optimum="0">70%</meter>
+
+<!-- Output element -->
+                    <form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+                        <input type="number" id="a" name="a" value="10"> +
+                        <input type="number" id="b" name="b" value="20"> =
+                        <output name="result" for="a b">30</output>
+                    </form>
+                </fieldset>
+
+<!-- ==================== Multimedia ==================== -->
+        <section aria-labelledby="media-heading">
+            <h2 id="media-heading">Multimedia: Audio & Video</h2>
+
+<!-- Audio -->
+            <audio controls>
+                <source src="audio.ogg" type="audio/ogg">
+                <source src="audio.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+<!-- ==================== Canvas and SVG ==================== -->
+        <section>
+            <h2>Graphics: Canvas & SVG</h2>
+            <canvas id="myCanvas" width="300" height="150" aria-label="A simple blue rectangle drawn on canvas" role="img"></canvas>
+
+<!-- ==================== Interactive Elements ==================== -->
+        <section>
+            <h2>Interactive Elements</h2>
+
+<!-- Blockquote with citation -->
+            <figure>
+                <blockquote cite="https://www.w3.org/WAI/">
+                    <p>The power of the Web is in its universality. Access by everyone regardless of disability is an essential aspect.</p>
+                </blockquote>
+                <figcaption>—Tim Berners-Lee, <cite>W3C Director</cite></figcaption>
+            </figure>
+
+<!-- Data list -->
+            <!-- (already shown in forms) -->
+
+<!-- ==================== Web Components (Custom Elements) ==================== -->
+        <section>
+            <h2>Web Components (Custom Elements)</h2>
+
+<template id="user-card-template">
+                <style>
+                    .card { border: 1px solid #ccc; padding: 1rem; display: inline-flex; gap: 1rem; align-items: center; border-radius: 8px; }
+                    img { width: 48px; height: 48px; border-radius: 50%; }
+                </style>
+                <div class="card">
+                    <img alt="" src="">
+                    <div>
+                        <strong></strong>
+                        <small></small>
+                    </div>
+                </div>
+            </template>
+
+<!-- ==================== Microdata / Structured Data ==================== -->
+        <div itemscope itemtype="https://schema.org/Person">
+            <h2 itemprop="name">John Doe</h2>
+            <p itemprop="jobTitle">Software Engineer</p>
+            <span itemprop="telephone">+1-234-567-8901</span>
+            <a itemprop="email" href="mailto:john@example.com">john@example.com</a>
+        </div>
+
+</main>

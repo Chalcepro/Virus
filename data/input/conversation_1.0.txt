@@ -1,0 +1,33 @@
+What is a machine learning model?
+
+Like showing it pictures of cats and dogs?
+
+So it is not thinking, just matching patterns?
+
+What is a neural network?
+
+So everything becomes numbers?
+
+Can a small model run on my laptop?
+
+Can one model learn both code and English?
+
+Does it learn characters or words?
+
+Can I train it again later?
+
+Will it forget previous knowledge?
+
+What is the next step after a simple model?
+
+What is the tradeoff between memory and attention?
+
+Can they be combined?
+
+Can a small model reason?
+
+What makes it feel intelligent?
+
+So intelligence is the system, not just the model?
+
+What is the realistic goal on a laptop?

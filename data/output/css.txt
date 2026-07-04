@@ -1,0 +1,183 @@
+/* ===== Modern Reset ===== */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-sans);
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    accent-color: var(--brand);
+}
+
+/* ===== Focus styles for accessibility (using :focus-visible) ===== */
+:focus-visible {
+    outline: 2px solid var(--brand);
+    outline-offset: 2px;
+}
+
+/* ===== CSS Grid Layout (Advanced) ===== */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(250px, 100%), 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+/* ===== Container Queries (2024+) ===== */
+.card-container {
+    container-type: inline-size;
+    container-name: card-container;
+}
+
+/* ===== Modern Button Styles ===== */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75em 1.5em;
+    border: 2px solid transparent;
+    border-radius: var(--radius);
+    background: var(--brand);
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background var(--transition), transform var(--transition), box-shadow var(--transition);
+    text-decoration: none;
+}
+
+.btn:active {
+    transform: translateY(0);
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: var(--brand);
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.3);
+    outline: none;
+}
+
+input[type="checkbox"]:checked {
+    background: var(--brand);
+    border-color: var(--brand);
+}
+input[type="checkbox"]:checked::after {
+    content: "✔";
+    color: white;
+    font-size: 0.75rem;
+}
+
+/* ===== CSS Transitions & Animations ===== */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Scroll-Driven Animation (experimental, very advanced) */
+@keyframes slideIn {
+    from { opacity: 0; transform: translateX(-20px); }
+    to { opacity: 1; transform: translateX(0); }
+}
+
+/* ===== Transforms & 3D ===== */
+.card-3d {
+    transform: perspective(800px) rotateY(0deg);
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+.card-3d:hover {
+    transform: perspective(800px) rotateY(10deg);
+}
+
+.grayscale-effect {
+    filter: grayscale(100%);
+    transition: filter var(--transition);
+}
+.grayscale-effect:hover {
+    filter: grayscale(0%);
+}
+
+/* ===== Logical Properties (Internationalization) ===== */
+.text-logical {
+    margin-inline-start: 1rem;  /* instead of margin-left */
+    padding-block: 1rem;        /* instead of padding-top & bottom */
+}
+
+& .child {
+        background: white;
+        padding: 0.75rem;
+        border: 1px solid var(--border);
+
+/* ===== Combined :has() selector (Parent selection) ===== */
+.card:has(> .badge:empty) {
+    border: 2px dashed red;
+}
+
+/* zero specificity example */
+:where(ul, ol) {
+    margin-block-end: 1em;
+}
+
+/* ===== Advanced :nth-child() patterns ===== */
+.grid > :nth-child(3n of .special) {
+    grid-column: span 2;
+}
+
+/* ===== Print Styles ===== */
+@media print {
+    nav, footer, .btn { display: none; }
+    body { font-size: 12pt; color: black; background: white; }
+    a::after { content: " (" attr(href) ")"; }
+}
+
+/* ===== Prefers Reduced Motion ===== */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+/* ===== Dialog ::backdrop ===== */
+dialog::backdrop {
+    background: rgba(0,0,0,0.5);
+    backdrop-filter: blur(3px);
+}
+
+/* ===== Text balancing & wrapping ===== */
+p {
+    text-wrap: balance;
+    overflow-wrap: break-word;
+}
+
+/* ===== Gap in Flexbox and Grid ===== */
+.flex-gap {
+    display: flex;
+    gap: 1rem;
+}
+
+/* ===== Gradient and Background Clipping ===== */
+.gradient-text {
+    background: linear-gradient(135deg, var(--brand), var(--brand-dark));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* ===== Clamp for fluid sizing ===== */
+.fluid-box {
+    width: clamp(300px, 50%, 800px);
+    margin: 0 auto;
+}
+
+/* ===== Wrapper utility ===== */
+.wrapper {
+    max-width: 1200px;
+    margin-inline: auto;
+    padding-inline: 1rem;
+}

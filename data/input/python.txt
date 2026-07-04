@@ -1,0 +1,283 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Advanced Python Training Data
+Covers: syntax, data types, OOP, functional programming,
+async, standard library, algorithms, and more.
+"""
+
+# ===== Basic Syntax =====
+print("Hello, world!")
+
+# Constants (by convention)
+PI = 3.14159
+
+# Numbers
+print(f"2^10 = {2**10}")
+print(f"sqrt(16) = {math.sqrt(16)}")
+print(f"Random int: {random.randint(1, 100)}")
+
+# Tuples (immutable)
+point = (3, 4)
+x, y = point
+
+# Sets
+unique_skills = {"Python", "C++", "Python", "Java"}
+unique_skills.add("Rust")
+print(unique_skills & {"Python", "Java"})
+
+# match statement (Python 3.10+)
+match status := "success":
+    case "success":
+        print("OK")
+    case "error":
+        print("Fail")
+    case _:
+        print("Unknown")
+
+# While loop
+count = 0
+while count < 3:
+    print(count)
+    count += 1
+
+# Default and keyword arguments
+def greet(name: str, greeting: str = "Hello") -> str:
+    return f"{greeting}, {name}!"
+
+# Keyword-only arguments
+def configure(*, host: str, port: int = 8080) -> None:
+    print(f"Connecting to {host}:{port}")
+
+# ===== Higher-order Functions =====
+# map, filter, reduce
+nums = [1, 2, 3, 4, 5]
+doubled = list(map(lambda x: x*2, nums))
+evens = list(filter(lambda x: x % 2 == 0, nums))
+from functools import reduce
+product = reduce(lambda a, b: a * b, nums, 1)
+
+# ===== Generators =====
+def count_up_to(n: int):
+    """Generator that yields numbers up to n."""
+    i = 1
+    while i <= n:
+        yield i
+        i += 1
+for num in count_up_to(3):
+    print(num)
+
+# ===== Decorators =====
+def timer(func):
+    """Decorator that measures execution time."""
+    import time
+    def wrapper(*args, **kwargs):
+        start = time.time()
+        result = func(*args, **kwargs)
+        end = time.time()
+        print(f"{func.__name__} took {end-start:.4f}s")
+        return result
+    return wrapper
+
+# Decorator with arguments
+def repeat(times: int):
+    def decorator(func):
+        def wrapper(*args, **kwargs):
+            for _ in range(times):
+                result = func(*args, **kwargs)
+            return result
+        return wrapper
+    return decorator
+
+# ===== Context Managers =====
+class FileHandler:
+    """Custom context manager using __enter__ / __exit__."""
+    def __init__(self, filename, mode):
+        self.filename = filename
+        self.mode = mode
+    def __enter__(self):
+        self.file = open(self.filename, self.mode)
+        return self.file
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        self.file.close()
+
+# ===== Object-Oriented Programming =====
+class Animal:
+    """Base class for animals."""
+    species_count = 0  # class variable
+
+def speak(self) -> str:
+        return f"{self.name} makes a sound."
+
+@classmethod
+    def from_species(cls, species: str) -> 'Animal':
+        return cls(species)
+
+class Dog(Animal):
+    """Subclass of Animal."""
+    def __init__(self, name: str, breed: str):
+        super().__init__(name)
+        self.breed = breed
+
+def fetch(self, item: str) -> str:
+        return f"{self.name} fetches the {item}."
+
+@property
+    def celsius(self):
+        return self._celsius
+
+@property
+    def fahrenheit(self):
+        return self._celsius * 9/5 + 32
+
+def __add__(self, other):
+        return Vector(self.x + other.x, self.y + other.y)
+
+# ===== Dataclasses =====
+@dataclasses.dataclass
+class Student:
+    name: str
+    age: int
+    grades: List[float] = dataclasses.field(default_factory=list)
+
+# ===== Typing & Generics =====
+from typing import TypeVar, Generic
+T = TypeVar('T')
+class Stack(Generic[T]):
+    def __init__(self):
+        self._items: List[T] = []
+
+def pop(self) -> T:
+        return self._items.pop()
+
+# Custom exception
+class CustomError(Exception):
+    pass
+
+# ===== JSON =====
+data = {"key": "value", "numbers": [1,2,3]}
+json_str = json.dumps(data, indent=2)
+parsed = json.loads(json_str)
+
+# ===== Collections Module =====
+from collections import Counter, defaultdict, deque
+
+dd = defaultdict(list)
+dd["a"].append(1)
+
+# ===== Itertools =====
+from itertools import chain, combinations, cycle, islice
+# Combinations
+for combo in combinations("ABCD", 2):
+    print(combo)
+
+# ===== Functools =====
+from functools import lru_cache
+
+print(fib(50))
+
+# ===== Datetime =====
+now = datetime.datetime.now()
+print(now.strftime("%Y-%m-%d %H:%M:%S"))
+tomorrow = now + datetime.timedelta(days=1)
+
+async def main_async():
+    task1 = fetch_data("url1")
+    task2 = fetch_data("url2")
+    results = await asyncio.gather(task1, task2)
+    print(results)
+
+# ===== Threading =====
+def worker(name: str):
+    print(f"Thread {name} started")
+    # do work
+
+# ===== Subprocess (run external commands) =====
+# result = subprocess.run(["ls", "-l"], capture_output=True, text=True)
+# print(result.stdout)
+
+# ===== Logging =====
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+logger.info("This is an info message")
+
+# To run: unittest.main()
+
+def binary_search(arr: List[int], target: int) -> int:
+    low, high = 0, len(arr) - 1
+    while low <= high:
+        mid = (low + high) // 2
+        if arr[mid] == target:
+            return mid
+        elif arr[mid] < target:
+            low = mid + 1
+        else:
+            high = mid - 1
+    return -1
+
+def merge(left, right):
+    result = []
+    i = j = 0
+    while i < len(left) and j < len(right):
+        if left[i] < right[j]:
+            result.append(left[i])
+            i += 1
+        else:
+            result.append(right[j])
+            j += 1
+    result.extend(left[i:])
+    result.extend(right[j:])
+    return result
+
+# ===== Metaclasses (advanced) =====
+class SingletonMeta(type):
+    _instances = {}
+    def __call__(cls, *args, **kwargs):
+        if cls not in cls._instances:
+            cls._instances[cls] = super().__call__(*args, **kwargs)
+        return cls._instances[cls]
+
+# ===== Descriptors =====
+class PositiveNumber:
+    def __set_name__(self, owner, name):
+        self.name = name
+    def __get__(self, instance, owner):
+        return instance.__dict__.get(self.name, 0)
+    def __set__(self, instance, value):
+        if value < 0:
+            raise ValueError(f"{self.name} must be positive")
+        instance.__dict__[self.name] = value
+
+# ===== Contextvars (for async context) =====
+from contextvars import ContextVar
+request_id = ContextVar('request_id')
+
+# ===== Walrus operator (assignment expression) =====
+if (n := len(numbers)) > 3:
+    print(f"List has {n} elements")
+
+# ===== Environment variables =====
+home = os.environ.get("HOME", "~")
+print(f"Home directory: {home}")
+
+# ===== Hashing and UUIDs =====
+import hashlib
+import uuid
+hash_hex = hashlib.sha256(b"hello").hexdigest()
+unique_id = str(uuid.uuid4())
+print(unique_id)
+
+# ===== Currying example =====
+def multiply(a: int):
+    def inner(b: int):
+        return a * b
+    return inner
+double = multiply(2)
+print(double(5))
+
+# ===== Slots for memory optimization =====
+class PointSlots:
+    __slots__ = ("x", "y")
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y

@@ -1,31 +1,62 @@
+import json
+import sys
+
 import torch
-from dataset import CodeDataset
+
+import config
 from model_v3 import HybridCodeGenerator
+from utils import torch_load
+
+
+def load_vocab():
+    with open(config.VOCAB_FILE, "r", encoding="utf-8") as f:
+        vocab = json.load(f)
+    if config.FORCE_VOCAB_SIZE is not None:
+        if config.FORCE_VOCAB_SIZE < vocab["vocab_size"]:
+            raise ValueError(
+                f"FORCE_VOCAB_SIZE ({config.FORCE_VOCAB_SIZE}) must be >= saved vocab size ({vocab['vocab_size']})"
+            )
+        vocab["vocab_size"] = config.FORCE_VOCAB_SIZE
+    stoi = vocab["stoi"]
+    itos = {int(k): v for k, v in vocab["itos"].items()}
+    return stoi, itos, vocab["vocab_size"]
+
 
 def generate(prompt="def ", max_tokens=200, temperature=0.8, top_k=40):
-    device = torch.device("cpu")
-    dataset = CodeDataset("data/code.txt", block_size=64)
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    stoi, itos, vocab_size = load_vocab()
+
     model = HybridCodeGenerator(
-        vocab_size=dataset.vocab_size,
-        state_size=128,
-        embed_size=64,
-        window_size=64
+        vocab_size=vocab_size,
+        state_size=config.STATE_SIZE,
+        embed_size=config.EMBED_SIZE,
+        window_size=config.WINDOW_SIZE,
     )
     try:
-        model.load_state_dict(torch.load("model_v3.pt", map_location=device))
+        checkpoint = torch_load(config.MODEL_PATH, map_location=device)
     except FileNotFoundError:
-        print("Error: model_v3.pt not found. Train first with: python train_v3.py")
-        return
+        print(f"Error: {config.MODEL_PATH} not found. Train first with: python auto_train.py")
+        sys.exit(1)
+
+    try:
+        model.load_state_dict_adaptive(checkpoint)
+    except RuntimeError as exc:
+        print("Error loading checkpoint:", exc)
+        sys.exit(1)
 
     model.to(device)
     model.eval()
 
-    input_ids = dataset.encode(prompt).to(device)
+    input_ids = torch.tensor([stoi.get(ch, 0) for ch in prompt if ch in stoi], dtype=torch.long)
     if len(input_ids) == 0:
         input_ids = torch.tensor([0], device=device)
+    else:
+        input_ids = input_ids.to(device)
 
     output_ids = model.generate(input_ids, max_tokens, temperature, top_k)
-    print(dataset.decode(output_ids))
+    generated = "".join(itos.get(i.item(), "") for i in output_ids)
+    print(generated)
+
 
 if __name__ == "__main__":
     generate(prompt="def ", max_tokens=300, temperature=0.9, top_k=40)

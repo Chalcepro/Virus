@@ -1,0 +1,399 @@
+ai is smart tech
+
+machine learning is teaching computers
+
+a neural network is a math model
+
+deep learning is layered learning
+
+cloud computing is using remote servers
+
+blockchain is linked records
+
+a database stores data
+
+an algorithm is a set of steps
+
+a model predicts outcomes
+
+a byte stores information
+
+ai is useful for automation
+
+machine learning is popular for trends
+
+algorithms help solve problems
+
+code crashes when something breaks
+
+the sky is blue from light
+
+plants need water to grow
+
+we sleep to restore energy
+
+music calms people
+
+rain forms from clouds
+
+math helps solve issues
+
+fix a bug by checking code
+
+learn python by practicing
+
+make a website with html
+
+train a model with examples
+
+save your work often
+
+play guitar by practicing chords
+
+write a song with a melody
+
+design a logo with simple shapes
+
+cook pasta by boiling water
+
+clean your desk bit by bit
+
+generative ai creates content
+
+nlp helps computers read language
+
+reinforcement learning uses rewards
+
+data science finds patterns
+
+ux design makes products easy
+
+a startup launches a new idea
+
+product design shapes user experience
+
+computer vision reads images
+
+quantum computing uses quantum bits
+
+music theory explains notes
+
+learn coding to build stuff
+
+data is important for decisions
+
+design is important for clarity
+
+science helps explain things
+
+documentation keeps info clear
+
+sharing knowledge helps others
+
+collaboration makes work easier
+
+practice improves skill
+
+curiosity leads to learning
+
+sleep keeps your brain healthy
+
+build an app by planning it
+
+improve writing by editing
+
+organize notes with folders
+
+stay motivated with small goals
+
+learn faster by doing more
+
+solve problems step by step
+
+debug by testing one thing
+
+make it better by refining
+
+find answers by searching
+
+get help from someone
+
+ai is not the same as ml
+
+ui is how it looks, ux is how it feels
+
+data is raw, information is useful
+
+frontend is what users see, backend is what runs it
+
+an app can be a website too
+
+code and script are both instructions
+
+design and art can overlap
+
+science and engineering solve different questions
+
+tech is tools, tools make tasks easier
+
+hardware is physical, software is digital
+
+keyboards help type words
+
+screens show info
+
+headphones play sound
+
+apps make tasks easier
+
+social media shares messages
+
+search engines find sites
+
+emails send messages
+
+passwords keep accounts safe
+
+usernames identify people
+
+updates add fixes
+
+a phone uses circuits and software
+
+the internet links devices
+
+wifi sends data wirelessly
+
+bluetooth connects devices nearby
+
+a battery stores power
+
+a camera captures images
+
+streaming sends media live
+
+a microphone catches sound
+
+a speaker plays audio
+
+a printer copies documents
+
+a server hosts services
+
+a browser displays websites
+
+a framework helps build apps
+
+a library shares reusable code
+
+a protocol is a communication rule
+
+an api connects software
+
+a sensor detects changes
+
+a chip runs operations
+
+a circuit moves electricity
+
+a plugin adds features
+
+sound travels as waves
+
+light bends in glass
+
+metal rusts with air and water
+
+ice melts with heat
+
+gravity pulls objects
+
+heat moves from hot to cold
+
+time feels fast when busy
+
+music touches feelings
+
+art expresses ideas
+
+math makes patterns clear
+
+choose colors that work together
+
+balance a layout with space
+
+pick fonts that are readable
+
+name a project clearly
+
+set up a workspace cleanly
+
+charge a device before use
+
+protect privacy with passwords
+
+save files often
+
+share links carefully
+
+join calls with a link
+
+a chord is notes played together
+
+a beat is the pulse of a song
+
+a melody is a tune
+
+rhythm is timing
+
+harmony is layers of sound
+
+tempo is speed
+
+a mix blends tracks
+
+a genre is a style
+
+a producer guides songs
+
+a songwriter writes lyrics
+
+practice makes progress
+
+feedback helps improve
+
+version control saves history
+
+backup protects work
+
+testing catches errors
+
+patience helps learning
+
+ideas grow over time
+
+empathy helps users
+
+learning never stops
+
+questions lead to answers
+
+study effectively with short sessions
+
+manage time with a planner
+
+avoid distraction by focusing
+
+stay focused with breaks
+
+prepare for tests with review
+
+learn by doing projects
+
+learn from mistakes
+
+join a team to collaborate
+
+ask for feedback kindly
+
+set a goal and follow it
+
+a prototype is an early version
+
+a beta version is a test release
+
+a bug is an error
+
+a patch is a fix
+
+hello world is a first program
+
+a repository stores code
+
+a pitch shares an idea
+
+a persona represents a user
+
+a podcast is recorded talk
+
+a playlist is a music list
+
+planets are studied to learn space
+
+space is explored for discovery
+
+history is learned from the past
+
+cells are studied for life
+
+climate matters for earth
+
+engineers build useful things
+
+artists create meaning
+
+doctors keep people healthy
+
+teachers help people learn
+
+friends help each other
+
+keep learning by staying curious
+
+stay curious by asking why
+
+stay creative with practice
+
+stay kind by helping others
+
+stay patient with progress
+
+stay calm with deep breaths
+
+stay energized with rest
+
+stay organized with lists
+
+stay healthy with meals
+
+stay smart by reading
+
+virtual reality feels like being inside
+
+augmented reality adds digital items
+
+a chatbot chats instantly
+
+a search engine finds results
+
+a social network connects people
+
+a recommendation system suggests things
+
+a sensor network collects data
+
+an interface lets you interact
+
+a dashboard shows status
+
+a smart home controls devices
+
+songs stick because they are catchy
+
+designs feel nice when simple
+
+tools help more when easy
+
+questions matter when clear
+
+problems repeat when not fixed
+
+solutions fail when rushed
+
+ideas spread when shared
+
+teams win when they work together
+
+projects end early when planned
+
+experiments work when measured

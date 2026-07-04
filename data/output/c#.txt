@@ -1,0 +1,131 @@
+namespace TrainingData
+{
+    // === Enums ===
+    enum Status { Active, Inactive, Pending }
+
+// === Interfaces ===
+    interface IAnimal
+    {
+        string Name { get; }
+        string Speak();
+    }
+
+// === Derived Class ===
+    class Dog : Animal
+    {
+        public string Breed { get; }
+        public Dog(string name, string breed) : base(name)
+        {
+            Breed = breed;
+        }
+        public override string Speak() => $"{Name} barks!";
+        public static string Info() => "Dogs are loyal.";
+    }
+
+// === Delegates and Events ===
+    delegate void Notify(string message);
+    class Publisher
+    {
+        public event Notify OnNotify;
+        public void RaiseEvent(string msg) => OnNotify?.Invoke(msg);
+    }
+
+class Program
+    {
+        static async Task Main(string[] args)
+        {
+            Console.WriteLine("=== C# Training Data ===");
+
+// String interpolation
+            Console.WriteLine($"{name} is {age} years old.");
+
+// --- Lists and Collections ---
+            List<string> fruits = new List<string> { "apple", "banana", "orange" };
+            fruits.Add("grape");
+            fruits.Remove("banana");
+            Console.WriteLine($"Fruit count: {fruits.Count}");
+
+// --- Control Flow ---
+            if (age >= 18)
+                Console.WriteLine("Adult");
+            else
+                Console.WriteLine("Minor");
+
+switch (grade)
+            {
+                case 'A':
+                    Console.WriteLine("Excellent");
+                    break;
+                case 'B':
+                    Console.WriteLine("Good");
+                    break;
+                default:
+                    Console.WriteLine("OK");
+                    break;
+            }
+
+foreach (string fruit in fruits)
+                Console.Write(fruit + " ");
+
+Action<string> print = Console.WriteLine;
+            print("Hello from lambda.");
+
+// --- Classes and Objects ---
+            Dog myDog = new Dog("Rex", "German Shepherd");
+            Console.WriteLine(myDog.Speak());
+            Console.WriteLine(Dog.Info());
+
+Box<int> intBox = new Box<int>(42);
+            Console.WriteLine(intBox);
+
+// --- Delegates and Events ---
+            Publisher pub = new Publisher();
+            pub.OnNotify += (msg) => Console.WriteLine($"Event received: {msg}");
+            pub.RaiseEvent("Test message");
+
+var sorted = fruits.OrderBy(f => f.Length);
+            Console.WriteLine("Sorted by length: " + string.Join(", ", sorted));
+
+// --- Nullable Types ---
+            int? maybeNull = null;
+            maybeNull ??= 10;
+            Console.WriteLine(maybeNull);
+
+// --- File I/O ---
+            string path = "test.txt";
+            File.WriteAllText(path, "Hello, file system!");
+            string content = File.ReadAllText(path);
+            Console.WriteLine($"File content: {content}");
+
+// --- Async/Await ---
+            DataFetcher fetcher = new DataFetcher();
+            string fetched = await fetcher.FetchDataAsync("http://api.example.com");
+            Console.WriteLine(fetched);
+
+// --- Simple Algorithms ---
+            int[] arr = { 4, 2, 8, 5, 1 };
+            Array.Sort(arr);
+            Console.WriteLine("Sorted: " + string.Join(", ", arr));
+            int max = arr.Max();
+            Console.WriteLine("Max: " + max);
+
+// Fibonacci
+            static int Fibonacci(int n)
+            {
+                if (n <= 1) return n;
+                int a = 0, b = 1, temp;
+                for (int i = 2; i <= n; i++)
+                {
+                    temp = a + b;
+                    a = b;
+                    b = temp;
+                }
+                return b;
+            }
+            Console.WriteLine($"Fibonacci(7) = {Fibonacci(7)}");
+
+// --- Final Output ---
+            Console.WriteLine("C# training sample complete.");
+        }
+    }
+}

@@ -1,0 +1,130 @@
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Text.RegularExpressions;
+
+// === Structs ===
+    struct Point
+    {
+        public int X { get; set; }
+        public int Y { get; set; }
+        public Point(int x, int y) { X = x; Y = y; }
+        public override string ToString() => $"({X}, {Y})";
+        public static Point operator +(Point a, Point b) => new Point(a.X + b.X, a.Y + b.Y);
+    }
+
+// === Base Class ===
+    class Animal : IAnimal
+    {
+        public string Name { get; protected set; }
+        public Animal(string name) { Name = name; }
+        public virtual string Speak() => $"{Name} makes a noise.";
+    }
+
+// === Generic Class ===
+    class Box<T>
+    {
+        public T Value { get; set; }
+        public Box(T value) => Value = value;
+        public override string ToString() => Value?.ToString() ?? "null";
+    }
+
+// === Async / Await Helpers ===
+    class DataFetcher
+    {
+        public async Task<string> FetchDataAsync(string url)
+        {
+            // Simulate async HTTP call
+            await Task.Delay(1000);
+            return $"Data from {url}";
+        }
+    }
+
+// --- Variables and Primitive Types ---
+            int age = 30;
+            double price = 19.99;
+            char grade = 'A';
+            bool isActive = true;
+            const float Pi = 3.14159f;
+            string name = "Alice";
+
+// --- Arrays ---
+            int[] numbers = { 1, 2, 3, 4, 5 };
+            int[,] matrix = { { 1, 2 }, { 3, 4 } };
+
+Dictionary<string, int> ages = new Dictionary<string, int>
+            {
+                {"Alice", 30},
+                {"Bob", 25}
+            };
+            ages["Charlie"] = 35;
+
+string category = age < 13 ? "Child" : age < 20 ? "Teen" : "Adult";
+            Console.WriteLine(category);
+
+// Loops
+            for (int i = 0; i < 3; i++)
+                Console.Write(i + " ");
+            Console.WriteLine();
+
+// --- Functions and Lambdas ---
+            Func<int, int, int> add = (a, b) => a + b;
+            Console.WriteLine($"Add(2,3) = {add(2, 3)}");
+
+// Local function
+            int Multiply(int a, int b) => a * b;
+            Console.WriteLine(Multiply(4, 5));
+
+Point p1 = new Point(3, 4);
+            Point p2 = new Point(1, 2);
+            Point sum = p1 + p2;
+            Console.WriteLine(sum);
+
+// --- Interfaces ---
+            IAnimal animal = myDog; // polymorphism
+            Console.WriteLine(animal.Speak());
+
+// --- LINQ ---
+            var longFruits = fruits.Where(f => f.Length > 5).Select(f => f.ToUpper());
+            Console.WriteLine("Long fruits: " + string.Join(", ", longFruits));
+
+var fruitGroups = fruits.GroupBy(f => f[0]);
+            foreach (var group in fruitGroups)
+                Console.WriteLine($"Fruits starting with {group.Key}: {string.Join(", ", group)}");
+
+// --- Error Handling ---
+            try
+            {
+                throw new InvalidOperationException("Something went wrong");
+            }
+            catch (InvalidOperationException ex)
+            {
+                Console.WriteLine($"Caught: {ex.Message}");
+            }
+            finally
+            {
+                Console.WriteLine("Finally block executed.");
+            }
+
+// --- Regular Expressions ---
+            string email = "user@example.com";
+            Regex emailRegex = new Regex(@"^[^\s@]+@[^\s@]+\.[^\s@]+$");
+            Console.WriteLine($"Email valid: {emailRegex.IsMatch(email)}");
+
+// --- Parallel Loop ---
+            Parallel.For(0, 5, i => Console.WriteLine("Parallel " + i));
+
+// Factorial
+            static int Factorial(int n) => n <= 1 ? 1 : n * Factorial(n - 1);
+            Console.WriteLine($"Factorial(5) = {Factorial(5)}");
+
+// Palindrome
+            static bool IsPalindrome(string str)
+            {
+                string cleaned = Regex.Replace(str.ToLower(), "[^a-z0-9]", "");
+                return cleaned == new string(cleaned.Reverse().ToArray());
+            }
+            Console.WriteLine(IsPalindrome("Racecar")); // true

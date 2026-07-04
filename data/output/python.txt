@@ -1,0 +1,305 @@
+# ===== Imports (Standard Library) =====
+import os
+import sys
+import re
+import json
+import math
+import random
+import datetime
+import collections
+import itertools
+import functools
+import typing
+import dataclasses
+import asyncio
+import threading
+import subprocess
+import argparse
+import logging
+import unittest
+from pathlib import Path
+from typing import List, Dict, Tuple, Optional, Union, Callable, Any
+
+# Variables and types
+name: str = "Alice"
+age: int = 30
+height: float = 1.68
+is_student: bool = False
+skills: List[str] = ["Python", "C++", "JavaScript"]
+
+# Strings
+greeting = f"Hello, {name}! You are {age} years old."
+multiline = """This is a
+multiline string."""
+print(greeting.lower().replace("alice", "Bob"))
+print("Length:", len(greeting))
+
+# ===== Data Structures =====
+# Lists
+numbers = [1, 2, 3, 4, 5]
+numbers.append(6)
+numbers.insert(0, 0)
+numbers.extend([7, 8])
+numbers.pop()
+print(numbers[2:5])
+# List comprehension
+squares = [x**2 for x in range(10) if x % 2 == 0]
+
+# Dictionaries
+person = {
+    "name": "John",
+    "age": 30,
+    "skills": ["Java", "SQL"]
+}
+person["email"] = "john@example.com"
+for key, value in person.items():
+    print(f"{key}: {value}")
+
+# ===== Control Flow =====
+if age >= 18:
+    print("Adult")
+elif age >= 13:
+    print("Teen")
+else:
+    print("Child")
+
+# Loops
+for i in range(5):
+    print(i, end=" ")
+print()
+
+# ===== Functions =====
+def add(a: int, b: int) -> int:
+    """Return sum of two integers."""
+    return a + b
+
+# Variable-length arguments
+def sum_all(*args: int) -> int:
+    return sum(args)
+
+# ===== Lambda Functions =====
+square = lambda x: x**2
+print(square(5))
+add_lambda = lambda a, b: a + b
+print(add_lambda(3, 4))
+
+# ===== Comprehensions =====
+# List
+squared = [x**2 for x in range(10)]
+# Dict
+word_lengths = {word: len(word) for word in ["apple", "banana", "cherry"]}
+# Set
+unique = {x for x in [1,2,2,3,4,4,5]}
+
+# Generator expression
+gen = (x**2 for x in range(10))
+print(next(gen))
+
+@timer
+def slow_function():
+    time.sleep(0.1)
+
+@repeat(3)
+def greet_decorated(name):
+    print(f"Hello, {name}!")
+
+# Using contextlib
+from contextlib import contextmanager
+@contextmanager
+def open_file(filename, mode):
+    f = open(filename, mode)
+    try:
+        yield f
+    finally:
+        f.close()
+
+def __init__(self, name: str):
+        self.name = name
+        Animal.species_count += 1
+
+@staticmethod
+    def is_animal() -> bool:
+        return True
+
+def __repr__(self) -> str:
+        return f"Animal({self.name!r})"
+
+def speak(self) -> str:
+        return f"{self.name} barks."
+
+# Properties
+class Temperature:
+    def __init__(self, celsius):
+        self._celsius = celsius
+
+@celsius.setter
+    def celsius(self, value):
+        if value < -273.15:
+            raise ValueError("Temperature below absolute zero")
+        self._celsius = value
+
+# Magic methods example
+class Vector:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+def __str__(self):
+        return f"({self.x}, {self.y})"
+
+def average(self) -> float:
+        if not self.grades:
+            return 0.0
+        return sum(self.grades) / len(self.grades)
+
+def push(self, item: T) -> None:
+        self._items.append(item)
+
+# ===== Exception Handling =====
+try:
+    result = 10 / 0
+except ZeroDivisionError as e:
+    print(f"Error: {e}")
+    raise  # re-raise if needed
+finally:
+    print("Cleanup")
+
+# ===== File I/O =====
+# Reading
+with open("example.txt", "r") as f:
+    content = f.read()
+# Writing
+with open("output.txt", "w") as f:
+    f.write("Hello, file!")
+# Pathlib (modern)
+path = Path("log.txt")
+if path.exists():
+    print(path.read_text())
+
+# ===== Regular Expressions =====
+pattern = re.compile(r'\b\w{5,}\b')  # words at least 5 chars
+matches = pattern.findall("The quick brown fox jumps over the lazy dog")
+print(matches)
+
+cnt = Counter("abracadabra")
+print(cnt.most_common(3))
+
+dq = deque([1,2,3])
+dq.appendleft(0)
+dq.pop()
+
+# Infinite cycling (with islice)
+colors = cycle(["red", "green", "blue"])
+for _ in range(5):
+    print(next(colors), end=" ")
+
+@lru_cache(maxsize=128)
+def fib(n: int) -> int:
+    if n <= 1:
+        return n
+    return fib(n-1) + fib(n-2)
+
+# Partial application
+from functools import partial
+base_2 = partial(int, base=2)
+print(base_2("1010"))
+
+# ===== Asyncio (Async/Await) =====
+async def fetch_data(url: str) -> str:
+    print(f"Fetching {url}...")
+    await asyncio.sleep(1)  # simulate I/O
+    return f"Data from {url}"
+
+# Run async function (uncomment to run)
+# asyncio.run(main_async())
+
+t1 = threading.Thread(target=worker, args=("A",))
+t2 = threading.Thread(target=worker, args=("B",))
+# t1.start(); t2.start(); t1.join(); t2.join()
+
+# ===== Command-line Arguments (argparse) =====
+parser = argparse.ArgumentParser(description="Sample program")
+parser.add_argument("-n", "--name", type=str, help="Your name")
+# args = parser.parse_args()
+
+# ===== Unit Testing (unittest) =====
+class TestMath(unittest.TestCase):
+    def test_add(self):
+        self.assertEqual(add(2, 3), 5)
+
+# ===== Algorithms =====
+def is_prime(n: int) -> bool:
+    if n < 2:
+        return False
+    for i in range(2, int(math.sqrt(n)) + 1):
+        if n % i == 0:
+            return False
+    return True
+
+def merge_sort(arr: List[int]) -> List[int]:
+    if len(arr) <= 1:
+        return arr
+    mid = len(arr) // 2
+    left = merge_sort(arr[:mid])
+    right = merge_sort(arr[mid:])
+    return merge(left, right)
+
+# Recursion & memoization example
+# Already shown with fib, but also DP approach
+def fibonacci_dp(n: int) -> int:
+    if n <= 1:
+        return n
+    dp = [0] * (n + 1)
+    dp[1] = 1
+    for i in range(2, n + 1):
+        dp[i] = dp[i-1] + dp[i-2]
+    return dp[n]
+
+class Database(metaclass=SingletonMeta):
+    def __init__(self):
+        self.connection = "Connected"
+
+class Item:
+    price = PositiveNumber()
+    def __init__(self, price):
+        self.price = price
+
+# ===== F-strings with various formats =====
+val = 255
+print(f"Hex: {val:#x}, Binary: {val:#b}, Percentage: {0.123:.1%}")
+
+# ===== File system operations with pathlib =====
+data_dir = Path("data")
+data_dir.mkdir(exist_ok=True)
+for file in data_dir.glob("*.txt"):
+    print(file.name)
+
+# ===== Object serialization (pickle) =====
+import pickle
+data_serialized = pickle.dumps(person)
+person_loaded = pickle.loads(data_serialized)
+
+# ===== Decorators with functools.wraps =====
+from functools import wraps
+def my_decorator(func):
+    @wraps(func)
+    def wrapper(*args, **kwargs):
+        return func(*args, **kwargs)
+    return wrapper
+
+# ===== Monkey patching (demonstration) =====
+# def new_method(self): return "patched"
+# SomeClass.method = new_method
+
+# ===== Use of match / case with pattern matching =====
+command = ["go", "north"]
+match command:
+    case ["go", direction]:
+        print(f"Going {direction}")
+    case ["take", *items]:
+        print(f"Taking {', '.join(items)}")
+    case _:
+        print("Unknown command")
+
+# ===== Summary =====
+print("Python training data complete. Contains 95% of modern Python features.")

@@ -1,0 +1,33 @@
+It is a program that learns patterns from data.
+
+Yes. It learns features that distinguish them.
+
+Correct. It is pattern recognition that can appear intelligent.
+
+It is a system of layers that process numbers to learn patterns.
+
+Yes. Data is converted into numerical form for processing.
+
+Yes. Small models are suitable for limited hardware.
+
+Yes. If trained on both, it can handle mixed tasks.
+
+It can learn at the character level, capturing structure and formatting.
+
+Yes. That is called fine-tuning.
+
+It can, but careful training reduces forgetting.
+
+You can add attention mechanisms.
+
+Memory is fast but forgetful. Attention is slower but more accurate.
+
+Yes. Hybrid models combine both advantages.
+
+Not alone. It needs external loops and feedback.
+
+Feedback loops and interaction with tools.
+
+Yes. The surrounding system defines behavior.
+
+A small, useful, and specialized assistant.

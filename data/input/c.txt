@@ -1,0 +1,117 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
+#include <math.h>
+#include <time.h>
+#include <stdbool.h>
+#include <assert.h>
+
+// === Structs ===
+typedef struct {
+    int x;
+    int y;
+} Point;
+
+// === Main Function ===
+int main() {
+    printf("=== C Training Data ===\n");
+
+printf("Name: %s, Age: %d\n", name, age);
+    printf("Price: %.2f\n", price);
+
+int matrix[2][3] = {{1,2,3}, {4,5,6}};
+
+// --- Pointers ---
+    int x = 10;
+    int *ptr = &x;
+    printf("Pointer value: %d\n", *ptr);
+    int *dynamicArr = malloc(5 * sizeof(int));
+    for (int i = 0; i < 5; i++)
+        dynamicArr[i] = i * 10;
+    free(dynamicArr);
+
+// --- Structs ---
+    Point p1 = {3, 4};
+    Point p2 = {.x = 1, .y = 2};
+    printf("Point: (%d, %d)\n", p1.x, p1.y);
+
+char *category = age < 13 ? "Child" : age < 20 ? "Teen" : "Adult";
+    puts(category);
+
+for (int i = 0; i < 5; i++)
+        printf("%d ", i);
+    printf("\n");
+
+// --- Functions ---
+    printf("Add: %d\n", add(2, 3));
+    printf("Factorial(5): %d\n", factorial(5));
+    printf("Fibonacci(7): %d\n", fibonacci(7));
+    printf("Is 17 prime: %d\n", isPrime(17));
+
+int arr2[] = {9, 3, 6, 2};
+    qsort(arr2, 4, sizeof(int), comparator);
+    printf("qsort sorted: ");
+    printArray(arr2, 4);
+
+// --- Math ---
+    printf("sqrt(16) = %f\n", sqrt(16));
+    printf("pow(2,8) = %f\n", pow(2, 8));
+
+// --- Dynamic Memory ---
+    dynamicMemoryExample();
+
+return 0;
+}
+
+int add(int a, int b) {
+    return a + b;
+}
+
+// Recursive factorial
+int factorial(int n) {
+    return n <= 1 ? 1 : n * factorial(n - 1);
+}
+
+// Prime check
+bool isPrime(int n) {
+    if (n < 2) return false;
+    for (int i = 2; i * i <= n; i++)
+        if (n % i == 0) return false;
+    return true;
+}
+
+// Reverse a string in place
+void reverseString(char *str) {
+    size_t len = strlen(str);
+    for (size_t i = 0; i < len / 2; i++) {
+        char temp = str[i];
+        str[i] = str[len - i - 1];
+        str[len - i - 1] = temp;
+    }
+}
+
+// Dynamic memory example
+void dynamicMemoryExample() {
+    int *arr = malloc(10 * sizeof(int));
+    if (!arr) {
+        perror("malloc failed");
+        return;
+    }
+    for (int i = 0; i < 10; i++)
+        arr[i] = i;
+    // realloc example
+    int *tmp = realloc(arr, 20 * sizeof(int));
+    if (tmp)
+        arr = tmp;
+    free(arr);
+}
+
+fp = fopen("example.txt", "r");
+    if (fp) {
+        char buffer[100];
+        while (fgets(buffer, sizeof(buffer), fp))
+            printf("Read: %s", buffer);
+        fclose(fp);
+    }
+}

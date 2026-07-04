@@ -1,0 +1,1970 @@
+### INPUT:
+what is the plural of family?
+### OUTPUT:
+the plural of family is families.
+
+### INPUT:
+is 'cold' an adjective?
+### OUTPUT:
+yes, 'cold' is an adjective.
+
+### INPUT:
+is 'bright' a noun?
+### OUTPUT:
+no, 'bright' is an adjective, not a noun.
+
+### INPUT:
+is 'give' a verb?
+### OUTPUT:
+yes, 'give' is a verb.
+
+### INPUT:
+is 'despite' a preposition?
+### OUTPUT:
+yes, 'despite' is a preposition.
+
+### INPUT:
+is 'by' an adverb?
+### OUTPUT:
+no, 'by' is a preposition, not an adverb.
+
+### INPUT:
+should I use 'a' or 'an' before 'good'?
+### OUTPUT:
+use 'a' before 'good'.
+
+### INPUT:
+is 'narrow' an adjective?
+### OUTPUT:
+yes, 'narrow' is an adjective.
+
+### INPUT:
+should I use 'a' or 'an' before 'yellow'?
+### OUTPUT:
+use 'a' before 'yellow'.
+
+### INPUT:
+what is the singular of cities?
+### OUTPUT:
+the singular of cities is city.
+
+### INPUT:
+how do you say 'speak' for he, she, or it?
+### OUTPUT:
+for he, she, or it, you say 'speaks'.
+
+### INPUT:
+what is the singular of women?
+### OUTPUT:
+the singular of women is woman.
+
+### INPUT:
+how do you say 'go' for he, she, or it?
+### OUTPUT:
+for he, she, or it, you say 'goes'.
+
+### INPUT:
+how do you say 'walk' for he, she, or it?
+### OUTPUT:
+for he, she, or it, you say 'walks'.
+
+### INPUT:
+how do you say 'talk' for he, she, or it?
+### OUTPUT:
+for he, she, or it, you say 'talks'.
+
+### INPUT:
+is 'take' an adjective?
+### OUTPUT:
+no, 'take' is a verb, not an adjective.
+
+### INPUT:
+should I use 'a' or 'an' before 'strong'?
+### OUTPUT:
+use 'a' before 'strong'.
+
+### INPUT:
+should I use 'a' or 'an' before 'star'?
+### OUTPUT:
+use 'a' before 'star'.
+
+### INPUT:
+is 'since' a preposition?
+### OUTPUT:
+yes, 'since' is a preposition.
+
+### INPUT:
+is 'young' an adverb?
+### OUTPUT:
+no, 'young' is an adjective, not an adverb.
+
+### INPUT:
+should I use 'a' or 'an' before 'house'?
+### OUTPUT:
+use 'a' before 'house'.
+
+### INPUT:
+should I use 'a' or 'an' before 'short'?
+### OUTPUT:
+use 'a' before 'short'.
+
+### INPUT:
+what is the past tense of say?
+### OUTPUT:
+the past tense of say is said.
+
+### INPUT:
+is 'door' a noun?
+### OUTPUT:
+yes, 'door' is a noun.
+
+### INPUT:
+is 'from' an adjective?
+### OUTPUT:
+no, 'from' is a preposition, not an adjective.
+
+### INPUT:
+what is the plural of book?
+### OUTPUT:
+the plural of book is books.
+
+### INPUT:
+should I use 'a' or 'an' before 'heavy'?
+### OUTPUT:
+use 'a' before 'heavy'.
+
+### INPUT:
+is 'star' a verb?
+### OUTPUT:
+no, 'star' is a noun, not a verb.
+
+### INPUT:
+what is the -ing form of hear?
+### OUTPUT:
+the -ing form of hear is hearing.
+
+### INPUT:
+should I use 'a' or 'an' before 'air'?
+### OUTPUT:
+use 'an' before 'air'.
+
+### INPUT:
+is 'country' an adjective?
+### OUTPUT:
+no, 'country' is a noun, not an adjective.
+
+### INPUT:
+what is the singular of fish?
+### OUTPUT:
+the singular of fish is fish.
+
+### INPUT:
+what is the singular of groups?
+### OUTPUT:
+the singular of groups is group.
+
+### INPUT:
+what is the -ing form of see?
+### OUTPUT:
+the -ing form of see is seeing.
+
+### INPUT:
+what is the -ing form of make?
+### OUTPUT:
+the -ing form of make is making.
+
+### INPUT:
+is 'team' an adverb?
+### OUTPUT:
+no, 'team' is a noun, not an adverb.
+
+### INPUT:
+should I use 'a' or 'an' before 'world'?
+### OUTPUT:
+use 'a' before 'world'.
+
+### INPUT:
+is 'up' a preposition?
+### OUTPUT:
+yes, 'up' is a preposition.
+
+### INPUT:
+is 'about' an adverb?
+### OUTPUT:
+no, 'about' is a preposition, not an adverb.
+
+### INPUT:
+what is the singular of teams?
+### OUTPUT:
+the singular of teams is team.
+
+### INPUT:
+should I use 'a' or 'an' before 'red'?
+### OUTPUT:
+use 'a' before 'red'.
+
+### INPUT:
+what is the -ing form of have?
+### OUTPUT:
+the -ing form of have is having.
+
+### INPUT:
+is 'say' a preposition?
+### OUTPUT:
+no, 'say' is a verb, not a preposition.
+
+### INPUT:
+what is the -ing form of eat?
+### OUTPUT:
+the -ing form of eat is eating.
+
+### INPUT:
+should I use 'a' or 'an' before 'old'?
+### OUTPUT:
+use 'an' before 'old'.
+
+### INPUT:
+is 'fire' an adverb?
+### OUTPUT:
+no, 'fire' is a noun, not an adverb.
+
+### INPUT:
+is 'table' a noun?
+### OUTPUT:
+yes, 'table' is a noun.
+
+### INPUT:
+what is the plural of rock?
+### OUTPUT:
+the plural of rock is rocks.
+
+### INPUT:
+should I use 'a' or 'an' before 'poor'?
+### OUTPUT:
+use 'a' before 'poor'.
+
+### INPUT:
+is 'tree' a noun?
+### OUTPUT:
+yes, 'tree' is a noun.
+
+### INPUT:
+is 'hot' a noun?
+### OUTPUT:
+no, 'hot' is an adjective, not a noun.
+
+### INPUT:
+how do you say 'look' for he, she, or it?
+### OUTPUT:
+for he, she, or it, you say 'looks'.
+
+### INPUT:
+is 'go' an adjective?
+### OUTPUT:
+no, 'go' is a verb, not an adjective.
+
+### INPUT:
+should I use 'a' or 'an' before 'bird'?
+### OUTPUT:
+use 'a' before 'bird'.
+
+### INPUT:
+is 'happy' an adjective?
+### OUTPUT:
+yes, 'happy' is an adjective.
+
+### INPUT:
+is 'during' an adjective?
+### OUTPUT:
+no, 'during' is a preposition, not an adjective.
+
+### INPUT:
+is 'closed' a noun?
+### OUTPUT:
+no, 'closed' is an adjective, not a noun.
+
+### INPUT:
+what is the singular of chairs?
+### OUTPUT:
+the singular of chairs is chair.
+
+### INPUT:
+what is the past tense of walk?
+### OUTPUT:
+the past tense of walk is walked.
+
+### INPUT:
+what is the singular of people?
+### OUTPUT:
+the singular of people is person.
+
+### INPUT:
+should I use 'a' or 'an' before 'young'?
+### OUTPUT:
+use 'a' before 'young'.
+
+### INPUT:
+what is the singular of houses?
+### OUTPUT:
+the singular of houses is house.
+
+### INPUT:
+is 'then' an adverb?
+### OUTPUT:
+yes, 'then' is an adverb.
+
+### INPUT:
+is 'everywhere' an adverb?
+### OUTPUT:
+yes, 'everywhere' is an adverb.
+
+### INPUT:
+is 'window' a noun?
+### OUTPUT:
+yes, 'window' is a noun.
+
+### INPUT:
+is 'nearly' an adverb?
+### OUTPUT:
+yes, 'nearly' is an adverb.
+
+### INPUT:
+is 'until' a verb?
+### OUTPUT:
+no, 'until' is a preposition, not a verb.
+
+### INPUT:
+is 'been' an adjective?
+### OUTPUT:
+no, 'been' is a verb, not an adjective.
+
+### INPUT:
+is 'among' a preposition?
+### OUTPUT:
+yes, 'among' is a preposition.
+
+### INPUT:
+what is the plural of man?
+### OUTPUT:
+the plural of man is men.
+
+### INPUT:
+is 'dark' an adverb?
+### OUTPUT:
+no, 'dark' is an adjective, not an adverb.
+
+### INPUT:
+is 'red' an adjective?
+### OUTPUT:
+yes, 'red' is an adjective.
+
+### INPUT:
+is 'speak' a verb?
+### OUTPUT:
+yes, 'speak' is a verb.
+
+### INPUT:
+should I use 'a' or 'an' before 'empty'?
+### OUTPUT:
+use 'an' before 'empty'.
+
+### INPUT:
+what is the plural of flower?
+### OUTPUT:
+the plural of flower is flowers.
+
+### INPUT:
+is 'strong' an adverb?
+### OUTPUT:
+no, 'strong' is an adjective, not an adverb.
+
+### INPUT:
+what is the -ing form of take?
+### OUTPUT:
+the -ing form of take is taking.
+
+### INPUT:
+is 'across' a preposition?
+### OUTPUT:
+yes, 'across' is a preposition.
+
+### INPUT:
+is 'nowhere' a noun?
+### OUTPUT:
+no, 'nowhere' is an adverb, not a noun.
+
+### INPUT:
+what is the -ing form of give?
+### OUTPUT:
+the -ing form of give is giving.
+
+### INPUT:
+is 'yellow' a pronoun?
+### OUTPUT:
+no, 'yellow' is an adjective, not a pronoun.
+
+### INPUT:
+should I use 'a' or 'an' before 'closed'?
+### OUTPUT:
+use 'a' before 'closed'.
+
+### INPUT:
+is 'rich' an adjective?
+### OUTPUT:
+yes, 'rich' is an adjective.
+
+### INPUT:
+should I use 'a' or 'an' before 'dead'?
+### OUTPUT:
+use 'a' before 'dead'.
+
+### INPUT:
+is 'talk' a pronoun?
+### OUTPUT:
+no, 'talk' is a verb, not a pronoun.
+
+### INPUT:
+what is the past tense of do?
+### OUTPUT:
+the past tense of do is did.
+
+### INPUT:
+is 'am' a verb?
+### OUTPUT:
+yes, 'am' is a verb.
+
+### INPUT:
+should I use 'a' or 'an' before 'flower'?
+### OUTPUT:
+use 'a' before 'flower'.
+
+### INPUT:
+is 'road' a pronoun?
+### OUTPUT:
+no, 'road' is a noun, not a pronoun.
+
+### INPUT:
+is 'out' an adverb?
+### OUTPUT:
+yes, 'out' is an adverb.
+
+### INPUT:
+is 'look' an adjective?
+### OUTPUT:
+no, 'look' is a verb, not an adjective.
+
+### INPUT:
+should I use 'a' or 'an' before 'road'?
+### OUTPUT:
+use 'a' before 'road'.
+
+### INPUT:
+should I use 'a' or 'an' before 'group'?
+### OUTPUT:
+use 'a' before 'group'.
+
+### INPUT:
+should I use 'a' or 'an' before 'stone'?
+### OUTPUT:
+use 'a' before 'stone'.
+
+### INPUT:
+should I use 'a' or 'an' before 'sun'?
+### OUTPUT:
+use 'a' before 'sun'.
+
+### INPUT:
+is 'soon' an adverb?
+### OUTPUT:
+yes, 'soon' is an adverb.
+
+### INPUT:
+what is the -ing form of jump?
+### OUTPUT:
+the -ing form of jump is jumping.
+
+### INPUT:
+is 'off' a preposition?
+### OUTPUT:
+yes, 'off' is a preposition.
+
+### INPUT:
+is 'full' an adjective?
+### OUTPUT:
+yes, 'full' is an adjective.
+
+### INPUT:
+should I use 'a' or 'an' before 'fast'?
+### OUTPUT:
+use 'a' before 'fast'.
+
+### INPUT:
+what is the plural of house?
+### OUTPUT:
+the plural of house is houses.
+
+### INPUT:
+is 'high' a preposition?
+### OUTPUT:
+no, 'high' is an adjective, not a preposition.
+
+### INPUT:
+what is the -ing form of look?
+### OUTPUT:
+the -ing form of look is looking.
+
+### INPUT:
+should I use 'a' or 'an' before 'warm'?
+### OUTPUT:
+use 'a' before 'warm'.
+
+### INPUT:
+should I use 'a' or 'an' before 'black'?
+### OUTPUT:
+use 'a' before 'black'.
+
+### INPUT:
+is 'alive' an adjective?
+### OUTPUT:
+yes, 'alive' is an adjective.
+
+### INPUT:
+is 'light' an adjective?
+### OUTPUT:
+yes, 'light' is an adjective.
+
+### INPUT:
+should I use 'a' or 'an' before 'narrow'?
+### OUTPUT:
+use 'a' before 'narrow'.
+
+### INPUT:
+what is the singular of dogs?
+### OUTPUT:
+the singular of dogs is dog.
+
+### INPUT:
+is 'with' an adjective?
+### OUTPUT:
+no, 'with' is a preposition, not an adjective.
+
+### INPUT:
+should I use 'a' or 'an' before 'dog'?
+### OUTPUT:
+use 'a' before 'dog'.
+
+### INPUT:
+is 'late' an adverb?
+### OUTPUT:
+yes, 'late' is an adverb.
+
+### INPUT:
+is 'sometimes' an adverb?
+### OUTPUT:
+yes, 'sometimes' is an adverb.
+
+### INPUT:
+is 'far' a pronoun?
+### OUTPUT:
+no, 'far' is a preposition, not a pronoun.
+
+### INPUT:
+should I use 'a' or 'an' before 'light'?
+### OUTPUT:
+use 'a' before 'light'.
+
+### INPUT:
+is 'very' a pronoun?
+### OUTPUT:
+no, 'very' is an adverb, not a pronoun.
+
+### INPUT:
+is 'stand' a verb?
+### OUTPUT:
+yes, 'stand' is a verb.
+
+### INPUT:
+what is the singular of pens?
+### OUTPUT:
+the singular of pens is pen.
+
+### INPUT:
+should I use 'a' or 'an' before 'window'?
+### OUTPUT:
+use 'a' before 'window'.
+
+### INPUT:
+should I use 'a' or 'an' before 'book'?
+### OUTPUT:
+use 'a' before 'book'.
+
+### INPUT:
+should I use 'a' or 'an' before 'low'?
+### OUTPUT:
+use 'a' before 'low'.
+
+### INPUT:
+is 'family' an adverb?
+### OUTPUT:
+no, 'family' is a noun, not an adverb.
+
+### INPUT:
+is 'white' an adjective?
+### OUTPUT:
+yes, 'white' is an adjective.
+
+### INPUT:
+is 'poor' an adjective?
+### OUTPUT:
+yes, 'poor' is an adjective.
+
+### INPUT:
+is 'sit' a verb?
+### OUTPUT:
+yes, 'sit' is a verb.
+
+### INPUT:
+is 'town' a pronoun?
+### OUTPUT:
+no, 'town' is a noun, not a pronoun.
+
+### INPUT:
+is 'black' an adjective?
+### OUTPUT:
+yes, 'black' is an adjective.
+
+### INPUT:
+what is the plural of pen?
+### OUTPUT:
+the plural of pen is pens.
+
+### INPUT:
+is 'never' an adverb?
+### OUTPUT:
+yes, 'never' is an adverb.
+
+### INPUT:
+is 'rather' a preposition?
+### OUTPUT:
+no, 'rather' is an adverb, not a preposition.
+
+### INPUT:
+should I use 'a' or 'an' before 'earth'?
+### OUTPUT:
+use 'an' before 'earth'.
+
+### INPUT:
+is 'see' a verb?
+### OUTPUT:
+yes, 'see' is a verb.
+
+### INPUT:
+what is the past tense of go?
+### OUTPUT:
+the past tense of go is went.
+
+### INPUT:
+what is the -ing form of say?
+### OUTPUT:
+the -ing form of say is saying.
+
+### INPUT:
+is 'near' a noun?
+### OUTPUT:
+no, 'near' is a preposition, not a noun.
+
+### INPUT:
+is 'slow' an adjective?
+### OUTPUT:
+yes, 'slow' is an adjective.
+
+### INPUT:
+is 'chair' a noun?
+### OUTPUT:
+yes, 'chair' is a noun.
+
+### INPUT:
+is 'dead' an adverb?
+### OUTPUT:
+no, 'dead' is an adjective, not an adverb.
+
+### INPUT:
+what is the -ing form of walk?
+### OUTPUT:
+the -ing form of walk is walking.
+
+### INPUT:
+how do you say 'say' for he, she, or it?
+### OUTPUT:
+for he, she, or it, you say 'says'.
+
+### INPUT:
+what is the plural of day?
+### OUTPUT:
+the plural of day is days.
+
+### INPUT:
+should I use 'a' or 'an' before 'hard'?
+### OUTPUT:
+use 'a' before 'hard'.
+
+### INPUT:
+is 'now' a noun?
+### OUTPUT:
+no, 'now' is an adverb, not a noun.
+
+### INPUT:
+is 'woman' a noun?
+### OUTPUT:
+yes, 'woman' is a noun.
+
+### INPUT:
+should I use 'a' or 'an' before 'woman'?
+### OUTPUT:
+use 'a' before 'woman'.
+
+### INPUT:
+is 'quickly' an adverb?
+### OUTPUT:
+yes, 'quickly' is an adverb.
+
+### INPUT:
+what is the -ing form of run?
+### OUTPUT:
+the -ing form of run is running.
+
+### INPUT:
+is 'fast' an adverb?
+### OUTPUT:
+yes, 'fast' is an adverb.
+
+### INPUT:
+is 'past' an adverb?
+### OUTPUT:
+no, 'past' is a preposition, not an adverb.
+
+### INPUT:
+what is the plural of child?
+### OUTPUT:
+the plural of child is children.
+
+### INPUT:
+should I use 'a' or 'an' before 'rock'?
+### OUTPUT:
+use 'a' before 'rock'.
+
+### INPUT:
+how do you say 'have' for he, she, or it?
+### OUTPUT:
+for he, she, or it, you say 'has'.
+
+### INPUT:
+how do you say 'run' for he, she, or it?
+### OUTPUT:
+for he, she, or it, you say 'runs'.
+
+### INPUT:
+should I use 'a' or 'an' before 'moon'?
+### OUTPUT:
+use 'a' before 'moon'.
+
+### INPUT:
+what is the plural of town?
+### OUTPUT:
+the plural of town is towns.
+
+### INPUT:
+what is the singular of friends?
+### OUTPUT:
+the singular of friends is friend.
+
+### INPUT:
+is 'easily' a verb?
+### OUTPUT:
+no, 'easily' is an adverb, not a verb.
+
+### INPUT:
+is 'new' a preposition?
+### OUTPUT:
+no, 'new' is an adjective, not a preposition.
+
+### INPUT:
+is 'through' a noun?
+### OUTPUT:
+no, 'through' is a preposition, not a noun.
+
+### INPUT:
+what is the plural of group?
+### OUTPUT:
+the plural of group is groups.
+
+### INPUT:
+is 'after' a preposition?
+### OUTPUT:
+yes, 'after' is a preposition.
+
+### INPUT:
+should I use 'a' or 'an' before 'open'?
+### OUTPUT:
+use 'an' before 'open'.
+
+### INPUT:
+what is the singular of tables?
+### OUTPUT:
+the singular of tables is table.
+
+### INPUT:
+what is the singular of trees?
+### OUTPUT:
+the singular of trees is tree.
+
+### INPUT:
+what is the past tense of see?
+### OUTPUT:
+the past tense of see is saw.
+
+### INPUT:
+should I use 'a' or 'an' before 'table'?
+### OUTPUT:
+use 'a' before 'table'.
+
+### INPUT:
+is 'night' a preposition?
+### OUTPUT:
+no, 'night' is a noun, not a preposition.
+
+### INPUT:
+should I use 'a' or 'an' before 'happy'?
+### OUTPUT:
+use 'a' before 'happy'.
+
+### INPUT:
+is 'behind' a noun?
+### OUTPUT:
+no, 'behind' is a preposition, not a noun.
+
+### INPUT:
+what is the singular of flowers?
+### OUTPUT:
+the singular of flowers is flower.
+
+### INPUT:
+is 'rarely' an adverb?
+### OUTPUT:
+yes, 'rarely' is an adverb.
+
+### INPUT:
+what is the plural of year?
+### OUTPUT:
+the plural of year is years.
+
+### INPUT:
+is 'warm' a noun?
+### OUTPUT:
+no, 'warm' is an adjective, not a noun.
+
+### INPUT:
+is 'to' an adjective?
+### OUTPUT:
+no, 'to' is a preposition, not an adjective.
+
+### INPUT:
+is 'beside' an adverb?
+### OUTPUT:
+no, 'beside' is a preposition, not an adverb.
+
+### INPUT:
+what is the past tense of speak?
+### OUTPUT:
+the past tense of speak is spoke.
+
+### INPUT:
+should I use 'a' or 'an' before 'cat'?
+### OUTPUT:
+use 'a' before 'cat'.
+
+### INPUT:
+is 'earth' a noun?
+### OUTPUT:
+yes, 'earth' is a noun.
+
+### INPUT:
+should I use 'a' or 'an' before 'fire'?
+### OUTPUT:
+use 'a' before 'fire'.
+
+### INPUT:
+is 'tell' a preposition?
+### OUTPUT:
+no, 'tell' is a verb, not a preposition.
+
+### INPUT:
+should I use 'a' or 'an' before 'new'?
+### OUTPUT:
+use 'a' before 'new'.
+
+### INPUT:
+should I use 'a' or 'an' before 'night'?
+### OUTPUT:
+use 'a' before 'night'.
+
+### INPUT:
+what is the singular of cats?
+### OUTPUT:
+the singular of cats is cat.
+
+### INPUT:
+is 'make' a verb?
+### OUTPUT:
+yes, 'make' is a verb.
+
+### INPUT:
+is 'at' a pronoun?
+### OUTPUT:
+no, 'at' is a preposition, not a pronoun.
+
+### INPUT:
+how do you say 'take' for he, she, or it?
+### OUTPUT:
+for he, she, or it, you say 'takes'.
+
+### INPUT:
+is 'weak' an adjective?
+### OUTPUT:
+yes, 'weak' is an adjective.
+
+### INPUT:
+should I use 'a' or 'an' before 'slow'?
+### OUTPUT:
+use 'a' before 'slow'.
+
+### INPUT:
+what is the past tense of take?
+### OUTPUT:
+the past tense of take is took.
+
+### INPUT:
+is 'pen' a noun?
+### OUTPUT:
+yes, 'pen' is a noun.
+
+### INPUT:
+should I use 'a' or 'an' before 'tree'?
+### OUTPUT:
+use 'a' before 'tree'.
+
+### INPUT:
+should I use 'a' or 'an' before 'team'?
+### OUTPUT:
+use 'a' before 'team'.
+
+### INPUT:
+should I use 'a' or 'an' before 'cold'?
+### OUTPUT:
+use 'a' before 'cold'.
+
+### INPUT:
+should I use 'a' or 'an' before 'year'?
+### OUTPUT:
+use 'a' before 'year'.
+
+### INPUT:
+what is the -ing form of drink?
+### OUTPUT:
+the -ing form of drink is drinking.
+
+### INPUT:
+what is the plural of car?
+### OUTPUT:
+the plural of car is cars.
+
+### INPUT:
+is 'do' a pronoun?
+### OUTPUT:
+no, 'do' is a verb, not a pronoun.
+
+### INPUT:
+what is the past tense of drink?
+### OUTPUT:
+the past tense of drink is drank.
+
+### INPUT:
+should I use 'a' or 'an' before 'full'?
+### OUTPUT:
+use 'a' before 'full'.
+
+### INPUT:
+is 'below' an adverb?
+### OUTPUT:
+no, 'below' is a preposition, not an adverb.
+
+### INPUT:
+what is the -ing form of talk?
+### OUTPUT:
+the -ing form of talk is talking.
+
+### INPUT:
+is 'on' a preposition?
+### OUTPUT:
+yes, 'on' is a preposition.
+
+### INPUT:
+is 'eat' a verb?
+### OUTPUT:
+yes, 'eat' is a verb.
+
+### INPUT:
+is 'such' an adverb?
+### OUTPUT:
+yes, 'such' is an adverb.
+
+### INPUT:
+what is the past tense of make?
+### OUTPUT:
+the past tense of make is made.
+
+### INPUT:
+should I use 'a' or 'an' before 'man'?
+### OUTPUT:
+use 'a' before 'man'.
+
+### INPUT:
+what is the singular of children?
+### OUTPUT:
+the singular of children is child.
+
+### INPUT:
+is 'man' a noun?
+### OUTPUT:
+yes, 'man' is a noun.
+
+### INPUT:
+is 'almost' an adverb?
+### OUTPUT:
+yes, 'almost' is an adverb.
+
+### INPUT:
+is 'sadly' an adverb?
+### OUTPUT:
+yes, 'sadly' is an adverb.
+
+### INPUT:
+is 'clean' an adjective?
+### OUTPUT:
+yes, 'clean' is an adjective.
+
+### INPUT:
+should I use 'a' or 'an' before 'sad'?
+### OUTPUT:
+use 'a' before 'sad'.
+
+### INPUT:
+should I use 'a' or 'an' before 'hot'?
+### OUTPUT:
+use 'a' before 'hot'.
+
+### INPUT:
+should I use 'a' or 'an' before 'fish'?
+### OUTPUT:
+use 'a' before 'fish'.
+
+### INPUT:
+is 'grass' a noun?
+### OUTPUT:
+yes, 'grass' is a noun.
+
+### INPUT:
+is 'too' a noun?
+### OUTPUT:
+no, 'too' is an adverb, not a noun.
+
+### INPUT:
+is 'badly' a verb?
+### OUTPUT:
+no, 'badly' is an adverb, not a verb.
+
+### INPUT:
+should I use 'a' or 'an' before 'rich'?
+### OUTPUT:
+use 'a' before 'rich'.
+
+### INPUT:
+should I use 'a' or 'an' before 'small'?
+### OUTPUT:
+use 'a' before 'small'.
+
+### INPUT:
+is 'jump' an adverb?
+### OUTPUT:
+no, 'jump' is a verb, not an adverb.
+
+### INPUT:
+is 'city' a noun?
+### OUTPUT:
+yes, 'city' is a noun.
+
+### INPUT:
+is 'enough' an adverb?
+### OUTPUT:
+yes, 'enough' is an adverb.
+
+### INPUT:
+how do you say 'tell' for he, she, or it?
+### OUTPUT:
+for he, she, or it, you say 'tells'.
+
+### INPUT:
+is 'outside' a preposition?
+### OUTPUT:
+yes, 'outside' is a preposition.
+
+### INPUT:
+should I use 'a' or 'an' before 'green'?
+### OUTPUT:
+use 'a' before 'green'.
+
+### INPUT:
+what is the plural of dog?
+### OUTPUT:
+the plural of dog is dogs.
+
+### INPUT:
+what is the plural of team?
+### OUTPUT:
+the plural of team is teams.
+
+### INPUT:
+is 'around' a noun?
+### OUTPUT:
+no, 'around' is a preposition, not a noun.
+
+### INPUT:
+is 'food' a noun?
+### OUTPUT:
+yes, 'food' is a noun.
+
+### INPUT:
+what is the singular of cars?
+### OUTPUT:
+the singular of cars is car.
+
+### INPUT:
+what is the plural of bird?
+### OUTPUT:
+the plural of bird is birds.
+
+### INPUT:
+is 'air' a noun?
+### OUTPUT:
+yes, 'air' is a noun.
+
+### INPUT:
+should I use 'a' or 'an' before 'person'?
+### OUTPUT:
+use 'a' before 'person'.
+
+### INPUT:
+should I use 'a' or 'an' before 'water'?
+### OUTPUT:
+use 'a' before 'water'.
+
+### INPUT:
+is 'child' a noun?
+### OUTPUT:
+yes, 'child' is a noun.
+
+### INPUT:
+should I use 'a' or 'an' before 'town'?
+### OUTPUT:
+use 'a' before 'town'.
+
+### INPUT:
+how do you say 'eat' for he, she, or it?
+### OUTPUT:
+for he, she, or it, you say 'eats'.
+
+### INPUT:
+is 'there' a verb?
+### OUTPUT:
+no, 'there' is an adverb, not a verb.
+
+### INPUT:
+is 'world' a noun?
+### OUTPUT:
+yes, 'world' is a noun.
+
+### INPUT:
+what is the past tense of jump?
+### OUTPUT:
+the past tense of jump is jumped.
+
+### INPUT:
+is 'before' a preposition?
+### OUTPUT:
+yes, 'before' is a preposition.
+
+### INPUT:
+is 'open' a pronoun?
+### OUTPUT:
+no, 'open' is an adjective, not a pronoun.
+
+### INPUT:
+what is the singular of birds?
+### OUTPUT:
+the singular of birds is bird.
+
+### INPUT:
+is 'often' an adjective?
+### OUTPUT:
+no, 'often' is an adverb, not an adjective.
+
+### INPUT:
+is 'dog' a noun?
+### OUTPUT:
+yes, 'dog' is a noun.
+
+### INPUT:
+is 'quite' a pronoun?
+### OUTPUT:
+no, 'quite' is an adverb, not a pronoun.
+
+### INPUT:
+should I use 'a' or 'an' before 'dark'?
+### OUTPUT:
+use 'a' before 'dark'.
+
+### INPUT:
+what is the singular of families?
+### OUTPUT:
+the singular of families is family.
+
+### INPUT:
+is 'slowly' a pronoun?
+### OUTPUT:
+no, 'slowly' is an adverb, not a pronoun.
+
+### INPUT:
+what is the plural of friend?
+### OUTPUT:
+the plural of friend is friends.
+
+### INPUT:
+should I use 'a' or 'an' before 'food'?
+### OUTPUT:
+use 'a' before 'food'.
+
+### INPUT:
+is 'down' a verb?
+### OUTPUT:
+no, 'down' is a preposition, not a verb.
+
+### INPUT:
+is 'bad' an adjective?
+### OUTPUT:
+yes, 'bad' is an adjective.
+
+### INPUT:
+what is the singular of rocks?
+### OUTPUT:
+the singular of rocks is rock.
+
+### INPUT:
+is 'as' an adverb?
+### OUTPUT:
+no, 'as' is a preposition, not an adverb.
+
+### INPUT:
+is 'happily' an adjective?
+### OUTPUT:
+no, 'happily' is an adverb, not an adjective.
+
+### INPUT:
+is 'today' an adverb?
+### OUTPUT:
+yes, 'today' is an adverb.
+
+### INPUT:
+is 'walk' a verb?
+### OUTPUT:
+yes, 'walk' is a verb.
+
+### INPUT:
+how do you say 'come' for he, she, or it?
+### OUTPUT:
+for he, she, or it, you say 'comes'.
+
+### INPUT:
+should I use 'a' or 'an' before 'big'?
+### OUTPUT:
+use 'a' before 'big'.
+
+### INPUT:
+is 'book' a pronoun?
+### OUTPUT:
+no, 'book' is a noun, not a pronoun.
+
+### INPUT:
+should I use 'a' or 'an' before 'city'?
+### OUTPUT:
+use 'a' before 'city'.
+
+### INPUT:
+how do you say 'give' for he, she, or it?
+### OUTPUT:
+for he, she, or it, you say 'gives'.
+
+### INPUT:
+should I use 'a' or 'an' before 'long'?
+### OUTPUT:
+use 'a' before 'long'.
+
+### INPUT:
+what is the singular of towns?
+### OUTPUT:
+the singular of towns is town.
+
+### INPUT:
+what is the plural of woman?
+### OUTPUT:
+the plural of woman is women.
+
+### INPUT:
+should I use 'a' or 'an' before 'alive'?
+### OUTPUT:
+use 'an' before 'alive'.
+
+### INPUT:
+what is the -ing form of do?
+### OUTPUT:
+the -ing form of do is doing.
+
+### INPUT:
+what is the plural of fish?
+### OUTPUT:
+the plural of fish is fish.
+
+### INPUT:
+is 'empty' an adjective?
+### OUTPUT:
+yes, 'empty' is an adjective.
+
+### INPUT:
+should I use 'a' or 'an' before 'dirty'?
+### OUTPUT:
+use 'a' before 'dirty'.
+
+### INPUT:
+is 'blue' an adverb?
+### OUTPUT:
+no, 'blue' is an adjective, not an adverb.
+
+### INPUT:
+is 'cat' an adjective?
+### OUTPUT:
+no, 'cat' is a noun, not an adjective.
+
+### INPUT:
+is 'were' a verb?
+### OUTPUT:
+yes, 'were' is a verb.
+
+### INPUT:
+is 'fish' a noun?
+### OUTPUT:
+yes, 'fish' is a noun.
+
+### INPUT:
+should I use 'a' or 'an' before 'weak'?
+### OUTPUT:
+use 'a' before 'weak'.
+
+### INPUT:
+is 'big' an adjective?
+### OUTPUT:
+yes, 'big' is an adjective.
+
+### INPUT:
+is 'without' a preposition?
+### OUTPUT:
+yes, 'without' is a preposition.
+
+### INPUT:
+is 'usually' a verb?
+### OUTPUT:
+no, 'usually' is an adverb, not a verb.
+
+### INPUT:
+what is the -ing form of come?
+### OUTPUT:
+the -ing form of come is coming.
+
+### INPUT:
+is 'interesting' an adjective?
+### OUTPUT:
+yes, 'interesting' is an adjective.
+
+### INPUT:
+what is the plural of person?
+### OUTPUT:
+the plural of person is people.
+
+### INPUT:
+what is the past tense of come?
+### OUTPUT:
+the past tense of come is came.
+
+### INPUT:
+is 'being' a noun?
+### OUTPUT:
+no, 'being' is a verb, not a noun.
+
+### INPUT:
+is 'like' a preposition?
+### OUTPUT:
+yes, 'like' is a preposition.
+
+### INPUT:
+is 'flower' an adverb?
+### OUTPUT:
+no, 'flower' is a noun, not an adverb.
+
+### INPUT:
+should I use 'a' or 'an' before 'country'?
+### OUTPUT:
+use 'a' before 'country'.
+
+### INPUT:
+is 'above' a preposition?
+### OUTPUT:
+yes, 'above' is a preposition.
+
+### INPUT:
+is 'group' a noun?
+### OUTPUT:
+yes, 'group' is a noun.
+
+### INPUT:
+should I use 'a' or 'an' before 'grass'?
+### OUTPUT:
+use 'a' before 'grass'.
+
+### INPUT:
+is 'come' a pronoun?
+### OUTPUT:
+no, 'come' is a verb, not a pronoun.
+
+### INPUT:
+is 'car' a noun?
+### OUTPUT:
+yes, 'car' is a noun.
+
+### INPUT:
+should I use 'a' or 'an' before 'beautiful'?
+### OUTPUT:
+use 'a' before 'beautiful'.
+
+### INPUT:
+is 'along' a preposition?
+### OUTPUT:
+yes, 'along' is a preposition.
+
+### INPUT:
+is 'over' a verb?
+### OUTPUT:
+no, 'over' is a preposition, not a verb.
+
+### INPUT:
+is 'back' an adverb?
+### OUTPUT:
+yes, 'back' is an adverb.
+
+### INPUT:
+what is the past tense of look?
+### OUTPUT:
+the past tense of look is looked.
+
+### INPUT:
+is 'rock' a noun?
+### OUTPUT:
+yes, 'rock' is a noun.
+
+### INPUT:
+what is the past tense of run?
+### OUTPUT:
+the past tense of run is ran.
+
+### INPUT:
+is 'in' a verb?
+### OUTPUT:
+no, 'in' is a preposition, not a verb.
+
+### INPUT:
+is 'tomorrow' an adverb?
+### OUTPUT:
+yes, 'tomorrow' is an adverb.
+
+### INPUT:
+is 'sun' a verb?
+### OUTPUT:
+no, 'sun' is a noun, not a verb.
+
+### INPUT:
+is 'run' a verb?
+### OUTPUT:
+yes, 'run' is a verb.
+
+### INPUT:
+should I use 'a' or 'an' before 'interesting'?
+### OUTPUT:
+use 'an' before 'interesting'.
+
+### INPUT:
+what is the past tense of give?
+### OUTPUT:
+the past tense of give is gave.
+
+### INPUT:
+is 'onto' a preposition?
+### OUTPUT:
+yes, 'onto' is a preposition.
+
+### INPUT:
+is 'day' a preposition?
+### OUTPUT:
+no, 'day' is a noun, not a preposition.
+
+### INPUT:
+is 'always' a noun?
+### OUTPUT:
+no, 'always' is an adverb, not a noun.
+
+### INPUT:
+is 'is' an adverb?
+### OUTPUT:
+no, 'is' is a verb, not an adverb.
+
+### INPUT:
+is 'water' a noun?
+### OUTPUT:
+yes, 'water' is a noun.
+
+### INPUT:
+what is the singular of years?
+### OUTPUT:
+the singular of years is year.
+
+### INPUT:
+should I use 'a' or 'an' before 'high'?
+### OUTPUT:
+use 'a' before 'high'.
+
+### INPUT:
+is 'stone' a pronoun?
+### OUTPUT:
+no, 'stone' is a noun, not a pronoun.
+
+### INPUT:
+is 'dirty' a noun?
+### OUTPUT:
+no, 'dirty' is an adjective, not a noun.
+
+### INPUT:
+should I use 'a' or 'an' before 'pen'?
+### OUTPUT:
+use 'a' before 'pen'.
+
+### INPUT:
+is 'drink' an adjective?
+### OUTPUT:
+no, 'drink' is a verb, not an adjective.
+
+### INPUT:
+what is the past tense of hear?
+### OUTPUT:
+the past tense of hear is heard.
+
+### INPUT:
+is 'soft' an adjective?
+### OUTPUT:
+yes, 'soft' is an adjective.
+
+### INPUT:
+is 'bird' a noun?
+### OUTPUT:
+yes, 'bird' is a noun.
+
+### INPUT:
+how do you say 'do' for he, she, or it?
+### OUTPUT:
+for he, she, or it, you say 'does'.
+
+### INPUT:
+what is the past tense of tell?
+### OUTPUT:
+the past tense of tell is told.
+
+### INPUT:
+is 'so' a preposition?
+### OUTPUT:
+no, 'so' is an adverb, not a preposition.
+
+### INPUT:
+is 'for' an adjective?
+### OUTPUT:
+no, 'for' is a preposition, not an adjective.
+
+### INPUT:
+should I use 'a' or 'an' before 'family'?
+### OUTPUT:
+use 'a' before 'family'.
+
+### INPUT:
+what is the past tense of have?
+### OUTPUT:
+the past tense of have is had.
+
+### INPUT:
+should I use 'a' or 'an' before 'day'?
+### OUTPUT:
+use 'a' before 'day'.
+
+### INPUT:
+what is the plural of chair?
+### OUTPUT:
+the plural of chair is chairs.
+
+### INPUT:
+is 'wide' an adjective?
+### OUTPUT:
+yes, 'wide' is an adjective.
+
+### INPUT:
+what is the plural of tree?
+### OUTPUT:
+the plural of tree is trees.
+
+### INPUT:
+what is the singular of books?
+### OUTPUT:
+the singular of books is book.
+
+### INPUT:
+how do you say 'drink' for he, she, or it?
+### OUTPUT:
+for he, she, or it, you say 'drinks'.
+
+### INPUT:
+is 'small' a pronoun?
+### OUTPUT:
+no, 'small' is an adjective, not a pronoun.
+
+### INPUT:
+is 'house' a noun?
+### OUTPUT:
+yes, 'house' is a noun.
+
+### INPUT:
+is 'friend' a noun?
+### OUTPUT:
+yes, 'friend' is a noun.
+
+### INPUT:
+is 'heavy' an adjective?
+### OUTPUT:
+yes, 'heavy' is an adjective.
+
+### INPUT:
+is 'well' a noun?
+### OUTPUT:
+no, 'well' is an adverb, not a noun.
+
+### INPUT:
+should I use 'a' or 'an' before 'chair'?
+### OUTPUT:
+use 'a' before 'chair'.
+
+### INPUT:
+is 'via' a preposition?
+### OUTPUT:
+yes, 'via' is a preposition.
+
+### INPUT:
+is 'yesterday' an adverb?
+### OUTPUT:
+yes, 'yesterday' is an adverb.
+
+### INPUT:
+what is the -ing form of go?
+### OUTPUT:
+the -ing form of go is going.
+
+### INPUT:
+is 'person' a pronoun?
+### OUTPUT:
+no, 'person' is a noun, not a pronoun.
+
+### INPUT:
+is 'per' an adjective?
+### OUTPUT:
+no, 'per' is a preposition, not an adjective.
+
+### INPUT:
+should I use 'a' or 'an' before 'wide'?
+### OUTPUT:
+use 'a' before 'wide'.
+
+### INPUT:
+should I use 'a' or 'an' before 'white'?
+### OUTPUT:
+use 'a' before 'white'.
+
+### INPUT:
+is 'old' a verb?
+### OUTPUT:
+no, 'old' is an adjective, not a verb.
+
+### INPUT:
+is 'sad' a preposition?
+### OUTPUT:
+no, 'sad' is an adjective, not a preposition.
+
+### INPUT:
+is 'low' an adjective?
+### OUTPUT:
+yes, 'low' is an adjective.
+
+### INPUT:
+is 'green' a noun?
+### OUTPUT:
+no, 'green' is an adjective, not a noun.
+
+### INPUT:
+is 'year' a pronoun?
+### OUTPUT:
+no, 'year' is a noun, not a pronoun.
+
+### INPUT:
+should I use 'a' or 'an' before 'car'?
+### OUTPUT:
+use 'a' before 'car'.
+
+### INPUT:
+is 'long' a pronoun?
+### OUTPUT:
+no, 'long' is an adjective, not a pronoun.
+
+### INPUT:
+is 'are' a verb?
+### OUTPUT:
+yes, 'are' is a verb.
+
+### INPUT:
+is 'was' a verb?
+### OUTPUT:
+yes, 'was' is a verb.
+
+### INPUT:
+should I use 'a' or 'an' before 'soft'?
+### OUTPUT:
+use 'a' before 'soft'.
+
+### INPUT:
+is 'inside' a preposition?
+### OUTPUT:
+yes, 'inside' is a preposition.
+
+### INPUT:
+should I use 'a' or 'an' before 'door'?
+### OUTPUT:
+use 'a' before 'door'.
+
+### INPUT:
+is 'except' a preposition?
+### OUTPUT:
+yes, 'except' is a preposition.
+
+### INPUT:
+what is the plural of table?
+### OUTPUT:
+the plural of table is tables.
+
+### INPUT:
+is 'into' a verb?
+### OUTPUT:
+no, 'into' is a preposition, not a verb.
+
+### INPUT:
+what is the past tense of talk?
+### OUTPUT:
+the past tense of talk is talked.
+
+### INPUT:
+is 'cool' a noun?
+### OUTPUT:
+no, 'cool' is an adjective, not a noun.
+
+### INPUT:
+should I use 'a' or 'an' before 'friend'?
+### OUTPUT:
+use 'a' before 'friend'.
+
+### INPUT:
+what is the singular of men?
+### OUTPUT:
+the singular of men is man.
+
+### INPUT:
+should I use 'a' or 'an' before 'bright'?
+### OUTPUT:
+use 'a' before 'bright'.
+
+### INPUT:
+what is the -ing form of tell?
+### OUTPUT:
+the -ing form of tell is telling.
+
+### INPUT:
+is 'moon' a pronoun?
+### OUTPUT:
+no, 'moon' is a noun, not a pronoun.
+
+### INPUT:
+should I use 'a' or 'an' before 'child'?
+### OUTPUT:
+use 'a' before 'child'.
+
+### INPUT:
+is 'have' a verb?
+### OUTPUT:
+yes, 'have' is a verb.
+
+### INPUT:
+is 'between' an adjective?
+### OUTPUT:
+no, 'between' is a preposition, not an adjective.
+
+### INPUT:
+is 'short' a noun?
+### OUTPUT:
+no, 'short' is an adjective, not a noun.
+
+### INPUT:
+should I use 'a' or 'an' before 'bad'?
+### OUTPUT:
+use 'a' before 'bad'.
+
+### INPUT:
+is 'hear' a verb?
+### OUTPUT:
+yes, 'hear' is a verb.
+
+### INPUT:
+is 'of' a verb?
+### OUTPUT:
+no, 'of' is a preposition, not a verb.
+
+### INPUT:
+is 'away' an adverb?
+### OUTPUT:
+yes, 'away' is an adverb.
+
+### INPUT:
+what is the past tense of eat?
+### OUTPUT:
+the past tense of eat is ate.
+
+### INPUT:
+is 'under' a preposition?
+### OUTPUT:
+yes, 'under' is a preposition.
+
+### INPUT:
+is 'early' a noun?
+### OUTPUT:
+no, 'early' is an adverb, not a noun.
+
+### INPUT:
+should I use 'a' or 'an' before 'cool'?
+### OUTPUT:
+use 'a' before 'cool'.
+
+### INPUT:
+is 'be' a noun?
+### OUTPUT:
+no, 'be' is a verb, not a noun.
+
+### INPUT:
+what is the plural of cat?
+### OUTPUT:
+the plural of cat is cats.
+
+### INPUT:
+is 'good' an adverb?
+### OUTPUT:
+no, 'good' is an adjective, not an adverb.
+
+### INPUT:
+what is the singular of days?
+### OUTPUT:
+the singular of days is day.
+
+### INPUT:
+what is the plural of city?
+### OUTPUT:
+the plural of city is cities.
+
+### INPUT:
+what is the -ing form of speak?
+### OUTPUT:
+the -ing form of speak is speaking.
+
+### INPUT:
+is 'against' a preposition?
+### OUTPUT:
+yes, 'against' is a preposition.
+
+### INPUT:
+how do you say 'see' for he, she, or it?
+### OUTPUT:
+for he, she, or it, you say 'sees'.
+
+### INPUT:
+is 'here' a pronoun?
+### OUTPUT:
+no, 'here' is an adverb, not a pronoun.
+
+### INPUT:
+how do you say 'make' for he, she, or it?
+### OUTPUT:
+for he, she, or it, you say 'makes'.
+
+### INPUT:
+how do you say 'hear' for he, she, or it?
+### OUTPUT:
+for he, she, or it, you say 'hears'.
+
+### INPUT:
+is 'hard' an adverb?
+### OUTPUT:
+yes, 'hard' is an adverb.
+
+### INPUT:
+is 'beautiful' an adjective?
+### OUTPUT:
+yes, 'beautiful' is an adjective.
+
+### INPUT:
+should I use 'a' or 'an' before 'clean'?
+### OUTPUT:
+use 'a' before 'clean'.
+
+### INPUT:
+how do you say 'jump' for he, she, or it?
+### OUTPUT:
+for he, she, or it, you say 'jumps'.
+
+### INPUT:
+should I use 'a' or 'an' before 'blue'?
+### OUTPUT:
+use 'a' before 'blue'.
+

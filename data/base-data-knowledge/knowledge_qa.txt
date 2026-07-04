@@ -1,0 +1,1000 @@
+### INPUT:
+What does look mean?
+### OUTPUT:
+To look means we were down.
+
+### INPUT:
+Tell me about table.
+### OUTPUT:
+A a table is we are full.
+
+### INPUT:
+What does tell mean?
+### OUTPUT:
+To tell means it stands rarely.
+
+### INPUT:
+Why is strong?
+### OUTPUT:
+Because strong things are it is high.
+
+### INPUT:
+Why is rich?
+### OUTPUT:
+Because rich things are she is open.
+
+### INPUT:
+Why is happy?
+### OUTPUT:
+Because happy things are they are bright.
+
+### INPUT:
+Why is blue?
+### OUTPUT:
+Because blue things are we are bright.
+
+### INPUT:
+What does drink mean?
+### OUTPUT:
+To drink means we give tomorrow.
+
+### INPUT:
+Tell me about woman.
+### OUTPUT:
+A a woman is you are cold.
+
+### INPUT:
+How does bird work?
+### OUTPUT:
+A a bird is he is hot.
+
+### INPUT:
+How does friend work?
+### OUTPUT:
+A a friend is i am narrow.
+
+### INPUT:
+Tell me about food.
+### OUTPUT:
+A a food is she is clean.
+
+### INPUT:
+How does stone work?
+### OUTPUT:
+A a stone is i am clean.
+
+### INPUT:
+What is sun?
+### OUTPUT:
+A a sun is he is young.
+
+### INPUT:
+Tell me about pen.
+### OUTPUT:
+A a pen is it is red.
+
+### INPUT:
+What does look mean?
+### OUTPUT:
+To look means i speak slowly.
+
+### INPUT:
+What is fire?
+### OUTPUT:
+A a fire is it is black.
+
+### INPUT:
+Why is dark?
+### OUTPUT:
+Because dark things are i am strong.
+
+### INPUT:
+What does hear mean?
+### OUTPUT:
+To hear means he dos well.
+
+### INPUT:
+What is moon?
+### OUTPUT:
+A a moon is she is small.
+
+### INPUT:
+What does were mean?
+### OUTPUT:
+To were means it haves inside.
+
+### INPUT:
+Why is dark?
+### OUTPUT:
+Because dark things are it is high.
+
+### INPUT:
+What is window?
+### OUTPUT:
+A a window is you are bright.
+
+### INPUT:
+What does go mean?
+### OUTPUT:
+To go means we sit outside.
+
+### INPUT:
+How does table work?
+### OUTPUT:
+A a table is i am young.
+
+### INPUT:
+Why is hard?
+### OUTPUT:
+Because hard things are you are old.
+
+### INPUT:
+What does give mean?
+### OUTPUT:
+To give means he iss then.
+
+### INPUT:
+How does dog work?
+### OUTPUT:
+A a dog is they are clean.
+
+### INPUT:
+Tell me about year.
+### OUTPUT:
+A a year is we are strong.
+
+### INPUT:
+Why is clean?
+### OUTPUT:
+Because clean things are we are beautiful.
+
+### INPUT:
+Why is dirty?
+### OUTPUT:
+Because dirty things are it is long.
+
+### INPUT:
+What is rock?
+### OUTPUT:
+A a rock is he is heavy.
+
+### INPUT:
+How does person work?
+### OUTPUT:
+A a person is it is bad.
+
+### INPUT:
+How does day work?
+### OUTPUT:
+A a day is you are interesting.
+
+### INPUT:
+What does hear mean?
+### OUTPUT:
+To hear means it wass out.
+
+### INPUT:
+What does be mean?
+### OUTPUT:
+To be means i make then.
+
+### INPUT:
+Tell me about road.
+### OUTPUT:
+A a road is it is beautiful.
+
+### INPUT:
+What is cat?
+### OUTPUT:
+A a cat is he is white.
+
+### INPUT:
+What does speak mean?
+### OUTPUT:
+To speak means he runs inside.
+
+### INPUT:
+What is rock?
+### OUTPUT:
+A a rock is we are interesting.
+
+### INPUT:
+How does night work?
+### OUTPUT:
+A a night is she is dirty.
+
+### INPUT:
+What is earth?
+### OUTPUT:
+A an earth is we are black.
+
+### INPUT:
+Why is clean?
+### OUTPUT:
+Because clean things are it is poor.
+
+### INPUT:
+What is person?
+### OUTPUT:
+A a person is it is white.
+
+### INPUT:
+How does night work?
+### OUTPUT:
+A a night is we are slow.
+
+### INPUT:
+Why is low?
+### OUTPUT:
+Because low things are it is rich.
+
+### INPUT:
+Why is wide?
+### OUTPUT:
+Because wide things are we are bad.
+
+### INPUT:
+Why is clean?
+### OUTPUT:
+Because clean things are i am strong.
+
+### INPUT:
+Why is white?
+### OUTPUT:
+Because white things are they are white.
+
+### INPUT:
+What is air?
+### OUTPUT:
+A an air is he is closed.
+
+### INPUT:
+How does year work?
+### OUTPUT:
+A a year is i am weak.
+
+### INPUT:
+Tell me about food.
+### OUTPUT:
+A a food is you are short.
+
+### INPUT:
+Tell me about woman.
+### OUTPUT:
+A a woman is you are fast.
+
+### INPUT:
+What is tree?
+### OUTPUT:
+A a tree is she is low.
+
+### INPUT:
+How does car work?
+### OUTPUT:
+A a car is we are soft.
+
+### INPUT:
+Why is yellow?
+### OUTPUT:
+Because yellow things are we are beautiful.
+
+### INPUT:
+What does speak mean?
+### OUTPUT:
+To speak means you walk outside.
+
+### INPUT:
+Why is short?
+### OUTPUT:
+Because short things are it is light.
+
+### INPUT:
+Tell me about water.
+### OUTPUT:
+A a water is we are dirty.
+
+### INPUT:
+What does were mean?
+### OUTPUT:
+To were means you been then.
+
+### INPUT:
+How does friend work?
+### OUTPUT:
+A a friend is it is cold.
+
+### INPUT:
+What is dog?
+### OUTPUT:
+A a dog is he is interesting.
+
+### INPUT:
+What does walk mean?
+### OUTPUT:
+To walk means i say early.
+
+### INPUT:
+How does fire work?
+### OUTPUT:
+A a fire is it is poor.
+
+### INPUT:
+Tell me about house.
+### OUTPUT:
+A a house is he is cool.
+
+### INPUT:
+How does road work?
+### OUTPUT:
+A a road is it is poor.
+
+### INPUT:
+Why is short?
+### OUTPUT:
+Because short things are it is soft.
+
+### INPUT:
+What is road?
+### OUTPUT:
+A a road is it is sad.
+
+### INPUT:
+What is pen?
+### OUTPUT:
+A a pen is she is interesting.
+
+### INPUT:
+What does say mean?
+### OUTPUT:
+To say means you be soon.
+
+### INPUT:
+What does walk mean?
+### OUTPUT:
+To walk means i have badly.
+
+### INPUT:
+What does take mean?
+### OUTPUT:
+To take means you look fast.
+
+### INPUT:
+Why is wide?
+### OUTPUT:
+Because wide things are it is good.
+
+### INPUT:
+How does grass work?
+### OUTPUT:
+A a grass is you are empty.
+
+### INPUT:
+What is pen?
+### OUTPUT:
+A a pen is he is strong.
+
+### INPUT:
+How does family work?
+### OUTPUT:
+A a family is we are slow.
+
+### INPUT:
+How does man work?
+### OUTPUT:
+A a man is she is short.
+
+### INPUT:
+Why is sad?
+### OUTPUT:
+Because sad things are you are weak.
+
+### INPUT:
+What is city?
+### OUTPUT:
+A a city is they are young.
+
+### INPUT:
+What is earth?
+### OUTPUT:
+A an earth is we are old.
+
+### INPUT:
+What is cat?
+### OUTPUT:
+A a cat is he is closed.
+
+### INPUT:
+Tell me about house.
+### OUTPUT:
+A a house is we are strong.
+
+### INPUT:
+Why is dead?
+### OUTPUT:
+Because dead things are she is poor.
+
+### INPUT:
+Tell me about man.
+### OUTPUT:
+A a man is you are red.
+
+### INPUT:
+Tell me about table.
+### OUTPUT:
+A a table is they are old.
+
+### INPUT:
+How does tree work?
+### OUTPUT:
+A a tree is we are bright.
+
+### INPUT:
+How does flower work?
+### OUTPUT:
+A a flower is you are hard.
+
+### INPUT:
+What does am mean?
+### OUTPUT:
+To am means it speaks in.
+
+### INPUT:
+What does go mean?
+### OUTPUT:
+To go means you is then.
+
+### INPUT:
+Why is open?
+### OUTPUT:
+Because open things are he is dead.
+
+### INPUT:
+How does water work?
+### OUTPUT:
+A a water is you are poor.
+
+### INPUT:
+What does jump mean?
+### OUTPUT:
+To jump means we look here.
+
+### INPUT:
+What is pen?
+### OUTPUT:
+A a pen is i am interesting.
+
+### INPUT:
+Tell me about family.
+### OUTPUT:
+A a family is i am blue.
+
+### INPUT:
+How does family work?
+### OUTPUT:
+A a family is we are high.
+
+### INPUT:
+How does rock work?
+### OUTPUT:
+A a rock is we are long.
+
+### INPUT:
+What does been mean?
+### OUTPUT:
+To been means it gives tomorrow.
+
+### INPUT:
+How does tree work?
+### OUTPUT:
+A a tree is they are small.
+
+### INPUT:
+What does drink mean?
+### OUTPUT:
+To drink means i stand sometimes.
+
+### INPUT:
+What is sun?
+### OUTPUT:
+A a sun is it is long.
+
+### INPUT:
+What does make mean?
+### OUTPUT:
+To make means i speak slowly.
+
+### INPUT:
+Why is bad?
+### OUTPUT:
+Because bad things are they are warm.
+
+### INPUT:
+How does stone work?
+### OUTPUT:
+A a stone is she is big.
+
+### INPUT:
+How does cat work?
+### OUTPUT:
+A a cat is i am warm.
+
+### INPUT:
+Why is cold?
+### OUTPUT:
+Because cold things are i am white.
+
+### INPUT:
+Tell me about road.
+### OUTPUT:
+A a road is i am rich.
+
+### INPUT:
+What does were mean?
+### OUTPUT:
+To were means you do easily.
+
+### INPUT:
+What is night?
+### OUTPUT:
+A a night is we are bad.
+
+### INPUT:
+What is rock?
+### OUTPUT:
+A a rock is you are low.
+
+### INPUT:
+Tell me about house.
+### OUTPUT:
+A a house is it is dead.
+
+### INPUT:
+What does say mean?
+### OUTPUT:
+To say means it ams rather.
+
+### INPUT:
+What is town?
+### OUTPUT:
+A a town is we are long.
+
+### INPUT:
+Tell me about day.
+### OUTPUT:
+A a day is we are blue.
+
+### INPUT:
+Tell me about cat.
+### OUTPUT:
+A a cat is you are rich.
+
+### INPUT:
+How does bird work?
+### OUTPUT:
+A a bird is we are strong.
+
+### INPUT:
+What does drink mean?
+### OUTPUT:
+To drink means he makes slowly.
+
+### INPUT:
+What does was mean?
+### OUTPUT:
+To was means they am happily.
+
+### INPUT:
+Tell me about chair.
+### OUTPUT:
+A a chair is we are strong.
+
+### INPUT:
+Why is cool?
+### OUTPUT:
+Because cool things are she is hard.
+
+### INPUT:
+Why is dark?
+### OUTPUT:
+Because dark things are she is big.
+
+### INPUT:
+What does have mean?
+### OUTPUT:
+To have means she comes rarely.
+
+### INPUT:
+What is family?
+### OUTPUT:
+A a family is she is rich.
+
+### INPUT:
+What is fire?
+### OUTPUT:
+A a fire is i am low.
+
+### INPUT:
+What is chair?
+### OUTPUT:
+A a chair is it is low.
+
+### INPUT:
+What is car?
+### OUTPUT:
+A a car is it is weak.
+
+### INPUT:
+What is air?
+### OUTPUT:
+A an air is it is strong.
+
+### INPUT:
+How does stone work?
+### OUTPUT:
+A a stone is he is good.
+
+### INPUT:
+What does tell mean?
+### OUTPUT:
+To tell means he speaks sadly.
+
+### INPUT:
+Tell me about grass.
+### OUTPUT:
+A a grass is i am blue.
+
+### INPUT:
+How does chair work?
+### OUTPUT:
+A a chair is it is slow.
+
+### INPUT:
+Tell me about fish.
+### OUTPUT:
+A a fish is we are small.
+
+### INPUT:
+How does moon work?
+### OUTPUT:
+A a moon is i am sad.
+
+### INPUT:
+How does world work?
+### OUTPUT:
+A a world is i am heavy.
+
+### INPUT:
+What does been mean?
+### OUTPUT:
+To been means you am up.
+
+### INPUT:
+What is water?
+### OUTPUT:
+A a water is i am soft.
+
+### INPUT:
+What does drink mean?
+### OUTPUT:
+To drink means they have today.
+
+### INPUT:
+How does pen work?
+### OUTPUT:
+A a pen is he is short.
+
+### INPUT:
+What is friend?
+### OUTPUT:
+A a friend is we are beautiful.
+
+### INPUT:
+How does door work?
+### OUTPUT:
+A a door is they are interesting.
+
+### INPUT:
+Why is weak?
+### OUTPUT:
+Because weak things are you are new.
+
+### INPUT:
+How does road work?
+### OUTPUT:
+A a road is they are green.
+
+### INPUT:
+Why is dark?
+### OUTPUT:
+Because dark things are i am fast.
+
+### INPUT:
+Why is poor?
+### OUTPUT:
+Because poor things are he is red.
+
+### INPUT:
+Tell me about chair.
+### OUTPUT:
+A a chair is it is closed.
+
+### INPUT:
+What is rock?
+### OUTPUT:
+A a rock is i am alive.
+
+### INPUT:
+How does child work?
+### OUTPUT:
+A a child is they are yellow.
+
+### INPUT:
+How does car work?
+### OUTPUT:
+A a car is she is young.
+
+### INPUT:
+Tell me about flower.
+### OUTPUT:
+A a flower is we are old.
+
+### INPUT:
+What does go mean?
+### OUTPUT:
+To go means you eat badly.
+
+### INPUT:
+What is person?
+### OUTPUT:
+A a person is she is bad.
+
+### INPUT:
+Why is light?
+### OUTPUT:
+Because light things are he is red.
+
+### INPUT:
+Why is soft?
+### OUTPUT:
+Because soft things are she is empty.
+
+### INPUT:
+What does walk mean?
+### OUTPUT:
+To walk means i eat quite.
+
+### INPUT:
+How does door work?
+### OUTPUT:
+A a door is we are happy.
+
+### INPUT:
+Why is hot?
+### OUTPUT:
+Because hot things are they are strong.
+
+### INPUT:
+Tell me about child.
+### OUTPUT:
+A a child is she is interesting.
+
+### INPUT:
+Tell me about air.
+### OUTPUT:
+A an air is you are short.
+
+### INPUT:
+Tell me about man.
+### OUTPUT:
+A a man is we are open.
+
+### INPUT:
+How does flower work?
+### OUTPUT:
+A a flower is i am white.
+
+### INPUT:
+Tell me about food.
+### OUTPUT:
+A a food is they are small.
+
+### INPUT:
+Tell me about air.
+### OUTPUT:
+A an air is i am open.
+
+### INPUT:
+How does grass work?
+### OUTPUT:
+A a grass is they are new.
+
+### INPUT:
+Why is dirty?
+### OUTPUT:
+Because dirty things are he is closed.
+
+### INPUT:
+What is earth?
+### OUTPUT:
+A an earth is she is slow.
+
+### INPUT:
+What does stand mean?
+### OUTPUT:
+To stand means he beings never.
+
+### INPUT:
+What is earth?
+### OUTPUT:
+A an earth is he is good.
+
+### INPUT:
+Why is high?
+### OUTPUT:
+Because high things are he is dirty.
+
+### INPUT:
+Why is low?
+### OUTPUT:
+Because low things are he is full.
+
+### INPUT:
+What does go mean?
+### OUTPUT:
+To go means i talk fast.
+
+### INPUT:
+How does bird work?
+### OUTPUT:
+A a bird is i am dirty.
+
+### INPUT:
+Why is hard?
+### OUTPUT:
+Because hard things are she is red.
+
+### INPUT:
+How does day work?
+### OUTPUT:
+A a day is she is light.
+
+### INPUT:
+Why is sad?
+### OUTPUT:
+Because sad things are she is good.
+
+### INPUT:
+Tell me about world.
+### OUTPUT:
+A a world is she is heavy.
+
+### INPUT:
+Why is small?
+### OUTPUT:
+Because small things are it is cold.
+
+### INPUT:
+How does window work?
+### OUTPUT:
+A a window is i am small.
+
+### INPUT:
+What does is mean?
+### OUTPUT:
+To is means he wass always.
+
+### INPUT:
+Why is short?
+### OUTPUT:
+Because short things are you are heavy.
+
+### INPUT:
+What does sit mean?
+### OUTPUT:
+To sit means you sit too.
+
+### INPUT:
+What does been mean?
+### OUTPUT:
+To been means it walks usually.
+
+### INPUT:
+What does eat mean?
+### OUTPUT:
+To eat means you be sadly.
+
+### INPUT:
+Why is narrow?
+### OUTPUT:
+Because narrow things are it is young.
+
+### INPUT:
+Tell me about town.
+### OUTPUT:
+A a town is you are full.
+
+### INPUT:
+How does night work?
+### OUTPUT:
+A a night is you are new.
+
+### INPUT:
+Why is red?
+### OUTPUT:
+Because red things are we are low.
+
+### INPUT:
+How does chair work?
+### OUTPUT:
+A a chair is it is yellow.
+
+### INPUT:
+How does man work?
+### OUTPUT:
+A a man is i am strong.
+
+### INPUT:
+What does speak mean?
+### OUTPUT:
+To speak means we do almost.
+
+### INPUT:
+Tell me about year.
+### OUTPUT:
+A a year is it is beautiful.
+
+### INPUT:
+Tell me about chair.
+### OUTPUT:
+A a chair is we are warm.
+
+### INPUT:
+Tell me about woman.
+### OUTPUT:
+A a woman is you are good.
+
+### INPUT:
+Tell me about team.
+### OUTPUT:
+A a team is he is dead.
+
+### INPUT:
+Why is dead?
+### OUTPUT:
+Because dead things are we are long.
+
+### INPUT:
+Tell me about city.
+### OUTPUT:
+A a city is i am open.
+
+### INPUT:
+How does friend work?
+### OUTPUT:
+A a friend is i am dark.
+
+### INPUT:
+What is team?
+### OUTPUT:
+A a team is you are yellow.
+
+### INPUT:
+Why is cold?
+### OUTPUT:
+Because cold things are they are alive.
+
+### INPUT:
+Tell me about night.
+### OUTPUT:
+A a night is he is strong.
+
+### INPUT:
+Tell me about earth.
+### OUTPUT:
+A an earth is it is interesting.
+
+### INPUT:
+How does road work?
+### OUTPUT:
+A a road is he is old.
+

@@ -1,0 +1,66 @@
+def multiply(x, y):
+    return x * y
+
+def factorial(n):
+    if n == 0:
+        return 1
+    return n * factorial(n - 1)
+
+def sum_list(arr):
+    total = 0
+    for item in arr:
+        total += item
+    return total
+
+def count_vowels(text):
+    vowels = "aeiouAEIOU"
+    count = 0
+    for char in text:
+        if char in vowels:
+            count += 1
+    return count
+
+def subtract(self, a, b):
+        return a - b
+
+def divide(self, a, b):
+        if b == 0:
+            return None
+        return a / b
+
+def min_value(arr):
+    min_val = arr[0]
+    for val in arr:
+        if val < min_val:
+            min_val = val
+    return min_val
+
+def binary_search(arr, target):
+    left, right = 0, len(arr) - 1
+    while left <= right:
+        mid = (left + right) // 2
+        if arr[mid] == target:
+            return mid
+        elif arr[mid] < target:
+            left = mid + 1
+        else:
+            right = mid - 1
+    return -1
+
+def flatten_list(nested):
+    result = []
+    for item in nested:
+        if isinstance(item, list):
+            result.extend(flatten_list(item))
+        else:
+            result.append(item)
+    return result
+
+def remove_duplicates(arr):
+    seen = set()
+    result = []
+    for item in arr:
+        if item not in seen:
+            seen.add(item)
+            result.append(item)
+    return result

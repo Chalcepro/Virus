@@ -1,0 +1,999 @@
+### INPUT:
+how are you feeling
+### OUTPUT:
+ai is smart tech
+
+### INPUT:
+are you okay
+### OUTPUT:
+machine learning is teaching computers
+
+### INPUT:
+what did you eat
+### OUTPUT:
+a neural network is a math model
+
+### INPUT:
+did you sleep well
+### OUTPUT:
+deep learning is layered learning
+
+### INPUT:
+how was work
+### OUTPUT:
+cloud computing is using remote servers
+
+### INPUT:
+how was school
+### OUTPUT:
+blockchain is linked records
+
+### INPUT:
+how is your day
+### OUTPUT:
+a database stores data
+
+### INPUT:
+how is your mood
+### OUTPUT:
+an algorithm is a set of steps
+
+### INPUT:
+what is for dinner
+### OUTPUT:
+a model predicts outcomes
+
+### INPUT:
+did you eat yet
+### OUTPUT:
+a byte stores information
+
+### INPUT:
+is it raining
+### OUTPUT:
+ai is useful for automation
+
+### INPUT:
+how is the weather
+### OUTPUT:
+machine learning is popular for trends
+
+### INPUT:
+is it sunny
+### OUTPUT:
+algorithms help solve problems
+
+### INPUT:
+is it cold
+### OUTPUT:
+code crashes when something breaks
+
+### INPUT:
+is it hot
+### OUTPUT:
+the sky is blue from light
+
+### INPUT:
+did you sleep enough
+### OUTPUT:
+plants need water to grow
+
+### INPUT:
+are you tired
+### OUTPUT:
+we sleep to restore energy
+
+### INPUT:
+are you busy
+### OUTPUT:
+music calms people
+
+### INPUT:
+what are you doing later
+### OUTPUT:
+rain forms from clouds
+
+### INPUT:
+any plans today
+### OUTPUT:
+math helps solve issues
+
+### INPUT:
+how was your day
+### OUTPUT:
+fix a bug by checking code
+
+### INPUT:
+did you have a good day
+### OUTPUT:
+learn python by practicing
+
+### INPUT:
+what did you do today
+### OUTPUT:
+make a website with html
+
+### INPUT:
+how did your meeting go
+### OUTPUT:
+train a model with examples
+
+### INPUT:
+how was class
+### OUTPUT:
+save your work often
+
+### INPUT:
+how is your family
+### OUTPUT:
+play guitar by practicing chords
+
+### INPUT:
+are you hungry
+### OUTPUT:
+write a song with a melody
+
+### INPUT:
+what are you cooking
+### OUTPUT:
+design a logo with simple shapes
+
+### INPUT:
+want some coffee
+### OUTPUT:
+cook pasta by boiling water
+
+### INPUT:
+need a break
+### OUTPUT:
+clean your desk bit by bit
+
+### INPUT:
+are you okay today
+### OUTPUT:
+generative ai creates content
+
+### INPUT:
+how do you feel
+### OUTPUT:
+nlp helps computers read language
+
+### INPUT:
+you look tired
+### OUTPUT:
+reinforcement learning uses rewards
+
+### INPUT:
+you look happy
+### OUTPUT:
+data science finds patterns
+
+### INPUT:
+you seem quiet
+### OUTPUT:
+ux design makes products easy
+
+### INPUT:
+you seem busy
+### OUTPUT:
+a startup launches a new idea
+
+### INPUT:
+did you rest
+### OUTPUT:
+product design shapes user experience
+
+### INPUT:
+did you shower
+### OUTPUT:
+computer vision reads images
+
+### INPUT:
+did you eat breakfast
+### OUTPUT:
+quantum computing uses quantum bits
+
+### INPUT:
+did you skip lunch
+### OUTPUT:
+music theory explains notes
+
+### INPUT:
+how is your boss
+### OUTPUT:
+learn coding to build stuff
+
+### INPUT:
+how is your project
+### OUTPUT:
+data is important for decisions
+
+### INPUT:
+how is school going
+### OUTPUT:
+design is important for clarity
+
+### INPUT:
+how is your job
+### OUTPUT:
+science helps explain things
+
+### INPUT:
+what is your mood
+### OUTPUT:
+documentation keeps info clear
+
+### INPUT:
+are you stressed
+### OUTPUT:
+sharing knowledge helps others
+
+### INPUT:
+are you relaxed
+### OUTPUT:
+collaboration makes work easier
+
+### INPUT:
+are you chilled
+### OUTPUT:
+practice improves skill
+
+### INPUT:
+how is your week
+### OUTPUT:
+curiosity leads to learning
+
+### INPUT:
+how is your weekend
+### OUTPUT:
+sleep keeps your brain healthy
+
+### INPUT:
+what are your plans
+### OUTPUT:
+build an app by planning it
+
+### INPUT:
+what do you want to eat
+### OUTPUT:
+improve writing by editing
+
+### INPUT:
+what food do you like
+### OUTPUT:
+organize notes with folders
+
+### INPUT:
+what is your favorite food
+### OUTPUT:
+stay motivated with small goals
+
+### INPUT:
+do you like pizza
+### OUTPUT:
+learn faster by doing more
+
+### INPUT:
+do you like noodles
+### OUTPUT:
+solve problems step by step
+
+### INPUT:
+do you like burgers
+### OUTPUT:
+debug by testing one thing
+
+### INPUT:
+do you want snacks
+### OUTPUT:
+make it better by refining
+
+### INPUT:
+are you craving anything
+### OUTPUT:
+find answers by searching
+
+### INPUT:
+what sounds good
+### OUTPUT:
+get help from someone
+
+### INPUT:
+did you watch tv
+### OUTPUT:
+ai is not the same as ml
+
+### INPUT:
+did you watch a show
+### OUTPUT:
+ui is how it looks, ux is how it feels
+
+### INPUT:
+did you finish homework
+### OUTPUT:
+data is raw, information is useful
+
+### INPUT:
+did you finish work
+### OUTPUT:
+frontend is what users see, backend is what runs it
+
+### INPUT:
+did you clean your room
+### OUTPUT:
+an app can be a website too
+
+### INPUT:
+did you take a walk
+### OUTPUT:
+code and script are both instructions
+
+### INPUT:
+did you exercise
+### OUTPUT:
+design and art can overlap
+
+### INPUT:
+did you drink water
+### OUTPUT:
+science and engineering solve different questions
+
+### INPUT:
+did you stretch
+### OUTPUT:
+tech is tools, tools make tasks easier
+
+### INPUT:
+did you relax
+### OUTPUT:
+hardware is physical, software is digital
+
+### INPUT:
+how was the weather today
+### OUTPUT:
+keyboards help type words
+
+### INPUT:
+is it raining there
+### OUTPUT:
+screens show info
+
+### INPUT:
+is it windy
+### OUTPUT:
+headphones play sound
+
+### INPUT:
+is it cloudy
+### OUTPUT:
+apps make tasks easier
+
+### INPUT:
+is it snowing
+### OUTPUT:
+social media shares messages
+
+### INPUT:
+is it humid
+### OUTPUT:
+search engines find sites
+
+### INPUT:
+is it breezy
+### OUTPUT:
+emails send messages
+
+### INPUT:
+is it nice out
+### OUTPUT:
+passwords keep accounts safe
+
+### INPUT:
+how hot is it
+### OUTPUT:
+usernames identify people
+
+### INPUT:
+how cold is it
+### OUTPUT:
+updates add fixes
+
+### INPUT:
+what is on your mind
+### OUTPUT:
+a phone uses circuits and software
+
+### INPUT:
+what are you thinking about
+### OUTPUT:
+the internet links devices
+
+### INPUT:
+are you missing someone
+### OUTPUT:
+wifi sends data wirelessly
+
+### INPUT:
+are you happy
+### OUTPUT:
+bluetooth connects devices nearby
+
+### INPUT:
+are you sad
+### OUTPUT:
+a battery stores power
+
+### INPUT:
+are you excited
+### OUTPUT:
+a camera captures images
+
+### INPUT:
+are you bored
+### OUTPUT:
+streaming sends media live
+
+### INPUT:
+are you nervous
+### OUTPUT:
+a microphone catches sound
+
+### INPUT:
+are you sleepy
+### OUTPUT:
+a speaker plays audio
+
+### INPUT:
+are you awake
+### OUTPUT:
+a printer copies documents
+
+### INPUT:
+did you have a good meal
+### OUTPUT:
+a server hosts services
+
+### INPUT:
+did you have breakfast
+### OUTPUT:
+a browser displays websites
+
+### INPUT:
+did you have lunch
+### OUTPUT:
+a framework helps build apps
+
+### INPUT:
+did you have dinner
+### OUTPUT:
+a library shares reusable code
+
+### INPUT:
+did you snack
+### OUTPUT:
+a protocol is a communication rule
+
+### INPUT:
+did you cook
+### OUTPUT:
+an api connects software
+
+### INPUT:
+did you order food
+### OUTPUT:
+a sensor detects changes
+
+### INPUT:
+did you eat out
+### OUTPUT:
+a chip runs operations
+
+### INPUT:
+did you feel full
+### OUTPUT:
+a circuit moves electricity
+
+### INPUT:
+did you eat enough
+### OUTPUT:
+a plugin adds features
+
+### INPUT:
+how is your energy
+### OUTPUT:
+sound travels as waves
+
+### INPUT:
+how is your focus
+### OUTPUT:
+light bends in glass
+
+### INPUT:
+how is your appetite
+### OUTPUT:
+metal rusts with air and water
+
+### INPUT:
+how is your creativity
+### OUTPUT:
+ice melts with heat
+
+### INPUT:
+how is your patience
+### OUTPUT:
+gravity pulls objects
+
+### INPUT:
+how is your motivation
+### OUTPUT:
+heat moves from hot to cold
+
+### INPUT:
+how is your mood today
+### OUTPUT:
+time feels fast when busy
+
+### INPUT:
+how is your stress level
+### OUTPUT:
+music touches feelings
+
+### INPUT:
+how is your sleep
+### OUTPUT:
+art expresses ideas
+
+### INPUT:
+how is your rest
+### OUTPUT:
+math makes patterns clear
+
+### INPUT:
+what did you learn today
+### OUTPUT:
+choose colors that work together
+
+### INPUT:
+what was the highlight
+### OUTPUT:
+balance a layout with space
+
+### INPUT:
+what was the low point
+### OUTPUT:
+pick fonts that are readable
+
+### INPUT:
+what made you smile
+### OUTPUT:
+name a project clearly
+
+### INPUT:
+what made you tired
+### OUTPUT:
+set up a workspace cleanly
+
+### INPUT:
+what made you laugh
+### OUTPUT:
+charge a device before use
+
+### INPUT:
+what made you think
+### OUTPUT:
+protect privacy with passwords
+
+### INPUT:
+what made you feel good
+### OUTPUT:
+save files often
+
+### INPUT:
+what made you feel weird
+### OUTPUT:
+share links carefully
+
+### INPUT:
+what made you happy
+### OUTPUT:
+join calls with a link
+
+### INPUT:
+do you want to chat
+### OUTPUT:
+a chord is notes played together
+
+### INPUT:
+do you want to talk
+### OUTPUT:
+a beat is the pulse of a song
+
+### INPUT:
+do you want to share
+### OUTPUT:
+a melody is a tune
+
+### INPUT:
+do you want to vent
+### OUTPUT:
+rhythm is timing
+
+### INPUT:
+do you want advice
+### OUTPUT:
+harmony is layers of sound
+
+### INPUT:
+do you want to joke
+### OUTPUT:
+tempo is speed
+
+### INPUT:
+do you want to relax
+### OUTPUT:
+a mix blends tracks
+
+### INPUT:
+do you want to rest
+### OUTPUT:
+a genre is a style
+
+### INPUT:
+do you want to eat
+### OUTPUT:
+a producer guides songs
+
+### INPUT:
+do you want coffee
+### OUTPUT:
+a songwriter writes lyrics
+
+### INPUT:
+how is your family doing
+### OUTPUT:
+practice makes progress
+
+### INPUT:
+how are your kids
+### OUTPUT:
+feedback helps improve
+
+### INPUT:
+how is your partner
+### OUTPUT:
+version control saves history
+
+### INPUT:
+how is your roommate
+### OUTPUT:
+backup protects work
+
+### INPUT:
+how is your cat
+### OUTPUT:
+testing catches errors
+
+### INPUT:
+how is your dog
+### OUTPUT:
+patience helps learning
+
+### INPUT:
+how is your pet
+### OUTPUT:
+ideas grow over time
+
+### INPUT:
+how is your neighbor
+### OUTPUT:
+empathy helps users
+
+### INPUT:
+how is your team
+### OUTPUT:
+learning never stops
+
+### INPUT:
+how is your class
+### OUTPUT:
+questions lead to answers
+
+### INPUT:
+did you finish your task
+### OUTPUT:
+study effectively with short sessions
+
+### INPUT:
+did you finish your assignment
+### OUTPUT:
+manage time with a planner
+
+### INPUT:
+did you finish your study
+### OUTPUT:
+avoid distraction by focusing
+
+### INPUT:
+did you finish your shift
+### OUTPUT:
+stay focused with breaks
+
+### INPUT:
+did you finish your meeting
+### OUTPUT:
+prepare for tests with review
+
+### INPUT:
+did you finish your lecture
+### OUTPUT:
+learn by doing projects
+
+### INPUT:
+did you finish your errands
+### OUTPUT:
+learn from mistakes
+
+### INPUT:
+did you finish your chores
+### OUTPUT:
+join a team to collaborate
+
+### INPUT:
+did you finish your reading
+### OUTPUT:
+ask for feedback kindly
+
+### INPUT:
+did you finish your writing
+### OUTPUT:
+set a goal and follow it
+
+### INPUT:
+how was your breakfast
+### OUTPUT:
+a prototype is an early version
+
+### INPUT:
+how was your lunch
+### OUTPUT:
+a beta version is a test release
+
+### INPUT:
+how was your dinner
+### OUTPUT:
+a bug is an error
+
+### INPUT:
+how was your snack
+### OUTPUT:
+a patch is a fix
+
+### INPUT:
+how was your coffee
+### OUTPUT:
+hello world is a first program
+
+### INPUT:
+how was your tea
+### OUTPUT:
+a repository stores code
+
+### INPUT:
+how was your dessert
+### OUTPUT:
+a pitch shares an idea
+
+### INPUT:
+how was your meal
+### OUTPUT:
+a persona represents a user
+
+### INPUT:
+how was your smoothie
+### OUTPUT:
+a podcast is recorded talk
+
+### INPUT:
+how was your sandwich
+### OUTPUT:
+a playlist is a music list
+
+### INPUT:
+did you get enough sleep
+### OUTPUT:
+planets are studied to learn space
+
+### INPUT:
+did you wake up early
+### OUTPUT:
+space is explored for discovery
+
+### INPUT:
+did you sleep late
+### OUTPUT:
+history is learned from the past
+
+### INPUT:
+did you take a nap
+### OUTPUT:
+cells are studied for life
+
+### INPUT:
+did you dream
+### OUTPUT:
+climate matters for earth
+
+### INPUT:
+did you have a busy day
+### OUTPUT:
+engineers build useful things
+
+### INPUT:
+did you have a calm day
+### OUTPUT:
+artists create meaning
+
+### INPUT:
+did you have a fun day
+### OUTPUT:
+doctors keep people healthy
+
+### INPUT:
+did you have a rough day
+### OUTPUT:
+teachers help people learn
+
+### INPUT:
+did you have a great day
+### OUTPUT:
+friends help each other
+
+### INPUT:
+how do you feel about today
+### OUTPUT:
+keep learning by staying curious
+
+### INPUT:
+how do you feel about work
+### OUTPUT:
+stay curious by asking why
+
+### INPUT:
+how do you feel about school
+### OUTPUT:
+stay creative with practice
+
+### INPUT:
+how do you feel about the weather
+### OUTPUT:
+stay kind by helping others
+
+### INPUT:
+how do you feel about food
+### OUTPUT:
+stay patient with progress
+
+### INPUT:
+how do you feel about your plans
+### OUTPUT:
+stay calm with deep breaths
+
+### INPUT:
+how do you feel about tonight
+### OUTPUT:
+stay energized with rest
+
+### INPUT:
+how do you feel about this week
+### OUTPUT:
+stay organized with lists
+
+### INPUT:
+how do you feel about tomorrow
+### OUTPUT:
+stay healthy with meals
+
+### INPUT:
+how do you feel about the weekend
+### OUTPUT:
+stay smart by reading
+
+### INPUT:
+what are you eating now
+### OUTPUT:
+virtual reality feels like being inside
+
+### INPUT:
+what are you drinking now
+### OUTPUT:
+augmented reality adds digital items
+
+### INPUT:
+what are you wearing now
+### OUTPUT:
+a chatbot chats instantly
+
+### INPUT:
+what are you doing now
+### OUTPUT:
+a search engine finds results
+
+### INPUT:
+what are you planning now
+### OUTPUT:
+a social network connects people
+
+### INPUT:
+what are you thinking now
+### OUTPUT:
+a recommendation system suggests things
+
+### INPUT:
+what are you feeling now
+### OUTPUT:
+a sensor network collects data
+
+### INPUT:
+what are you waiting for
+### OUTPUT:
+an interface lets you interact
+
+### INPUT:
+what are you excited about
+### OUTPUT:
+a dashboard shows status
+
+### INPUT:
+what are you worried about
+### OUTPUT:
+a smart home controls devices
+
+### INPUT:
+did you have a good weekend
+### OUTPUT:
+songs stick because they are catchy
+
+### INPUT:
+did you have a good morning
+### OUTPUT:
+designs feel nice when simple
+
+### INPUT:
+did you have a good afternoon
+### OUTPUT:
+tools help more when easy
+
+### INPUT:
+did you have a good evening
+### OUTPUT:
+questions matter when clear
+
+### INPUT:
+did you have a good night
+### OUTPUT:
+problems repeat when not fixed
+
+### INPUT:
+did you have a quiet day
+### OUTPUT:
+solutions fail when rushed
+
+### INPUT:
+did you have a busy morning
+### OUTPUT:
+ideas spread when shared
+
+### INPUT:
+did you have a slow afternoon
+### OUTPUT:
+teams win when they work together
+
+### INPUT:
+did you have a fun evening
+### OUTPUT:
+projects end early when planned
+
+### INPUT:
+did you have a restful night
+### OUTPUT:
+experiments work when measured

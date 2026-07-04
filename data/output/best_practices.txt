@@ -1,0 +1,195 @@
+## Code Quality Principles
+
+def calculate_revenue_2021():
+    total = 0
+    for sale in sales_2021:
+        total += sale.amount
+    return total
+
+revenue_2020 = calculate_revenue(sales_2020)
+revenue_2021 = calculate_revenue(sales_2021)
+
+## Single Responsibility Principle
+class UserRepository:
+    def get_user(self, user_id):
+        pass
+
+class UserValidator:
+    def validate_email(self, email):
+        pass
+
+## Open/Closed Principle
+from abc import ABC, abstractmethod
+
+class CreditCardProcessor(PaymentProcessor):
+    def process(self, amount):
+        print(f"Processing ${amount} with credit card")
+
+## Liskov Substitution Principle
+class Bird:
+    def fly(self):
+        return "Flying"
+
+class Penguin(Bird):
+    def fly(self):
+        raise NotImplementedError("Penguins cannot fly")
+
+## Interface Segregation Principle
+# Bad - Fat interface
+class Worker(ABC):
+    @abstractmethod
+    def work(self):
+        pass
+
+# Good - Segregated interfaces
+class Workable(ABC):
+    @abstractmethod
+    def work(self):
+        pass
+
+class Robot(Workable):
+    def work(self):
+        print("Robot working")
+
+def eat(self):
+        print("Human eating")
+
+def pay(self, amount):
+        self.processor.process(amount)
+
+def pay(self, amount):
+        self.processor.process(amount)
+
+### Functionality
+- Does the code meet requirements?
+- Are there edge cases not handled?
+- Are there potential security issues?
+- Is error handling sufficient?
+
+### Maintainability
+- Is the code readable and understandable?
+- Are variable names clear and meaningful?
+- Is there sufficient documentation?
+- Are there code duplications (DRY)?
+
+## Testing Strategies
+
+### Integration Testing
+def test_api_user_flow():
+    # Create user
+    response = client.post('/api/users', json={'name': 'Alice', 'email': 'alice@example.com'})
+    assert response.status_code == 201
+    user_id = response.json()['id']
+
+# Update user
+    response = client.put(f'/api/users/{user_id}', json={'name': 'Bob'})
+    assert response.status_code == 200
+
+## Version Control Best Practices
+
+### Commit Messages
+# Bad
+commit changes
+fix bug
+update code
+
+Format: <type>: <subject>
+
+## Documentation Best Practices
+
+Args:
+        principal (float): Initial amount of money
+        rate (float): Annual interest rate (as decimal, e.g., 0.05 for 5%)
+        time (float): Time in years
+        compounds_per_year (int): Number of times interest compounds per year
+
+Raises:
+        ValueError: If principal or rate is negative
+
+return principal * (1 + rate / compounds_per_year) ** (compounds_per_year * time)
+
+## Description
+Short description of what the project does
+
+## Usage
+```python
+from module import function
+result = function(args)
+```
+
+## Architecture
+Diagram or explanation of how components work together
+
+## Testing
+How to run tests
+
+## License
+License information
+
+### Profiling
+import cProfile
+import pstats
+
+# Code to profile
+expensive_function()
+
+### Memory Profiling
+from memory_profiler import profile
+
+### Optimization Techniques
+1. Use generators instead of lists for large data
+2. Cache expensive computations (memoization)
+3. Use sets for membership tests (O(1) vs O(n))
+4. Avoid string concatenation in loops (use join)
+5. Use built-in functions (map, filter) for speed
+6. Consider numba/numpy for numerical operations
+7. Profile before optimizing
+
+### Structured Logging
+import logging
+import json
+from datetime import datetime
+
+handler = logging.StreamHandler()
+handler.setFormatter(JSONFormatter())
+logger = logging.getLogger(__name__)
+logger.addHandler(handler)
+
+# Good
+try:
+    operation()
+except (FileNotFoundError, ValueError) as e:
+    logger.error(f"Operation failed: {e}", exc_info=True)
+    raise CustomException(f"Failed to perform operation: {e}") from e
+
+### Input Validation
+from typing import Pattern
+import re
+
+### SQL Injection Prevention
+# Bad - SQL injection vulnerability
+query = f"SELECT * FROM users WHERE email = '{email}'"
+
+### Secrets Management
+import os
+from dotenv import load_dotenv
+
+## Continuous Integration/Continuous Deployment
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Run tests
+        run: pytest
+      - name: Run linting
+        run: flake8 .

@@ -1,0 +1,2150 @@
+### INPUT:
+eat
+### OUTPUT:
+eat (verb)
+
+### INPUT:
+hello
+### OUTPUT:
+hello (interjection)
+
+### INPUT:
+spoke
+### OUTPUT:
+spoke (verb, past tense)
+
+### INPUT:
+back
+### OUTPUT:
+back (adverb)
+
+### INPUT:
+coming
+### OUTPUT:
+coming (verb, -ing form)
+
+### INPUT:
+drank
+### OUTPUT:
+drank (verb, past tense)
+
+### INPUT:
+narrow
+### OUTPUT:
+narrow (adjective)
+
+### INPUT:
+enough
+### OUTPUT:
+enough (determiner)
+
+### INPUT:
+dead
+### OUTPUT:
+dead (adjective)
+
+### INPUT:
+quickly
+### OUTPUT:
+quickly (adverb)
+
+### INPUT:
+children
+### OUTPUT:
+children (noun, plural)
+
+### INPUT:
+warm
+### OUTPUT:
+warm (adjective)
+
+### INPUT:
+few
+### OUTPUT:
+few (determiner)
+
+### INPUT:
+here
+### OUTPUT:
+here (adverb)
+
+### INPUT:
+poor
+### OUTPUT:
+poor (adjective)
+
+### INPUT:
+as
+### OUTPUT:
+as (preposition)
+
+### INPUT:
+wow
+### OUTPUT:
+wow (interjection)
+
+### INPUT:
+up
+### OUTPUT:
+up (preposition)
+
+### INPUT:
+quite
+### OUTPUT:
+quite (adverb)
+
+### INPUT:
+from
+### OUTPUT:
+from (preposition)
+
+### INPUT:
+chair
+### OUTPUT:
+chair (noun)
+
+### INPUT:
+talks
+### OUTPUT:
+talks (verb, present tense)
+
+### INPUT:
+indeed
+### OUTPUT:
+indeed (interjection)
+
+### INPUT:
+hear
+### OUTPUT:
+hear (verb)
+
+### INPUT:
+light
+### OUTPUT:
+light (adjective)
+
+### INPUT:
+beautiful
+### OUTPUT:
+beautiful (adjective)
+
+### INPUT:
+while
+### OUTPUT:
+while (conjunction)
+
+### INPUT:
+door
+### OUTPUT:
+door (noun)
+
+### INPUT:
+woman
+### OUTPUT:
+woman (noun)
+
+### INPUT:
+across
+### OUTPUT:
+across (preposition)
+
+### INPUT:
+looked
+### OUTPUT:
+looked (verb, past tense)
+
+### INPUT:
+past
+### OUTPUT:
+past (preposition)
+
+### INPUT:
+table
+### OUTPUT:
+table (noun)
+
+### INPUT:
+second
+### OUTPUT:
+second (determiner)
+
+### INPUT:
+jumped
+### OUTPUT:
+jumped (verb, past participle)
+
+### INPUT:
+alas
+### OUTPUT:
+alas (interjection)
+
+### INPUT:
+looking
+### OUTPUT:
+looking (verb, -ing form)
+
+### INPUT:
+January
+### OUTPUT:
+January (proper noun)
+
+### INPUT:
+was
+### OUTPUT:
+was (verb)
+
+### INPUT:
+walked
+### OUTPUT:
+walked (verb, past tense)
+
+### INPUT:
+soon
+### OUTPUT:
+soon (adverb)
+
+### INPUT:
+oh
+### OUTPUT:
+oh (interjection)
+
+### INPUT:
+sadly
+### OUTPUT:
+sadly (adverb)
+
+### INPUT:
+walking
+### OUTPUT:
+walking (verb, -ing form)
+
+### INPUT:
+ow
+### OUTPUT:
+ow (interjection)
+
+### INPUT:
+families
+### OUTPUT:
+families (noun, plural)
+
+### INPUT:
+talking
+### OUTPUT:
+talking (verb, -ing form)
+
+### INPUT:
+says
+### OUTPUT:
+says (verb, present tense)
+
+### INPUT:
+onto
+### OUTPUT:
+onto (preposition)
+
+### INPUT:
+it
+### OUTPUT:
+it (pronoun)
+
+### INPUT:
+you
+### OUTPUT:
+you (pronoun)
+
+### INPUT:
+see
+### OUTPUT:
+see (verb)
+
+### INPUT:
+house
+### OUTPUT:
+house (noun)
+
+### INPUT:
+hey
+### OUTPUT:
+hey (interjection)
+
+### INPUT:
+happy
+### OUTPUT:
+happy (adjective)
+
+### INPUT:
+about
+### OUTPUT:
+about (preposition)
+
+### INPUT:
+me
+### OUTPUT:
+me (pronoun)
+
+### INPUT:
+saw
+### OUTPUT:
+saw (verb, past tense)
+
+### INPUT:
+old
+### OUTPUT:
+old (adjective)
+
+### INPUT:
+heard
+### OUTPUT:
+heard (verb, past participle)
+
+### INPUT:
+look
+### OUTPUT:
+look (verb)
+
+### INPUT:
+outside
+### OUTPUT:
+outside (adverb)
+
+### INPUT:
+person
+### OUTPUT:
+person (noun)
+
+### INPUT:
+bigger
+### OUTPUT:
+bigger (adjective)
+
+### INPUT:
+ouch
+### OUTPUT:
+ouch (interjection)
+
+### INPUT:
+came
+### OUTPUT:
+came (verb, past tense)
+
+### INPUT:
+white
+### OUTPUT:
+white (adjective)
+
+### INPUT:
+much
+### OUTPUT:
+much (determiner)
+
+### INPUT:
+either
+### OUTPUT:
+either (determiner)
+
+### INPUT:
+been
+### OUTPUT:
+been (verb)
+
+### INPUT:
+did
+### OUTPUT:
+did (verb, past tense)
+
+### INPUT:
+said
+### OUTPUT:
+said (verb, past participle)
+
+### INPUT:
+child
+### OUTPUT:
+child (noun)
+
+### INPUT:
+them
+### OUTPUT:
+them (pronoun)
+
+### INPUT:
+best
+### OUTPUT:
+best (adjective, superlative)
+
+### INPUT:
+running
+### OUTPUT:
+running (verb, -ing form)
+
+### INPUT:
+done
+### OUTPUT:
+done (verb, past participle)
+
+### INPUT:
+telling
+### OUTPUT:
+telling (verb, -ing form)
+
+### INPUT:
+after
+### OUTPUT:
+after (preposition)
+
+### INPUT:
+new
+### OUTPUT:
+new (adjective)
+
+### INPUT:
+run
+### OUTPUT:
+run (verb, past participle)
+
+### INPUT:
+look
+### OUTPUT:
+look (interjection)
+
+### INPUT:
+friends
+### OUTPUT:
+friends (noun, plural)
+
+### INPUT:
+went
+### OUTPUT:
+went (verb, past tense)
+
+### INPUT:
+gone
+### OUTPUT:
+gone (verb, past participle)
+
+### INPUT:
+where
+### OUTPUT:
+where (conjunction)
+
+### INPUT:
+there
+### OUTPUT:
+there (adverb)
+
+### INPUT:
+jumped
+### OUTPUT:
+jumped (verb, past tense)
+
+### INPUT:
+fast
+### OUTPUT:
+fast (adjective)
+
+### INPUT:
+spoken
+### OUTPUT:
+spoken (verb, past participle)
+
+### INPUT:
+fourth
+### OUTPUT:
+fourth (determiner)
+
+### INPUT:
+in
+### OUTPUT:
+in (preposition)
+
+### INPUT:
+smallest
+### OUTPUT:
+smallest (adjective, superlative)
+
+### INPUT:
+eating
+### OUTPUT:
+eating (verb, -ing form)
+
+### INPUT:
+be
+### OUTPUT:
+be (verb)
+
+### INPUT:
+i
+### OUTPUT:
+i (pronoun)
+
+### INPUT:
+making
+### OUTPUT:
+making (verb, -ing form)
+
+### INPUT:
+fastest
+### OUTPUT:
+fastest (adjective, superlative)
+
+### INPUT:
+Paris
+### OUTPUT:
+Paris (proper noun)
+
+### INPUT:
+with
+### OUTPUT:
+with (preposition)
+
+### INPUT:
+weak
+### OUTPUT:
+weak (adjective)
+
+### INPUT:
+jump
+### OUTPUT:
+jump (verb)
+
+### INPUT:
+late
+### OUTPUT:
+late (adverb)
+
+### INPUT:
+despite
+### OUTPUT:
+despite (preposition)
+
+### INPUT:
+worse
+### OUTPUT:
+worse (adjective)
+
+### INPUT:
+speaks
+### OUTPUT:
+speaks (verb, present tense)
+
+### INPUT:
+um
+### OUTPUT:
+um (interjection)
+
+### INPUT:
+makes
+### OUTPUT:
+makes (verb, present tense)
+
+### INPUT:
+fish
+### OUTPUT:
+fish (noun)
+
+### INPUT:
+everywhere
+### OUTPUT:
+everywhere (adverb)
+
+### INPUT:
+four
+### OUTPUT:
+four (determiner)
+
+### INPUT:
+yay
+### OUTPUT:
+yay (interjection)
+
+### INPUT:
+no
+### OUTPUT:
+no (interjection)
+
+### INPUT:
+days
+### OUTPUT:
+days (noun, plural)
+
+### INPUT:
+night
+### OUTPUT:
+night (noun)
+
+### INPUT:
+is
+### OUTPUT:
+is (verb)
+
+### INPUT:
+bright
+### OUTPUT:
+bright (adjective)
+
+### INPUT:
+fast
+### OUTPUT:
+fast (adverb)
+
+### INPUT:
+speak
+### OUTPUT:
+speak (verb)
+
+### INPUT:
+nowhere
+### OUTPUT:
+nowhere (adverb)
+
+### INPUT:
+okay
+### OUTPUT:
+okay (interjection)
+
+### INPUT:
+dog
+### OUTPUT:
+dog (noun)
+
+### INPUT:
+out
+### OUTPUT:
+out (adverb)
+
+### INPUT:
+day
+### OUTPUT:
+day (noun)
+
+### INPUT:
+drinks
+### OUTPUT:
+drinks (verb, present tense)
+
+### INPUT:
+for
+### OUTPUT:
+for (conjunction)
+
+### INPUT:
+ah
+### OUTPUT:
+ah (interjection)
+
+### INPUT:
+good
+### OUTPUT:
+good (adjective)
+
+### INPUT:
+smaller
+### OUTPUT:
+smaller (adjective)
+
+### INPUT:
+aw
+### OUTPUT:
+aw (interjection)
+
+### INPUT:
+open
+### OUTPUT:
+open (adjective)
+
+### INPUT:
+many
+### OUTPUT:
+many (determiner)
+
+### INPUT:
+told
+### OUTPUT:
+told (verb, past participle)
+
+### INPUT:
+third
+### OUTPUT:
+third (determiner)
+
+### INPUT:
+birds
+### OUTPUT:
+birds (noun, plural)
+
+### INPUT:
+friend
+### OUTPUT:
+friend (noun)
+
+### INPUT:
+whenever
+### OUTPUT:
+whenever (conjunction)
+
+### INPUT:
+hard
+### OUTPUT:
+hard (adjective)
+
+### INPUT:
+fifth
+### OUTPUT:
+fifth (determiner)
+
+### INPUT:
+being
+### OUTPUT:
+being (verb)
+
+### INPUT:
+fire
+### OUTPUT:
+fire (noun)
+
+### INPUT:
+nor
+### OUTPUT:
+nor (conjunction)
+
+### INPUT:
+behind
+### OUTPUT:
+behind (preposition)
+
+### INPUT:
+houses
+### OUTPUT:
+houses (noun, plural)
+
+### INPUT:
+saying
+### OUTPUT:
+saying (verb, -ing form)
+
+### INPUT:
+him
+### OUTPUT:
+him (pronoun)
+
+### INPUT:
+were
+### OUTPUT:
+were (verb)
+
+### INPUT:
+beside
+### OUTPUT:
+beside (preposition)
+
+### INPUT:
+an
+### OUTPUT:
+an (article)
+
+### INPUT:
+cold
+### OUTPUT:
+cold (adjective)
+
+### INPUT:
+soft
+### OUTPUT:
+soft (adjective)
+
+### INPUT:
+easily
+### OUTPUT:
+easily (adverb)
+
+### INPUT:
+full
+### OUTPUT:
+full (adjective)
+
+### INPUT:
+always
+### OUTPUT:
+always (adverb)
+
+### INPUT:
+into
+### OUTPUT:
+into (preposition)
+
+### INPUT:
+chairs
+### OUTPUT:
+chairs (noun, plural)
+
+### INPUT:
+talked
+### OUTPUT:
+talked (verb, past participle)
+
+### INPUT:
+sometimes
+### OUTPUT:
+sometimes (adverb)
+
+### INPUT:
+they
+### OUTPUT:
+they (pronoun)
+
+### INPUT:
+years
+### OUTPUT:
+years (noun, plural)
+
+### INPUT:
+we
+### OUTPUT:
+we (pronoun)
+
+### INPUT:
+or
+### OUTPUT:
+or (conjunction)
+
+### INPUT:
+go
+### OUTPUT:
+go (verb)
+
+### INPUT:
+sure
+### OUTPUT:
+sure (interjection)
+
+### INPUT:
+via
+### OUTPUT:
+via (preposition)
+
+### INPUT:
+five
+### OUTPUT:
+five (determiner)
+
+### INPUT:
+except
+### OUTPUT:
+except (preposition)
+
+### INPUT:
+black
+### OUTPUT:
+black (adjective)
+
+### INPUT:
+had
+### OUTPUT:
+had (verb, past tense)
+
+### INPUT:
+Tuesday
+### OUTPUT:
+Tuesday (proper noun)
+
+### INPUT:
+made
+### OUTPUT:
+made (verb, past participle)
+
+### INPUT:
+pen
+### OUTPUT:
+pen (noun)
+
+### INPUT:
+red
+### OUTPUT:
+red (adjective)
+
+### INPUT:
+among
+### OUTPUT:
+among (preposition)
+
+### INPUT:
+down
+### OUTPUT:
+down (adverb)
+
+### INPUT:
+people
+### OUTPUT:
+people (noun, plural)
+
+### INPUT:
+flowers
+### OUTPUT:
+flowers (noun, plural)
+
+### INPUT:
+ran
+### OUTPUT:
+ran (verb, past tense)
+
+### INPUT:
+towns
+### OUTPUT:
+towns (noun, plural)
+
+### INPUT:
+and
+### OUTPUT:
+and (conjunction)
+
+### INPUT:
+giving
+### OUTPUT:
+giving (verb, -ing form)
+
+### INPUT:
+listen
+### OUTPUT:
+listen (interjection)
+
+### INPUT:
+happier
+### OUTPUT:
+happier (adjective)
+
+### INPUT:
+her
+### OUTPUT:
+her (pronoun)
+
+### INPUT:
+hears
+### OUTPUT:
+hears (verb, present tense)
+
+### INPUT:
+alright
+### OUTPUT:
+alright (interjection)
+
+### INPUT:
+comes
+### OUTPUT:
+comes (verb, present tense)
+
+### INPUT:
+trees
+### OUTPUT:
+trees (noun, plural)
+
+### INPUT:
+give
+### OUTPUT:
+give (verb)
+
+### INPUT:
+so
+### OUTPUT:
+so (adverb)
+
+### INPUT:
+faster
+### OUTPUT:
+faster (adjective)
+
+### INPUT:
+strong
+### OUTPUT:
+strong (adjective)
+
+### INPUT:
+near
+### OUTPUT:
+near (preposition)
+
+### INPUT:
+big
+### OUTPUT:
+big (adjective)
+
+### INPUT:
+as
+### OUTPUT:
+as (conjunction)
+
+### INPUT:
+seen
+### OUTPUT:
+seen (verb, past participle)
+
+### INPUT:
+sit
+### OUTPUT:
+sit (verb)
+
+### INPUT:
+us
+### OUTPUT:
+us (pronoun)
+
+### INPUT:
+if
+### OUTPUT:
+if (conjunction)
+
+### INPUT:
+little
+### OUTPUT:
+little (determiner)
+
+### INPUT:
+has
+### OUTPUT:
+has (verb, present tense)
+
+### INPUT:
+taken
+### OUTPUT:
+taken (verb, past participle)
+
+### INPUT:
+a
+### OUTPUT:
+a (article)
+
+### INPUT:
+each
+### OUTPUT:
+each (determiner)
+
+### INPUT:
+goes
+### OUTPUT:
+goes (verb, present tense)
+
+### INPUT:
+yet
+### OUTPUT:
+yet (conjunction)
+
+### INPUT:
+car
+### OUTPUT:
+car (noun)
+
+### INPUT:
+tells
+### OUTPUT:
+tells (verb, present tense)
+
+### INPUT:
+then
+### OUTPUT:
+then (adverb)
+
+### INPUT:
+down
+### OUTPUT:
+down (preposition)
+
+### INPUT:
+since
+### OUTPUT:
+since (preposition)
+
+### INPUT:
+Mary
+### OUTPUT:
+Mary (proper noun)
+
+### INPUT:
+up
+### OUTPUT:
+up (adverb)
+
+### INPUT:
+badly
+### OUTPUT:
+badly (adverb)
+
+### INPUT:
+yellow
+### OUTPUT:
+yellow (adjective)
+
+### INPUT:
+uh
+### OUTPUT:
+uh (interjection)
+
+### INPUT:
+world
+### OUTPUT:
+world (noun)
+
+### INPUT:
+air
+### OUTPUT:
+air (noun)
+
+### INPUT:
+drink
+### OUTPUT:
+drink (verb)
+
+### INPUT:
+ah
+### OUTPUT:
+ah (interjection)
+
+### INPUT:
+walks
+### OUTPUT:
+walks (verb, present tense)
+
+### INPUT:
+almost
+### OUTPUT:
+almost (adverb)
+
+### INPUT:
+every
+### OUTPUT:
+every (determiner)
+
+### INPUT:
+never
+### OUTPUT:
+never (interjection)
+
+### INPUT:
+well
+### OUTPUT:
+well (interjection)
+
+### INPUT:
+early
+### OUTPUT:
+early (adverb)
+
+### INPUT:
+runs
+### OUTPUT:
+runs (verb, present tense)
+
+### INPUT:
+saddest
+### OUTPUT:
+saddest (adjective, superlative)
+
+### INPUT:
+going
+### OUTPUT:
+going (verb, -ing form)
+
+### INPUT:
+do
+### OUTPUT:
+do (verb)
+
+### INPUT:
+those
+### OUTPUT:
+those (determiner)
+
+### INPUT:
+eaten
+### OUTPUT:
+eaten (verb, past participle)
+
+### INPUT:
+happily
+### OUTPUT:
+happily (adverb)
+
+### INPUT:
+but
+### OUTPUT:
+but (conjunction)
+
+### INPUT:
+happiest
+### OUTPUT:
+happiest (adjective, superlative)
+
+### INPUT:
+since
+### OUTPUT:
+since (conjunction)
+
+### INPUT:
+alive
+### OUTPUT:
+alive (adjective)
+
+### INPUT:
+year
+### OUTPUT:
+year (noun)
+
+### INPUT:
+rather
+### OUTPUT:
+rather (adverb)
+
+### INPUT:
+unless
+### OUTPUT:
+unless (conjunction)
+
+### INPUT:
+whereas
+### OUTPUT:
+whereas (conjunction)
+
+### INPUT:
+hi
+### OUTPUT:
+hi (interjection)
+
+### INPUT:
+gives
+### OUTPUT:
+gives (verb, present tense)
+
+### INPUT:
+group
+### OUTPUT:
+group (noun)
+
+### INPUT:
+through
+### OUTPUT:
+through (preposition)
+
+### INPUT:
+cat
+### OUTPUT:
+cat (noun)
+
+### INPUT:
+star
+### OUTPUT:
+star (noun)
+
+### INPUT:
+man
+### OUTPUT:
+man (noun)
+
+### INPUT:
+some
+### OUTPUT:
+some (determiner)
+
+### INPUT:
+make
+### OUTPUT:
+make (verb)
+
+### INPUT:
+flower
+### OUTPUT:
+flower (noun)
+
+### INPUT:
+yeah
+### OUTPUT:
+yeah (interjection)
+
+### INPUT:
+said
+### OUTPUT:
+said (verb, past tense)
+
+### INPUT:
+often
+### OUTPUT:
+often (adverb)
+
+### INPUT:
+to
+### OUTPUT:
+to (preposition)
+
+### INPUT:
+town
+### OUTPUT:
+town (noun)
+
+### INPUT:
+are
+### OUTPUT:
+are (verb)
+
+### INPUT:
+of
+### OUTPUT:
+of (preposition)
+
+### INPUT:
+around
+### OUTPUT:
+around (preposition)
+
+### INPUT:
+hard
+### OUTPUT:
+hard (adverb)
+
+### INPUT:
+women
+### OUTPUT:
+women (noun, plural)
+
+### INPUT:
+high
+### OUTPUT:
+high (adjective)
+
+### INPUT:
+short
+### OUTPUT:
+short (adjective)
+
+### INPUT:
+between
+### OUTPUT:
+between (preposition)
+
+### INPUT:
+over
+### OUTPUT:
+over (preposition)
+
+### INPUT:
+against
+### OUTPUT:
+against (preposition)
+
+### INPUT:
+tree
+### OUTPUT:
+tree (noun)
+
+### INPUT:
+rarely
+### OUTPUT:
+rarely (adverb)
+
+### INPUT:
+teams
+### OUTPUT:
+teams (noun, plural)
+
+### INPUT:
+drunk
+### OUTPUT:
+drunk (verb, past participle)
+
+### INPUT:
+blue
+### OUTPUT:
+blue (adjective)
+
+### INPUT:
+it
+### OUTPUT:
+it (pronoun)
+
+### INPUT:
+walk
+### OUTPUT:
+walk (verb)
+
+### INPUT:
+bird
+### OUTPUT:
+bird (noun)
+
+### INPUT:
+drinking
+### OUTPUT:
+drinking (verb, -ing form)
+
+### INPUT:
+does
+### OUTPUT:
+does (verb, present tense)
+
+### INPUT:
+have
+### OUTPUT:
+have (verb)
+
+### INPUT:
+well
+### OUTPUT:
+well (adverb)
+
+### INPUT:
+book
+### OUTPUT:
+book (noun)
+
+### INPUT:
+took
+### OUTPUT:
+took (verb, past tense)
+
+### INPUT:
+whoa
+### OUTPUT:
+whoa (interjection)
+
+### INPUT:
+such
+### OUTPUT:
+such (adverb)
+
+### INPUT:
+come
+### OUTPUT:
+come (verb)
+
+### INPUT:
+dogs
+### OUTPUT:
+dogs (noun, plural)
+
+### INPUT:
+you
+### OUTPUT:
+you (pronoun)
+
+### INPUT:
+gave
+### OUTPUT:
+gave (verb, past tense)
+
+### INPUT:
+hot
+### OUTPUT:
+hot (adjective)
+
+### INPUT:
+bad
+### OUTPUT:
+bad (adjective)
+
+### INPUT:
+dark
+### OUTPUT:
+dark (adjective)
+
+### INPUT:
+he
+### OUTPUT:
+he (pronoun)
+
+### INPUT:
+any
+### OUTPUT:
+any (determiner)
+
+### INPUT:
+empty
+### OUTPUT:
+empty (adjective)
+
+### INPUT:
+Monday
+### OUTPUT:
+Monday (proper noun)
+
+### INPUT:
+jumping
+### OUTPUT:
+jumping (verb, -ing form)
+
+### INPUT:
+too
+### OUTPUT:
+too (adverb)
+
+### INPUT:
+wide
+### OUTPUT:
+wide (adjective)
+
+### INPUT:
+this
+### OUTPUT:
+this (determiner)
+
+### INPUT:
+say
+### OUTPUT:
+say (verb)
+
+### INPUT:
+no
+### OUTPUT:
+no (determiner)
+
+### INPUT:
+so
+### OUTPUT:
+so (conjunction)
+
+### INPUT:
+young
+### OUTPUT:
+young (adjective)
+
+### INPUT:
+hey
+### OUTPUT:
+hey (interjection)
+
+### INPUT:
+sees
+### OUTPUT:
+sees (verb, present tense)
+
+### INPUT:
+John
+### OUTPUT:
+John (proper noun)
+
+### INPUT:
+the
+### OUTPUT:
+the (article)
+
+### INPUT:
+talked
+### OUTPUT:
+talked (verb, past tense)
+
+### INPUT:
+first
+### OUTPUT:
+first (determiner)
+
+### INPUT:
+today
+### OUTPUT:
+today (adverb)
+
+### INPUT:
+rocks
+### OUTPUT:
+rocks (noun, plural)
+
+### INPUT:
+tell
+### OUTPUT:
+tell (verb)
+
+### INPUT:
+slow
+### OUTPUT:
+slow (adjective)
+
+### INPUT:
+slowest
+### OUTPUT:
+slowest (adjective, superlative)
+
+### INPUT:
+window
+### OUTPUT:
+window (noun)
+
+### INPUT:
+had
+### OUTPUT:
+had (verb, past participle)
+
+### INPUT:
+cool
+### OUTPUT:
+cool (adjective)
+
+### INPUT:
+seeing
+### OUTPUT:
+seeing (verb, -ing form)
+
+### INPUT:
+slower
+### OUTPUT:
+slower (adjective)
+
+### INPUT:
+bye
+### OUTPUT:
+bye (interjection)
+
+### INPUT:
+having
+### OUTPUT:
+having (verb, -ing form)
+
+### INPUT:
+yes
+### OUTPUT:
+yes (interjection)
+
+### INPUT:
+city
+### OUTPUT:
+city (noun)
+
+### INPUT:
+slowly
+### OUTPUT:
+slowly (adverb)
+
+### INPUT:
+takes
+### OUTPUT:
+takes (verb, present tense)
+
+### INPUT:
+books
+### OUTPUT:
+books (noun, plural)
+
+### INPUT:
+gosh
+### OUTPUT:
+gosh (interjection)
+
+### INPUT:
+biggest
+### OUTPUT:
+biggest (adjective, superlative)
+
+### INPUT:
+outside
+### OUTPUT:
+outside (preposition)
+
+### INPUT:
+three
+### OUTPUT:
+three (determiner)
+
+### INPUT:
+far
+### OUTPUT:
+far (preposition)
+
+### INPUT:
+small
+### OUTPUT:
+small (adjective)
+
+### INPUT:
+come
+### OUTPUT:
+come (verb, past participle)
+
+### INPUT:
+several
+### OUTPUT:
+several (determiner)
+
+### INPUT:
+by
+### OUTPUT:
+by (preposition)
+
+### INPUT:
+wherever
+### OUTPUT:
+wherever (conjunction)
+
+### INPUT:
+team
+### OUTPUT:
+team (noun)
+
+### INPUT:
+food
+### OUTPUT:
+food (noun)
+
+### INPUT:
+rich
+### OUTPUT:
+rich (adjective)
+
+### INPUT:
+now
+### OUTPUT:
+now (adverb)
+
+### INPUT:
+phew
+### OUTPUT:
+phew (interjection)
+
+### INPUT:
+two
+### OUTPUT:
+two (determiner)
+
+### INPUT:
+talk
+### OUTPUT:
+talk (verb)
+
+### INPUT:
+when
+### OUTPUT:
+when (conjunction)
+
+### INPUT:
+usually
+### OUTPUT:
+usually (adverb)
+
+### INPUT:
+though
+### OUTPUT:
+though (conjunction)
+
+### INPUT:
+psst
+### OUTPUT:
+psst (interjection)
+
+### INPUT:
+off
+### OUTPUT:
+off (preposition)
+
+### INPUT:
+hearing
+### OUTPUT:
+hearing (verb, -ing form)
+
+### INPUT:
+better
+### OUTPUT:
+better (adjective)
+
+### INPUT:
+given
+### OUTPUT:
+given (verb, past participle)
+
+### INPUT:
+tomorrow
+### OUTPUT:
+tomorrow (adverb)
+
+### INPUT:
+inside
+### OUTPUT:
+inside (adverb)
+
+### INPUT:
+neither
+### OUTPUT:
+neither (determiner)
+
+### INPUT:
+for
+### OUTPUT:
+for (preposition)
+
+### INPUT:
+cats
+### OUTPUT:
+cats (noun, plural)
+
+### INPUT:
+eats
+### OUTPUT:
+eats (verb, present tense)
+
+### INPUT:
+because
+### OUTPUT:
+because (conjunction)
+
+### INPUT:
+looks
+### OUTPUT:
+looks (verb, present tense)
+
+### INPUT:
+doing
+### OUTPUT:
+doing (verb, -ing form)
+
+### INPUT:
+sad
+### OUTPUT:
+sad (adjective)
+
+### INPUT:
+sadder
+### OUTPUT:
+sadder (adjective)
+
+### INPUT:
+goodbye
+### OUTPUT:
+goodbye (interjection)
+
+### INPUT:
+worst
+### OUTPUT:
+worst (adjective, superlative)
+
+### INPUT:
+walked
+### OUTPUT:
+walked (verb, past participle)
+
+### INPUT:
+dirty
+### OUTPUT:
+dirty (adjective)
+
+### INPUT:
+in
+### OUTPUT:
+in (adverb)
+
+### INPUT:
+that
+### OUTPUT:
+that (determiner)
+
+### INPUT:
+yesterday
+### OUTPUT:
+yesterday (adverb)
+
+### INPUT:
+ate
+### OUTPUT:
+ate (verb, past tense)
+
+### INPUT:
+along
+### OUTPUT:
+along (preposition)
+
+### INPUT:
+nope
+### OUTPUT:
+nope (interjection)
+
+### INPUT:
+during
+### OUTPUT:
+during (preposition)
+
+### INPUT:
+road
+### OUTPUT:
+road (noun)
+
+### INPUT:
+one
+### OUTPUT:
+one (determiner)
+
+### INPUT:
+nearly
+### OUTPUT:
+nearly (adverb)
+
+### INPUT:
+tables
+### OUTPUT:
+tables (noun, plural)
+
+### INPUT:
+green
+### OUTPUT:
+green (adjective)
+
+### INPUT:
+am
+### OUTPUT:
+am (verb)
+
+### INPUT:
+per
+### OUTPUT:
+per (preposition)
+
+### INPUT:
+although
+### OUTPUT:
+although (conjunction)
+
+### INPUT:
+above
+### OUTPUT:
+above (preposition)
+
+### INPUT:
+men
+### OUTPUT:
+men (noun, plural)
+
+### INPUT:
+take
+### OUTPUT:
+take (verb)
+
+### INPUT:
+these
+### OUTPUT:
+these (determiner)
+
+### INPUT:
+on
+### OUTPUT:
+on (preposition)
+
+### INPUT:
+taking
+### OUTPUT:
+taking (verb, -ing form)
+
+### INPUT:
+until
+### OUTPUT:
+until (preposition)
+
+### INPUT:
+cities
+### OUTPUT:
+cities (noun, plural)
+
+### INPUT:
+very
+### OUTPUT:
+very (adverb)
+
+### INPUT:
+run
+### OUTPUT:
+run (verb)
+
+### INPUT:
+my
+### OUTPUT:
+my (interjection)
+
+### INPUT:
+speaking
+### OUTPUT:
+speaking (verb, -ing form)
+
+### INPUT:
+London
+### OUTPUT:
+London (proper noun)
+
+### INPUT:
+at
+### OUTPUT:
+at (preposition)
+
+### INPUT:
+earth
+### OUTPUT:
+earth (noun)
+
+### INPUT:
+told
+### OUTPUT:
+told (verb, past tense)
+
+### INPUT:
+moon
+### OUTPUT:
+moon (noun)
+
+### INPUT:
+long
+### OUTPUT:
+long (adjective)
+
+### INPUT:
+under
+### OUTPUT:
+under (preposition)
+
+### INPUT:
+inside
+### OUTPUT:
+inside (preposition)
+
+### INPUT:
+stone
+### OUTPUT:
+stone (noun)
+
+### INPUT:
+hmm
+### OUTPUT:
+hmm (interjection)
+
+### INPUT:
+without
+### OUTPUT:
+without (preposition)
+
+### INPUT:
+like
+### OUTPUT:
+like (preposition)
+
+### INPUT:
+made
+### OUTPUT:
+made (verb, past tense)
+
+### INPUT:
+groups
+### OUTPUT:
+groups (noun, plural)
+
+### INPUT:
+before
+### OUTPUT:
+before (preposition)
+
+### INPUT:
+rock
+### OUTPUT:
+rock (noun)
+
+### INPUT:
+clean
+### OUTPUT:
+clean (adjective)
+
+### INPUT:
+enough
+### OUTPUT:
+enough (adverb)
+
+### INPUT:
+cars
+### OUTPUT:
+cars (noun, plural)
+
+### INPUT:
+jumps
+### OUTPUT:
+jumps (verb, present tense)
+
+### INPUT:
+country
+### OUTPUT:
+country (noun)
+
+### INPUT:
+heavy
+### OUTPUT:
+heavy (adjective)
+
+### INPUT:
+closed
+### OUTPUT:
+closed (adjective)
+
+### INPUT:
+fish
+### OUTPUT:
+fish (noun, plural)
+
+### INPUT:
+water
+### OUTPUT:
+water (noun)
+
+### INPUT:
+heard
+### OUTPUT:
+heard (verb, past tense)
+
+### INPUT:
+never
+### OUTPUT:
+never (adverb)
+
+### INPUT:
+grass
+### OUTPUT:
+grass (noun)
+
+### INPUT:
+below
+### OUTPUT:
+below (preposition)
+
+### INPUT:
+interesting
+### OUTPUT:
+interesting (adjective)
+
+### INPUT:
+pens
+### OUTPUT:
+pens (noun, plural)
+
+### INPUT:
+away
+### OUTPUT:
+away (adverb)
+
+### INPUT:
+er
+### OUTPUT:
+er (interjection)
+
+### INPUT:
+family
+### OUTPUT:
+family (noun)
+
+### INPUT:
+sun
+### OUTPUT:
+sun (noun)
+
+### INPUT:
+she
+### OUTPUT:
+she (pronoun)
+
+### INPUT:
+low
+### OUTPUT:
+low (adjective)
+
+### INPUT:
+stand
+### OUTPUT:
+stand (verb)
+
+### INPUT:
+looked
+### OUTPUT:
+looked (verb, past participle)
+

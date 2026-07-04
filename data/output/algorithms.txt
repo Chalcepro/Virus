@@ -1,0 +1,129 @@
+## Sorting Algorithms
+
+### Merge Sort
+def merge_sort(arr):
+    if len(arr) <= 1:
+        return arr
+    mid = len(arr) // 2
+    left = merge_sort(arr[:mid])
+    right = merge_sort(arr[mid:])
+    return merge(left, right)
+
+## Searching Algorithms
+
+### Linear Search
+def linear_search(arr, target):
+    for i in range(len(arr)):
+        if arr[i] == target:
+            return i
+    return -1
+
+### Depth-First Search (DFS)
+def dfs(graph, node, visited=None):
+    if visited is None:
+        visited = set()
+    visited.add(node)
+    print(f"Visiting {node}")
+    for neighbor in graph.get(node, []):
+        if neighbor not in visited:
+            dfs(graph, neighbor, visited)
+    return visited
+
+def bfs(graph, start):
+    visited = set()
+    queue = deque([start])
+    visited.add(start)
+    while queue:
+        node = queue.popleft()
+        print(f"Visiting {node}")
+        for neighbor in graph.get(node, []):
+            if neighbor not in visited:
+                visited.add(neighbor)
+                queue.append(neighbor)
+    return visited
+
+def dijkstra(graph, start):
+    distances = {node: float('inf') for node in graph}
+    distances[start] = 0
+    pq = [(0, start)]
+
+if current_dist > distances[current_node]:
+            continue
+
+return distances
+
+### Binary Search Tree Operations
+class TreeNode:
+    def __init__(self, value):
+        self.value = value
+        self.left = None
+        self.right = None
+
+def search_bst(root, value):
+    if root is None:
+        return False
+    if root.value == value:
+        return True
+    elif value < root.value:
+        return search_bst(root.left, value)
+    else:
+        return search_bst(root.right, value)
+
+def preorder_traversal(root):
+    if root is None:
+        return []
+    return [root.value] + preorder_traversal(root.left) + preorder_traversal(root.right)
+
+## Dynamic Programming
+
+### Longest Common Subsequence
+def lcs(text1, text2):
+    m, n = len(text1), len(text2)
+    dp = [[0] * (n + 1) for _ in range(m + 1)]
+
+return dp[m][n]
+
+for i in range(1, n + 1):
+        for w in range(1, capacity + 1):
+            if weights[i - 1] <= w:
+                dp[i][w] = max(
+                    dp[i - 1][w],
+                    dp[i - 1][w - weights[i - 1]] + values[i - 1]
+                )
+            else:
+                dp[i][w] = dp[i - 1][w]
+
+## Hashing and Hash Tables
+
+### Simple Hash Table
+class HashTable:
+    def __init__(self, size=10):
+        self.size = size
+        self.table = [[] for _ in range(size)]
+
+def insert(self, key, value):
+        index = self._hash(key)
+        for i, (k, v) in enumerate(self.table[index]):
+            if k == key:
+                self.table[index][i] = (key, value)
+                return
+        self.table[index].append((key, value))
+
+def delete(self, key):
+        index = self._hash(key)
+        self.table[index] = [(k, v) for k, v in self.table[index] if k != key]
+
+### Coin Change (Greedy)
+def coin_change_greedy(amount, coins):
+    coins.sort(reverse=True)
+    count = 0
+    for coin in coins:
+        count += amount // coin
+        amount %= coin
+    return count
+
+for i in range(1, len(activities)):
+        if activities[i][0] >= selected[-1][1]:
+            selected.append(activities[i])
+
+return selected

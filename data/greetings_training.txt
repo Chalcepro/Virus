@@ -1,0 +1,999 @@
+### INPUT:
+hey
+### OUTPUT:
+ai is smart tech
+
+### INPUT:
+hi
+### OUTPUT:
+machine learning is teaching computers
+
+### INPUT:
+hello
+### OUTPUT:
+a neural network is a math model
+
+### INPUT:
+yo
+### OUTPUT:
+deep learning is layered learning
+
+### INPUT:
+what up
+### OUTPUT:
+cloud computing is using remote servers
+
+### INPUT:
+sup
+### OUTPUT:
+blockchain is linked records
+
+### INPUT:
+good morning
+### OUTPUT:
+a database stores data
+
+### INPUT:
+good afternoon
+### OUTPUT:
+an algorithm is a set of steps
+
+### INPUT:
+good evening
+### OUTPUT:
+a model predicts outcomes
+
+### INPUT:
+hey there
+### OUTPUT:
+a byte stores information
+
+### INPUT:
+hiya
+### OUTPUT:
+ai is useful for automation
+
+### INPUT:
+hiya there
+### OUTPUT:
+machine learning is popular for trends
+
+### INPUT:
+hiya bro
+### OUTPUT:
+algorithms help solve problems
+
+### INPUT:
+hey fam
+### OUTPUT:
+code crashes when something breaks
+
+### INPUT:
+howdy
+### OUTPUT:
+the sky is blue from light
+
+### INPUT:
+hey babe
+### OUTPUT:
+plants need water to grow
+
+### INPUT:
+hey dude
+### OUTPUT:
+we sleep to restore energy
+
+### INPUT:
+hey man
+### OUTPUT:
+music calms people
+
+### INPUT:
+hey girl
+### OUTPUT:
+rain forms from clouds
+
+### INPUT:
+hey buddy
+### OUTPUT:
+math helps solve issues
+
+### INPUT:
+how are you
+### OUTPUT:
+fix a bug by checking code
+
+### INPUT:
+are you there
+### OUTPUT:
+learn python by practicing
+
+### INPUT:
+u there
+### OUTPUT:
+make a website with html
+
+### INPUT:
+you there
+### OUTPUT:
+train a model with examples
+
+### INPUT:
+whats up
+### OUTPUT:
+save your work often
+
+### INPUT:
+what are you doing
+### OUTPUT:
+play guitar by practicing chords
+
+### INPUT:
+still there
+### OUTPUT:
+write a song with a melody
+
+### INPUT:
+you awake
+### OUTPUT:
+design a logo with simple shapes
+
+### INPUT:
+are you awake
+### OUTPUT:
+cook pasta by boiling water
+
+### INPUT:
+hey hey
+### OUTPUT:
+clean your desk bit by bit
+
+### INPUT:
+long time no see
+### OUTPUT:
+generative ai creates content
+
+### INPUT:
+i am back
+### OUTPUT:
+nlp helps computers read language
+
+### INPUT:
+i'm back
+### OUTPUT:
+reinforcement learning uses rewards
+
+### INPUT:
+back again
+### OUTPUT:
+data science finds patterns
+
+### INPUT:
+just got back
+### OUTPUT:
+ux design makes products easy
+
+### INPUT:
+i returned
+### OUTPUT:
+a startup launches a new idea
+
+### INPUT:
+i am online again
+### OUTPUT:
+product design shapes user experience
+
+### INPUT:
+hiya again
+### OUTPUT:
+computer vision reads images
+
+### INPUT:
+i'm here again
+### OUTPUT:
+quantum computing uses quantum bits
+
+### INPUT:
+back now
+### OUTPUT:
+music theory explains notes
+
+### INPUT:
+hello again
+### OUTPUT:
+learn coding to build stuff
+
+### INPUT:
+hey again
+### OUTPUT:
+data is important for decisions
+
+### INPUT:
+see you later
+### OUTPUT:
+design is important for clarity
+
+### INPUT:
+bye
+### OUTPUT:
+science helps explain things
+
+### INPUT:
+later
+### OUTPUT:
+documentation keeps info clear
+
+### INPUT:
+catch you later
+### OUTPUT:
+sharing knowledge helps others
+
+### INPUT:
+talk soon
+### OUTPUT:
+collaboration makes work easier
+
+### INPUT:
+peace
+### OUTPUT:
+practice improves skill
+
+### INPUT:
+bye bye
+### OUTPUT:
+curiosity leads to learning
+
+### INPUT:
+take care
+### OUTPUT:
+sleep keeps your brain healthy
+
+### INPUT:
+good night
+### OUTPUT:
+build an app by planning it
+
+### INPUT:
+night
+### OUTPUT:
+improve writing by editing
+
+### INPUT:
+see ya
+### OUTPUT:
+organize notes with folders
+
+### INPUT:
+adios
+### OUTPUT:
+stay motivated with small goals
+
+### INPUT:
+ciao
+### OUTPUT:
+learn faster by doing more
+
+### INPUT:
+salut
+### OUTPUT:
+solve problems step by step
+
+### INPUT:
+hola
+### OUTPUT:
+debug by testing one thing
+
+### INPUT:
+bonjour
+### OUTPUT:
+make it better by refining
+
+### INPUT:
+ola
+### OUTPUT:
+find answers by searching
+
+### INPUT:
+hiya mate
+### OUTPUT:
+get help from someone
+
+### INPUT:
+how is it going
+### OUTPUT:
+ai is not the same as ml
+
+### INPUT:
+how are things
+### OUTPUT:
+ui is how it looks, ux is how it feels
+
+### INPUT:
+how goes it
+### OUTPUT:
+data is raw, information is useful
+
+### INPUT:
+how have you been
+### OUTPUT:
+frontend is what users see, backend is what runs it
+
+### INPUT:
+whats good
+### OUTPUT:
+an app can be a website too
+
+### INPUT:
+all good
+### OUTPUT:
+code and script are both instructions
+
+### INPUT:
+you good
+### OUTPUT:
+design and art can overlap
+
+### INPUT:
+how you doing
+### OUTPUT:
+science and engineering solve different questions
+
+### INPUT:
+how you been
+### OUTPUT:
+tech is tools, tools make tasks easier
+
+### INPUT:
+what's new
+### OUTPUT:
+hardware is physical, software is digital
+
+### INPUT:
+good day
+### OUTPUT:
+keyboards help type words
+
+### INPUT:
+good to see you
+### OUTPUT:
+screens show info
+
+### INPUT:
+nice to see you
+### OUTPUT:
+headphones play sound
+
+### INPUT:
+hiya pal
+### OUTPUT:
+apps make tasks easier
+
+### INPUT:
+hey bro
+### OUTPUT:
+social media shares messages
+
+### INPUT:
+hey sis
+### OUTPUT:
+search engines find sites
+
+### INPUT:
+hey fam
+### OUTPUT:
+emails send messages
+
+### INPUT:
+hey team
+### OUTPUT:
+passwords keep accounts safe
+
+### INPUT:
+hey love
+### OUTPUT:
+usernames identify people
+
+### INPUT:
+hey friend
+### OUTPUT:
+updates add fixes
+
+### INPUT:
+wassup
+### OUTPUT:
+a phone uses circuits and software
+
+### INPUT:
+wazzupp
+### OUTPUT:
+the internet links devices
+
+### INPUT:
+whats poppin
+### OUTPUT:
+wifi sends data wirelessly
+
+### INPUT:
+whassup
+### OUTPUT:
+bluetooth connects devices nearby
+
+### INPUT:
+hey boss
+### OUTPUT:
+a battery stores power
+
+### INPUT:
+hey chief
+### OUTPUT:
+a camera captures images
+
+### INPUT:
+hey mate
+### OUTPUT:
+streaming sends media live
+
+### INPUT:
+hey broseph
+### OUTPUT:
+a microphone catches sound
+
+### INPUT:
+hey cousin
+### OUTPUT:
+a speaker plays audio
+
+### INPUT:
+hey champ
+### OUTPUT:
+a printer copies documents
+
+### INPUT:
+abuja greeting
+### OUTPUT:
+a server hosts services
+
+### INPUT:
+lagos greeting
+### OUTPUT:
+a browser displays websites
+
+### INPUT:
+naija greeting
+### OUTPUT:
+a framework helps build apps
+
+### INPUT:
+how far
+### OUTPUT:
+a library shares reusable code
+
+### INPUT:
+how far na
+### OUTPUT:
+a protocol is a communication rule
+
+### INPUT:
+how you dey
+### OUTPUT:
+an api connects software
+
+### INPUT:
+how you dey now
+### OUTPUT:
+a sensor detects changes
+
+### INPUT:
+how body
+### OUTPUT:
+a chip runs operations
+
+### INPUT:
+how your body
+### OUTPUT:
+a circuit moves electricity
+
+### INPUT:
+una dey
+### OUTPUT:
+a plugin adds features
+
+### INPUT:
+good morning o
+### OUTPUT:
+sound travels as waves
+
+### INPUT:
+good afternoon o
+### OUTPUT:
+light bends in glass
+
+### INPUT:
+good evening o
+### OUTPUT:
+metal rusts with air and water
+
+### INPUT:
+good night o
+### OUTPUT:
+ice melts with heat
+
+### INPUT:
+greetings
+### OUTPUT:
+gravity pulls objects
+
+### INPUT:
+hiya boss
+### OUTPUT:
+heat moves from hot to cold
+
+### INPUT:
+hiya friend
+### OUTPUT:
+time feels fast when busy
+
+### INPUT:
+hiya buddy
+### OUTPUT:
+music touches feelings
+
+### INPUT:
+hi, friend
+### OUTPUT:
+art expresses ideas
+
+### INPUT:
+hi bro
+### OUTPUT:
+math makes patterns clear
+
+### INPUT:
+morning
+### OUTPUT:
+choose colors that work together
+
+### INPUT:
+afternoon
+### OUTPUT:
+balance a layout with space
+
+### INPUT:
+evening
+### OUTPUT:
+pick fonts that are readable
+
+### INPUT:
+nighty
+### OUTPUT:
+name a project clearly
+
+### INPUT:
+bye for now
+### OUTPUT:
+set up a workspace cleanly
+
+### INPUT:
+see you soon
+### OUTPUT:
+charge a device before use
+
+### INPUT:
+later gator
+### OUTPUT:
+protect privacy with passwords
+
+### INPUT:
+catch ya
+### OUTPUT:
+save files often
+
+### INPUT:
+peace out
+### OUTPUT:
+share links carefully
+
+### INPUT:
+take it easy
+### OUTPUT:
+join calls with a link
+
+### INPUT:
+what are you up to
+### OUTPUT:
+a chord is notes played together
+
+### INPUT:
+are you around
+### OUTPUT:
+a beat is the pulse of a song
+
+### INPUT:
+still online
+### OUTPUT:
+a melody is a tune
+
+### INPUT:
+still up
+### OUTPUT:
+rhythm is timing
+
+### INPUT:
+you still there
+### OUTPUT:
+harmony is layers of sound
+
+### INPUT:
+you still awake
+### OUTPUT:
+tempo is speed
+
+### INPUT:
+you there now
+### OUTPUT:
+a mix blends tracks
+
+### INPUT:
+u still there
+### OUTPUT:
+a genre is a style
+
+### INPUT:
+hey you
+### OUTPUT:
+a producer guides songs
+
+### INPUT:
+listen
+### OUTPUT:
+a songwriter writes lyrics
+
+### INPUT:
+hello?
+### OUTPUT:
+practice makes progress
+
+### INPUT:
+hi?
+### OUTPUT:
+feedback helps improve
+
+### INPUT:
+so are you there
+### OUTPUT:
+version control saves history
+
+### INPUT:
+hey are you there
+### OUTPUT:
+backup protects work
+
+### INPUT:
+hello are you there
+### OUTPUT:
+testing catches errors
+
+### INPUT:
+hey are you awake
+### OUTPUT:
+patience helps learning
+
+### INPUT:
+are you free
+### OUTPUT:
+ideas grow over time
+
+### INPUT:
+are you free now
+### OUTPUT:
+empathy helps users
+
+### INPUT:
+free now
+### OUTPUT:
+learning never stops
+
+### INPUT:
+im back
+### OUTPUT:
+questions lead to answers
+
+### INPUT:
+i am back now
+### OUTPUT:
+study effectively with short sessions
+
+### INPUT:
+back here
+### OUTPUT:
+manage time with a planner
+
+### INPUT:
+back online
+### OUTPUT:
+avoid distraction by focusing
+
+### INPUT:
+back love
+### OUTPUT:
+stay focused with breaks
+
+### INPUT:
+back yo
+### OUTPUT:
+prepare for tests with review
+
+### INPUT:
+back peeps
+### OUTPUT:
+learn by doing projects
+
+### INPUT:
+i returned now
+### OUTPUT:
+learn from mistakes
+
+### INPUT:
+i'm back now
+### OUTPUT:
+join a team to collaborate
+
+### INPUT:
+i'm back again
+### OUTPUT:
+ask for feedback kindly
+
+### INPUT:
+hey fam how far
+### OUTPUT:
+set a goal and follow it
+
+### INPUT:
+hey bro how far
+### OUTPUT:
+a prototype is an early version
+
+### INPUT:
+hey cousin how far
+### OUTPUT:
+a beta version is a test release
+
+### INPUT:
+hey sis how far
+### OUTPUT:
+a bug is an error
+
+### INPUT:
+hey people
+### OUTPUT:
+a patch is a fix
+
+### INPUT:
+hey all
+### OUTPUT:
+hello world is a first program
+
+### INPUT:
+hey team
+### OUTPUT:
+a repository stores code
+
+### INPUT:
+hey crew
+### OUTPUT:
+a pitch shares an idea
+
+### INPUT:
+hey gang
+### OUTPUT:
+a persona represents a user
+
+### INPUT:
+hey guys
+### OUTPUT:
+a podcast is recorded talk
+
+### INPUT:
+hello mate
+### OUTPUT:
+a playlist is a music list
+
+### INPUT:
+hello boss
+### OUTPUT:
+planets are studied to learn space
+
+### INPUT:
+hello team
+### OUTPUT:
+space is explored for discovery
+
+### INPUT:
+hello fam
+### OUTPUT:
+history is learned from the past
+
+### INPUT:
+hello bro
+### OUTPUT:
+cells are studied for life
+
+### INPUT:
+hey pal
+### OUTPUT:
+climate matters for earth
+
+### INPUT:
+hey bro pal
+### OUTPUT:
+engineers build useful things
+
+### INPUT:
+hey friend good to see you
+### OUTPUT:
+artists create meaning
+
+### INPUT:
+nice seeing you
+### OUTPUT:
+doctors keep people healthy
+
+### INPUT:
+good to catch you
+### OUTPUT:
+teachers help people learn
+
+### INPUT:
+see you later alligator
+### OUTPUT:
+friends help each other
+
+### INPUT:
+bye now
+### OUTPUT:
+keep learning by staying curious
+
+### INPUT:
+bye bye now
+### OUTPUT:
+stay curious by asking why
+
+### INPUT:
+talk later
+### OUTPUT:
+stay creative with practice
+
+### INPUT:
+chat later
+### OUTPUT:
+stay kind by helping others
+
+### INPUT:
+see you soon
+### OUTPUT:
+stay patient with progress
+
+### INPUT:
+keep in touch
+### OUTPUT:
+stay calm with deep breaths
+
+### INPUT:
+stay safe
+### OUTPUT:
+stay energized with rest
+
+### INPUT:
+stay cool
+### OUTPUT:
+stay organized with lists
+
+### INPUT:
+ini
+### OUTPUT:
+stay healthy with meals
+
+### INPUT:
+hola amigo
+### OUTPUT:
+stay smart by reading
+
+### INPUT:
+bonjour mon ami
+### OUTPUT:
+virtual reality feels like being inside
+
+### INPUT:
+salut
+### OUTPUT:
+augmented reality adds digital items
+
+### INPUT:
+ciao ciao
+### OUTPUT:
+a chatbot chats instantly
+
+### INPUT:
+ola amigo
+### OUTPUT:
+a search engine finds results
+
+### INPUT:
+konnichiwa
+### OUTPUT:
+a social network connects people
+
+### INPUT:
+namaste
+### OUTPUT:
+a recommendation system suggests things
+
+### INPUT:
+assalamualaikum
+### OUTPUT:
+a sensor network collects data
+
+### INPUT:
+salaam
+### OUTPUT:
+an interface lets you interact
+
+### INPUT:
+shalom
+### OUTPUT:
+a dashboard shows status
+
+### INPUT:
+hiya howdy
+### OUTPUT:
+a smart home controls devices
+
+### INPUT:
+sup bro
+### OUTPUT:
+songs stick because they are catchy
+
+### INPUT:
+sup fam
+### OUTPUT:
+designs feel nice when simple
+
+### INPUT:
+sup mate
+### OUTPUT:
+tools help more when easy
+
+### INPUT:
+whats good bro
+### OUTPUT:
+questions matter when clear
+
+### INPUT:
+whats good fam
+### OUTPUT:
+problems repeat when not fixed
+
+### INPUT:
+hello there mate
+### OUTPUT:
+solutions fail when rushed
+
+### INPUT:
+hey whatsup
+### OUTPUT:
+ideas spread when shared
+
+### INPUT:
+hey you good
+### OUTPUT:
+teams win when they work together
+
+### INPUT:
+yoo
+### OUTPUT:
+projects end early when planned
+
+### INPUT:
+hiya there friend
+### OUTPUT:
+experiments work when measured

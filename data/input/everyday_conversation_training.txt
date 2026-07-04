@@ -1,0 +1,399 @@
+how are you feeling
+
+are you okay
+
+what did you eat
+
+did you sleep well
+
+how was work
+
+how was school
+
+how is your day
+
+how is your mood
+
+what is for dinner
+
+did you eat yet
+
+is it raining
+
+how is the weather
+
+is it sunny
+
+is it cold
+
+is it hot
+
+did you sleep enough
+
+are you tired
+
+are you busy
+
+what are you doing later
+
+any plans today
+
+how was your day
+
+did you have a good day
+
+what did you do today
+
+how did your meeting go
+
+how was class
+
+how is your family
+
+are you hungry
+
+what are you cooking
+
+want some coffee
+
+need a break
+
+are you okay today
+
+how do you feel
+
+you look tired
+
+you look happy
+
+you seem quiet
+
+you seem busy
+
+did you rest
+
+did you shower
+
+did you eat breakfast
+
+did you skip lunch
+
+how is your boss
+
+how is your project
+
+how is school going
+
+how is your job
+
+what is your mood
+
+are you stressed
+
+are you relaxed
+
+are you chilled
+
+how is your week
+
+how is your weekend
+
+what are your plans
+
+what do you want to eat
+
+what food do you like
+
+what is your favorite food
+
+do you like pizza
+
+do you like noodles
+
+do you like burgers
+
+do you want snacks
+
+are you craving anything
+
+what sounds good
+
+did you watch tv
+
+did you watch a show
+
+did you finish homework
+
+did you finish work
+
+did you clean your room
+
+did you take a walk
+
+did you exercise
+
+did you drink water
+
+did you stretch
+
+did you relax
+
+how was the weather today
+
+is it raining there
+
+is it windy
+
+is it cloudy
+
+is it snowing
+
+is it humid
+
+is it breezy
+
+is it nice out
+
+how hot is it
+
+how cold is it
+
+what is on your mind
+
+what are you thinking about
+
+are you missing someone
+
+are you happy
+
+are you sad
+
+are you excited
+
+are you bored
+
+are you nervous
+
+are you sleepy
+
+are you awake
+
+did you have a good meal
+
+did you have breakfast
+
+did you have lunch
+
+did you have dinner
+
+did you snack
+
+did you cook
+
+did you order food
+
+did you eat out
+
+did you feel full
+
+did you eat enough
+
+how is your energy
+
+how is your focus
+
+how is your appetite
+
+how is your creativity
+
+how is your patience
+
+how is your motivation
+
+how is your mood today
+
+how is your stress level
+
+how is your sleep
+
+how is your rest
+
+what did you learn today
+
+what was the highlight
+
+what was the low point
+
+what made you smile
+
+what made you tired
+
+what made you laugh
+
+what made you think
+
+what made you feel good
+
+what made you feel weird
+
+what made you happy
+
+do you want to chat
+
+do you want to talk
+
+do you want to share
+
+do you want to vent
+
+do you want advice
+
+do you want to joke
+
+do you want to relax
+
+do you want to rest
+
+do you want to eat
+
+do you want coffee
+
+how is your family doing
+
+how are your kids
+
+how is your partner
+
+how is your roommate
+
+how is your cat
+
+how is your dog
+
+how is your pet
+
+how is your neighbor
+
+how is your team
+
+how is your class
+
+did you finish your task
+
+did you finish your assignment
+
+did you finish your study
+
+did you finish your shift
+
+did you finish your meeting
+
+did you finish your lecture
+
+did you finish your errands
+
+did you finish your chores
+
+did you finish your reading
+
+did you finish your writing
+
+how was your breakfast
+
+how was your lunch
+
+how was your dinner
+
+how was your snack
+
+how was your coffee
+
+how was your tea
+
+how was your dessert
+
+how was your meal
+
+how was your smoothie
+
+how was your sandwich
+
+did you get enough sleep
+
+did you wake up early
+
+did you sleep late
+
+did you take a nap
+
+did you dream
+
+did you have a busy day
+
+did you have a calm day
+
+did you have a fun day
+
+did you have a rough day
+
+did you have a great day
+
+how do you feel about today
+
+how do you feel about work
+
+how do you feel about school
+
+how do you feel about the weather
+
+how do you feel about food
+
+how do you feel about your plans
+
+how do you feel about tonight
+
+how do you feel about this week
+
+how do you feel about tomorrow
+
+how do you feel about the weekend
+
+what are you eating now
+
+what are you drinking now
+
+what are you wearing now
+
+what are you doing now
+
+what are you planning now
+
+what are you thinking now
+
+what are you feeling now
+
+what are you waiting for
+
+what are you excited about
+
+what are you worried about
+
+did you have a good weekend
+
+did you have a good morning
+
+did you have a good afternoon
+
+did you have a good evening
+
+did you have a good night
+
+did you have a quiet day
+
+did you have a busy morning
+
+did you have a slow afternoon
+
+did you have a fun evening
+
+did you have a restful night

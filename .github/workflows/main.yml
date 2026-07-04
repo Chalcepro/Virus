@@ -2,13 +2,13 @@ name: Continuous Learning
 
 on:
   schedule:
-    - cron: '0 9 * * *'  # Adjust as needed
+    - cron: '0 9 * * *'
   workflow_dispatch:
 
 jobs:
   train:
     runs-on: ubuntu-latest
-    
+
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
@@ -21,13 +21,19 @@ jobs:
       with:
         python-version: '3.10'
 
+    - name: Cache pip
+      uses: actions/cache@v3
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('requirements-train.txt') }}
+
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install torch numpy  # Add any other required packages
+        pip install -r requirements-train.txt
 
-    - name: Run training script
-      run: python auto_train.py --retrain  # Or whatever your main script is
+    - name: Scrape and train on new wiki data
+      run: python auto_learn_ci.py --num-articles 1
 
     - name: Configure Git
       run: |
@@ -38,11 +44,11 @@ jobs:
       run: |
         git fetch origin main
         git pull origin main --rebase
-        git add .
+        git add data/ auto_train_state.json vocab.json
         if git diff --quiet --cached; then
           echo "No changes to commit"
         else
-          git commit -m "Auto-learn: new data and model update"
+          git commit -m "Auto-learn: new wiki data and model update"
           git push origin main
         fi
       env:

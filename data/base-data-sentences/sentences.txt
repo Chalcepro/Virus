@@ -1,0 +1,2500 @@
+### INPUT:
+they send her a table.
+### OUTPUT:
+they send her a table.
+
+### INPUT:
+you am sadly.
+### OUTPUT:
+you am sadly.
+
+### INPUT:
+they are weak.
+### OUTPUT:
+they are weak.
+
+### INPUT:
+they gave a day.
+### OUTPUT:
+they gave a day.
+
+### INPUT:
+it tells you a car.
+### OUTPUT:
+it tells you a car.
+
+### INPUT:
+it is good.
+### OUTPUT:
+it is good.
+
+### INPUT:
+she sends her an earth.
+### OUTPUT:
+she sends her an earth.
+
+### INPUT:
+they run a food.
+### OUTPUT:
+they run a food.
+
+### INPUT:
+you be away.
+### OUTPUT:
+you be away.
+
+### INPUT:
+she jumps.
+### OUTPUT:
+she jumps.
+
+### INPUT:
+we jumped a chair.
+### OUTPUT:
+we jumped a chair.
+
+### INPUT:
+they walk.
+### OUTPUT:
+they walk.
+
+### INPUT:
+they hear a man.
+### OUTPUT:
+they hear a man.
+
+### INPUT:
+he is big.
+### OUTPUT:
+he is big.
+
+### INPUT:
+you were poor.
+### OUTPUT:
+you were poor.
+
+### INPUT:
+they were long.
+### OUTPUT:
+they were long.
+
+### INPUT:
+you were.
+### OUTPUT:
+you were.
+
+### INPUT:
+they took.
+### OUTPUT:
+they took.
+
+### INPUT:
+i look.
+### OUTPUT:
+i look.
+
+### INPUT:
+he sends it a team.
+### OUTPUT:
+he sends it a team.
+
+### INPUT:
+she saw a city.
+### OUTPUT:
+she saw a city.
+
+### INPUT:
+you say.
+### OUTPUT:
+you say.
+
+### INPUT:
+he has a bird.
+### OUTPUT:
+he has a bird.
+
+### INPUT:
+we took.
+### OUTPUT:
+we took.
+
+### INPUT:
+they send us a water.
+### OUTPUT:
+they send us a water.
+
+### INPUT:
+we hear a town.
+### OUTPUT:
+we hear a town.
+
+### INPUT:
+it takes slowly.
+### OUTPUT:
+it takes slowly.
+
+### INPUT:
+you were open.
+### OUTPUT:
+you were open.
+
+### INPUT:
+it is blue.
+### OUTPUT:
+it is blue.
+
+### INPUT:
+it offers you a team.
+### OUTPUT:
+it offers you a team.
+
+### INPUT:
+you offer you a road.
+### OUTPUT:
+you offer you a road.
+
+### INPUT:
+she was sad.
+### OUTPUT:
+she was sad.
+
+### INPUT:
+he had a friend.
+### OUTPUT:
+he had a friend.
+
+### INPUT:
+she was red.
+### OUTPUT:
+she was red.
+
+### INPUT:
+we be happily.
+### OUTPUT:
+we be happily.
+
+### INPUT:
+he stands easily.
+### OUTPUT:
+he stands easily.
+
+### INPUT:
+he sends us a window.
+### OUTPUT:
+he sends us a window.
+
+### INPUT:
+she is big.
+### OUTPUT:
+she is big.
+
+### INPUT:
+you is in.
+### OUTPUT:
+you is in.
+
+### INPUT:
+you tell you a day.
+### OUTPUT:
+you tell you a day.
+
+### INPUT:
+he gives it a star.
+### OUTPUT:
+he gives it a star.
+
+### INPUT:
+they are clean.
+### OUTPUT:
+they are clean.
+
+### INPUT:
+i stand usually.
+### OUTPUT:
+i stand usually.
+
+### INPUT:
+you were yellow.
+### OUTPUT:
+you were yellow.
+
+### INPUT:
+we walk everywhere.
+### OUTPUT:
+we walk everywhere.
+
+### INPUT:
+she offers us a person.
+### OUTPUT:
+she offers us a person.
+
+### INPUT:
+you jumped.
+### OUTPUT:
+you jumped.
+
+### INPUT:
+you eat a child.
+### OUTPUT:
+you eat a child.
+
+### INPUT:
+you show you a car.
+### OUTPUT:
+you show you a car.
+
+### INPUT:
+he was closed.
+### OUTPUT:
+he was closed.
+
+### INPUT:
+i was light.
+### OUTPUT:
+i was light.
+
+### INPUT:
+we offer him a fire.
+### OUTPUT:
+we offer him a fire.
+
+### INPUT:
+she ran a house.
+### OUTPUT:
+she ran a house.
+
+### INPUT:
+he is light.
+### OUTPUT:
+he is light.
+
+### INPUT:
+he sends it a road.
+### OUTPUT:
+he sends it a road.
+
+### INPUT:
+she beings soon.
+### OUTPUT:
+she beings soon.
+
+### INPUT:
+she beings often.
+### OUTPUT:
+she beings often.
+
+### INPUT:
+i did.
+### OUTPUT:
+i did.
+
+### INPUT:
+we are yellow.
+### OUTPUT:
+we are yellow.
+
+### INPUT:
+he says late.
+### OUTPUT:
+he says late.
+
+### INPUT:
+i show you a grass.
+### OUTPUT:
+i show you a grass.
+
+### INPUT:
+i am light.
+### OUTPUT:
+i am light.
+
+### INPUT:
+it walks a sun.
+### OUTPUT:
+it walks a sun.
+
+### INPUT:
+she talks.
+### OUTPUT:
+she talks.
+
+### INPUT:
+we look out.
+### OUTPUT:
+we look out.
+
+### INPUT:
+you are weak.
+### OUTPUT:
+you are weak.
+
+### INPUT:
+it talks sometimes.
+### OUTPUT:
+it talks sometimes.
+
+### INPUT:
+he was slow.
+### OUTPUT:
+he was slow.
+
+### INPUT:
+they take a road.
+### OUTPUT:
+they take a road.
+
+### INPUT:
+you saw.
+### OUTPUT:
+you saw.
+
+### INPUT:
+i told a road.
+### OUTPUT:
+i told a road.
+
+### INPUT:
+they give me a town.
+### OUTPUT:
+they give me a town.
+
+### INPUT:
+we stand easily.
+### OUTPUT:
+we stand easily.
+
+### INPUT:
+she says tomorrow.
+### OUTPUT:
+she says tomorrow.
+
+### INPUT:
+it hears.
+### OUTPUT:
+it hears.
+
+### INPUT:
+it shows you a table.
+### OUTPUT:
+it shows you a table.
+
+### INPUT:
+they give him a tree.
+### OUTPUT:
+they give him a tree.
+
+### INPUT:
+it jumps an air.
+### OUTPUT:
+it jumps an air.
+
+### INPUT:
+he comes down.
+### OUTPUT:
+he comes down.
+
+### INPUT:
+he sends us a day.
+### OUTPUT:
+he sends us a day.
+
+### INPUT:
+he gives us a man.
+### OUTPUT:
+he gives us a man.
+
+### INPUT:
+they look a chair.
+### OUTPUT:
+they look a chair.
+
+### INPUT:
+she offers me a day.
+### OUTPUT:
+she offers me a day.
+
+### INPUT:
+i was light.
+### OUTPUT:
+i was light.
+
+### INPUT:
+we jumped a dog.
+### OUTPUT:
+we jumped a dog.
+
+### INPUT:
+i tell her a woman.
+### OUTPUT:
+i tell her a woman.
+
+### INPUT:
+you make quickly.
+### OUTPUT:
+you make quickly.
+
+### INPUT:
+it tells us a country.
+### OUTPUT:
+it tells us a country.
+
+### INPUT:
+it iss usually.
+### OUTPUT:
+it iss usually.
+
+### INPUT:
+he walks inside.
+### OUTPUT:
+he walks inside.
+
+### INPUT:
+we send you a person.
+### OUTPUT:
+we send you a person.
+
+### INPUT:
+she was high.
+### OUTPUT:
+she was high.
+
+### INPUT:
+you give us a flower.
+### OUTPUT:
+you give us a flower.
+
+### INPUT:
+she jumps.
+### OUTPUT:
+she jumps.
+
+### INPUT:
+he offers us a tree.
+### OUTPUT:
+he offers us a tree.
+
+### INPUT:
+she tells us a person.
+### OUTPUT:
+she tells us a person.
+
+### INPUT:
+he is hot.
+### OUTPUT:
+he is hot.
+
+### INPUT:
+it is light.
+### OUTPUT:
+it is light.
+
+### INPUT:
+he drinks out.
+### OUTPUT:
+he drinks out.
+
+### INPUT:
+he has.
+### OUTPUT:
+he has.
+
+### INPUT:
+it was green.
+### OUTPUT:
+it was green.
+
+### INPUT:
+we tell it a stone.
+### OUTPUT:
+we tell it a stone.
+
+### INPUT:
+she was alive.
+### OUTPUT:
+she was alive.
+
+### INPUT:
+we spoke a tree.
+### OUTPUT:
+we spoke a tree.
+
+### INPUT:
+she says.
+### OUTPUT:
+she says.
+
+### INPUT:
+we come.
+### OUTPUT:
+we come.
+
+### INPUT:
+they look.
+### OUTPUT:
+they look.
+
+### INPUT:
+it sends him a world.
+### OUTPUT:
+it sends him a world.
+
+### INPUT:
+they give it a house.
+### OUTPUT:
+they give it a house.
+
+### INPUT:
+she was dirty.
+### OUTPUT:
+she was dirty.
+
+### INPUT:
+she takes sadly.
+### OUTPUT:
+she takes sadly.
+
+### INPUT:
+i am white.
+### OUTPUT:
+i am white.
+
+### INPUT:
+i give.
+### OUTPUT:
+i give.
+
+### INPUT:
+we took.
+### OUTPUT:
+we took.
+
+### INPUT:
+we drink.
+### OUTPUT:
+we drink.
+
+### INPUT:
+they show me a rock.
+### OUTPUT:
+they show me a rock.
+
+### INPUT:
+i been a star.
+### OUTPUT:
+i been a star.
+
+### INPUT:
+she comes a flower.
+### OUTPUT:
+she comes a flower.
+
+### INPUT:
+she tells it a woman.
+### OUTPUT:
+she tells it a woman.
+
+### INPUT:
+she was dead.
+### OUTPUT:
+she was dead.
+
+### INPUT:
+he was short.
+### OUTPUT:
+he was short.
+
+### INPUT:
+she is old.
+### OUTPUT:
+she is old.
+
+### INPUT:
+we gave.
+### OUTPUT:
+we gave.
+
+### INPUT:
+he offers it a town.
+### OUTPUT:
+he offers it a town.
+
+### INPUT:
+we sit a pen.
+### OUTPUT:
+we sit a pen.
+
+### INPUT:
+we offer her a moon.
+### OUTPUT:
+we offer her a moon.
+
+### INPUT:
+we had a country.
+### OUTPUT:
+we had a country.
+
+### INPUT:
+it looks tomorrow.
+### OUTPUT:
+it looks tomorrow.
+
+### INPUT:
+they are hard.
+### OUTPUT:
+they are hard.
+
+### INPUT:
+i tell well.
+### OUTPUT:
+i tell well.
+
+### INPUT:
+i tell rather.
+### OUTPUT:
+i tell rather.
+
+### INPUT:
+we were beautiful.
+### OUTPUT:
+we were beautiful.
+
+### INPUT:
+they being.
+### OUTPUT:
+they being.
+
+### INPUT:
+they talk a book.
+### OUTPUT:
+they talk a book.
+
+### INPUT:
+it gives it a grass.
+### OUTPUT:
+it gives it a grass.
+
+### INPUT:
+it talked.
+### OUTPUT:
+it talked.
+
+### INPUT:
+we jumped a stone.
+### OUTPUT:
+we jumped a stone.
+
+### INPUT:
+she is hot.
+### OUTPUT:
+she is hot.
+
+### INPUT:
+he ams slowly.
+### OUTPUT:
+he ams slowly.
+
+### INPUT:
+we been a grass.
+### OUTPUT:
+we been a grass.
+
+### INPUT:
+he iss then.
+### OUTPUT:
+he iss then.
+
+### INPUT:
+we come often.
+### OUTPUT:
+we come often.
+
+### INPUT:
+he walked a night.
+### OUTPUT:
+he walked a night.
+
+### INPUT:
+they give you a child.
+### OUTPUT:
+they give you a child.
+
+### INPUT:
+you eat an earth.
+### OUTPUT:
+you eat an earth.
+
+### INPUT:
+they see.
+### OUTPUT:
+they see.
+
+### INPUT:
+you told.
+### OUTPUT:
+you told.
+
+### INPUT:
+she makes a food.
+### OUTPUT:
+she makes a food.
+
+### INPUT:
+they see rarely.
+### OUTPUT:
+they see rarely.
+
+### INPUT:
+it offers her a flower.
+### OUTPUT:
+it offers her a flower.
+
+### INPUT:
+you tell her a star.
+### OUTPUT:
+you tell her a star.
+
+### INPUT:
+she sees out.
+### OUTPUT:
+she sees out.
+
+### INPUT:
+you were big.
+### OUTPUT:
+you were big.
+
+### INPUT:
+she offers her a world.
+### OUTPUT:
+she offers her a world.
+
+### INPUT:
+you drank.
+### OUTPUT:
+you drank.
+
+### INPUT:
+you have sometimes.
+### OUTPUT:
+you have sometimes.
+
+### INPUT:
+they show you a day.
+### OUTPUT:
+they show you a day.
+
+### INPUT:
+they said.
+### OUTPUT:
+they said.
+
+### INPUT:
+i jump a cat.
+### OUTPUT:
+i jump a cat.
+
+### INPUT:
+it speaks in.
+### OUTPUT:
+it speaks in.
+
+### INPUT:
+we took.
+### OUTPUT:
+we took.
+
+### INPUT:
+they tell a rock.
+### OUTPUT:
+they tell a rock.
+
+### INPUT:
+you show her a house.
+### OUTPUT:
+you show her a house.
+
+### INPUT:
+you came.
+### OUTPUT:
+you came.
+
+### INPUT:
+she looked a door.
+### OUTPUT:
+she looked a door.
+
+### INPUT:
+she looks such.
+### OUTPUT:
+she looks such.
+
+### INPUT:
+she took a country.
+### OUTPUT:
+she took a country.
+
+### INPUT:
+i drink a door.
+### OUTPUT:
+i drink a door.
+
+### INPUT:
+we speak.
+### OUTPUT:
+we speak.
+
+### INPUT:
+you are yellow.
+### OUTPUT:
+you are yellow.
+
+### INPUT:
+he is red.
+### OUTPUT:
+he is red.
+
+### INPUT:
+it gives you a person.
+### OUTPUT:
+it gives you a person.
+
+### INPUT:
+we come easily.
+### OUTPUT:
+we come easily.
+
+### INPUT:
+we be.
+### OUTPUT:
+we be.
+
+### INPUT:
+it tells you a night.
+### OUTPUT:
+it tells you a night.
+
+### INPUT:
+they are yellow.
+### OUTPUT:
+they are yellow.
+
+### INPUT:
+i give you a stone.
+### OUTPUT:
+i give you a stone.
+
+### INPUT:
+we been.
+### OUTPUT:
+we been.
+
+### INPUT:
+it is hot.
+### OUTPUT:
+it is hot.
+
+### INPUT:
+she told.
+### OUTPUT:
+she told.
+
+### INPUT:
+we give us a team.
+### OUTPUT:
+we give us a team.
+
+### INPUT:
+i came a bird.
+### OUTPUT:
+i came a bird.
+
+### INPUT:
+they being soon.
+### OUTPUT:
+they being soon.
+
+### INPUT:
+it shows me a star.
+### OUTPUT:
+it shows me a star.
+
+### INPUT:
+i talk early.
+### OUTPUT:
+i talk early.
+
+### INPUT:
+she wass nowhere.
+### OUTPUT:
+she wass nowhere.
+
+### INPUT:
+she is alive.
+### OUTPUT:
+she is alive.
+
+### INPUT:
+we jump a tree.
+### OUTPUT:
+we jump a tree.
+
+### INPUT:
+he beens almost.
+### OUTPUT:
+he beens almost.
+
+### INPUT:
+we do.
+### OUTPUT:
+we do.
+
+### INPUT:
+it is hard.
+### OUTPUT:
+it is hard.
+
+### INPUT:
+she saw.
+### OUTPUT:
+she saw.
+
+### INPUT:
+it is closed.
+### OUTPUT:
+it is closed.
+
+### INPUT:
+they look almost.
+### OUTPUT:
+they look almost.
+
+### INPUT:
+it saw.
+### OUTPUT:
+it saw.
+
+### INPUT:
+you heard.
+### OUTPUT:
+you heard.
+
+### INPUT:
+it gave.
+### OUTPUT:
+it gave.
+
+### INPUT:
+he drinks up.
+### OUTPUT:
+he drinks up.
+
+### INPUT:
+it jumps sadly.
+### OUTPUT:
+it jumps sadly.
+
+### INPUT:
+we tell it a moon.
+### OUTPUT:
+we tell it a moon.
+
+### INPUT:
+they give her a road.
+### OUTPUT:
+they give her a road.
+
+### INPUT:
+she sends us an air.
+### OUTPUT:
+she sends us an air.
+
+### INPUT:
+it gives it a road.
+### OUTPUT:
+it gives it a road.
+
+### INPUT:
+he iss never.
+### OUTPUT:
+he iss never.
+
+### INPUT:
+he was closed.
+### OUTPUT:
+he was closed.
+
+### INPUT:
+they are big.
+### OUTPUT:
+they are big.
+
+### INPUT:
+we offer it a stone.
+### OUTPUT:
+we offer it a stone.
+
+### INPUT:
+it goes a night.
+### OUTPUT:
+it goes a night.
+
+### INPUT:
+i tell a star.
+### OUTPUT:
+i tell a star.
+
+### INPUT:
+she offers us a house.
+### OUTPUT:
+she offers us a house.
+
+### INPUT:
+you are dead.
+### OUTPUT:
+you are dead.
+
+### INPUT:
+they send you a table.
+### OUTPUT:
+they send you a table.
+
+### INPUT:
+they took an earth.
+### OUTPUT:
+they took an earth.
+
+### INPUT:
+i am long.
+### OUTPUT:
+i am long.
+
+### INPUT:
+we were soft.
+### OUTPUT:
+we were soft.
+
+### INPUT:
+we send her a day.
+### OUTPUT:
+we send her a day.
+
+### INPUT:
+they saw a team.
+### OUTPUT:
+they saw a team.
+
+### INPUT:
+we hear a day.
+### OUTPUT:
+we hear a day.
+
+### INPUT:
+we hear fast.
+### OUTPUT:
+we hear fast.
+
+### INPUT:
+you are strong.
+### OUTPUT:
+you are strong.
+
+### INPUT:
+you give her an air.
+### OUTPUT:
+you give her an air.
+
+### INPUT:
+i spoke.
+### OUTPUT:
+i spoke.
+
+### INPUT:
+we are white.
+### OUTPUT:
+we are white.
+
+### INPUT:
+we see happily.
+### OUTPUT:
+we see happily.
+
+### INPUT:
+you do a chair.
+### OUTPUT:
+you do a chair.
+
+### INPUT:
+it sits sadly.
+### OUTPUT:
+it sits sadly.
+
+### INPUT:
+he sees there.
+### OUTPUT:
+he sees there.
+
+### INPUT:
+we drink quickly.
+### OUTPUT:
+we drink quickly.
+
+### INPUT:
+i being.
+### OUTPUT:
+i being.
+
+### INPUT:
+you are narrow.
+### OUTPUT:
+you are narrow.
+
+### INPUT:
+we look outside.
+### OUTPUT:
+we look outside.
+
+### INPUT:
+it is rich.
+### OUTPUT:
+it is rich.
+
+### INPUT:
+it offers them a cat.
+### OUTPUT:
+it offers them a cat.
+
+### INPUT:
+he told.
+### OUTPUT:
+he told.
+
+### INPUT:
+she takes almost.
+### OUTPUT:
+she takes almost.
+
+### INPUT:
+he was dead.
+### OUTPUT:
+he was dead.
+
+### INPUT:
+we are dark.
+### OUTPUT:
+we are dark.
+
+### INPUT:
+i were today.
+### OUTPUT:
+i were today.
+
+### INPUT:
+it ran a table.
+### OUTPUT:
+it ran a table.
+
+### INPUT:
+you tell her a star.
+### OUTPUT:
+you tell her a star.
+
+### INPUT:
+we are beautiful.
+### OUTPUT:
+we are beautiful.
+
+### INPUT:
+we being never.
+### OUTPUT:
+we being never.
+
+### INPUT:
+she gives you a road.
+### OUTPUT:
+she gives you a road.
+
+### INPUT:
+they hear a house.
+### OUTPUT:
+they hear a house.
+
+### INPUT:
+you show us a fish.
+### OUTPUT:
+you show us a fish.
+
+### INPUT:
+we are long.
+### OUTPUT:
+we are long.
+
+### INPUT:
+it was white.
+### OUTPUT:
+it was white.
+
+### INPUT:
+we offer her a moon.
+### OUTPUT:
+we offer her a moon.
+
+### INPUT:
+he offers it a bird.
+### OUTPUT:
+he offers it a bird.
+
+### INPUT:
+i am new.
+### OUTPUT:
+i am new.
+
+### INPUT:
+she eats a house.
+### OUTPUT:
+she eats a house.
+
+### INPUT:
+i told.
+### OUTPUT:
+i told.
+
+### INPUT:
+you send them a country.
+### OUTPUT:
+you send them a country.
+
+### INPUT:
+we run out.
+### OUTPUT:
+we run out.
+
+### INPUT:
+it ams yesterday.
+### OUTPUT:
+it ams yesterday.
+
+### INPUT:
+it ams in.
+### OUTPUT:
+it ams in.
+
+### INPUT:
+she shows me an earth.
+### OUTPUT:
+she shows me an earth.
+
+### INPUT:
+they walk.
+### OUTPUT:
+they walk.
+
+### INPUT:
+you send us a road.
+### OUTPUT:
+you send us a road.
+
+### INPUT:
+they talk a window.
+### OUTPUT:
+they talk a window.
+
+### INPUT:
+we hear too.
+### OUTPUT:
+we hear too.
+
+### INPUT:
+we offer me a water.
+### OUTPUT:
+we offer me a water.
+
+### INPUT:
+i show you a family.
+### OUTPUT:
+i show you a family.
+
+### INPUT:
+i talk such.
+### OUTPUT:
+i talk such.
+
+### INPUT:
+we run down.
+### OUTPUT:
+we run down.
+
+### INPUT:
+i hear rarely.
+### OUTPUT:
+i hear rarely.
+
+### INPUT:
+we were fast.
+### OUTPUT:
+we were fast.
+
+### INPUT:
+we are long.
+### OUTPUT:
+we are long.
+
+### INPUT:
+i eat a book.
+### OUTPUT:
+i eat a book.
+
+### INPUT:
+you sit a year.
+### OUTPUT:
+you sit a year.
+
+### INPUT:
+we walked a year.
+### OUTPUT:
+we walked a year.
+
+### INPUT:
+they have.
+### OUTPUT:
+they have.
+
+### INPUT:
+we give him a child.
+### OUTPUT:
+we give him a child.
+
+### INPUT:
+i are inside.
+### OUTPUT:
+i are inside.
+
+### INPUT:
+he was poor.
+### OUTPUT:
+he was poor.
+
+### INPUT:
+it speaks a woman.
+### OUTPUT:
+it speaks a woman.
+
+### INPUT:
+i am dirty.
+### OUTPUT:
+i am dirty.
+
+### INPUT:
+they saw a man.
+### OUTPUT:
+they saw a man.
+
+### INPUT:
+i hear a world.
+### OUTPUT:
+i hear a world.
+
+### INPUT:
+we tell them a day.
+### OUTPUT:
+we tell them a day.
+
+### INPUT:
+he tells us a pen.
+### OUTPUT:
+he tells us a pen.
+
+### INPUT:
+i tell it a cat.
+### OUTPUT:
+i tell it a cat.
+
+### INPUT:
+he was low.
+### OUTPUT:
+he was low.
+
+### INPUT:
+i was hot.
+### OUTPUT:
+i was hot.
+
+### INPUT:
+we were bright.
+### OUTPUT:
+we were bright.
+
+### INPUT:
+he makes never.
+### OUTPUT:
+he makes never.
+
+### INPUT:
+they go a city.
+### OUTPUT:
+they go a city.
+
+### INPUT:
+they are sad.
+### OUTPUT:
+they are sad.
+
+### INPUT:
+we show him a bird.
+### OUTPUT:
+we show him a bird.
+
+### INPUT:
+we offer him a group.
+### OUTPUT:
+we offer him a group.
+
+### INPUT:
+we spoke.
+### OUTPUT:
+we spoke.
+
+### INPUT:
+they speak an earth.
+### OUTPUT:
+they speak an earth.
+
+### INPUT:
+you gave.
+### OUTPUT:
+you gave.
+
+### INPUT:
+we took a door.
+### OUTPUT:
+we took a door.
+
+### INPUT:
+you spoke a woman.
+### OUTPUT:
+you spoke a woman.
+
+### INPUT:
+we spoke a town.
+### OUTPUT:
+we spoke a town.
+
+### INPUT:
+we stand fast.
+### OUTPUT:
+we stand fast.
+
+### INPUT:
+she sees a flower.
+### OUTPUT:
+she sees a flower.
+
+### INPUT:
+i sit a pen.
+### OUTPUT:
+i sit a pen.
+
+### INPUT:
+it comes a city.
+### OUTPUT:
+it comes a city.
+
+### INPUT:
+i jump here.
+### OUTPUT:
+i jump here.
+
+### INPUT:
+he shows them a town.
+### OUTPUT:
+he shows them a town.
+
+### INPUT:
+they tell her a sun.
+### OUTPUT:
+they tell her a sun.
+
+### INPUT:
+he looked a cat.
+### OUTPUT:
+he looked a cat.
+
+### INPUT:
+we were narrow.
+### OUTPUT:
+we were narrow.
+
+### INPUT:
+you jumped a day.
+### OUTPUT:
+you jumped a day.
+
+### INPUT:
+they tell sometimes.
+### OUTPUT:
+they tell sometimes.
+
+### INPUT:
+you say sadly.
+### OUTPUT:
+you say sadly.
+
+### INPUT:
+she spoke a sun.
+### OUTPUT:
+she spoke a sun.
+
+### INPUT:
+they heard.
+### OUTPUT:
+they heard.
+
+### INPUT:
+it jumped.
+### OUTPUT:
+it jumped.
+
+### INPUT:
+we ran a child.
+### OUTPUT:
+we ran a child.
+
+### INPUT:
+she sends it a fire.
+### OUTPUT:
+she sends it a fire.
+
+### INPUT:
+i am small.
+### OUTPUT:
+i am small.
+
+### INPUT:
+i offer us a tree.
+### OUTPUT:
+i offer us a tree.
+
+### INPUT:
+they say an air.
+### OUTPUT:
+they say an air.
+
+### INPUT:
+i jump a child.
+### OUTPUT:
+i jump a child.
+
+### INPUT:
+you are happy.
+### OUTPUT:
+you are happy.
+
+### INPUT:
+he walked.
+### OUTPUT:
+he walked.
+
+### INPUT:
+it is closed.
+### OUTPUT:
+it is closed.
+
+### INPUT:
+i speak sometimes.
+### OUTPUT:
+i speak sometimes.
+
+### INPUT:
+he hears in.
+### OUTPUT:
+he hears in.
+
+### INPUT:
+it runs.
+### OUTPUT:
+it runs.
+
+### INPUT:
+they are rather.
+### OUTPUT:
+they are rather.
+
+### INPUT:
+it dos sadly.
+### OUTPUT:
+it dos sadly.
+
+### INPUT:
+it was soft.
+### OUTPUT:
+it was soft.
+
+### INPUT:
+you speak tomorrow.
+### OUTPUT:
+you speak tomorrow.
+
+### INPUT:
+she stands hard.
+### OUTPUT:
+she stands hard.
+
+### INPUT:
+you have.
+### OUTPUT:
+you have.
+
+### INPUT:
+you drank a fire.
+### OUTPUT:
+you drank a fire.
+
+### INPUT:
+we come.
+### OUTPUT:
+we come.
+
+### INPUT:
+she offers him a grass.
+### OUTPUT:
+she offers him a grass.
+
+### INPUT:
+he takes a friend.
+### OUTPUT:
+he takes a friend.
+
+### INPUT:
+he was hot.
+### OUTPUT:
+he was hot.
+
+### INPUT:
+we looked a country.
+### OUTPUT:
+we looked a country.
+
+### INPUT:
+they tell early.
+### OUTPUT:
+they tell early.
+
+### INPUT:
+we were hard.
+### OUTPUT:
+we were hard.
+
+### INPUT:
+i told.
+### OUTPUT:
+i told.
+
+### INPUT:
+i tell me a food.
+### OUTPUT:
+i tell me a food.
+
+### INPUT:
+they been.
+### OUTPUT:
+they been.
+
+### INPUT:
+they is a sun.
+### OUTPUT:
+they is a sun.
+
+### INPUT:
+you tell there.
+### OUTPUT:
+you tell there.
+
+### INPUT:
+we run nearly.
+### OUTPUT:
+we run nearly.
+
+### INPUT:
+it is dark.
+### OUTPUT:
+it is dark.
+
+### INPUT:
+he went a window.
+### OUTPUT:
+he went a window.
+
+### INPUT:
+he has.
+### OUTPUT:
+he has.
+
+### INPUT:
+she shows her a friend.
+### OUTPUT:
+she shows her a friend.
+
+### INPUT:
+we took.
+### OUTPUT:
+we took.
+
+### INPUT:
+you are cool.
+### OUTPUT:
+you are cool.
+
+### INPUT:
+you jumped a country.
+### OUTPUT:
+you jumped a country.
+
+### INPUT:
+you is badly.
+### OUTPUT:
+you is badly.
+
+### INPUT:
+you see well.
+### OUTPUT:
+you see well.
+
+### INPUT:
+she was bright.
+### OUTPUT:
+she was bright.
+
+### INPUT:
+it is dead.
+### OUTPUT:
+it is dead.
+
+### INPUT:
+you are slow.
+### OUTPUT:
+you are slow.
+
+### INPUT:
+he ran a door.
+### OUTPUT:
+he ran a door.
+
+### INPUT:
+he runs tomorrow.
+### OUTPUT:
+he runs tomorrow.
+
+### INPUT:
+you do almost.
+### OUTPUT:
+you do almost.
+
+### INPUT:
+he took.
+### OUTPUT:
+he took.
+
+### INPUT:
+she took a chair.
+### OUTPUT:
+she took a chair.
+
+### INPUT:
+it offers it a window.
+### OUTPUT:
+it offers it a window.
+
+### INPUT:
+you tell me a food.
+### OUTPUT:
+you tell me a food.
+
+### INPUT:
+we am a table.
+### OUTPUT:
+we am a table.
+
+### INPUT:
+she sees in.
+### OUTPUT:
+she sees in.
+
+### INPUT:
+they have.
+### OUTPUT:
+they have.
+
+### INPUT:
+she stands there.
+### OUTPUT:
+she stands there.
+
+### INPUT:
+it offers them a person.
+### OUTPUT:
+it offers them a person.
+
+### INPUT:
+she heard.
+### OUTPUT:
+she heard.
+
+### INPUT:
+it runs.
+### OUTPUT:
+it runs.
+
+### INPUT:
+you spoke.
+### OUTPUT:
+you spoke.
+
+### INPUT:
+they speak today.
+### OUTPUT:
+they speak today.
+
+### INPUT:
+i is a tree.
+### OUTPUT:
+i is a tree.
+
+### INPUT:
+it walks slowly.
+### OUTPUT:
+it walks slowly.
+
+### INPUT:
+she runs too.
+### OUTPUT:
+she runs too.
+
+### INPUT:
+we tell a tree.
+### OUTPUT:
+we tell a tree.
+
+### INPUT:
+it is white.
+### OUTPUT:
+it is white.
+
+### INPUT:
+she talks a woman.
+### OUTPUT:
+she talks a woman.
+
+### INPUT:
+they heard a moon.
+### OUTPUT:
+they heard a moon.
+
+### INPUT:
+it hears.
+### OUTPUT:
+it hears.
+
+### INPUT:
+we see.
+### OUTPUT:
+we see.
+
+### INPUT:
+she wass quite.
+### OUTPUT:
+she wass quite.
+
+### INPUT:
+you give me an air.
+### OUTPUT:
+you give me an air.
+
+### INPUT:
+we see.
+### OUTPUT:
+we see.
+
+### INPUT:
+we hear often.
+### OUTPUT:
+we hear often.
+
+### INPUT:
+it is closed.
+### OUTPUT:
+it is closed.
+
+### INPUT:
+i offer him a fire.
+### OUTPUT:
+i offer him a fire.
+
+### INPUT:
+i was alive.
+### OUTPUT:
+i was alive.
+
+### INPUT:
+she says.
+### OUTPUT:
+she says.
+
+### INPUT:
+he sends her a child.
+### OUTPUT:
+he sends her a child.
+
+### INPUT:
+you are weak.
+### OUTPUT:
+you are weak.
+
+### INPUT:
+it was hard.
+### OUTPUT:
+it was hard.
+
+### INPUT:
+they have inside.
+### OUTPUT:
+they have inside.
+
+### INPUT:
+she speaks.
+### OUTPUT:
+she speaks.
+
+### INPUT:
+you eat.
+### OUTPUT:
+you eat.
+
+### INPUT:
+we eat early.
+### OUTPUT:
+we eat early.
+
+### INPUT:
+we talk back.
+### OUTPUT:
+we talk back.
+
+### INPUT:
+you are fast.
+### OUTPUT:
+you are fast.
+
+### INPUT:
+they talked.
+### OUTPUT:
+they talked.
+
+### INPUT:
+he takes such.
+### OUTPUT:
+he takes such.
+
+### INPUT:
+she spoke a friend.
+### OUTPUT:
+she spoke a friend.
+
+### INPUT:
+we look a food.
+### OUTPUT:
+we look a food.
+
+### INPUT:
+she gives them a pen.
+### OUTPUT:
+she gives them a pen.
+
+### INPUT:
+he made a person.
+### OUTPUT:
+he made a person.
+
+### INPUT:
+i was happy.
+### OUTPUT:
+i was happy.
+
+### INPUT:
+we send them a town.
+### OUTPUT:
+we send them a town.
+
+### INPUT:
+i is rather.
+### OUTPUT:
+i is rather.
+
+### INPUT:
+he was clean.
+### OUTPUT:
+he was clean.
+
+### INPUT:
+they take.
+### OUTPUT:
+they take.
+
+### INPUT:
+you were green.
+### OUTPUT:
+you were green.
+
+### INPUT:
+i jump down.
+### OUTPUT:
+i jump down.
+
+### INPUT:
+they jump outside.
+### OUTPUT:
+they jump outside.
+
+### INPUT:
+he jumped.
+### OUTPUT:
+he jumped.
+
+### INPUT:
+he goes a stone.
+### OUTPUT:
+he goes a stone.
+
+### INPUT:
+we am.
+### OUTPUT:
+we am.
+
+### INPUT:
+they being a man.
+### OUTPUT:
+they being a man.
+
+### INPUT:
+we send it a chair.
+### OUTPUT:
+we send it a chair.
+
+### INPUT:
+it went a person.
+### OUTPUT:
+it went a person.
+
+### INPUT:
+they saw.
+### OUTPUT:
+they saw.
+
+### INPUT:
+we were strong.
+### OUTPUT:
+we were strong.
+
+### INPUT:
+he offers it a pen.
+### OUTPUT:
+he offers it a pen.
+
+### INPUT:
+it comes a fish.
+### OUTPUT:
+it comes a fish.
+
+### INPUT:
+it was empty.
+### OUTPUT:
+it was empty.
+
+### INPUT:
+she weres in.
+### OUTPUT:
+she weres in.
+
+### INPUT:
+it walks a friend.
+### OUTPUT:
+it walks a friend.
+
+### INPUT:
+we drank a night.
+### OUTPUT:
+we drank a night.
+
+### INPUT:
+he looks happily.
+### OUTPUT:
+he looks happily.
+
+### INPUT:
+they see a country.
+### OUTPUT:
+they see a country.
+
+### INPUT:
+it ares quite.
+### OUTPUT:
+it ares quite.
+
+### INPUT:
+she hears rarely.
+### OUTPUT:
+she hears rarely.
+
+### INPUT:
+i did.
+### OUTPUT:
+i did.
+
+### INPUT:
+you been.
+### OUTPUT:
+you been.
+
+### INPUT:
+i see.
+### OUTPUT:
+i see.
+
+### INPUT:
+i speak rarely.
+### OUTPUT:
+i speak rarely.
+
+### INPUT:
+he was empty.
+### OUTPUT:
+he was empty.
+
+### INPUT:
+i sit nowhere.
+### OUTPUT:
+i sit nowhere.
+
+### INPUT:
+we were wide.
+### OUTPUT:
+we were wide.
+
+### INPUT:
+they offer them a bird.
+### OUTPUT:
+they offer them a bird.
+
+### INPUT:
+he stands nearly.
+### OUTPUT:
+he stands nearly.
+
+### INPUT:
+he speaks.
+### OUTPUT:
+he speaks.
+
+### INPUT:
+it made a moon.
+### OUTPUT:
+it made a moon.
+
+### INPUT:
+you drink.
+### OUTPUT:
+you drink.
+
+### INPUT:
+he gives.
+### OUTPUT:
+he gives.
+
+### INPUT:
+it bes now.
+### OUTPUT:
+it bes now.
+
+### INPUT:
+i are soon.
+### OUTPUT:
+i are soon.
+
+### INPUT:
+he gave a dog.
+### OUTPUT:
+he gave a dog.
+
+### INPUT:
+you jump a dog.
+### OUTPUT:
+you jump a dog.
+
+### INPUT:
+you show me a grass.
+### OUTPUT:
+you show me a grass.
+
+### INPUT:
+i tell him a town.
+### OUTPUT:
+i tell him a town.
+
+### INPUT:
+you say happily.
+### OUTPUT:
+you say happily.
+
+### INPUT:
+you had.
+### OUTPUT:
+you had.
+
+### INPUT:
+she takes a flower.
+### OUTPUT:
+she takes a flower.
+
+### INPUT:
+he sends me a food.
+### OUTPUT:
+he sends me a food.
+
+### INPUT:
+they said.
+### OUTPUT:
+they said.
+
+### INPUT:
+i offer me a town.
+### OUTPUT:
+i offer me a town.
+
+### INPUT:
+you were new.
+### OUTPUT:
+you were new.
+
+### INPUT:
+it was narrow.
+### OUTPUT:
+it was narrow.
+
+### INPUT:
+it was alive.
+### OUTPUT:
+it was alive.
+
+### INPUT:
+she stands up.
+### OUTPUT:
+she stands up.
+
+### INPUT:
+it sends it a man.
+### OUTPUT:
+it sends it a man.
+
+### INPUT:
+we show us a country.
+### OUTPUT:
+we show us a country.
+
+### INPUT:
+it was high.
+### OUTPUT:
+it was high.
+
+### INPUT:
+they do.
+### OUTPUT:
+they do.
+
+### INPUT:
+it tells him a cat.
+### OUTPUT:
+it tells him a cat.
+
+### INPUT:
+you say well.
+### OUTPUT:
+you say well.
+
+### INPUT:
+i was beautiful.
+### OUTPUT:
+i was beautiful.
+
+### INPUT:
+i send you a world.
+### OUTPUT:
+i send you a world.
+
+### INPUT:
+you offer it a country.
+### OUTPUT:
+you offer it a country.
+
+### INPUT:
+i am white.
+### OUTPUT:
+i am white.
+
+### INPUT:
+i show him a stone.
+### OUTPUT:
+i show him a stone.
+
+### INPUT:
+she spoke.
+### OUTPUT:
+she spoke.
+
+### INPUT:
+she was old.
+### OUTPUT:
+she was old.
+
+### INPUT:
+she said a sun.
+### OUTPUT:
+she said a sun.
+
+### INPUT:
+they say a friend.
+### OUTPUT:
+they say a friend.
+
+### INPUT:
+we give me an air.
+### OUTPUT:
+we give me an air.
+
+### INPUT:
+she jumped a house.
+### OUTPUT:
+she jumped a house.
+
+### INPUT:
+he was fast.
+### OUTPUT:
+he was fast.
+
+### INPUT:
+it is good.
+### OUTPUT:
+it is good.
+
+### INPUT:
+it was dead.
+### OUTPUT:
+it was dead.
+
+### INPUT:
+we do almost.
+### OUTPUT:
+we do almost.
+
+### INPUT:
+it jumped a cat.
+### OUTPUT:
+it jumped a cat.
+
+### INPUT:
+we looked.
+### OUTPUT:
+we looked.
+
+### INPUT:
+it was dirty.
+### OUTPUT:
+it was dirty.
+
+### INPUT:
+he made a stone.
+### OUTPUT:
+he made a stone.
+
+### INPUT:
+it is closed.
+### OUTPUT:
+it is closed.
+
+### INPUT:
+she does a tree.
+### OUTPUT:
+she does a tree.
+
+### INPUT:
+we drink a friend.
+### OUTPUT:
+we drink a friend.
+
+### INPUT:
+it drinks outside.
+### OUTPUT:
+it drinks outside.
+
+### INPUT:
+you been sadly.
+### OUTPUT:
+you been sadly.
+
+### INPUT:
+she says rarely.
+### OUTPUT:
+she says rarely.
+
+### INPUT:
+she is sad.
+### OUTPUT:
+she is sad.
+
+### INPUT:
+it was big.
+### OUTPUT:
+it was big.
+
+### INPUT:
+he jumped a man.
+### OUTPUT:
+he jumped a man.
+
+### INPUT:
+you went.
+### OUTPUT:
+you went.
+
+### INPUT:
+she was small.
+### OUTPUT:
+she was small.
+
+### INPUT:
+i jumped a family.
+### OUTPUT:
+i jumped a family.
+
+### INPUT:
+i said a man.
+### OUTPUT:
+i said a man.
+
+### INPUT:
+he says a child.
+### OUTPUT:
+he says a child.
+
+### INPUT:
+she looked.
+### OUTPUT:
+she looked.
+
+### INPUT:
+she says sometimes.
+### OUTPUT:
+she says sometimes.
+
+### INPUT:
+it jumped a bird.
+### OUTPUT:
+it jumped a bird.
+

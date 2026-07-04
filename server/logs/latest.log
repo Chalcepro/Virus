@@ -1,0 +1,29 @@
+[08:20:08] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[08:20:14] [ServerMain/INFO]: Loaded 1461 recipes
+[08:20:14] [ServerMain/INFO]: Loaded 1574 advancements
+[08:20:14] [Server thread/INFO]: Starting minecraft server version 1.21.10
+[08:20:14] [Server thread/INFO]: Loading properties
+[08:20:14] [Server thread/INFO]: Default game type: SURVIVAL
+[08:20:14] [Server thread/INFO]: Generating keypair
+[08:20:14] [Server thread/INFO]: Starting Minecraft server on *:25566
+[08:20:15] [Server thread/INFO]: Using default channel type
+[08:20:15] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[08:20:15] [Server thread/WARN]: The exception was: java.net.BindException: Address already in use: bind
+[08:20:15] [Server thread/WARN]: Perhaps a server is already running on that port?
+[08:20:15] [Server thread/ERROR]: Encountered an unexpected exception
+java.lang.IllegalStateException: Failed to initialize server
+	at net.minecraft.server.MinecraftServer.C(SourceFile:797) ~[server-1.21.10.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:297) ~[server-1.21.10.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[08:20:15] [Server thread/ERROR]: This crash report has been saved to: C:\Users\Virus\Documents\github\Virus\server\crash-reports\crash-2026-05-04_08.20.15-server.txt
+[08:20:15] [Server thread/INFO]: Stopping server
+[08:20:15] [Server thread/INFO]: Saving worlds
+[08:20:15] [Server thread/ERROR]: Exception stopping the server
+java.lang.NullPointerException: Cannot invoke "bbd.r()" because the return value of "net.minecraft.server.MinecraftServer.am()" is null
+	at net.minecraft.server.MinecraftServer.a(SourceFile:634) ~[server-1.21.10.jar:?]
+	at aro.a(SourceFile:340) ~[server-1.21.10.jar:?]
+	at net.minecraft.server.MinecraftServer.z(SourceFile:693) ~[server-1.21.10.jar:?]
+	at aro.z(SourceFile:734) ~[server-1.21.10.jar:?]
+	at net.minecraft.server.MinecraftServer.C(SourceFile:816) ~[server-1.21.10.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:297) ~[server-1.21.10.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]

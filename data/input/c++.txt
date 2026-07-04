@@ -1,0 +1,166 @@
+// === Basic Includes and Namespaces ===
+#include <iostream>
+#include <string>
+#include <vector>
+#include <map>
+#include <set>
+#include <algorithm>
+#include <fstream>
+#include <sstream>
+#include <memory>
+#include <stdexcept>
+#include <cmath>
+#include <functional>
+#include <thread>
+#include <mutex>
+
+// === Variables and Primitive Types ===
+int age = 25;
+double price = 19.99;
+char grade = 'A';
+bool is_active = true;
+unsigned int count = 100;
+const float PI = 3.14159f;
+
+// === Arrays (C-style) ===
+int numbers[5] = {1, 2, 3, 4, 5};
+int matrix[2][3] = {{1,2,3}, {4,5,6}};
+
+// === Pairs and Tuples ===
+pair<string, int> person = make_pair("Bob", 30);
+cout << person.first << " " << person.second << endl;
+tuple<int, double, string> tup = make_tuple(1, 2.5, "test");
+cout << get<0>(tup) << endl;
+
+// === Lambdas ===
+auto sum = [](int a, int b) -> int { return a + b; };
+cout << sum(3, 4) << endl;
+int factor = 10;
+auto scale = [factor](int x) { return x * factor; };
+cout << scale(5) << endl;
+
+switch (grade) {
+    case 'A': cout << "Excellent"; break;
+    case 'B': cout << "Good"; break;
+    default: cout << "OK";
+}
+
+// Range-based for (C++11)
+for (int v : vec) cout << v << " ";
+
+class Dog : public Animal {
+    string breed;
+public:
+    Dog(const string& n, const string& b) : Animal(n), breed(b) {}
+    void speak() const override { cout << name << " barks!" << endl; }
+    string getBreed() const { return breed; }
+    static string info() { return "Dogs are loyal."; }
+};
+
+// Smart pointers
+unique_ptr<Dog> dogPtr = make_unique<Dog>("Rex", "German Shepherd");
+shared_ptr<Animal> animalPtr = make_shared<Dog>("Buddy", "Labrador");
+
+template <class T>
+class Container {
+    T data;
+public:
+    Container(T d) : data(d) {}
+    T get() const { return data; }
+    void set(T d) { data = d; }
+};
+
+// Set
+set<int> s = {3, 1, 4, 1, 5, 9};
+s.insert(2);
+cout << "Set size: " << s.size() << endl;
+
+// === Algorithms ===
+vector<int> arr = {4, 2, 8, 5, 1};
+sort(arr.begin(), arr.end());
+auto it_min = min_element(arr.begin(), arr.end());
+cout << "Min: " << *it_min << endl;
+int cnt = count(arr.begin(), arr.end(), 5);
+bool found = binary_search(arr.begin(), arr.end(), 8);
+reverse(arr.begin(), arr.end());
+random_shuffle(arr.begin(), arr.end()); // deprecated in C++17, use shuffle
+
+// Copy and move
+vector<int> copy_vec(arr);
+
+ifstream inFile("input.txt");
+if (inFile.is_open()) {
+    string line;
+    while (getline(inFile, line)) {
+        cout << line << endl;
+    }
+    inFile.close();
+}
+
+// === Exception Handling ===
+try {
+    throw runtime_error("Something went wrong");
+} catch (const exception& e) {
+    cerr << "Error: " << e.what() << endl;
+}
+
+// === Memory Management (raw pointers) ===
+int* p = new int(10);
+delete p;
+int* arr_ptr = new int[5];
+delete[] arr_ptr;
+
+// === Recursion ===
+int factorial(int n) {
+    if (n <= 1) return 1;
+    return n * factorial(n-1);
+}
+
+// === Linked List (manual) ===
+struct ListNode {
+    int val;
+    ListNode* next;
+    ListNode(int x) : val(x), next(nullptr) {}
+};
+
+// Clean up
+ListNode* curr = head;
+while (curr) {
+    ListNode* tmp = curr;
+    curr = curr->next;
+    delete tmp;
+}
+
+// Bubble sort
+void bubbleSort(vector<int>& arr) {
+    int n = arr.size();
+    for (int i = 0; i < n-1; ++i)
+        for (int j = 0; j < n-i-1; ++j)
+            if (arr[j] > arr[j+1])
+                swap(arr[j], arr[j+1]);
+}
+
+// === Number Theory ===
+bool isPrime(int n) {
+    if (n < 2) return false;
+    for (int i = 2; i * i <= n; i++) {
+        if (n % i == 0) return false;
+    }
+    return true;
+}
+
+// === Dynamic Programming (knapsack example) ===
+int knapSack(int W, vector<int> wt, vector<int> val, int n) {
+    vector<vector<int>> K(n + 1, vector<int>(W + 1));
+    for (int i = 0; i <= n; i++) {
+        for (int w = 0; w <= W; w++) {
+            if (i == 0 || w == 0)
+                K[i][w] = 0;
+            else if (wt[i - 1] <= w)
+                K[i][w] = max(val[i - 1] + K[i - 1][w - wt[i - 1]], K[i - 1][w]);
+            else
+                K[i][w] = K[i - 1][w];
+        }
+    }
+    return K[n][W];
+}

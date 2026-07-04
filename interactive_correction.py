@@ -3,13 +3,15 @@ import torch
 import subprocess
 import sys
 from pathlib import Path
+import config
 from dataset import CodeDataset
 from model_v3 import HybridCodeGenerator
+from utils import torch_load
 
-MODEL_PATH = "model_v3.pt"
-DATA_DIR = "data"
+MODEL_PATH = config.MODEL_PATH
+DATA_DIR = config.DATA_DIR
 CORRECTIONS_FILE = "corrections.txt"
-CORRECTIONS_PATH = Path(DATA_DIR) / CORRECTIONS_FILE
+CORRECTIONS_PATH = DATA_DIR / CORRECTIONS_FILE
 DEVICE = torch.device("cpu")
 
 def ensure_corrections_file():
@@ -34,7 +36,7 @@ def fine_tune_on_corrections(lr=0.0001):
 
 def load_model_and_dataset():
     # Load checkpoint to get the exact vocab size used during training
-    checkpoint = torch.load(MODEL_PATH, map_location=DEVICE)
+    checkpoint = torch_load(MODEL_PATH, map_location=DEVICE)
     checkpoint_vocab = checkpoint['embedding.weight'].size(0)
     
     # Choose a dataset file that contains a rich character set (matching the training data)

@@ -1,4 +1,11 @@
+import inspect
 import torch
+
+def torch_load(path, map_location=None, **kwargs):
+    if "weights_only" in inspect.signature(torch.load).parameters and "weights_only" not in kwargs:
+        kwargs["weights_only"] = False
+    return torch.load(path, map_location=map_location, **kwargs)
+
 
 def build_vocab(text):
     chars = sorted(list(set(text)))

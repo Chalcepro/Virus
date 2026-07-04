@@ -1,0 +1,1062 @@
+### Response:
+import re
+
+### Instruction:
+Write a function that returns the longest word in a sentence.
+
+### Instruction:
+Write a function that groups a list of words by their first letter. Return a dictionary where keys are letters and values are lists of words.
+
+### Instruction:
+Write a class named BankAccount with methods deposit(amount) and withdraw(amount). Raise ValueError if withdrawing more than balance.
+
+def deposit(self, amount):
+        self.balance += amount
+
+### Instruction:
+Write a recursive function to compute the sum of a nested list of integers.
+
+### Instruction:
+Write a function that returns True if two strings are anagrams, ignoring case.
+
+### Instruction:
+Write a function that takes a number and returns its representation in Roman numerals (up to 3999).
+
+### Instruction:
+Write a decorator that limits the number of times a function can be called. After the limit, raise RuntimeError.
+
+### Instruction:
+Use the `functools.lru_cache` decorator to memoize a function that computes the nth Fibonacci number.
+
+@lru_cache(maxsize=None)
+def fib(n):
+    if n <= 1:
+        return n
+    return fib(n-1) + fib(n-2)
+
+### Response:
+import os
+from contextlib import contextmanager
+
+### Instruction:
+Write a function that calculates the Levenshtein distance between two strings.
+
+### Instruction:
+Write a function that splits a list into equally sized chunks of a given size.
+
+### Instruction:
+Write a program that prints the current time every second, until 5 seconds have passed.
+
+start = time.time()
+while time.time() - start < 5:
+    print(time.strftime('%H:%M:%S'))
+    time.sleep(1)
+
+### Response:
+def sort_by_key(dicts, key):
+    return sorted(dicts, key=lambda d: d[key])
+
+### Response:
+class CircularBuffer:
+    def __init__(self, size):
+        self.size = size
+        self.buffer = [None] * size
+        self.head = 0
+        self.tail = 0
+        self.full = False
+
+def read_all(self):
+        if not self.full and self.head == self.tail:
+            return []
+        if self.full:
+            return self.buffer[self.head:] + self.buffer[:self.tail]
+        return self.buffer[self.head:self.tail]
+
+### Response:
+def intersection_of_sets(*sets):
+    if not sets:
+        return set()
+    return set.intersection(*sets)
+
+### Response:
+def capitalize_words(s):
+    return ' '.join(word[0].upper() + word[1:].lower() for word in s.split())
+
+### Response:
+def camel_to_snake(s):
+    import re
+    return re.sub(r'(?<!^)(?=[A-Z])', '_', s).lower()
+
+### Response:
+def days_in_month(month):
+    days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+    return days[month - 1]
+
+### Response:
+def primes():
+    n = 2
+    while True:
+        if all(n % i != 0 for i in range(2, int(n**0.5) + 1)):
+            yield n
+        n += 1
+
+### Response:
+import itertools
+
+### Instruction:
+Write a function that finds all Pythagorean triples with sides up to a given limit.
+
+### Instruction:
+Write a class that represents a 2D point and supports addition via `+` operator.
+
+def __add__(self, other):
+        return Point(self.x + other.x, self.y + other.y)
+
+### Instruction:
+Write a function that reads a file and returns the count of blank lines.
+
+### Instruction:
+Write a program that prompts the user for a number until they enter a valid integer, then prints it.
+
+### Instruction:
+Write a function that returns the difference between two lists (elements in first not in second).
+
+### Instruction:
+Write a function that calculates the area of a polygon given a list of (x,y) vertices using the shoelace formula.
+
+### Instruction:
+Write a context manager that times the execution of its block and prints the elapsed time.
+
+class Timer:
+    def __enter__(self):
+        self.start = time.time()
+        return self
+    def __exit__(self, *args):
+        print(f'Elapsed: {time.time() - self.start:.4f} sec')
+
+### Response:
+from collections import Counter
+
+### Instruction:
+Write a function that validates a string is a valid IPv4 address.
+
+def is_valid_ipv4(s):
+    pattern = r'^(\d{1,3})\.(\d{1,3})\.(\d{1,3})\.(\d{1,3})$'
+    match = re.match(pattern, s)
+    if not match:
+        return False
+    return all(0 <= int(part) <= 255 for part in match.groups())
+
+### Response:
+def dot_product(v1, v2):
+    return sum(a * b for a, b in zip(v1, v2))
+
+### Response:
+def rotate_left(lst, k):
+    k %= len(lst)
+    return lst[k:] + lst[:k]
+
+### Response:
+import json
+
+### Instruction:
+Write a function that recursively finds all Python files in a directory.
+
+def find_python_files(directory):
+    results = []
+    for root, _, files in os.walk(directory):
+        for f in files:
+            if f.endswith('.py'):
+                results.append(os.path.join(root, f))
+    return results
+
+### Response:
+def sort_tuples(lst):
+    return sorted(lst, key=lambda x: x[1])
+
+### Response:
+def is_power_of_two(n):
+    return n > 0 and (n & (n - 1)) == 0
+
+### Response:
+def combine_dicts(d1, d2):
+    result = d1.copy()
+    for k, v in d2.items():
+        result[k] = result.get(k, 0) + v
+    return result
+
+### Response:
+class Stack:
+    def __init__(self):
+        self._items = []
+
+def pop(self):
+        if not self._items:
+            raise IndexError('pop from empty stack')
+        return self._items.pop()
+
+### Instruction:
+Write a function that returns the nth smallest element in a list without sorting the entire list (using `heapq`).
+
+def nth_smallest(lst, n):
+    return heapq.nsmallest(n, lst)[-1]
+
+### Response:
+import random
+import string
+
+### Instruction:
+Write a function that uses `functools.reduce` to find the maximum element in a list without `max()`.
+
+def reduce_max(lst):
+    return reduce(lambda a, b: a if a > b else b, lst)
+
+### Response:
+def nested_keys(d):
+    keys = set()
+    for k, v in d.items():
+        keys.add(k)
+        if isinstance(v, dict):
+            keys.update(nested_keys(v))
+    return keys
+
+### Response:
+def flatten(nested):
+    result = []
+    for item in nested:
+        if isinstance(item, list):
+            result.extend(flatten(item))
+        else:
+            result.append(item)
+    return result
+
+### Response:
+def longest_common_suffix(a, b):
+    i = 1
+    while i <= len(a) and i <= len(b) and a[-i] == b[-i]:
+        i += 1
+    return a[-(i-1):]
+
+### Response:
+def transpose(matrix):
+    return [list(row) for row in zip(*matrix)]
+
+### Response:
+from collections import deque
+
+### Instruction:
+Write a function that removes all punctuation from a string using `str.maketrans`.
+
+def remove_punctuation(s):
+    return s.translate(str.maketrans('', '', string.punctuation))
+
+### Response:
+def running_average():
+    total = 0
+    count = 0
+    avg = None
+    while True:
+        num = yield avg
+        total += num
+        count += 1
+        avg = total / count
+
+### Response:
+def is_balanced(s):
+    stack = []
+    pairs = {')': '(', '}': '{', ']': '['}
+    for ch in s:
+        if ch in '({[':
+            stack.append(ch)
+        elif ch in ')}]':
+            if not stack or stack.pop() != pairs[ch]:
+                return False
+    return not stack
+
+### Response:
+def sum_even(lst):
+    return sum(x for x in lst if x % 2 == 0)
+
+### Response:
+def merge_sorted(a, b):
+    result = []
+    i = j = 0
+    while i < len(a) and j < len(b):
+        if a[i] < b[j]:
+            result.append(a[i]); i += 1
+        else:
+            result.append(b[j]); j += 1
+    result.extend(a[i:])
+    result.extend(b[j:])
+    return result
+
+### Response:
+def substrings(s):
+    for i in range(len(s)):
+        for j in range(i+1, len(s)+1):
+            yield s[i:j]
+
+### Response:
+import itertools
+
+### Instruction:
+Write a class that implements a counter that can be incremented with `+=` operator.
+
+### Instruction:
+Write a function to convert a decimal number to binary without using `bin()`.
+
+### Instruction:
+Write a function that evaluates a postfix (reverse Polish) expression. Example: '2 3 +' returns 5.
+
+### Instruction:
+Write a generator that yields the first n numbers of the Fibonacci sequence.
+
+### Instruction:
+Write a function that returns the number of times a substring occurs in a string, allowing overlapping.
+
+### Instruction:
+Write a decorator that caches the return value of a function for a given time period (TTL cache).
+
+def ttl_cache(ttl_seconds):
+    def decorator(func):
+        cache = {}
+        @wraps(func)
+        def wrapper(*args):
+            now = time.time()
+            if args in cache:
+                value, timestamp = cache[args]
+                if now - timestamp < ttl_seconds:
+                    return value
+            result = func(*args)
+            cache[args] = (result, now)
+            return result
+        return wrapper
+    return decorator
+
+### Response:
+def is_leap_year(year):
+    return year % 4 == 0 and (year % 100 != 0 or year % 400 == 0)
+
+### Response:
+def sum_of_digits(n):
+    return sum(int(d) for d in str(n))
+
+### Response:
+def product(lst):
+    result = 1
+    for x in lst:
+        result *= x
+    return result
+
+### Response:
+def reverse_in_place(lst):
+    left, right = 0, len(lst) - 1
+    while left < right:
+        lst[left], lst[right] = lst[right], lst[left]
+        left += 1
+        right -= 1
+
+### Response:
+def first_unique(s):
+    counts = {}
+    for ch in s:
+        counts[ch] = counts.get(ch, 0) + 1
+    for ch in s:
+        if counts[ch] == 1:
+            return ch
+    return None
+
+### Response:
+def sieve(limit):
+    is_prime = [True] * (limit + 1)
+    for p in range(2, int(limit**0.5) + 1):
+        if is_prime[p]:
+            for multiple in range(p*p, limit+1, p):
+                is_prime[multiple] = False
+    return [p for p in range(2, limit+1) if is_prime[p]]
+
+### Response:
+def title_case(s):
+    small_words = {'a', 'an', 'the', 'and', 'but', 'or', 'in', 'on', 'at', 'to'}
+    words = s.split()
+    result = []
+    for i, w in enumerate(words):
+        if i == 0 or w.lower() not in small_words:
+            result.append(w.capitalize())
+        else:
+            result.append(w.lower())
+    return ' '.join(result)
+
+### Response:
+def line_count(filename):
+    with open(filename) as f:
+        return sum(1 for _ in f)
+
+### Response:
+def append_line(filename, text):
+    with open(filename, 'a') as f:
+        f.write(text + '\n')
+
+### Response:
+def copy_file(src, dst):
+    with open(src, 'rb') as fin, open(dst, 'wb') as fout:
+        while True:
+            chunk = fin.read(4096)
+            if not chunk:
+                break
+            fout.write(chunk)
+
+### Response:
+import os
+
+### Instruction:
+Write a function that returns the base name of a file path without the extension.
+
+### Instruction:
+Write a function that takes a dictionary and returns its keys sorted by their values descending.
+
+### Instruction:
+Write a function that uses `random.choices` to simulate rolling a biased die where 6 is twice as likely.
+
+def biased_die():
+    return random.choices([1,2,3,4,5,6], weights=[1,1,1,1,1,2])[0]
+
+### Response:
+def is_hex(s):
+    return all(c in '0123456789abcdefABCDEF' for c in s)
+
+### Response:
+def ordered_intersection(a, b):
+    return [x for x in a if x in b]
+
+### Response:
+def identity_matrix(n):
+    return [[1 if i == j else 0 for j in range(n)] for i in range(n)]
+
+### Response:
+class MinMaxQueue:
+    def __init__(self):
+        self.in_stack = []
+        self.out_stack = []
+
+def push(self, val):
+        if self.in_stack:
+            mn = min(val, self.in_stack[-1][1])
+            mx = max(val, self.in_stack[-1][2])
+        else:
+            mn = mx = val
+        self.in_stack.append((val, mn, mx))
+
+def min(self):
+        self._transfer()
+        if not self.out_stack:
+            raise IndexError('empty')
+        return self.out_stack[-1][1]
+
+### Instruction:
+Write a function that uses `bisect` to find the insertion index of a value in a sorted list.
+
+def find_index(sorted_list, x):
+    return bisect.bisect_left(sorted_list, x)
+
+### Response:
+def format_date(dt):
+    return dt.strftime('%A, %d %B %Y')
+
+### Response:
+def seconds_between(dt1, dt2):
+    return abs((dt2 - dt1).total_seconds())
+
+### Response:
+from datetime import datetime
+
+### Instruction:
+Write a function that creates a zip archive of a given directory using `zipfile`.
+
+def zip_directory(dir_path, zip_path):
+    with zipfile.ZipFile(zip_path, 'w') as zf:
+        for root, _, files in os.walk(dir_path):
+            for file in files:
+                full = os.path.join(root, file)
+                arcname = os.path.relpath(full, dir_path)
+                zf.write(full, arcname)
+
+### Response:
+import zipfile
+
+### Instruction:
+Write a function that reads a CSV file and returns a list of dictionaries (header as keys).
+
+def read_csv_as_dicts(filename):
+    with open(filename, newline='') as f:
+        return list(csv.DictReader(f))
+
+### Response:
+import csv
+
+### Instruction:
+Write a function that uses `subprocess.run` to get the output of the `whoami` command (platform-dependent, but just code).
+
+def whoami():
+    result = subprocess.run(['whoami'], capture_output=True, text=True)
+    return result.stdout.strip()
+
+### Response:
+def xor_encrypt(s, key):
+    return ''.join(chr(ord(c) ^ key) for c in s)
+
+### Response:
+from collections import defaultdict
+
+### Instruction:
+Write a function that calculates the median of a list of numbers.
+
+### Instruction:
+Write a function that returns the mode (most frequent element) of a list.
+
+### Instruction:
+Write a class `Vector` with dot product support via `@` operator (`__matmul__`).
+
+### Instruction:
+Write a function that uses the `struct` module to pack an integer and a float into bytes.
+
+def pack_values(i, f):
+    return struct.pack('if', i, f)
+
+### Response:
+import struct
+
+### Instruction:
+Write a function that generates a QR code as a plain text string (using any external library is disallowed; simulate by returning a placeholder).
+
+### Instruction:
+Write a function that checks if a file is a valid PNG by reading its magic bytes.
+
+### Instruction:
+Write a function that recursively walks a directory tree and returns a generator of all file paths.
+
+def all_files(directory):
+    for root, _, files in os.walk(directory):
+        for f in files:
+            yield os.path.join(root, f)
+
+### Response:
+class PositiveFloat:
+    def __set_name__(self, owner, name):
+        self.name = name
+    def __get__(self, instance, owner):
+        return instance.__dict__.get(self.name, 0.0)
+    def __set__(self, instance, value):
+        if not isinstance(value, (int, float)) or value <= 0:
+            raise ValueError(f'{self.name} must be positive')
+        instance.__dict__[self.name] = float(value)
+
+### Response:
+from functools import singledispatch
+
+@process.register
+def _(arg: int):
+    return arg * 2
+
+### Instruction:
+Write a function that measures the execution time of another function using a decorator.
+
+def timing(f):
+    def wrapper(*args, **kwargs):
+        start = time.time()
+        res = f(*args, **kwargs)
+        end = time.time()
+        print(f'{f.__name__} took {end-start:.4f} sec')
+        return res
+    return wrapper
+
+### Response:
+import asyncio
+
+async def fetch_all(urls):
+    tasks = [fetch_url(url) for url in urls]
+    return await asyncio.gather(*tasks)
+
+### Response:
+def main():
+    urls = ['http://example.com', 'http://test.org']
+    results = asyncio.run(fetch_all(urls))
+    print(results)
+
+### Response:
+class Point:
+    __slots__ = ('x', 'y')
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+### Response:
+import contextvars
+
+def set_request_id(val):
+    req_id.set(val)
+
+### Instruction:
+Write a function that demonstrates the use of `nonlocal` inside a nested function (counter).
+
+### Instruction:
+Write a function that returns a decorator that retries a function if it raises a specific exception.
+
+def retry_on(exception, max_retries=3):
+    def decorator(func):
+        @functools.wraps(func)
+        def wrapper(*args, **kwargs):
+            for attempt in range(max_retries):
+                try:
+                    return func(*args, **kwargs)
+                except exception:
+                    if attempt == max_retries - 1:
+                        raise
+    return decorator
+
+### Response:
+import glob
+
+### Instruction:
+Write a function that returns the current date and time as an ISO 8601 string.
+
+def iso_now():
+    return datetime.now(timezone.utc).isoformat()
+
+### Response:
+def factorial(n):
+    result = 1
+    for i in range(2, n+1):
+        result *= i
+    return result
+
+### Response:
+def even_numbers(n):
+    return [i for i in range(n+1) if i % 2 == 0]
+
+### Response:
+def vowel_count(s):
+    return sum(1 for ch in s.lower() if ch in 'aeiou')
+
+### Response:
+def first_missing_positive(nums):
+    n = len(nums)
+    for i in range(n):
+        while 1 <= nums[i] <= n and nums[nums[i] - 1] != nums[i]:
+            nums[nums[i] - 1], nums[i] = nums[i], nums[nums[i] - 1]
+    for i in range(n):
+        if nums[i] != i + 1:
+            return i + 1
+    return n + 1
+
+### Response:
+def is_number(s):
+    try:
+        float(s)
+        return True
+    except ValueError:
+        return False
+
+### Response:
+def binary_strings(n):
+    for i in range(1 << n):
+        yield f'{i:0{n}b}'
+
+### Response:
+def longest_palindrome(s):
+    if not s:
+        return ''
+    start, max_len = 0, 1
+    for i in range(len(s)):
+        for l, r in [(i, i), (i, i+1)]:
+            while l >= 0 and r < len(s) and s[l] == s[r]:
+                if r - l + 1 > max_len:
+                    start = l
+                    max_len = r - l + 1
+                l -= 1
+                r += 1
+    return s[start:start+max_len]
+
+### Response:
+def merge_dicts(d1, d2):
+    return {**d1, **d2}
+
+### Response:
+def has_unique_chars(s):
+    return len(set(s)) == len(s)
+
+### Response:
+def stats(numbers):
+    if not numbers:
+        return None
+    return min(numbers), max(numbers), sum(numbers) / len(numbers)
+
+### Response:
+import math
+
+### Instruction:
+Write a function that counts the number of set bits in an integer.
+
+### Instruction:
+Write a function that converts an integer to a hexadecimal string without `0x` prefix.
+
+### Instruction:
+Write a function that checks if a string is a palindrome ignoring non-alphanumeric characters and case.
+
+def is_palindrome(s):
+    s = re.sub(r'[^a-zA-Z0-9]', '', s).lower()
+    return s == s[::-1]
+
+### Response:
+def unique_list(lst):
+    seen = set()
+    result = []
+    for item in lst:
+        if item not in seen:
+            seen.add(item)
+            result.append(item)
+    return result
+
+### Response:
+class Node:
+    def __init__(self, value, next=None):
+        self.value = value
+        self.next = next
+
+def prepend(self, value):
+        self.head = Node(value, self.head)
+
+def __iter__(self):
+        cur = self.head
+        while cur:
+            yield cur.value
+            cur = cur.next
+
+### Response:
+import random
+
+### Instruction:
+Write a function that returns the number of CPUs on the system using `os.cpu_count`.
+
+def cpu_count():
+    return os.cpu_count()
+
+### Response:
+import os
+
+### Instruction:
+Write a function that uses `itertools.groupby` to group consecutive identical characters in a string.
+
+def group_chars(s):
+    return [(k, len(list(g))) for k, g in itertools.groupby(s)]
+
+### Response:
+from bisect import bisect_left
+
+### Instruction:
+Write a function that prints a progress bar to the console, given current progress and total.
+
+### Instruction:
+Write a function that uses `signal` to set a timeout for a long-running function (Unix example).
+
+def timeout(seconds):
+    def decorator(func):
+        def handler(signum, frame):
+            raise TimeoutError('Function timed out')
+        def wrapper(*args, **kwargs):
+            signal.signal(signal.SIGALRM, handler)
+            signal.alarm(seconds)
+            try:
+                result = func(*args, **kwargs)
+            finally:
+                signal.alarm(0)
+            return result
+        return wrapper
+    return decorator
+
+### Response:
+def largest_number(nums):
+    from functools import cmp_to_key
+    def compare(a, b):
+        return -1 if a+b > b+a else (1 if a+b < b+a else 0)
+    sorted_nums = sorted(map(str, nums), key=cmp_to_key(compare))
+    return ''.join(sorted_nums)
+
+### Response:
+import socket
+
+### Instruction:
+Write a function that creates a simple HTTP server using `http.server` module.
+
+def run_server(port=8000):
+    class Handler(BaseHTTPRequestHandler):
+        def do_GET(self):
+            self.send_response(200)
+            self.end_headers()
+            self.wfile.write(b'Hello, world!')
+    server = HTTPServer(('', port), Handler)
+    server.serve_forever()
+
+### Response:
+import hashlib
+
+### Instruction:
+Write a function that parses command-line arguments where the user can specify `--input` and `--output` files.
+
+def parse_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--input', required=True)
+    parser.add_argument('--output', required=True)
+    return parser.parse_args()
+
+### Response:
+def reverse_lines(input_file, output_file):
+    with open(input_file) as f_in, open(output_file, 'w') as f_out:
+        for line in f_in:
+            f_out.write(line.rstrip()[::-1] + '\n')
+
+### Response:
+class SkipList:
+    def __init__(self):
+        pass
+    def insert(self, val):
+        raise NotImplementedError('Skiplist not fully implemented')
+    def search(self, val):
+        return False
+
+### Response:
+def caesar_cipher(text, shift):
+    result = []
+    for ch in text:
+        if 'a' <= ch <= 'z':
+            result.append(chr((ord(ch) - ord('a') + shift) % 26 + ord('a')))
+        elif 'A' <= ch <= 'Z':
+            result.append(chr((ord(ch) - ord('A') + shift) % 26 + ord('A')))
+        else:
+            result.append(ch)
+    return ''.join(result)
+
+### Response:
+def is_iterable(obj):
+    try:
+        iter(obj)
+        return True
+    except TypeError:
+        return False
+
+### Response:
+def first_or_none(lst):
+    return lst[0] if lst else None
+
+### Response:
+def center_stars(s):
+    return s.center(30, '*')
+
+### Response:
+def squares_dict(n):
+    return {i: i**2 for i in range(1, n+1)}
+
+### Response:
+import sys
+
+### Instruction:
+Write a function that divides two numbers and returns the result, catching division by zero and returning 'inf'.
+
+### Instruction:
+Write a function that formats a number with comma as thousands separator.
+
+### Instruction:
+Write a function that returns the current working directory.
+
+def current_dir():
+    return os.getcwd()
+
+### Response:
+import os
+
+### Instruction:
+Write a function that uses `time.sleep` to wait for 2 seconds before returning.
+
+def wait_two_seconds():
+    time.sleep(2)
+
+### Response:
+import uuid
+
+### Instruction:
+Write a function that correctly computes the hypotenuse given two sides using `math.hypot`.
+
+def hypotenuse(a, b):
+    return math.hypot(a, b)
+
+### Response:
+def triangular(n):
+    return n * (n + 1) // 2
+
+### Response:
+def diagonal(matrix):
+    return [matrix[i][i] for i in range(len(matrix))]
+
+### Response:
+def lerp(a, b, t):
+    return a + (b - a) * t
+
+### Response:
+import time
+
+### Instruction:
+Write a function that splits a string into words and returns the count of each word using `Counter`.
+
+def word_count(text):
+    return Counter(text.split())
+
+### Response:
+def remove_trailing_whitespace(text):
+    return '\n'.join(line.rstrip() for line in text.splitlines())
+
+### Response:
+def tabs_to_spaces(s):
+    return s.replace('\t', '    ')
+
+### Response:
+from datetime import date
+
+### Instruction:
+Write a function that determines if a number is a perfect square.
+
+### Instruction:
+Write a function that uses `itertools.islice` to return the first n items of a generator.
+
+def first_n(gen, n):
+    return list(itertools.islice(gen, n))
+
+### Response:
+import os
+
+### Instruction:
+Write a function that uses `random.shuffle` to shuffle a list and return it.
+
+def shuffle_list(lst):
+    random.shuffle(lst)
+    return lst
+
+### Response:
+import tempfile
+
+### Instruction:
+Write a function that uses `logging` to log an error and a debug message to a file.
+
+def setup_logging():
+    logging.basicConfig(filename='app.log', level=logging.DEBUG)
+    logging.error('Error message')
+    logging.debug('Debug message')
+
+### Response:
+import re
+
+### Instruction:
+Write a class that follows the Singleton design pattern.
+
+### Instruction:
+Write a function that computes the mean squared error between two lists of numbers.
+
+### Instruction:
+Write a function that implements a simple moving average of a list with window size k.
+
+### Instruction:
+Write a function that runs a function in a separate thread and returns the thread object.
+
+def run_in_thread(func, *args):
+    t = threading.Thread(target=func, args=args)
+    t.start()
+    return t
+
+### Response:
+import threading
+
+def increment():
+    global counter
+    with counter_lock:
+        counter += 1
+
+### Response:
+import socket
+
+### Instruction:
+Write a generator function that yields lines from a file lazily, stripping newline.
+
+### Instruction:
+Write a function that checks if a module is installed.
+
+### Instruction:
+Write a function that converts a string to a `bytes` object using UTF-8.
+
+### Instruction:
+Write a function that decodes bytes back to a string.
+
+### Instruction:
+Write a function that computes the Hamming weight (population count) of an integer using bit manipulation.
+
+### Instruction:
+Write a function that returns the absolute difference between two numbers.
+
+### Instruction:
+Write a function that returns True if all characters in a string are printable.
+
+### Instruction:
+Write a function that capitalizes the first character of a string only.
+
+### Instruction:
+Write a function that splits a string on the first occurrence of a delimiter.
+
+### Instruction:
+Write a function that removes all keys from a dictionary that have falsy values.
+
+### Instruction:
+Write a function that adds two matrices element-wise (same dimensions).
+
+### Instruction:
+Write a function that subtracts one list from another element-wise.
+
+### Instruction:
+Write a function that returns the sign of a number (-1, 0, 1).
+
+### Instruction:
+Write a function that computes the average of a list of numbers.
+
+### Instruction:
+Write a function that returns a random integer between 1 and 100 inclusive.
+
+def randint_1_100():
+    return random.randint(1, 100)
+
+### Response:
+def count_sub(s, sub):
+    return s.count(sub)
+
+### Response:
+def last_line(filename):
+    with open(filename, 'rb') as f:
+        f.seek(-2, 2)
+        while f.read(1) != b'\n':
+            f.seek(-2, 1)
+        return f.readline().decode()
+
+### Response:
+import json
+
+### Instruction:
+Write a function that checks if a number is a perfect number (sum of proper divisors equals number).
+
+### Instruction:
+Write a function that generates the first n square-free numbers (numbers not divisible by any perfect square other than 1).
+
+### Instruction:
+Write a class that represents a polynomial and can be called to evaluate at x.
+
+### Response:
+class Polynomial:
+    def __init__(self, coefficients):
+        self.coeffs = coefficients
+    def __call__(self, x):
+        return sum(c * x**i for i, c in enumerate(self.coeffs))

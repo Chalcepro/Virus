@@ -1,0 +1,112 @@
+# System Design Concepts and Patterns
+
+### Horizontal vs Vertical Scaling
+Vertical Scaling: Add more resources (CPU, RAM) to a single server
+- Easier to implement initially
+- Limited by hardware constraints
+- Single point of failure
+
+### Load Balancing
+Round Robin: Distribute requests in sequence
+- server1, server2, server3, server1, server2, server3...
+
+Weighted Round Robin: Distribute based on server capacity
+- server1 (50%), server2 (30%), server3 (20%)
+
+## Database Optimization
+
+Pros: Faster queries
+Cons: Slower writes, increased storage
+
+### Sharding
+Hash-based Sharding: shard_id = hash(user_id) % num_shards
+Range-based Sharding: shard ranges (0-1M, 1M-2M, etc.)
+Directory-based Sharding: Lookup table for shard mapping
+
+## Caching Patterns
+
+### Write-Through Pattern
+1. Write to cache
+2. Write to database
+3. Acknowledge to client
+
+### Write-Behind Pattern
+1. Write to cache
+2. Acknowledge to client
+3. Asynchronously write to database
+
+## Microservices Architecture
+
+### Inter-service Communication
+Synchronous: REST, gRPC
+- Real-time responses
+- Tight coupling
+
+### API Gateway Pattern
+Single entry point for all clients
+Routes requests to appropriate services
+Handles authentication, rate limiting
+
+### ACID Properties
+Atomicity: Transaction completes or rolls back entirely
+Consistency: Database moves from valid state to valid state
+Isolation: Transactions don't interfere with each other
+Durability: Committed data persists
+
+Choose two of three:
+- CP: Consistency + Partition Tolerance (sacrifice availability)
+- AP: Availability + Partition Tolerance (sacrifice consistency)
+- CA: Consistency + Availability (sacrifice partition tolerance - not realistic in distributed systems)
+
+## Message Queues
+
+Benefits:
+- Decouples producers from consumers
+- Load leveling
+- Automatic retries
+
+## Monitoring and Logging
+
+### Logging Strategy
+Application Logs: From code
+System Logs: From OS
+Access Logs: HTTP requests
+
+## Circuit Breaker Pattern
+
+def wrapper(*args, **kwargs):
+        nonlocal failures, state
+
+try:
+            result = func(*args, **kwargs)
+            failures = 0
+            return result
+        except Exception as e:
+            failures += 1
+            if failures >= failure_threshold:
+                state = 'OPEN'
+            raise
+
+## Bulkhead Pattern
+
+def execute(self, func):
+        return self.executor.submit(func)
+
+## Rate Limiting
+
+def token_bucket_rate_limit(max_tokens, refill_rate):
+    tokens = max_tokens
+    last_refill = time.time()
+
+if tokens >= 1:
+            tokens -= 1
+            return True
+        return False
+
+## Disaster Recovery
+
+### Recovery Point Objective (RPO)
+Maximum acceptable data loss
+Example: RPO of 1 hour means losing up to 1 hour of data
+
+## High Availability Patterns

@@ -1,0 +1,157 @@
+# Web Development Concepts and Code
+
+### RESTful API Endpoints
+GET /api/users - Retrieve all users
+POST /api/users - Create a new user
+GET /api/users/{id} - Retrieve user by ID
+PUT /api/users/{id} - Update user by ID
+DELETE /api/users/{id} - Delete user by ID
+PATCH /api/users/{id} - Partial update of user
+
+## Flask Web Framework
+
+app = Flask(__name__)
+
+@app.route('/api/users', methods=['GET'])
+def get_users():
+    users = [
+        {"id": 1, "name": "Alice", "email": "alice@example.com"},
+        {"id": 2, "name": "Bob", "email": "bob@example.com"}
+    ]
+    return jsonify(users)
+
+@app.route('/api/users', methods=['POST'])
+def create_user():
+    data = request.get_json()
+    return jsonify({"id": 3, **data}), 201
+
+@app.route('/api/users/<int:user_id>', methods=['DELETE'])
+def delete_user(user_id):
+    return jsonify({"message": f"User {user_id} deleted"}), 204
+
+### Flask with Database
+from flask_sqlalchemy import SQLAlchemy
+
+class User(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(100), nullable=False)
+    email = db.Column(db.String(100), unique=True, nullable=False)
+    created_at = db.Column(db.DateTime, default=datetime.datetime.utcnow)
+
+@app.route('/api/users', methods=['GET'])
+def get_users():
+    users = User.query.all()
+    return jsonify([user.to_dict() for user in users])
+
+## HTML and CSS
+
+<main>
+        <section>
+            <h1>Welcome</h1>
+            <p>Content goes here</p>
+        </section>
+    </main>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+## JavaScript Frontend
+
+document.querySelectorAll('.item').forEach(function(item) {
+    item.addEventListener('click', function() {
+        this.classList.toggle('active');
+    });
+});
+
+function displayUsers(users) {
+    const userList = document.getElementById('user-list');
+    userList.innerHTML = '';
+    users.forEach(user => {
+        const li = document.createElement('li');
+        li.textContent = user.name;
+        userList.appendChild(li);
+    });
+}
+
+const formData = new FormData(this);
+    const data = Object.fromEntries(formData);
+
+if (response.ok) {
+            alert('User created successfully!');
+            this.reset();
+        } else {
+            alert('Error creating user');
+        }
+    } catch (error) {
+        console.error('Error:', error);
+    }
+});
+
+### JWT Token Authentication
+import jwt
+from datetime import datetime, timedelta
+
+def generate_token(user_id):
+    payload = {
+        'user_id': user_id,
+        'exp': datetime.utcnow() + timedelta(hours=24),
+        'iat': datetime.utcnow()
+    }
+    token = jwt.encode(payload, SECRET_KEY, algorithm='HS256')
+    return token
+
+### Password Hashing
+from werkzeug.security import generate_password_hash, check_password_hash
+
+def verify_password(stored_hash, password):
+    return check_password_hash(stored_hash, password)
+
+### SQL Operations
+SELECT * FROM users;
+SELECT * FROM users WHERE age > 18;
+SELECT name, email FROM users WHERE status = 'active';
+SELECT COUNT(*) FROM users;
+SELECT * FROM users ORDER BY created_at DESC LIMIT 10;
+
+UPDATE users SET email = 'newemail@example.com' WHERE id = 1;
+
+### Joins
+SELECT users.name, orders.total 
+FROM users 
+INNER JOIN orders ON users.id = orders.user_id;
+
+## Caching Strategies
+
+cache = redis.Redis(host='localhost', port=6379, db=0)
+
+user = fetch_from_db(user_id)
+    cache.setex(f'user:{user_id}', 3600, json.dumps(user))
+    return user

@@ -1,0 +1,82 @@
+// === Interfaces ===
+interface Animal {
+    String getName();
+    String speak();
+    default String info() { return "An animal."; }
+}
+
+// === Inheritance ===
+class Dog extends Mammal {
+    private String breed;
+    public Dog(String name, String breed) {
+        super(name);
+        this.breed = breed;
+    }
+    @Override
+    public String speak() { return name + " barks!"; }
+    public String getBreed() { return breed; }
+    public static String info() { return "Dogs are loyal."; }
+}
+
+// === Custom exception ===
+class DataException extends Exception {
+    public DataException(String msg) { super(msg); }
+}
+
+// === Main class ===
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("=== Java Training Data ===");
+
+System.out.printf("%s is %d years old.%n", name, age);
+
+int[][] matrix = {{1,2,3}, {4,5,6}};
+
+Map<String, Integer> ages = new HashMap<>();
+        ages.put("Alice", 30);
+        ages.put("Bob", 25);
+        ages.forEach((k, v) -> System.out.println(k + " -> " + v));
+
+// Control flow
+        if (age >= 18) System.out.println("Adult");
+        else System.out.println("Minor");
+
+switch (grade) {
+            case 'A': System.out.println("Excellent"); break;
+            case 'B': System.out.println("Good"); break;
+            default: System.out.println("OK");
+        }
+
+// OOP
+        Dog myDog = new Dog("Rex", "German Shepherd");
+        System.out.println(myDog.speak());
+        System.out.println(Dog.info());
+        Animal animal = myDog; // polymorphism
+        System.out.println(animal.speak());
+
+// Lambdas & streams
+        List<String> longFruits = fruits.stream()
+                .filter(f -> f.length() > 5)
+                .map(String::toUpperCase)
+                .collect(Collectors.toList());
+        System.out.println("Long fruits: " + longFruits);
+
+fruits.sort(Comparator.comparingInt(String::length));
+        System.out.println("Sorted by length: " + fruits);
+
+// File I/O
+        String path = "test.txt";
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(path))) {
+            writer.write("Hello, file!");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+// Utilities
+        System.out.println("Factorial(5) = " + Utils.factorial(5));
+        System.out.println("Fibonacci(7) = " + Utils.fibonacci(7));
+        System.out.println("Is palindrome 'racecar'? " + Utils.isPalindrome("racecar"));
+
+System.out.println("Java training sample complete.");
+    }
+}

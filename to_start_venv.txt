@@ -1,0 +1,3 @@
+type this in terminal only 
+
+.venv\Scripts\activate.bat

@@ -1,0 +1,211 @@
+## Decorators in Depth
+
+@functools.wraps(func)
+    def wrapper(*args, **kwargs):
+        start = time.time()
+        result = func(*args, **kwargs)
+        end = time.time()
+        print(f"{func.__name__} took {end - start:.4f}s")
+        return result
+    return wrapper
+
+### Parametrized Decorators
+def retry_decorator(max_retries=3, delay=1):
+    def decorator(func):
+        @functools.wraps(func)
+        def wrapper(*args, **kwargs):
+            for attempt in range(max_retries):
+                try:
+                    return func(*args, **kwargs)
+                except Exception as e:
+                    if attempt == max_retries - 1:
+                        raise
+                    time.sleep(delay)
+        return wrapper
+    return decorator
+
+### Class Decorators
+def singleton_decorator(cls):
+    instances = {}
+    @functools.wraps(cls)
+    def get_instance(*args, **kwargs):
+        if cls not in instances:
+            instances[cls] = cls(*args, **kwargs)
+        return instances[cls]
+    return get_instance
+
+### Stacking Decorators
+@timing_decorator
+@retry_decorator(max_retries=3)
+@logging_decorator
+def critical_operation():
+    pass
+
+### Generator Functions
+def count_up(max):
+    count = 0
+    while count < max:
+        yield count
+        count += 1
+
+### Generator Expression
+squares = (x**2 for x in range(100) if x % 2 == 0)
+
+# Generator: Values generated on-demand
+big_generator = (x for x in range(1000000))
+
+### Basic Context Manager
+class DatabaseConnection:
+    def __enter__(self):
+        print("Opening database connection")
+        return self
+
+with DatabaseConnection() as db:
+    print("Using database")
+
+@contextmanager
+def database_connection():
+    print("Opening connection")
+    try:
+        yield "connection_object"
+    finally:
+        print("Closing connection")
+
+## Metaclasses
+
+def __call__(cls, *args, **kwargs):
+        if cls not in cls._instances:
+            cls._instances[cls] = super().__call__(*args, **kwargs)
+        return cls._instances[cls]
+
+obj1 = MyClass()
+obj2 = MyClass()
+assert obj1 is obj2
+
+@staticmethod
+    def log_calls(func):
+        @functools.wraps(func)
+        def wrapper(*args, **kwargs):
+            print(f"Calling {func.__name__}")
+            return func(*args, **kwargs)
+        return wrapper
+
+## Async/Await
+
+async def fetch_data(url):
+    print(f"Fetching {url}")
+    await asyncio.sleep(1)
+    return f"Data from {url}"
+
+asyncio.run(main())
+
+### Async with Timeout
+async def timeout_example():
+    try:
+        result = await asyncio.wait_for(
+            fetch_data("http://example.com"),
+            timeout=5.0
+        )
+    except asyncio.TimeoutError:
+        print("Request timed out")
+
+### Basic Type Hints
+def add_numbers(a: int, b: int) -> int:
+    return a + b
+
+def process_items(items: List[str]) -> Dict[str, int]:
+    return {item: len(item) for item in items}
+
+def parse_value(value: Union[str, int, float]) -> float:
+    return float(value)
+
+### Type Aliases
+UserId = int
+UserData = Dict[str, str]
+
+### Generics
+from typing import TypeVar, Generic
+
+class Stack(Generic[T]):
+    def __init__(self):
+        self.items: List[T] = []
+
+def pop(self) -> T:
+        return self.items.pop()
+
+### Map, Filter, Reduce
+from functools import reduce
+
+# Map
+squared = list(map(lambda x: x**2, numbers))
+
+# Reduce
+sum_all = reduce(lambda x, y: x + y, numbers)
+
+def multiply(x, y):
+    return x * y
+
+@lru_cache(maxsize=128)
+def fibonacci(n):
+    if n < 2:
+        return n
+    return fibonacci(n - 1) + fibonacci(n - 2)
+
+### Property Getter/Setter
+class Circle:
+    def __init__(self, radius):
+        self._radius = radius
+
+@radius.setter
+    def radius(self, value):
+        if value <= 0:
+            raise ValueError("Radius must be positive")
+        self._radius = value
+
+circle = Circle(5)
+print(circle.area)
+circle.radius = 10
+
+### ABC Implementation
+from abc import ABC, abstractmethod
+
+def move(self):
+        print("Moving...")
+
+dog = Dog()
+dog.speak()
+
+### Simple Data Class
+from dataclasses import dataclass
+
+def greet(self):
+        print(f"Hello, I'm {self.name}")
+
+### Data Class with Post-Init
+from dataclasses import dataclass, field
+
+def __post_init__(self):
+        if not self.name:
+            raise ValueError("Name is required")
+
+### Custom Exceptions
+class InsufficientFundsError(Exception):
+    def __init__(self, balance, amount):
+        self.balance = balance
+        self.amount = amount
+        super().__init__(f"Insufficient funds: {balance} < {amount}")
+
+## Testing
+
+def test_addition():
+    assert 2 + 2 == 4
+
+@pytest.fixture
+def sample_data():
+    return [1, 2, 3, 4, 5]
+
+### Mocking
+from unittest.mock import Mock, patch
+
+result = mock_api.get_users()
+    assert len(result) == 1

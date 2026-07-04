@@ -1,0 +1,499 @@
+### INPUT:
+what is ai
+### OUTPUT:
+ai is tech that mimics human tasks
+
+### INPUT:
+how to fix a bug
+### OUTPUT:
+try isolating the issue and testing small parts
+
+### INPUT:
+why is the sky blue
+### OUTPUT:
+light scatters in the atmosphere causing blue
+
+### INPUT:
+how do i train a model
+### OUTPUT:
+train with many examples and check validation
+
+### INPUT:
+what is a neural network
+### OUTPUT:
+a neural network is layered math functions
+
+### INPUT:
+how to make a website
+### OUTPUT:
+start with html and css
+
+### INPUT:
+what is cloud computing
+### OUTPUT:
+cloud uses remote servers to run services
+
+### INPUT:
+why does code crash
+### OUTPUT:
+check error logs and reproduce the bug
+
+### INPUT:
+how do i learn python
+### OUTPUT:
+practice and build small projects
+
+### INPUT:
+what is nlp
+### OUTPUT:
+nlp helps machines understand language
+
+### INPUT:
+how do i pick a font
+### OUTPUT:
+pick readable fonts
+
+### INPUT:
+why do we sleep
+### OUTPUT:
+sleep restores the brain
+
+### INPUT:
+what is ai
+### OUTPUT:
+ai is tech that mimics human tasks
+
+### INPUT:
+how to fix a bug
+### OUTPUT:
+try isolating the issue and testing small parts
+
+### INPUT:
+why is the sky blue
+### OUTPUT:
+light scatters in the atmosphere causing blue
+
+### INPUT:
+how do i train a model
+### OUTPUT:
+train with many examples and check validation
+
+### INPUT:
+what is a neural network
+### OUTPUT:
+a neural network is layered math functions
+
+### INPUT:
+how to make a website
+### OUTPUT:
+start with html and css
+
+### INPUT:
+what is cloud computing
+### OUTPUT:
+cloud uses remote servers to run services
+
+### INPUT:
+why does code crash
+### OUTPUT:
+check error logs and reproduce the bug
+
+### INPUT:
+how do i learn python
+### OUTPUT:
+practice and build small projects
+
+### INPUT:
+what is nlp
+### OUTPUT:
+nlp helps machines understand language
+
+### INPUT:
+how do i pick a font
+### OUTPUT:
+pick readable fonts
+
+### INPUT:
+why do we sleep
+### OUTPUT:
+sleep restores the brain
+
+### INPUT:
+what is ai
+### OUTPUT:
+ai is tech that mimics human tasks
+
+### INPUT:
+how to fix a bug
+### OUTPUT:
+try isolating the issue and testing small parts
+
+### INPUT:
+why is the sky blue
+### OUTPUT:
+light scatters in the atmosphere causing blue
+
+### INPUT:
+how do i train a model
+### OUTPUT:
+train with many examples and check validation
+
+### INPUT:
+what is a neural network
+### OUTPUT:
+a neural network is layered math functions
+
+### INPUT:
+how to make a website
+### OUTPUT:
+start with html and css
+
+### INPUT:
+what is cloud computing
+### OUTPUT:
+cloud uses remote servers to run services
+
+### INPUT:
+why does code crash
+### OUTPUT:
+check error logs and reproduce the bug
+
+### INPUT:
+how do i learn python
+### OUTPUT:
+practice and build small projects
+
+### INPUT:
+what is nlp
+### OUTPUT:
+nlp helps machines understand language
+
+### INPUT:
+how do i pick a font
+### OUTPUT:
+pick readable fonts
+
+### INPUT:
+why do we sleep
+### OUTPUT:
+sleep restores the brain
+
+### INPUT:
+what is ai
+### OUTPUT:
+ai is tech that mimics human tasks
+
+### INPUT:
+how to fix a bug
+### OUTPUT:
+try isolating the issue and testing small parts
+
+### INPUT:
+why is the sky blue
+### OUTPUT:
+light scatters in the atmosphere causing blue
+
+### INPUT:
+how do i train a model
+### OUTPUT:
+train with many examples and check validation
+
+### INPUT:
+what is a neural network
+### OUTPUT:
+a neural network is layered math functions
+
+### INPUT:
+how to make a website
+### OUTPUT:
+start with html and css
+
+### INPUT:
+what is cloud computing
+### OUTPUT:
+cloud uses remote servers to run services
+
+### INPUT:
+why does code crash
+### OUTPUT:
+check error logs and reproduce the bug
+
+### INPUT:
+how do i learn python
+### OUTPUT:
+practice and build small projects
+
+### INPUT:
+what is nlp
+### OUTPUT:
+nlp helps machines understand language
+
+### INPUT:
+how do i pick a font
+### OUTPUT:
+pick readable fonts
+
+### INPUT:
+why do we sleep
+### OUTPUT:
+sleep restores the brain
+
+### INPUT:
+what is ai
+### OUTPUT:
+ai is tech that mimics human tasks
+
+### INPUT:
+how to fix a bug
+### OUTPUT:
+try isolating the issue and testing small parts
+
+### INPUT:
+why is the sky blue
+### OUTPUT:
+light scatters in the atmosphere causing blue
+
+### INPUT:
+how do i train a model
+### OUTPUT:
+train with many examples and check validation
+
+### INPUT:
+what is a neural network
+### OUTPUT:
+a neural network is layered math functions
+
+### INPUT:
+how to make a website
+### OUTPUT:
+start with html and css
+
+### INPUT:
+what is cloud computing
+### OUTPUT:
+cloud uses remote servers to run services
+
+### INPUT:
+why does code crash
+### OUTPUT:
+check error logs and reproduce the bug
+
+### INPUT:
+how do i learn python
+### OUTPUT:
+practice and build small projects
+
+### INPUT:
+what is nlp
+### OUTPUT:
+nlp helps machines understand language
+
+### INPUT:
+how do i pick a font
+### OUTPUT:
+pick readable fonts
+
+### INPUT:
+why do we sleep
+### OUTPUT:
+sleep restores the brain
+
+### INPUT:
+what is ai
+### OUTPUT:
+ai is tech that mimics human tasks
+
+### INPUT:
+how to fix a bug
+### OUTPUT:
+try isolating the issue and testing small parts
+
+### INPUT:
+why is the sky blue
+### OUTPUT:
+light scatters in the atmosphere causing blue
+
+### INPUT:
+how do i train a model
+### OUTPUT:
+train with many examples and check validation
+
+### INPUT:
+what is a neural network
+### OUTPUT:
+a neural network is layered math functions
+
+### INPUT:
+how to make a website
+### OUTPUT:
+start with html and css
+
+### INPUT:
+what is cloud computing
+### OUTPUT:
+cloud uses remote servers to run services
+
+### INPUT:
+why does code crash
+### OUTPUT:
+check error logs and reproduce the bug
+
+### INPUT:
+how do i learn python
+### OUTPUT:
+practice and build small projects
+
+### INPUT:
+what is nlp
+### OUTPUT:
+nlp helps machines understand language
+
+### INPUT:
+how do i pick a font
+### OUTPUT:
+pick readable fonts
+
+### INPUT:
+why do we sleep
+### OUTPUT:
+sleep restores the brain
+
+### INPUT:
+what is ai
+### OUTPUT:
+ai is tech that mimics human tasks
+
+### INPUT:
+how to fix a bug
+### OUTPUT:
+try isolating the issue and testing small parts
+
+### INPUT:
+why is the sky blue
+### OUTPUT:
+light scatters in the atmosphere causing blue
+
+### INPUT:
+how do i train a model
+### OUTPUT:
+train with many examples and check validation
+
+### INPUT:
+what is a neural network
+### OUTPUT:
+a neural network is layered math functions
+
+### INPUT:
+how to make a website
+### OUTPUT:
+start with html and css
+
+### INPUT:
+what is cloud computing
+### OUTPUT:
+cloud uses remote servers to run services
+
+### INPUT:
+why does code crash
+### OUTPUT:
+check error logs and reproduce the bug
+
+### INPUT:
+how do i learn python
+### OUTPUT:
+practice and build small projects
+
+### INPUT:
+what is nlp
+### OUTPUT:
+nlp helps machines understand language
+
+### INPUT:
+how do i pick a font
+### OUTPUT:
+pick readable fonts
+
+### INPUT:
+why do we sleep
+### OUTPUT:
+sleep restores the brain
+
+### INPUT:
+what is ai
+### OUTPUT:
+ai is tech that mimics human tasks
+
+### INPUT:
+how to fix a bug
+### OUTPUT:
+try isolating the issue and testing small parts
+
+### INPUT:
+why is the sky blue
+### OUTPUT:
+light scatters in the atmosphere causing blue
+
+### INPUT:
+how do i train a model
+### OUTPUT:
+train with many examples and check validation
+
+### INPUT:
+what is a neural network
+### OUTPUT:
+a neural network is layered math functions
+
+### INPUT:
+how to make a website
+### OUTPUT:
+start with html and css
+
+### INPUT:
+what is cloud computing
+### OUTPUT:
+cloud uses remote servers to run services
+
+### INPUT:
+why does code crash
+### OUTPUT:
+check error logs and reproduce the bug
+
+### INPUT:
+how do i learn python
+### OUTPUT:
+practice and build small projects
+
+### INPUT:
+what is nlp
+### OUTPUT:
+nlp helps machines understand language
+
+### INPUT:
+how do i pick a font
+### OUTPUT:
+pick readable fonts
+
+### INPUT:
+why do we sleep
+### OUTPUT:
+sleep restores the brain
+
+### INPUT:
+what is ai
+### OUTPUT:
+ai is tech that mimics human tasks
+
+### INPUT:
+how to fix a bug
+### OUTPUT:
+try isolating the issue and testing small parts
+
+### INPUT:
+why is the sky blue
+### OUTPUT:
+light scatters in the atmosphere causing blue
+
+### INPUT:
+how do i train a model
+### OUTPUT:
+train with many examples and check validation

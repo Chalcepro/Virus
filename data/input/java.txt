@@ -1,0 +1,93 @@
+import java.io.*;
+import java.util.*;
+import java.util.stream.*;
+import java.util.function.*;
+
+// === Base class ===
+class Mammal implements Animal {
+    protected String name;
+    public Mammal(String name) { this.name = name; }
+    public String getName() { return name; }
+    public String speak() { return name + " makes a sound."; }
+}
+
+// === Generic class ===
+class Box<T> {
+    private T value;
+    public Box(T value) { this.value = value; }
+    public T get() { return value; }
+    public void set(T v) { value = v; }
+    @Override
+    public String toString() { return "Box(" + value + ")"; }
+}
+
+// === Utility methods ===
+class Utils {
+    public static int factorial(int n) {
+        if (n <= 1) return 1;
+        return n * factorial(n - 1);
+    }
+    public static int fibonacci(int n) {
+        if (n <= 1) return n;
+        int a = 0, b = 1, temp;
+        for (int i = 2; i <= n; i++) {
+            temp = a + b;
+            a = b;
+            b = temp;
+        }
+        return b;
+    }
+    public static boolean isPalindrome(String s) {
+        String cleaned = s.toLowerCase().replaceAll("[^a-z0-9]", "");
+        return cleaned.equals(new StringBuilder(cleaned).reverse().toString());
+    }
+}
+
+// Variables & primitives
+        int age = 30;
+        double price = 19.99;
+        char grade = 'A';
+        boolean isActive = true;
+        final float PI = 3.14159f;
+        String name = "Alice";
+
+// Arrays
+        int[] numbers = {1, 2, 3, 4, 5};
+        for (int n : numbers) System.out.print(n + " ");
+        System.out.println();
+
+// Lists & Collections
+        List<String> fruits = new ArrayList<>(Arrays.asList("apple", "banana", "orange"));
+        fruits.add("grape");
+        fruits.remove("banana");
+        System.out.println("Fruits: " + fruits);
+
+Set<Integer> set = new HashSet<>(Arrays.asList(1,2,2,3));
+        System.out.println("Set: " + set);
+
+String category = age < 13 ? "Child" : age < 20 ? "Teen" : "Adult";
+        System.out.println(category);
+
+for (int i = 0; i < 3; i++) System.out.print(i + " ");
+        System.out.println();
+
+Box<Integer> intBox = new Box<>(42);
+        System.out.println(intBox);
+
+int sumLength = fruits.stream().mapToInt(String::length).sum();
+        System.out.println("Sum length: " + sumLength);
+
+// Exception handling
+        try {
+            throw new DataException("Something went wrong");
+        } catch (DataException e) {
+            System.err.println("Caught: " + e.getMessage());
+        } finally {
+            System.out.println("Finally block");
+        }
+
+try (BufferedReader reader = new BufferedReader(new FileReader(path))) {
+            System.out.println("Read file: " + reader.readLine());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }

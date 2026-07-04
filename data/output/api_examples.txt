@@ -1,0 +1,157 @@
+## REST API Documentation
+
+POST /api/v1/users
+- Description: Create a new user
+- Request Body: {"name": "string", "email": "string", "password": "string"}
+- Response: 201 Created
+{
+  "id": 3,
+  "name": "Charlie",
+  "email": "charlie@example.com",
+  "created_at": "2025-01-03T00:00:00Z"
+}
+
+PUT /api/v1/users/{id}
+- Description: Update existing user
+- Parameters: id (string, required)
+- Request Body: {"name": "string", "email": "string"}
+- Response: 200 OK
+
+DELETE /api/v1/users/{id}
+- Description: Delete user
+- Parameters: id (string, required)
+- Response: 204 No Content
+
+400 Bad Request
+{
+  "error": {
+    "code": "INVALID_REQUEST",
+    "message": "Invalid input parameters",
+    "details": [
+      {"field": "email", "message": "Invalid email format"}
+    ]
+  }
+}
+
+403 Forbidden
+{
+  "error": {
+    "code": "PERMISSION_DENIED",
+    "message": "You don't have permission to access this resource"
+  }
+}
+
+429 Too Many Requests
+{
+  "error": {
+    "code": "RATE_LIMITED",
+    "message": "Too many requests, please try again later",
+    "retry_after": 60
+  }
+}
+
+## Authentication
+
+### Basic Authentication
+Authorization: Basic dXNlcm5hbWU6cGFzc3dvcmQ=
+
+### OAuth 2.0 Flow
+1. Redirect user to authorization endpoint
+2. User grants permission
+3. Redirect back with authorization code
+4. Exchange code for access token
+5. Use access token for API requests
+
+X-RateLimit-Limit: 1000
+X-RateLimit-Remaining: 975
+X-RateLimit-Reset: 1609459200
+
+### Offset-based
+GET /api/users?offset=0&limit=10
+- Simple to implement
+- Can have issues with large offsets
+
+### Keyset Pagination
+GET /api/users?after_id=100&limit=10
+- Most efficient for large datasets
+- Based on unique identifiers
+
+### Success with Data
+{
+  "success": true,
+  "data": {...},
+  "message": "Operation completed successfully"
+}
+
+### Bulk Operations Response
+{
+  "success": true,
+  "data": {
+    "created": 5,
+    "updated": 3,
+    "failed": 1,
+    "failures": [
+      {"id": "user_10", "error": "Email already exists"}
+    ]
+  }
+}
+
+### Webhook Registration
+POST /api/v1/webhooks
+{
+  "url": "https://your-domain.com/webhooks/users",
+  "events": ["user.created", "user.updated", "user.deleted"],
+  "secret": "webhook-secret-key"
+}
+
+{
+  "id": "evt_123456",
+  "type": "user.created",
+  "timestamp": "2025-01-15T10:30:00Z",
+  "data": {
+    "id": 123,
+    "name": "John Doe",
+    "email": "john@example.com"
+  }
+}
+
+### Query
+{
+  users(first: 10) {
+    edges {
+      node {
+        id
+        name
+        email
+        posts(first: 5) {
+          edges {
+            node {
+              id
+              title
+              content
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+### Subscription
+subscription OnUserCreated {
+  userCreated {
+    id
+    name
+    email
+  }
+}
+
+### URL Path Versioning
+GET /api/v1/users
+GET /api/v2/users
+
+### Query Parameter Versioning
+GET /api/users?version=1
+
+### Content Negotiation
+Accept: application/vnd.api+json;version=1

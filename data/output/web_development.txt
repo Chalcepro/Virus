@@ -1,0 +1,172 @@
+## HTTP Requests and Responses
+
+### HTTP Status Codes
+200 OK - Success
+201 Created - Resource created successfully
+204 No Content - Successful but no content to return
+400 Bad Request - Client error in request
+401 Unauthorized - Authentication required
+403 Forbidden - User lacks permission
+404 Not Found - Resource not found
+500 Internal Server Error - Server error
+503 Service Unavailable - Server temporarily unavailable
+
+### Basic Flask Application
+from flask import Flask, request, jsonify
+
+@app.route('/', methods=['GET'])
+def home():
+    return jsonify({"message": "Welcome to my API"})
+
+@app.route('/api/users/<int:user_id>', methods=['GET'])
+def get_user(user_id):
+    return jsonify({"id": user_id, "name": "John", "email": "john@example.com"})
+
+@app.route('/api/users/<int:user_id>', methods=['PUT'])
+def update_user(user_id):
+    data = request.get_json()
+    return jsonify({"id": user_id, **data})
+
+if __name__ == '__main__':
+    app.run(debug=True)
+
+app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///db.sqlite3'
+db = SQLAlchemy(app)
+
+def to_dict(self):
+        return {
+            "id": self.id,
+            "name": self.name,
+            "email": self.email,
+            "created_at": self.created_at.isoformat()
+        }
+
+@app.route('/api/users', methods=['POST'])
+def create_user():
+    data = request.get_json()
+    user = User(name=data['name'], email=data['email'])
+    db.session.add(user)
+    db.session.commit()
+    return jsonify(user.to_dict()), 201
+
+### HTML5 Structure
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<footer>
+        <p>&copy; 2025 My Website</p>
+    </footer>
+
+### CSS Styling
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+### DOM Manipulation
+document.getElementById('button').addEventListener('click', function() {
+    alert('Button clicked!');
+});
+
+### Fetch API
+async function fetchUsers() {
+    try {
+        const response = await fetch('/api/users');
+        const data = await response.json();
+        console.log('Users:', data);
+        displayUsers(data);
+    } catch (error) {
+        console.error('Error:', error);
+    }
+}
+
+### Form Handling
+document.getElementById('user-form').addEventListener('submit', async function(e) {
+    e.preventDefault();
+
+try {
+        const response = await fetch('/api/users', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        });
+
+## Authentication and Security
+
+SECRET_KEY = 'your-secret-key'
+
+def verify_token(token):
+    try:
+        payload = jwt.decode(token, SECRET_KEY, algorithms=['HS256'])
+        return payload
+    except jwt.ExpiredSignatureError:
+        return None
+    except jwt.InvalidTokenError:
+        return None
+
+def hash_password(password):
+    return generate_password_hash(password)
+
+## Database Queries
+
+INSERT INTO users (name, email, age) VALUES ('John', 'john@example.com', 25);
+
+DELETE FROM users WHERE id = 1;
+
+SELECT users.name, orders.total 
+FROM users 
+LEFT JOIN orders ON users.id = orders.user_id;
+
+### Redis Caching
+import redis
+
+def get_cached_user(user_id):
+    cached = cache.get(f'user:{user_id}')
+    if cached:
+        return json.loads(cached)
+
+### Cache Expiration
+cache.set('key', 'value', ex=3600)  # Expires in 1 hour
+cache.delete('key')  # Delete immediately

@@ -1,0 +1,180 @@
+using namespace std;
+
+// === Strings ===
+string name = "Alice";
+string greeting = "Hello, " + name + "!";
+string multiline = R"(This is a
+multiline string)";
+cout << greeting << endl;
+cout << "Length: " << name.length() << endl;
+cout << "Substring: " << name.substr(1, 3) << endl;
+cout << "Find 'li': " << name.find("li") << endl;
+
+// === Vectors (dynamic arrays) ===
+vector<int> vec = {10, 20, 30};
+vec.push_back(40);
+vec.pop_back();
+cout << "Size: " << vec.size() << endl;
+for (int v : vec) cout << v << " ";
+vector<int>::iterator it = find(vec.begin(), vec.end(), 20);
+if (it != vec.end()) cout << "Found" << endl;
+sort(vec.begin(), vec.end(), greater<int>());
+
+// === Functions ===
+int add(int a, int b) {
+    return a + b;
+}
+void printMessage(const string& msg) {
+    cout << msg << endl;
+}
+// Function overloading
+double add(double a, double b) {
+    return a + b;
+}
+// Default parameters
+int multiply(int a, int b = 2) {
+    return a * b;
+}
+// Inline
+inline int square(int x) { return x * x; }
+
+// === Control Flow ===
+if (age >= 18) {
+    cout << "Adult" << endl;
+} else {
+    cout << "Minor" << endl;
+}
+string category = (age < 13) ? "Child" : (age < 20) ? "Teen" : "Adult";
+
+for (int i = 0; i < 5; ++i) cout << i << " ";
+int j = 0;
+while (j < 5) { cout << j++ << " "; }
+do { cout << --j << " "; } while (j > 0);
+
+// === Classes ===
+class Animal {
+protected:
+    string name;
+public:
+    Animal(const string& n) : name(n) {}
+    virtual void speak() const { cout << name << " makes a noise." << endl; }
+    virtual ~Animal() {} // virtual destructor
+};
+
+// Operator overloading
+class Point {
+public:
+    int x, y;
+    Point(int a, int b) : x(a), y(b) {}
+    Point operator+(const Point& p) const { return Point(x + p.x, y + p.y); }
+    friend ostream& operator<<(ostream& os, const Point& p) {
+        os << "(" << p.x << "," << p.y << ")"; return os;
+    }
+};
+
+// === Templates ===
+template <typename T>
+T maxVal(T a, T b) { return (a > b) ? a : b; }
+
+// === STL Containers ===
+// Map
+map<string, int> ages;
+ages["Alice"] = 30;
+ages["Bob"] = 25;
+for (const auto& [key, value] : ages) {
+    cout << key << " is " << value << endl;
+}
+
+// Deque, list, stack, queue
+deque<int> dq = {1,2,3};
+dq.push_front(0);
+list<int> lst = {1,2,3,4};
+lst.push_back(5);
+stack<int> st;
+st.push(1);
+queue<int> q;
+q.push(2);
+
+// Transform
+vector<int> squared(arr.size());
+transform(arr.begin(), arr.end(), squared.begin(), [](int x) { return x*x; });
+
+// === File I/O ===
+ofstream outFile("output.txt");
+if (outFile.is_open()) {
+    outFile << "Hello, file!" << endl;
+    outFile.close();
+}
+
+// String streams
+stringstream ss;
+ss << "The number is " << 42;
+string output = ss.str();
+
+// Custom exception
+class MyException : public exception {
+public:
+    const char* what() const noexcept override { return "My custom error"; }
+};
+
+// === Threading (C++11) ===
+void worker(int id) {
+    cout << "Thread " << id << endl;
+}
+thread t1(worker, 1);
+t1.join();
+mutex mtx;
+void safePrint(const string& msg) {
+    lock_guard<mutex> lock(mtx);
+    cout << msg << endl;
+}
+
+int fibonacci(int n) {
+    if (n <= 1) return n;
+    return fibonacci(n-1) + fibonacci(n-2);
+}
+
+ListNode* head = new ListNode(1);
+head->next = new ListNode(2);
+head->next->next = new ListNode(3);
+
+// === Sorting Algorithms (common) ===
+
+// Quick sort (simplified)
+int partition(vector<int>& arr, int low, int high) {
+    int pivot = arr[high];
+    int i = low - 1;
+    for (int j = low; j < high; ++j) {
+        if (arr[j] < pivot) {
+            ++i;
+            swap(arr[i], arr[j]);
+        }
+    }
+    swap(arr[i+1], arr[high]);
+    return i+1;
+}
+void quickSort(vector<int>& arr, int low, int high) {
+    if (low < high) {
+        int pi = partition(arr, low, high);
+        quickSort(arr, low, pi-1);
+        quickSort(arr, pi+1, high);
+    }
+}
+
+int gcd(int a, int b) {
+    return b == 0 ? a : gcd(b, a % b);
+}
+
+// === String Algorithms ===
+bool isPalindrome(const string& str) {
+    int left = 0, right = str.size() - 1;
+    while (left < right) {
+        if (str[left++] != str[right--]) return false;
+    }
+    return true;
+}
+
+int main() {
+    cout << "C++ Training Data Sample" << endl;
+    return 0;
+}

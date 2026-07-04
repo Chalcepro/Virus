@@ -1,0 +1,178 @@
+# Advanced Python Concepts and Techniques
+
+### Function Decorators
+def timing_decorator(func):
+    import time
+    import functools
+
+@timing_decorator
+def expensive_operation():
+    import time
+    time.sleep(1)
+    return "Result"
+
+@retry_decorator(max_retries=3, delay=2)
+def unreliable_api_call():
+    pass
+
+@singleton_decorator
+class Database:
+    def __init__(self):
+        self.connection = None
+
+## Generators and Iterators
+
+for num in count_up(5):
+    print(num)
+
+### Generator Performance
+# List comprehension: All values in memory
+big_list = [x for x in range(1000000)]
+
+## Context Managers
+
+def __exit__(self, exc_type, exc_val, exc_tb):
+        print("Closing database connection")
+        if exc_type is not None:
+            print(f"Exception: {exc_val}")
+        return False
+
+### Context Manager with Decorator
+from contextlib import contextmanager
+
+with database_connection() as conn:
+    print(f"Using {conn}")
+
+### Basic Metaclass
+class SingletonMeta(type):
+    _instances = {}
+
+class MyClass(metaclass=SingletonMeta):
+    pass
+
+### Custom Metaclass Behavior
+class LoggingMeta(type):
+    def __new__(mcs, name, bases, namespace):
+        for key, value in namespace.items():
+            if callable(value) and not key.startswith('_'):
+                namespace[key] = mcs.log_calls(value)
+        return super().__new__(mcs, name, bases, namespace)
+
+class MyClass(metaclass=LoggingMeta):
+    def do_something(self):
+        pass
+
+### Async Functions
+import asyncio
+
+### Running Async Code
+async def main():
+    result = await fetch_data("http://example.com")
+    print(result)
+
+### Concurrent Async Operations
+async def main():
+    results = await asyncio.gather(
+        fetch_data("http://api1.com"),
+        fetch_data("http://api2.com"),
+        fetch_data("http://api3.com")
+    )
+    print(results)
+
+## Type Hints
+
+### Complex Type Hints
+from typing import List, Dict, Optional, Union, Tuple
+
+def get_user(user_id: int) -> Optional[Dict[str, str]]:
+    pass
+
+def get_coordinates() -> Tuple[float, float]:
+    return (0.0, 0.0)
+
+def get_user(user_id: UserId) -> UserData:
+    pass
+
+T = TypeVar('T')
+
+def push(self, item: T) -> None:
+        self.items.append(item)
+
+## Functional Programming
+
+numbers = [1, 2, 3, 4, 5]
+
+# Filter
+evens = list(filter(lambda x: x % 2 == 0, numbers))
+
+### Functools
+from functools import partial, lru_cache
+
+double = partial(multiply, 2)
+result = double(5)  # 10
+
+## Property Decorators
+
+@property
+    def radius(self):
+        return self._radius
+
+@property
+    def area(self):
+        return 3.14159 * self._radius ** 2
+
+## Abstract Base Classes
+
+class Animal(ABC):
+    @abstractmethod
+    def speak(self):
+        pass
+
+class Dog(Animal):
+    def speak(self):
+        print("Woof!")
+
+## Data Classes
+
+@dataclass
+class Person:
+    name: str
+    age: int
+    email: str = ""
+
+person = Person("Alice", 30)
+
+@dataclass
+class Config:
+    name: str
+    options: dict = field(default_factory=dict)
+
+## Exception Handling
+
+### Exception Handling
+try:
+    risky_operation()
+except FileNotFoundError:
+    print("File not found")
+except ValueError as e:
+    print(f"Value error: {e}")
+except Exception as e:
+    print(f"Unexpected error: {e}")
+else:
+    print("Operation successful")
+finally:
+    print("Cleanup")
+
+### Unit Tests with pytest
+import pytest
+
+def test_division_by_zero():
+    with pytest.raises(ZeroDivisionError):
+        1 / 0
+
+def test_with_fixture(sample_data):
+    assert len(sample_data) == 5
+
+def test_with_mock():
+    mock_api = Mock()
+    mock_api.get_users.return_value = [{"id": 1, "name": "Alice"}]

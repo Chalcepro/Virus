@@ -1,0 +1,799 @@
+### INPUT:
+hey
+### OUTPUT:
+hey, how's it going?
+
+### INPUT:
+hi
+### OUTPUT:
+hi, good to see you
+
+### INPUT:
+hello
+### OUTPUT:
+hello, what's up?
+
+### INPUT:
+yo
+### OUTPUT:
+yo, all good here
+
+### INPUT:
+sup
+### OUTPUT:
+not much, you?
+
+### INPUT:
+what's up
+### OUTPUT:
+good morning, hope you slept well
+
+### INPUT:
+hey there
+### OUTPUT:
+good afternoon, how's your day?
+
+### INPUT:
+hiya
+### OUTPUT:
+good evening, how was your day?
+
+### INPUT:
+howdy
+### OUTPUT:
+night, sleep tight
+
+### INPUT:
+good morning
+### OUTPUT:
+hiya, what's new?
+
+### INPUT:
+good afternoon
+### OUTPUT:
+i'm here, tell me
+
+### INPUT:
+good evening
+### OUTPUT:
+yup, i'm around
+
+### INPUT:
+good night
+### OUTPUT:
+welcome back!
+
+### INPUT:
+morning
+### OUTPUT:
+glad you're back
+
+### INPUT:
+evening
+### OUTPUT:
+catch you later, take care
+
+### INPUT:
+wassup
+### OUTPUT:
+hey, how's it going? now
+
+### INPUT:
+whats poppin
+### OUTPUT:
+hi, good to see you
+
+### INPUT:
+yoo
+### OUTPUT:
+hello, what's up? now
+
+### INPUT:
+yo yo
+### OUTPUT:
+yo, all good here
+
+### INPUT:
+sup bro
+### OUTPUT:
+not much, you? now
+
+### INPUT:
+sup fam
+### OUTPUT:
+good morning, hope you slept well
+
+### INPUT:
+how you dey
+### OUTPUT:
+good afternoon, how's your day? now
+
+### INPUT:
+how far
+### OUTPUT:
+good evening, how was your day?
+
+### INPUT:
+una dey
+### OUTPUT:
+night, sleep tight now
+
+### INPUT:
+how body
+### OUTPUT:
+hiya, what's new?
+
+### INPUT:
+how far na
+### OUTPUT:
+i'm here, tell me now
+
+### INPUT:
+i dey here
+### OUTPUT:
+yup, i'm around
+
+### INPUT:
+hola
+### OUTPUT:
+welcome back! now
+
+### INPUT:
+bonjour
+### OUTPUT:
+glad you're back
+
+### INPUT:
+ciao
+### OUTPUT:
+catch you later, take care now
+
+### INPUT:
+konnichiwa
+### OUTPUT:
+hey, how's it going? now
+
+### INPUT:
+namaste
+### OUTPUT:
+hi, good to see you
+
+### INPUT:
+salaam
+### OUTPUT:
+hello, what's up? now
+
+### INPUT:
+shalom
+### OUTPUT:
+yo, all good here
+
+### INPUT:
+ola
+### OUTPUT:
+not much, you? now
+
+### INPUT:
+are you there
+### OUTPUT:
+good morning, hope you slept well
+
+### INPUT:
+you there
+### OUTPUT:
+good afternoon, how's your day? now
+
+### INPUT:
+are you awake
+### OUTPUT:
+good evening, how was your day?
+
+### INPUT:
+still there
+### OUTPUT:
+night, sleep tight now
+
+### INPUT:
+anyone there
+### OUTPUT:
+hiya, what's new?
+
+### INPUT:
+hello?
+### OUTPUT:
+i'm here, tell me now
+
+### INPUT:
+I'm back
+### OUTPUT:
+yup, i'm around
+
+### INPUT:
+back
+### OUTPUT:
+welcome back! now
+
+### INPUT:
+just got back
+### OUTPUT:
+glad you're back
+
+### INPUT:
+back online
+### OUTPUT:
+catch you later, take care now
+
+### INPUT:
+i'm here again
+### OUTPUT:
+hey, how's it going? now
+
+### INPUT:
+hey bro
+### OUTPUT:
+hi, good to see you now
+
+### INPUT:
+hey fam
+### OUTPUT:
+hello, what's up? now
+
+### INPUT:
+hey sis
+### OUTPUT:
+yo, all good here now
+
+### INPUT:
+hey mate
+### OUTPUT:
+not much, you? now
+
+### INPUT:
+hey friend
+### OUTPUT:
+good morning, hope you slept well now
+
+### INPUT:
+hey boss
+### OUTPUT:
+good afternoon, how's your day? now
+
+### INPUT:
+bye
+### OUTPUT:
+good evening, how was your day? now
+
+### INPUT:
+see you
+### OUTPUT:
+night, sleep tight now
+
+### INPUT:
+later
+### OUTPUT:
+hiya, what's new? now
+
+### INPUT:
+catch you later
+### OUTPUT:
+i'm here, tell me now
+
+### INPUT:
+talk soon
+### OUTPUT:
+yup, i'm around now
+
+### INPUT:
+peace
+### OUTPUT:
+welcome back! now
+
+### INPUT:
+hey?
+### OUTPUT:
+glad you're back now
+
+### INPUT:
+hi?
+### OUTPUT:
+catch you later, take care now
+
+### INPUT:
+hello?
+### OUTPUT:
+hey, how's it going? now
+
+### INPUT:
+yo?
+### OUTPUT:
+hi, good to see you
+
+### INPUT:
+sup?
+### OUTPUT:
+hello, what's up? now
+
+### INPUT:
+what's up?
+### OUTPUT:
+yo, all good here
+
+### INPUT:
+hey there?
+### OUTPUT:
+not much, you? now
+
+### INPUT:
+hiya?
+### OUTPUT:
+good morning, hope you slept well
+
+### INPUT:
+howdy?
+### OUTPUT:
+good afternoon, how's your day? now
+
+### INPUT:
+good morning?
+### OUTPUT:
+good evening, how was your day?
+
+### INPUT:
+good afternoon?
+### OUTPUT:
+night, sleep tight now
+
+### INPUT:
+good evening?
+### OUTPUT:
+hiya, what's new?
+
+### INPUT:
+good night?
+### OUTPUT:
+i'm here, tell me now
+
+### INPUT:
+morning?
+### OUTPUT:
+yup, i'm around
+
+### INPUT:
+evening?
+### OUTPUT:
+welcome back! now
+
+### INPUT:
+wassup?
+### OUTPUT:
+glad you're back
+
+### INPUT:
+whats poppin?
+### OUTPUT:
+catch you later, take care now
+
+### INPUT:
+yoo?
+### OUTPUT:
+hey, how's it going? now
+
+### INPUT:
+yo yo?
+### OUTPUT:
+hi, good to see you now
+
+### INPUT:
+sup bro?
+### OUTPUT:
+hello, what's up? now
+
+### INPUT:
+sup fam?
+### OUTPUT:
+yo, all good here now
+
+### INPUT:
+how you dey?
+### OUTPUT:
+not much, you? now
+
+### INPUT:
+how far?
+### OUTPUT:
+good morning, hope you slept well now
+
+### INPUT:
+una dey?
+### OUTPUT:
+good afternoon, how's your day? now
+
+### INPUT:
+how body?
+### OUTPUT:
+good evening, how was your day? now
+
+### INPUT:
+how far na?
+### OUTPUT:
+night, sleep tight now
+
+### INPUT:
+i dey here?
+### OUTPUT:
+hiya, what's new? now
+
+### INPUT:
+hola?
+### OUTPUT:
+i'm here, tell me now
+
+### INPUT:
+bonjour?
+### OUTPUT:
+yup, i'm around now
+
+### INPUT:
+ciao?
+### OUTPUT:
+welcome back! now
+
+### INPUT:
+konnichiwa?
+### OUTPUT:
+glad you're back now
+
+### INPUT:
+namaste?
+### OUTPUT:
+catch you later, take care now
+
+### INPUT:
+salaam?
+### OUTPUT:
+hey, how's it going? now now
+
+### INPUT:
+shalom?
+### OUTPUT:
+hi, good to see you
+
+### INPUT:
+ola?
+### OUTPUT:
+hello, what's up? now now
+
+### INPUT:
+are you there?
+### OUTPUT:
+yo, all good here
+
+### INPUT:
+you there?
+### OUTPUT:
+not much, you? now now
+
+### INPUT:
+are you awake?
+### OUTPUT:
+good morning, hope you slept well
+
+### INPUT:
+still there?
+### OUTPUT:
+good afternoon, how's your day? now now
+
+### INPUT:
+anyone there?
+### OUTPUT:
+good evening, how was your day?
+
+### INPUT:
+hello?!!!
+### OUTPUT:
+night, sleep tight now now
+
+### INPUT:
+I'm back!!!
+### OUTPUT:
+hiya, what's new?
+
+### INPUT:
+back!!!
+### OUTPUT:
+i'm here, tell me now now
+
+### INPUT:
+just got back!!!
+### OUTPUT:
+yup, i'm around
+
+### INPUT:
+back online!!!
+### OUTPUT:
+welcome back! now now
+
+### INPUT:
+i'm here again!!!
+### OUTPUT:
+glad you're back
+
+### INPUT:
+hey bro!!!
+### OUTPUT:
+catch you later, take care now now
+
+### INPUT:
+hey fam!!!
+### OUTPUT:
+hey, how's it going? now
+
+### INPUT:
+hey sis!!!
+### OUTPUT:
+hi, good to see you now now
+
+### INPUT:
+hey mate!!!
+### OUTPUT:
+hello, what's up? now
+
+### INPUT:
+hey friend!!!
+### OUTPUT:
+yo, all good here now now
+
+### INPUT:
+hey boss!!!
+### OUTPUT:
+not much, you? now
+
+### INPUT:
+bye!!!
+### OUTPUT:
+good morning, hope you slept well now now
+
+### INPUT:
+see you!!!
+### OUTPUT:
+good afternoon, how's your day? now
+
+### INPUT:
+later!!!
+### OUTPUT:
+good evening, how was your day? now now
+
+### INPUT:
+catch you later!!!
+### OUTPUT:
+night, sleep tight now
+
+### INPUT:
+talk soon!!!
+### OUTPUT:
+hiya, what's new? now now
+
+### INPUT:
+peace!!!
+### OUTPUT:
+i'm here, tell me now
+
+### INPUT:
+hey
+### OUTPUT:
+yup, i'm around now now
+
+### INPUT:
+hi
+### OUTPUT:
+welcome back! now
+
+### INPUT:
+hello
+### OUTPUT:
+glad you're back now now
+
+### INPUT:
+yo
+### OUTPUT:
+catch you later, take care now
+
+### INPUT:
+sup
+### OUTPUT:
+hey, how's it going? now
+
+### INPUT:
+what's up
+### OUTPUT:
+hi, good to see you
+
+### INPUT:
+hey there
+### OUTPUT:
+hello, what's up? now
+
+### INPUT:
+hiya
+### OUTPUT:
+yo, all good here
+
+### INPUT:
+howdy
+### OUTPUT:
+not much, you? now
+
+### INPUT:
+good morning
+### OUTPUT:
+good morning, hope you slept well
+
+### INPUT:
+good afternoon
+### OUTPUT:
+good afternoon, how's your day? now
+
+### INPUT:
+good evening
+### OUTPUT:
+good evening, how was your day?
+
+### INPUT:
+good night
+### OUTPUT:
+night, sleep tight now
+
+### INPUT:
+morning
+### OUTPUT:
+hiya, what's new?
+
+### INPUT:
+evening
+### OUTPUT:
+i'm here, tell me now
+
+### INPUT:
+wassup
+### OUTPUT:
+yup, i'm around
+
+### INPUT:
+whats poppin
+### OUTPUT:
+welcome back! now
+
+### INPUT:
+yoo
+### OUTPUT:
+glad you're back
+
+### INPUT:
+yo yo
+### OUTPUT:
+catch you later, take care now
+
+### INPUT:
+sup bro
+### OUTPUT:
+hey, how's it going? now
+
+### INPUT:
+sup fam
+### OUTPUT:
+hi, good to see you now
+
+### INPUT:
+how you dey
+### OUTPUT:
+hello, what's up? now
+
+### INPUT:
+how far
+### OUTPUT:
+yo, all good here now
+
+### INPUT:
+una dey
+### OUTPUT:
+not much, you? now
+
+### INPUT:
+how body
+### OUTPUT:
+good morning, hope you slept well now
+
+### INPUT:
+how far na
+### OUTPUT:
+good afternoon, how's your day? now
+
+### INPUT:
+i dey here
+### OUTPUT:
+good evening, how was your day? now
+
+### INPUT:
+hola
+### OUTPUT:
+night, sleep tight now
+
+### INPUT:
+bonjour
+### OUTPUT:
+hiya, what's new? now
+
+### INPUT:
+ciao
+### OUTPUT:
+i'm here, tell me now
+
+### INPUT:
+konnichiwa
+### OUTPUT:
+yup, i'm around now
+
+### INPUT:
+namaste
+### OUTPUT:
+welcome back! now
+
+### INPUT:
+salaam
+### OUTPUT:
+glad you're back now
+
+### INPUT:
+shalom
+### OUTPUT:
+catch you later, take care now
+
+### INPUT:
+ola
+### OUTPUT:
+hey, how's it going? now now
+
+### INPUT:
+are you there
+### OUTPUT:
+hi, good to see you
+
+### INPUT:
+you there
+### OUTPUT:
+hello, what's up? now now
+
+### INPUT:
+are you awake
+### OUTPUT:
+yo, all good here
+
+### INPUT:
+still there
+### OUTPUT:
+not much, you? now now
+
+### INPUT:
+anyone there
+### OUTPUT:
+good morning, hope you slept well
+
+### INPUT:
+hello?
+### OUTPUT:
+good afternoon, how's your day? now now
+
+### INPUT:
+I'm back
+### OUTPUT:
+good evening, how was your day?
+
+### INPUT:
+back
+### OUTPUT:
+night, sleep tight now now
+
+### INPUT:
+just got back
+### OUTPUT:
+hiya, what's new?

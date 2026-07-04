@@ -1,0 +1,131 @@
+﻿Genesis
+
+Exodus
+
+Leviticus
+
+Numbers
+
+Deuteronomy
+
+Joshua
+
+Judges
+
+Ruth
+
+st Samuel
+
+nd Samuel
+
+st Kings
+
+nd Kings
+
+st Chronicles
+
+nd Chronicles
+
+Ezra
+
+Nehemiah
+
+Esther
+
+Job
+
+Psalms
+
+Proverbs
+
+Ecclesiastes
+
+Song of Solomon
+
+Isaiah
+
+Jeremiah
+
+Lamentations
+
+Ezekiel
+
+Daniel
+
+Hosea
+
+Joel
+
+Amos
+
+Obadiah
+
+Jonah
+
+Micah
+
+Nahum
+
+Habakkuk
+
+Zephaniah
+
+Haggai
+
+Zechariah
+
+Malachi
+
+Matthew
+
+Mark
+
+Luke
+
+John
+
+Acts
+
+Romans
+
+st Corinthians
+
+nd Corinthians
+
+Galatians
+
+Ephesians
+
+Philippians
+
+Colossians
+
+st Thessalonians
+
+nd Thessalonians
+
+st Timothy
+
+nd Timothy
+
+Titus
+
+Philemon
+
+Hebrews
+
+James
+
+st Peter
+
+nd Peter
+
+st John
+
+nd John
+
+rd John
+
+Jude
+
+Revelation

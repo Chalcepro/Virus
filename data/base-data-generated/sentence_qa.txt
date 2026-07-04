@@ -1,0 +1,7500 @@
+### INPUT:
+Read this sentence: I stood.
+### OUTPUT:
+Okay: I stood.
+
+### INPUT:
+Who or what is the sentence 'We ate a star' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+Who or what is the sentence 'I tell an air tomorrow' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+In the sentence 'We said a grass', what part of speech is 'we'?
+### OUTPUT:
+'we' is a pronoun in that sentence.
+
+### INPUT:
+What is the action in 'She is good'?
+### OUTPUT:
+the action is 'is'.
+
+### INPUT:
+Who or what is the sentence 'He was warm' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+In the sentence 'She ams', what part of speech is 'she'?
+### OUTPUT:
+'she' is a pronoun in that sentence.
+
+### INPUT:
+What is the action in 'You took a rock often'?
+### OUTPUT:
+the action is 'took'.
+
+### INPUT:
+Who or what is the sentence 'I make a house quite' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+What is the action in 'He made a day everywhere'?
+### OUTPUT:
+the action is 'made'.
+
+### INPUT:
+Who or what is the sentence 'It looks' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+What is the action in 'I make a sun usually'?
+### OUTPUT:
+the action is 'make'.
+
+### INPUT:
+What is the action in 'It takes a car everywhere'?
+### OUTPUT:
+the action is 'takes'.
+
+### INPUT:
+What is the action in 'She did a table'?
+### OUTPUT:
+the action is 'did'.
+
+### INPUT:
+Who or what is the sentence 'She was strong' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+In the sentence 'It was clean', what part of speech is 'it'?
+### OUTPUT:
+'it' is a pronoun in that sentence.
+
+### INPUT:
+Who or what is the sentence 'He takes a road' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+Who or what is the sentence 'We ran' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+In the sentence 'He was yellow', what part of speech is 'he'?
+### OUTPUT:
+'he' is a pronoun in that sentence.
+
+### INPUT:
+What is the action in 'She tells a person such'?
+### OUTPUT:
+the action is 'tells'.
+
+### INPUT:
+What is the action in 'We go'?
+### OUTPUT:
+the action is 'go'.
+
+### INPUT:
+Read this sentence: You were short.
+### OUTPUT:
+Okay: You were short.
+
+### INPUT:
+Who or what is the sentence 'We were wide' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+Read this sentence: I was black.
+### OUTPUT:
+Okay: I was black.
+
+### INPUT:
+Read this sentence: It sat.
+### OUTPUT:
+Okay: It sat.
+
+### INPUT:
+Who or what is the sentence 'We said a world nowhere' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+What is the action in 'We give a road'?
+### OUTPUT:
+the action is 'give'.
+
+### INPUT:
+Who or what is the sentence 'He told a food in' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+What is the action in 'She gives a road yesterday'?
+### OUTPUT:
+the action is 'gives'.
+
+### INPUT:
+Who or what is the sentence 'I are' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+Read this sentence: You are white.
+### OUTPUT:
+Okay: You are white.
+
+### INPUT:
+Read this sentence: She did a star back.
+### OUTPUT:
+Okay: She did a star back.
+
+### INPUT:
+Who or what is the sentence 'We jump' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+What is the action in 'We drink a sun'?
+### OUTPUT:
+the action is 'drink'.
+
+### INPUT:
+Read this sentence: He drank a chair.
+### OUTPUT:
+Okay: He drank a chair.
+
+### INPUT:
+Who or what is the sentence 'You were sad' about?
+### OUTPUT:
+the sentence is about 'you'.
+
+### INPUT:
+Read this sentence: She ams.
+### OUTPUT:
+Okay: She ams.
+
+### INPUT:
+Who or what is the sentence 'We came' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+In the sentence 'You were cold', what part of speech is 'were'?
+### OUTPUT:
+'were' is a verb in that sentence.
+
+### INPUT:
+Who or what is the sentence 'You saw a grass' about?
+### OUTPUT:
+the sentence is about 'you'.
+
+### INPUT:
+In the sentence 'It is alive', what part of speech is 'it'?
+### OUTPUT:
+'it' is a pronoun in that sentence.
+
+### INPUT:
+What is the action in 'You speak an earth such'?
+### OUTPUT:
+the action is 'speak'.
+
+### INPUT:
+Who or what is the sentence 'We are happy' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+In the sentence 'You were clean', what part of speech is 'were'?
+### OUTPUT:
+'were' is a verb in that sentence.
+
+### INPUT:
+What is the action in 'I am narrow'?
+### OUTPUT:
+the action is 'am'.
+
+### INPUT:
+Who or what is the sentence 'He made a woman quite' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+In the sentence 'You had a friend', what part of speech is 'a'?
+### OUTPUT:
+'a' is an article in that sentence.
+
+### INPUT:
+Read this sentence: It was young.
+### OUTPUT:
+Okay: It was young.
+
+### INPUT:
+In the sentence 'They eat a world slowly', what part of speech is 'they'?
+### OUTPUT:
+'they' is a pronoun in that sentence.
+
+### INPUT:
+In the sentence 'She heard a tree enough', what part of speech is 'tree'?
+### OUTPUT:
+'tree' is a noun in that sentence.
+
+### INPUT:
+In the sentence 'I made a man', what part of speech is 'made'?
+### OUTPUT:
+'made' is a verb in that sentence.
+
+### INPUT:
+What is the action in 'They were big'?
+### OUTPUT:
+the action is 'were'.
+
+### INPUT:
+What is the action in 'We were closed'?
+### OUTPUT:
+the action is 'were'.
+
+### INPUT:
+Who or what is the sentence 'They had a team' about?
+### OUTPUT:
+the sentence is about 'they'.
+
+### INPUT:
+Who or what is the sentence 'It made a group' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+Read this sentence: He tells an air.
+### OUTPUT:
+Okay: He tells an air.
+
+### INPUT:
+What is the action in 'He ares'?
+### OUTPUT:
+the action is 'ares'.
+
+### INPUT:
+Read this sentence: You tell a year.
+### OUTPUT:
+Okay: You tell a year.
+
+### INPUT:
+Read this sentence: They stood.
+### OUTPUT:
+Okay: They stood.
+
+### INPUT:
+Who or what is the sentence 'He wered' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+In the sentence 'He was open', what part of speech is 'was'?
+### OUTPUT:
+'was' is a verb in that sentence.
+
+### INPUT:
+Read this sentence: We were dead.
+### OUTPUT:
+Okay: We were dead.
+
+### INPUT:
+In the sentence 'He goes', what part of speech is 'he'?
+### OUTPUT:
+'he' is a pronoun in that sentence.
+
+### INPUT:
+Read this sentence: They are wide.
+### OUTPUT:
+Okay: They are wide.
+
+### INPUT:
+Who or what is the sentence 'I was dead' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+Who or what is the sentence 'I was soft' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+In the sentence 'You are high', what part of speech is 'you'?
+### OUTPUT:
+'you' is a pronoun in that sentence.
+
+### INPUT:
+In the sentence 'He sat', what part of speech is 'he'?
+### OUTPUT:
+'he' is a pronoun in that sentence.
+
+### INPUT:
+What is the action in 'He drank a family'?
+### OUTPUT:
+the action is 'drank'.
+
+### INPUT:
+Who or what is the sentence 'He said a city away' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+What is the action in 'She came'?
+### OUTPUT:
+the action is 'came'.
+
+### INPUT:
+In the sentence 'She said a table', what part of speech is 'a'?
+### OUTPUT:
+'a' is an article in that sentence.
+
+### INPUT:
+In the sentence 'It had a book', what part of speech is 'had'?
+### OUTPUT:
+'had' is a verb in that sentence.
+
+### INPUT:
+In the sentence 'You eat a person', what part of speech is 'person'?
+### OUTPUT:
+'person' is a noun in that sentence.
+
+### INPUT:
+What is the action in 'It takes a stone'?
+### OUTPUT:
+the action is 'takes'.
+
+### INPUT:
+Who or what is the sentence 'He was empty' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+Read this sentence: We go.
+### OUTPUT:
+Okay: We go.
+
+### INPUT:
+What is the action in 'You ate an air happily'?
+### OUTPUT:
+the action is 'ate'.
+
+### INPUT:
+In the sentence 'He sat', what part of speech is 'sat'?
+### OUTPUT:
+'sat' is a verb in that sentence.
+
+### INPUT:
+Who or what is the sentence 'It does a window too' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+In the sentence 'They was', what part of speech is 'they'?
+### OUTPUT:
+'they' is a pronoun in that sentence.
+
+### INPUT:
+In the sentence 'You gave an air', what part of speech is 'you'?
+### OUTPUT:
+'you' is a pronoun in that sentence.
+
+### INPUT:
+In the sentence 'She says a moon yesterday', what part of speech is 'she'?
+### OUTPUT:
+'she' is a pronoun in that sentence.
+
+### INPUT:
+Read this sentence: She is hard.
+### OUTPUT:
+Okay: She is hard.
+
+### INPUT:
+What is the action in 'It does a pen'?
+### OUTPUT:
+the action is 'does'.
+
+### INPUT:
+Read this sentence: It drinks an air now.
+### OUTPUT:
+Okay: It drinks an air now.
+
+### INPUT:
+Read this sentence: They am.
+### OUTPUT:
+Okay: They am.
+
+### INPUT:
+Who or what is the sentence 'She is happy' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+What is the action in 'We wased'?
+### OUTPUT:
+the action is 'wased'.
+
+### INPUT:
+Who or what is the sentence 'He said a water back' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+What is the action in 'She looks'?
+### OUTPUT:
+the action is 'looks'.
+
+### INPUT:
+In the sentence 'They are', what part of speech is 'are'?
+### OUTPUT:
+'are' is a verb in that sentence.
+
+### INPUT:
+What is the action in 'We drink a car away'?
+### OUTPUT:
+the action is 'drink'.
+
+### INPUT:
+Read this sentence: I being.
+### OUTPUT:
+Okay: I being.
+
+### INPUT:
+Read this sentence: He ate a star quite.
+### OUTPUT:
+Okay: He ate a star quite.
+
+### INPUT:
+In the sentence 'He is beautiful', what part of speech is 'is'?
+### OUTPUT:
+'is' is a verb in that sentence.
+
+### INPUT:
+Who or what is the sentence 'We hear a child now' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+Who or what is the sentence 'You beinged' about?
+### OUTPUT:
+the sentence is about 'you'.
+
+### INPUT:
+Who or what is the sentence 'I told a star sadly' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+Read this sentence: It walked.
+### OUTPUT:
+Okay: It walked.
+
+### INPUT:
+What is the action in 'She makes a window now'?
+### OUTPUT:
+the action is 'makes'.
+
+### INPUT:
+Who or what is the sentence 'It tells a night always' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+Read this sentence: I been.
+### OUTPUT:
+Okay: I been.
+
+### INPUT:
+Who or what is the sentence 'They are soft' about?
+### OUTPUT:
+the sentence is about 'they'.
+
+### INPUT:
+What is the action in 'You eat a car'?
+### OUTPUT:
+the action is 'eat'.
+
+### INPUT:
+Read this sentence: He is black.
+### OUTPUT:
+Okay: He is black.
+
+### INPUT:
+What is the action in 'She looks'?
+### OUTPUT:
+the action is 'looks'.
+
+### INPUT:
+What is the action in 'She beings'?
+### OUTPUT:
+the action is 'beings'.
+
+### INPUT:
+In the sentence 'He had a friend', what part of speech is 'friend'?
+### OUTPUT:
+'friend' is a noun in that sentence.
+
+### INPUT:
+Read this sentence: It takes a group.
+### OUTPUT:
+Okay: It takes a group.
+
+### INPUT:
+What is the action in 'You ate a fire very'?
+### OUTPUT:
+the action is 'ate'.
+
+### INPUT:
+Read this sentence: I had a man.
+### OUTPUT:
+Okay: I had a man.
+
+### INPUT:
+What is the action in 'I have an air enough'?
+### OUTPUT:
+the action is 'have'.
+
+### INPUT:
+What is the action in 'We speak a family'?
+### OUTPUT:
+the action is 'speak'.
+
+### INPUT:
+Who or what is the sentence 'It wered' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+Read this sentence: He weres.
+### OUTPUT:
+Okay: He weres.
+
+### INPUT:
+Who or what is the sentence 'She hears a country away' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+Who or what is the sentence 'You were wide' about?
+### OUTPUT:
+the sentence is about 'you'.
+
+### INPUT:
+What is the action in 'He was poor'?
+### OUTPUT:
+the action is 'was'.
+
+### INPUT:
+Who or what is the sentence 'I amed' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+Read this sentence: She beened.
+### OUTPUT:
+Okay: She beened.
+
+### INPUT:
+Who or what is the sentence 'He eats a child' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+Read this sentence: They walk.
+### OUTPUT:
+Okay: They walk.
+
+### INPUT:
+Who or what is the sentence 'We were new' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+In the sentence 'They go', what part of speech is 'go'?
+### OUTPUT:
+'go' is a verb in that sentence.
+
+### INPUT:
+What is the action in 'They had a rock outside'?
+### OUTPUT:
+the action is 'had'.
+
+### INPUT:
+In the sentence 'You see an earth well', what part of speech is 'an'?
+### OUTPUT:
+'an' is an article in that sentence.
+
+### INPUT:
+What is the action in 'You were slow'?
+### OUTPUT:
+the action is 'were'.
+
+### INPUT:
+Who or what is the sentence 'I have a flower so' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+Read this sentence: I have a family quickly.
+### OUTPUT:
+Okay: I have a family quickly.
+
+### INPUT:
+What is the action in 'You did a pen rather'?
+### OUTPUT:
+the action is 'did'.
+
+### INPUT:
+Who or what is the sentence 'He heard a world' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+Who or what is the sentence 'She is clean' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+Who or what is the sentence 'We drank a food' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+Read this sentence: He weres.
+### OUTPUT:
+Okay: He weres.
+
+### INPUT:
+Read this sentence: They ate a flower.
+### OUTPUT:
+Okay: They ate a flower.
+
+### INPUT:
+Read this sentence: It talked.
+### OUTPUT:
+Okay: It talked.
+
+### INPUT:
+In the sentence 'It gave a chair', what part of speech is 'it'?
+### OUTPUT:
+'it' is a pronoun in that sentence.
+
+### INPUT:
+In the sentence 'It was open', what part of speech is 'was'?
+### OUTPUT:
+'was' is a verb in that sentence.
+
+### INPUT:
+Read this sentence: They were dead.
+### OUTPUT:
+Okay: They were dead.
+
+### INPUT:
+What is the action in 'He had a flower'?
+### OUTPUT:
+the action is 'had'.
+
+### INPUT:
+What is the action in 'It hears a flower'?
+### OUTPUT:
+the action is 'hears'.
+
+### INPUT:
+Read this sentence: We say a window.
+### OUTPUT:
+Okay: We say a window.
+
+### INPUT:
+Read this sentence: She made a moon now.
+### OUTPUT:
+Okay: She made a moon now.
+
+### INPUT:
+Who or what is the sentence 'She is full' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+Read this sentence: It is old.
+### OUTPUT:
+Okay: It is old.
+
+### INPUT:
+Who or what is the sentence 'He saw a table' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+Read this sentence: It was bright.
+### OUTPUT:
+Okay: It was bright.
+
+### INPUT:
+In the sentence 'You take an air', what part of speech is 'you'?
+### OUTPUT:
+'you' is a pronoun in that sentence.
+
+### INPUT:
+In the sentence 'We are alive', what part of speech is 'are'?
+### OUTPUT:
+'are' is a verb in that sentence.
+
+### INPUT:
+In the sentence 'I speak a car yesterday', what part of speech is 'a'?
+### OUTPUT:
+'a' is an article in that sentence.
+
+### INPUT:
+Read this sentence: It beinged.
+### OUTPUT:
+Okay: It beinged.
+
+### INPUT:
+Read this sentence: He is cold.
+### OUTPUT:
+Okay: He is cold.
+
+### INPUT:
+In the sentence 'We are heavy', what part of speech is 'are'?
+### OUTPUT:
+'are' is a verb in that sentence.
+
+### INPUT:
+Read this sentence: I look.
+### OUTPUT:
+Okay: I look.
+
+### INPUT:
+In the sentence 'They are dirty', what part of speech is 'are'?
+### OUTPUT:
+'are' is a verb in that sentence.
+
+### INPUT:
+Read this sentence: You make a town usually.
+### OUTPUT:
+Okay: You make a town usually.
+
+### INPUT:
+Read this sentence: They speak a day well.
+### OUTPUT:
+Okay: They speak a day well.
+
+### INPUT:
+Who or what is the sentence 'They did a water fast' about?
+### OUTPUT:
+the sentence is about 'they'.
+
+### INPUT:
+In the sentence 'He spoke a night', what part of speech is 'night'?
+### OUTPUT:
+'night' is a noun in that sentence.
+
+### INPUT:
+What is the action in 'They walk'?
+### OUTPUT:
+the action is 'walk'.
+
+### INPUT:
+In the sentence 'He looked', what part of speech is 'he'?
+### OUTPUT:
+'he' is a pronoun in that sentence.
+
+### INPUT:
+What is the action in 'He heard a friend then'?
+### OUTPUT:
+the action is 'heard'.
+
+### INPUT:
+Read this sentence: It is sad.
+### OUTPUT:
+Okay: It is sad.
+
+### INPUT:
+What is the action in 'You say a road'?
+### OUTPUT:
+the action is 'say'.
+
+### INPUT:
+What is the action in 'It has a star rather'?
+### OUTPUT:
+the action is 'has'.
+
+### INPUT:
+Read this sentence: I say a car slowly.
+### OUTPUT:
+Okay: I say a car slowly.
+
+### INPUT:
+Who or what is the sentence 'I am poor' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+Who or what is the sentence 'You is' about?
+### OUTPUT:
+the sentence is about 'you'.
+
+### INPUT:
+In the sentence 'It is open', what part of speech is 'is'?
+### OUTPUT:
+'is' is a verb in that sentence.
+
+### INPUT:
+Read this sentence: We saw a town.
+### OUTPUT:
+Okay: We saw a town.
+
+### INPUT:
+Who or what is the sentence 'You were beautiful' about?
+### OUTPUT:
+the sentence is about 'you'.
+
+### INPUT:
+In the sentence 'She tells a window badly', what part of speech is 'she'?
+### OUTPUT:
+'she' is a pronoun in that sentence.
+
+### INPUT:
+Read this sentence: You were light.
+### OUTPUT:
+Okay: You were light.
+
+### INPUT:
+Who or what is the sentence 'She is high' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+Read this sentence: It beened.
+### OUTPUT:
+Okay: It beened.
+
+### INPUT:
+What is the action in 'It comes'?
+### OUTPUT:
+the action is 'comes'.
+
+### INPUT:
+Read this sentence: He ams.
+### OUTPUT:
+Okay: He ams.
+
+### INPUT:
+Read this sentence: It drinks a book today.
+### OUTPUT:
+Okay: It drinks a book today.
+
+### INPUT:
+In the sentence 'He ate a chair always', what part of speech is 'always'?
+### OUTPUT:
+'always' is an adverb in that sentence.
+
+### INPUT:
+Who or what is the sentence 'He amed' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+Who or what is the sentence 'She took a bird' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+In the sentence 'He was alive', what part of speech is 'alive'?
+### OUTPUT:
+'alive' is an adjective in that sentence.
+
+### INPUT:
+In the sentence 'I ared', what part of speech is 'ared'?
+### OUTPUT:
+'ared' is a verb in that sentence.
+
+### INPUT:
+In the sentence 'They did a country rather', what part of speech is 'country'?
+### OUTPUT:
+'country' is a noun in that sentence.
+
+### INPUT:
+In the sentence 'He was beautiful', what part of speech is 'he'?
+### OUTPUT:
+'he' is a pronoun in that sentence.
+
+### INPUT:
+Who or what is the sentence 'We jumped' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+Who or what is the sentence 'I ate a city' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+Who or what is the sentence 'She is light' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+What is the action in 'You sit'?
+### OUTPUT:
+the action is 'sit'.
+
+### INPUT:
+What is the action in 'We gave a cat'?
+### OUTPUT:
+the action is 'gave'.
+
+### INPUT:
+Who or what is the sentence 'You eat a child' about?
+### OUTPUT:
+the sentence is about 'you'.
+
+### INPUT:
+What is the action in 'It saw a door'?
+### OUTPUT:
+the action is 'saw'.
+
+### INPUT:
+Who or what is the sentence 'They spoke a cat soon' about?
+### OUTPUT:
+the sentence is about 'they'.
+
+### INPUT:
+What is the action in 'It was dead'?
+### OUTPUT:
+the action is 'was'.
+
+### INPUT:
+What is the action in 'He tells a table such'?
+### OUTPUT:
+the action is 'tells'.
+
+### INPUT:
+In the sentence 'It gives a city usually', what part of speech is 'a'?
+### OUTPUT:
+'a' is an article in that sentence.
+
+### INPUT:
+What is the action in 'It stood'?
+### OUTPUT:
+the action is 'stood'.
+
+### INPUT:
+Who or what is the sentence 'She wased' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+Who or what is the sentence 'We are hard' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+Who or what is the sentence 'She jumps' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+In the sentence 'He went', what part of speech is 'he'?
+### OUTPUT:
+'he' is a pronoun in that sentence.
+
+### INPUT:
+Who or what is the sentence 'We were bad' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+Read this sentence: It spoke a city almost.
+### OUTPUT:
+Okay: It spoke a city almost.
+
+### INPUT:
+Read this sentence: They were dead.
+### OUTPUT:
+Okay: They were dead.
+
+### INPUT:
+Read this sentence: I told a pen.
+### OUTPUT:
+Okay: I told a pen.
+
+### INPUT:
+Read this sentence: It is wide.
+### OUTPUT:
+Okay: It is wide.
+
+### INPUT:
+What is the action in 'You hear a woman'?
+### OUTPUT:
+the action is 'hear'.
+
+### INPUT:
+Who or what is the sentence 'She is cold' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+In the sentence 'I am bright', what part of speech is 'i'?
+### OUTPUT:
+'i' is a pronoun in that sentence.
+
+### INPUT:
+In the sentence 'We did a sun almost', what part of speech is 'a'?
+### OUTPUT:
+'a' is an article in that sentence.
+
+### INPUT:
+What is the action in 'She is strong'?
+### OUTPUT:
+the action is 'is'.
+
+### INPUT:
+In the sentence 'She ate a book up', what part of speech is 'book'?
+### OUTPUT:
+'book' is a noun in that sentence.
+
+### INPUT:
+What is the action in 'We are soft'?
+### OUTPUT:
+the action is 'are'.
+
+### INPUT:
+What is the action in 'They looked'?
+### OUTPUT:
+the action is 'looked'.
+
+### INPUT:
+In the sentence 'He had a team', what part of speech is 'he'?
+### OUTPUT:
+'he' is a pronoun in that sentence.
+
+### INPUT:
+Read this sentence: I ared.
+### OUTPUT:
+Okay: I ared.
+
+### INPUT:
+Read this sentence: It was sad.
+### OUTPUT:
+Okay: It was sad.
+
+### INPUT:
+Read this sentence: We were old.
+### OUTPUT:
+Okay: We were old.
+
+### INPUT:
+In the sentence 'You are small', what part of speech is 'are'?
+### OUTPUT:
+'are' is a verb in that sentence.
+
+### INPUT:
+Read this sentence: It amed.
+### OUTPUT:
+Okay: It amed.
+
+### INPUT:
+Who or what is the sentence 'I say a man' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+Who or what is the sentence 'He spoke a town slowly' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+What is the action in 'We ared'?
+### OUTPUT:
+the action is 'ared'.
+
+### INPUT:
+Read this sentence: It came.
+### OUTPUT:
+Okay: It came.
+
+### INPUT:
+What is the action in 'She ran'?
+### OUTPUT:
+the action is 'ran'.
+
+### INPUT:
+In the sentence 'I was high', what part of speech is 'i'?
+### OUTPUT:
+'i' is a pronoun in that sentence.
+
+### INPUT:
+In the sentence 'You been', what part of speech is 'been'?
+### OUTPUT:
+'been' is a verb in that sentence.
+
+### INPUT:
+What is the action in 'I came'?
+### OUTPUT:
+the action is 'came'.
+
+### INPUT:
+What is the action in 'You are good'?
+### OUTPUT:
+the action is 'are'.
+
+### INPUT:
+What is the action in 'They heard a window back'?
+### OUTPUT:
+the action is 'heard'.
+
+### INPUT:
+In the sentence 'They were dead', what part of speech is 'they'?
+### OUTPUT:
+'they' is a pronoun in that sentence.
+
+### INPUT:
+Read this sentence: She gave a country quite.
+### OUTPUT:
+Okay: She gave a country quite.
+
+### INPUT:
+What is the action in 'They eat a town'?
+### OUTPUT:
+the action is 'eat'.
+
+### INPUT:
+Read this sentence: They been.
+### OUTPUT:
+Okay: They been.
+
+### INPUT:
+In the sentence 'She is short', what part of speech is 'short'?
+### OUTPUT:
+'short' is an adjective in that sentence.
+
+### INPUT:
+In the sentence 'You were big', what part of speech is 'big'?
+### OUTPUT:
+'big' is an adjective in that sentence.
+
+### INPUT:
+What is the action in 'You come'?
+### OUTPUT:
+the action is 'come'.
+
+### INPUT:
+Read this sentence: We eat a dog almost.
+### OUTPUT:
+Okay: We eat a dog almost.
+
+### INPUT:
+In the sentence 'I was slow', what part of speech is 'slow'?
+### OUTPUT:
+'slow' is an adjective in that sentence.
+
+### INPUT:
+Who or what is the sentence 'You heard a family fast' about?
+### OUTPUT:
+the sentence is about 'you'.
+
+### INPUT:
+In the sentence 'I take a woman fast', what part of speech is 'take'?
+### OUTPUT:
+'take' is a verb in that sentence.
+
+### INPUT:
+Read this sentence: I make a family.
+### OUTPUT:
+Okay: I make a family.
+
+### INPUT:
+Read this sentence: She amed.
+### OUTPUT:
+Okay: She amed.
+
+### INPUT:
+What is the action in 'They tell a rock then'?
+### OUTPUT:
+the action is 'tell'.
+
+### INPUT:
+In the sentence 'They were narrow', what part of speech is 'they'?
+### OUTPUT:
+'they' is a pronoun in that sentence.
+
+### INPUT:
+In the sentence 'We take a book', what part of speech is 'book'?
+### OUTPUT:
+'book' is a noun in that sentence.
+
+### INPUT:
+Read this sentence: I drank a child so.
+### OUTPUT:
+Okay: I drank a child so.
+
+### INPUT:
+Who or what is the sentence 'I am clean' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+Who or what is the sentence 'She told a table nearly' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+What is the action in 'You made a year very'?
+### OUTPUT:
+the action is 'made'.
+
+### INPUT:
+Read this sentence: He ares.
+### OUTPUT:
+Okay: He ares.
+
+### INPUT:
+What is the action in 'You make a moon'?
+### OUTPUT:
+the action is 'make'.
+
+### INPUT:
+Who or what is the sentence 'It took a chair yesterday' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+Read this sentence: They said a house.
+### OUTPUT:
+Okay: They said a house.
+
+### INPUT:
+Read this sentence: I beinged.
+### OUTPUT:
+Okay: I beinged.
+
+### INPUT:
+Read this sentence: We took a grass.
+### OUTPUT:
+Okay: We took a grass.
+
+### INPUT:
+In the sentence 'I walked', what part of speech is 'i'?
+### OUTPUT:
+'i' is a pronoun in that sentence.
+
+### INPUT:
+In the sentence 'I do a friend badly', what part of speech is 'i'?
+### OUTPUT:
+'i' is a pronoun in that sentence.
+
+### INPUT:
+Read this sentence: She said a man.
+### OUTPUT:
+Okay: She said a man.
+
+### INPUT:
+Who or what is the sentence 'It is hot' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+Who or what is the sentence 'You say a road' about?
+### OUTPUT:
+the sentence is about 'you'.
+
+### INPUT:
+Read this sentence: We is.
+### OUTPUT:
+Okay: We is.
+
+### INPUT:
+Read this sentence: I was.
+### OUTPUT:
+Okay: I was.
+
+### INPUT:
+What is the action in 'He ate a friend nearly'?
+### OUTPUT:
+the action is 'ate'.
+
+### INPUT:
+Read this sentence: It eats a door such.
+### OUTPUT:
+Okay: It eats a door such.
+
+### INPUT:
+Who or what is the sentence 'It spoke a town up' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+Who or what is the sentence 'He ared' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+Read this sentence: They jump.
+### OUTPUT:
+Okay: They jump.
+
+### INPUT:
+Who or what is the sentence 'It tells a pen down' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+Read this sentence: He runs.
+### OUTPUT:
+Okay: He runs.
+
+### INPUT:
+In the sentence 'They do a friend away', what part of speech is 'friend'?
+### OUTPUT:
+'friend' is a noun in that sentence.
+
+### INPUT:
+Read this sentence: They heard a pen.
+### OUTPUT:
+Okay: They heard a pen.
+
+### INPUT:
+What is the action in 'We are bright'?
+### OUTPUT:
+the action is 'are'.
+
+### INPUT:
+Who or what is the sentence 'It takes a friend quickly' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+What is the action in 'They go'?
+### OUTPUT:
+the action is 'go'.
+
+### INPUT:
+Who or what is the sentence 'He says a moon' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+Who or what is the sentence 'She stood' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+Who or what is the sentence 'We speak a city quickly' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+Who or what is the sentence 'She heard a flower' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+What is the action in 'I said a sun'?
+### OUTPUT:
+the action is 'said'.
+
+### INPUT:
+In the sentence 'It told a house', what part of speech is 'it'?
+### OUTPUT:
+'it' is a pronoun in that sentence.
+
+### INPUT:
+Read this sentence: I is.
+### OUTPUT:
+Okay: I is.
+
+### INPUT:
+Who or what is the sentence 'I jumped' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+Who or what is the sentence 'I stand' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+In the sentence 'She heard a night', what part of speech is 'night'?
+### OUTPUT:
+'night' is a noun in that sentence.
+
+### INPUT:
+Read this sentence: We are old.
+### OUTPUT:
+Okay: We are old.
+
+### INPUT:
+Who or what is the sentence 'She speaks a road up' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+In the sentence 'You went', what part of speech is 'went'?
+### OUTPUT:
+'went' is a verb in that sentence.
+
+### INPUT:
+In the sentence 'It took a friend rather', what part of speech is 'took'?
+### OUTPUT:
+'took' is a verb in that sentence.
+
+### INPUT:
+Who or what is the sentence 'We are dark' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+Read this sentence: I hear a friend.
+### OUTPUT:
+Okay: I hear a friend.
+
+### INPUT:
+Read this sentence: You make a door.
+### OUTPUT:
+Okay: You make a door.
+
+### INPUT:
+What is the action in 'He wased'?
+### OUTPUT:
+the action is 'wased'.
+
+### INPUT:
+What is the action in 'I spoke a child'?
+### OUTPUT:
+the action is 'spoke'.
+
+### INPUT:
+Read this sentence: She is hot.
+### OUTPUT:
+Okay: She is hot.
+
+### INPUT:
+What is the action in 'He was interesting'?
+### OUTPUT:
+the action is 'was'.
+
+### INPUT:
+In the sentence 'We beinged', what part of speech is 'we'?
+### OUTPUT:
+'we' is a pronoun in that sentence.
+
+### INPUT:
+Read this sentence: I being.
+### OUTPUT:
+Okay: I being.
+
+### INPUT:
+Who or what is the sentence 'They make a table well' about?
+### OUTPUT:
+the sentence is about 'they'.
+
+### INPUT:
+Who or what is the sentence 'I say a window nearly' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+What is the action in 'It drank a dog'?
+### OUTPUT:
+the action is 'drank'.
+
+### INPUT:
+Read this sentence: I drank a door.
+### OUTPUT:
+Okay: I drank a door.
+
+### INPUT:
+What is the action in 'I heard a world there'?
+### OUTPUT:
+the action is 'heard'.
+
+### INPUT:
+In the sentence 'He is long', what part of speech is 'is'?
+### OUTPUT:
+'is' is a verb in that sentence.
+
+### INPUT:
+What is the action in 'You came'?
+### OUTPUT:
+the action is 'came'.
+
+### INPUT:
+In the sentence 'I told a city today', what part of speech is 'city'?
+### OUTPUT:
+'city' is a noun in that sentence.
+
+### INPUT:
+What is the action in 'They speak a chair'?
+### OUTPUT:
+the action is 'speak'.
+
+### INPUT:
+Read this sentence: She does a door.
+### OUTPUT:
+Okay: She does a door.
+
+### INPUT:
+Who or what is the sentence 'You see a moon' about?
+### OUTPUT:
+the sentence is about 'you'.
+
+### INPUT:
+What is the action in 'He amed'?
+### OUTPUT:
+the action is 'amed'.
+
+### INPUT:
+Who or what is the sentence 'I run' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+Who or what is the sentence 'It jumps' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+What is the action in 'You wered'?
+### OUTPUT:
+the action is 'wered'.
+
+### INPUT:
+Who or what is the sentence 'We were long' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+What is the action in 'They take a town too'?
+### OUTPUT:
+the action is 'take'.
+
+### INPUT:
+Who or what is the sentence 'They talked' about?
+### OUTPUT:
+the sentence is about 'they'.
+
+### INPUT:
+Read this sentence: It tells a flower.
+### OUTPUT:
+Okay: It tells a flower.
+
+### INPUT:
+In the sentence 'They made a woman', what part of speech is 'woman'?
+### OUTPUT:
+'woman' is a noun in that sentence.
+
+### INPUT:
+What is the action in 'They wered'?
+### OUTPUT:
+the action is 'wered'.
+
+### INPUT:
+In the sentence 'We spoke a tree early', what part of speech is 'spoke'?
+### OUTPUT:
+'spoke' is a verb in that sentence.
+
+### INPUT:
+Who or what is the sentence 'She makes a fire out' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+What is the action in 'You ised'?
+### OUTPUT:
+the action is 'ised'.
+
+### INPUT:
+In the sentence 'She is weak', what part of speech is 'weak'?
+### OUTPUT:
+'weak' is an adjective in that sentence.
+
+### INPUT:
+In the sentence 'You been', what part of speech is 'you'?
+### OUTPUT:
+'you' is a pronoun in that sentence.
+
+### INPUT:
+Read this sentence: She did a night away.
+### OUTPUT:
+Okay: She did a night away.
+
+### INPUT:
+In the sentence 'It was beautiful', what part of speech is 'it'?
+### OUTPUT:
+'it' is a pronoun in that sentence.
+
+### INPUT:
+Read this sentence: We do a car here.
+### OUTPUT:
+Okay: We do a car here.
+
+### INPUT:
+Read this sentence: He is new.
+### OUTPUT:
+Okay: He is new.
+
+### INPUT:
+What is the action in 'She was poor'?
+### OUTPUT:
+the action is 'was'.
+
+### INPUT:
+In the sentence 'You talk', what part of speech is 'you'?
+### OUTPUT:
+'you' is a pronoun in that sentence.
+
+### INPUT:
+In the sentence 'She is old', what part of speech is 'old'?
+### OUTPUT:
+'old' is an adjective in that sentence.
+
+### INPUT:
+Who or what is the sentence 'It makes a family quite' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+Who or what is the sentence 'He walks' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+In the sentence 'We speak an earth', what part of speech is 'an'?
+### OUTPUT:
+'an' is an article in that sentence.
+
+### INPUT:
+Read this sentence: He told a road here.
+### OUTPUT:
+Okay: He told a road here.
+
+### INPUT:
+What is the action in 'It heard a woman'?
+### OUTPUT:
+the action is 'heard'.
+
+### INPUT:
+What is the action in 'You made a country well'?
+### OUTPUT:
+the action is 'made'.
+
+### INPUT:
+Who or what is the sentence 'They drank a star' about?
+### OUTPUT:
+the sentence is about 'they'.
+
+### INPUT:
+Who or what is the sentence 'I am happy' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+Read this sentence: They were black.
+### OUTPUT:
+Okay: They were black.
+
+### INPUT:
+Read this sentence: She says a day now.
+### OUTPUT:
+Okay: She says a day now.
+
+### INPUT:
+In the sentence 'I see a person quite', what part of speech is 'see'?
+### OUTPUT:
+'see' is a verb in that sentence.
+
+### INPUT:
+In the sentence 'You make a night up', what part of speech is 'make'?
+### OUTPUT:
+'make' is a verb in that sentence.
+
+### INPUT:
+Read this sentence: She comes.
+### OUTPUT:
+Okay: She comes.
+
+### INPUT:
+In the sentence 'They drank a year', what part of speech is 'they'?
+### OUTPUT:
+'they' is a pronoun in that sentence.
+
+### INPUT:
+In the sentence 'They looked', what part of speech is 'they'?
+### OUTPUT:
+'they' is a pronoun in that sentence.
+
+### INPUT:
+In the sentence 'It does a family', what part of speech is 'it'?
+### OUTPUT:
+'it' is a pronoun in that sentence.
+
+### INPUT:
+In the sentence 'She eats a chair yesterday', what part of speech is 'yesterday'?
+### OUTPUT:
+'yesterday' is an adverb in that sentence.
+
+### INPUT:
+What is the action in 'He was slow'?
+### OUTPUT:
+the action is 'was'.
+
+### INPUT:
+In the sentence 'I was black', what part of speech is 'i'?
+### OUTPUT:
+'i' is a pronoun in that sentence.
+
+### INPUT:
+What is the action in 'She saw a day well'?
+### OUTPUT:
+the action is 'saw'.
+
+### INPUT:
+Who or what is the sentence 'It hears a flower' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+Read this sentence: He makes a food.
+### OUTPUT:
+Okay: He makes a food.
+
+### INPUT:
+In the sentence 'You see a night everywhere', what part of speech is 'everywhere'?
+### OUTPUT:
+'everywhere' is an adverb in that sentence.
+
+### INPUT:
+Who or what is the sentence 'I jumped' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+In the sentence 'You went', what part of speech is 'you'?
+### OUTPUT:
+'you' is a pronoun in that sentence.
+
+### INPUT:
+Read this sentence: You walk.
+### OUTPUT:
+Okay: You walk.
+
+### INPUT:
+Who or what is the sentence 'We are good' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+Read this sentence: I had a bird away.
+### OUTPUT:
+Okay: I had a bird away.
+
+### INPUT:
+In the sentence 'She gives a flower', what part of speech is 'she'?
+### OUTPUT:
+'she' is a pronoun in that sentence.
+
+### INPUT:
+What is the action in 'They are new'?
+### OUTPUT:
+the action is 'are'.
+
+### INPUT:
+What is the action in 'She sits'?
+### OUTPUT:
+the action is 'sits'.
+
+### INPUT:
+Who or what is the sentence 'You are hot' about?
+### OUTPUT:
+the sentence is about 'you'.
+
+### INPUT:
+Read this sentence: They ared.
+### OUTPUT:
+Okay: They ared.
+
+### INPUT:
+What is the action in 'You beinged'?
+### OUTPUT:
+the action is 'beinged'.
+
+### INPUT:
+What is the action in 'You stand'?
+### OUTPUT:
+the action is 'stand'.
+
+### INPUT:
+In the sentence 'It runs', what part of speech is 'it'?
+### OUTPUT:
+'it' is a pronoun in that sentence.
+
+### INPUT:
+What is the action in 'You come'?
+### OUTPUT:
+the action is 'come'.
+
+### INPUT:
+Read this sentence: They are sad.
+### OUTPUT:
+Okay: They are sad.
+
+### INPUT:
+In the sentence 'You ran', what part of speech is 'you'?
+### OUTPUT:
+'you' is a pronoun in that sentence.
+
+### INPUT:
+Read this sentence: It tells a road.
+### OUTPUT:
+Okay: It tells a road.
+
+### INPUT:
+In the sentence 'I go', what part of speech is 'i'?
+### OUTPUT:
+'i' is a pronoun in that sentence.
+
+### INPUT:
+Who or what is the sentence 'I have a book' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+In the sentence 'We were low', what part of speech is 'we'?
+### OUTPUT:
+'we' is a pronoun in that sentence.
+
+### INPUT:
+Read this sentence: She ate a family late.
+### OUTPUT:
+Okay: She ate a family late.
+
+### INPUT:
+What is the action in 'They walked'?
+### OUTPUT:
+the action is 'walked'.
+
+### INPUT:
+Read this sentence: She was heavy.
+### OUTPUT:
+Okay: She was heavy.
+
+### INPUT:
+Who or what is the sentence 'You ate a family sometimes' about?
+### OUTPUT:
+the sentence is about 'you'.
+
+### INPUT:
+Read this sentence: We see a dog out.
+### OUTPUT:
+Okay: We see a dog out.
+
+### INPUT:
+In the sentence 'It was poor', what part of speech is 'poor'?
+### OUTPUT:
+'poor' is an adjective in that sentence.
+
+### INPUT:
+In the sentence 'We drank a year well', what part of speech is 'year'?
+### OUTPUT:
+'year' is a noun in that sentence.
+
+### INPUT:
+What is the action in 'It is small'?
+### OUTPUT:
+the action is 'is'.
+
+### INPUT:
+Read this sentence: They made a child.
+### OUTPUT:
+Okay: They made a child.
+
+### INPUT:
+In the sentence 'He was beautiful', what part of speech is 'he'?
+### OUTPUT:
+'he' is a pronoun in that sentence.
+
+### INPUT:
+What is the action in 'You were cool'?
+### OUTPUT:
+the action is 'were'.
+
+### INPUT:
+What is the action in 'I is'?
+### OUTPUT:
+the action is 'is'.
+
+### INPUT:
+In the sentence 'He was open', what part of speech is 'was'?
+### OUTPUT:
+'was' is a verb in that sentence.
+
+### INPUT:
+What is the action in 'She is high'?
+### OUTPUT:
+the action is 'is'.
+
+### INPUT:
+Read this sentence: We make a family.
+### OUTPUT:
+Okay: We make a family.
+
+### INPUT:
+What is the action in 'You come'?
+### OUTPUT:
+the action is 'come'.
+
+### INPUT:
+What is the action in 'We beinged'?
+### OUTPUT:
+the action is 'beinged'.
+
+### INPUT:
+Read this sentence: She ate a city rarely.
+### OUTPUT:
+Okay: She ate a city rarely.
+
+### INPUT:
+Who or what is the sentence 'She is slow' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+Who or what is the sentence 'I said a fire tomorrow' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+Who or what is the sentence 'It beings' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+Who or what is the sentence 'They are red' about?
+### OUTPUT:
+the sentence is about 'they'.
+
+### INPUT:
+What is the action in 'I ared'?
+### OUTPUT:
+the action is 'ared'.
+
+### INPUT:
+Read this sentence: We give a road happily.
+### OUTPUT:
+Okay: We give a road happily.
+
+### INPUT:
+In the sentence 'She ran', what part of speech is 'ran'?
+### OUTPUT:
+'ran' is a verb in that sentence.
+
+### INPUT:
+Read this sentence: He drinks a car.
+### OUTPUT:
+Okay: He drinks a car.
+
+### INPUT:
+What is the action in 'We take a car'?
+### OUTPUT:
+the action is 'take'.
+
+### INPUT:
+In the sentence 'They were short', what part of speech is 'short'?
+### OUTPUT:
+'short' is an adjective in that sentence.
+
+### INPUT:
+Read this sentence: You are rich.
+### OUTPUT:
+Okay: You are rich.
+
+### INPUT:
+What is the action in 'I am good'?
+### OUTPUT:
+the action is 'am'.
+
+### INPUT:
+What is the action in 'It gives a food today'?
+### OUTPUT:
+the action is 'gives'.
+
+### INPUT:
+Read this sentence: She is alive.
+### OUTPUT:
+Okay: She is alive.
+
+### INPUT:
+What is the action in 'You sit'?
+### OUTPUT:
+the action is 'sit'.
+
+### INPUT:
+What is the action in 'He beinged'?
+### OUTPUT:
+the action is 'beinged'.
+
+### INPUT:
+Who or what is the sentence 'We looked' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+Read this sentence: It said a day.
+### OUTPUT:
+Okay: It said a day.
+
+### INPUT:
+What is the action in 'She is heavy'?
+### OUTPUT:
+the action is 'is'.
+
+### INPUT:
+Who or what is the sentence 'He was alive' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+Read this sentence: You speak a rock.
+### OUTPUT:
+Okay: You speak a rock.
+
+### INPUT:
+Read this sentence: I was cold.
+### OUTPUT:
+Okay: I was cold.
+
+### INPUT:
+Who or what is the sentence 'He takes a water fast' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+What is the action in 'She stands'?
+### OUTPUT:
+the action is 'stands'.
+
+### INPUT:
+Who or what is the sentence 'We are clean' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+Read this sentence: They took a man away.
+### OUTPUT:
+Okay: They took a man away.
+
+### INPUT:
+Read this sentence: We make a table.
+### OUTPUT:
+Okay: We make a table.
+
+### INPUT:
+What is the action in 'They were sad'?
+### OUTPUT:
+the action is 'were'.
+
+### INPUT:
+What is the action in 'You told a country enough'?
+### OUTPUT:
+the action is 'told'.
+
+### INPUT:
+What is the action in 'She walked'?
+### OUTPUT:
+the action is 'walked'.
+
+### INPUT:
+What is the action in 'We are high'?
+### OUTPUT:
+the action is 'are'.
+
+### INPUT:
+Who or what is the sentence 'They heard a year' about?
+### OUTPUT:
+the sentence is about 'they'.
+
+### INPUT:
+Read this sentence: We see a group enough.
+### OUTPUT:
+Okay: We see a group enough.
+
+### INPUT:
+What is the action in 'They were dark'?
+### OUTPUT:
+the action is 'were'.
+
+### INPUT:
+In the sentence 'I told an earth', what part of speech is 'an'?
+### OUTPUT:
+'an' is an article in that sentence.
+
+### INPUT:
+In the sentence 'They are heavy', what part of speech is 'they'?
+### OUTPUT:
+'they' is a pronoun in that sentence.
+
+### INPUT:
+In the sentence 'She was dark', what part of speech is 'was'?
+### OUTPUT:
+'was' is a verb in that sentence.
+
+### INPUT:
+What is the action in 'I say a house such'?
+### OUTPUT:
+the action is 'say'.
+
+### INPUT:
+Who or what is the sentence 'She takes a day' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+Read this sentence: He eats a team.
+### OUTPUT:
+Okay: He eats a team.
+
+### INPUT:
+What is the action in 'It was soft'?
+### OUTPUT:
+the action is 'was'.
+
+### INPUT:
+Read this sentence: I say a year.
+### OUTPUT:
+Okay: I say a year.
+
+### INPUT:
+Who or what is the sentence 'She goes' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+What is the action in 'They were slow'?
+### OUTPUT:
+the action is 'were'.
+
+### INPUT:
+What is the action in 'We have a man'?
+### OUTPUT:
+the action is 'have'.
+
+### INPUT:
+Read this sentence: He gave an earth away.
+### OUTPUT:
+Okay: He gave an earth away.
+
+### INPUT:
+Who or what is the sentence 'You were big' about?
+### OUTPUT:
+the sentence is about 'you'.
+
+### INPUT:
+In the sentence 'I talked', what part of speech is 'i'?
+### OUTPUT:
+'i' is a pronoun in that sentence.
+
+### INPUT:
+What is the action in 'I was green'?
+### OUTPUT:
+the action is 'was'.
+
+### INPUT:
+Who or what is the sentence 'He does a road' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+Who or what is the sentence 'They say a table' about?
+### OUTPUT:
+the sentence is about 'they'.
+
+### INPUT:
+Who or what is the sentence 'It is strong' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+In the sentence 'I said a rock', what part of speech is 'said'?
+### OUTPUT:
+'said' is a verb in that sentence.
+
+### INPUT:
+Who or what is the sentence 'She did a fish' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+Read this sentence: She ams.
+### OUTPUT:
+Okay: She ams.
+
+### INPUT:
+In the sentence 'He wases', what part of speech is 'wases'?
+### OUTPUT:
+'wases' is a verb in that sentence.
+
+### INPUT:
+What is the action in 'It is yellow'?
+### OUTPUT:
+the action is 'is'.
+
+### INPUT:
+In the sentence 'They did a night enough', what part of speech is 'enough'?
+### OUTPUT:
+'enough' is an adverb in that sentence.
+
+### INPUT:
+Who or what is the sentence 'You see a city out' about?
+### OUTPUT:
+the sentence is about 'you'.
+
+### INPUT:
+What is the action in 'She walked'?
+### OUTPUT:
+the action is 'walked'.
+
+### INPUT:
+What is the action in 'You walked'?
+### OUTPUT:
+the action is 'walked'.
+
+### INPUT:
+In the sentence 'It told a book', what part of speech is 'a'?
+### OUTPUT:
+'a' is an article in that sentence.
+
+### INPUT:
+What is the action in 'We told a food everywhere'?
+### OUTPUT:
+the action is 'told'.
+
+### INPUT:
+In the sentence 'It is green', what part of speech is 'it'?
+### OUTPUT:
+'it' is a pronoun in that sentence.
+
+### INPUT:
+Who or what is the sentence 'You had a fire' about?
+### OUTPUT:
+the sentence is about 'you'.
+
+### INPUT:
+Read this sentence: We ared.
+### OUTPUT:
+Okay: We ared.
+
+### INPUT:
+Read this sentence: She heard a food.
+### OUTPUT:
+Okay: She heard a food.
+
+### INPUT:
+What is the action in 'We beinged'?
+### OUTPUT:
+the action is 'beinged'.
+
+### INPUT:
+Read this sentence: He heard a grass rather.
+### OUTPUT:
+Okay: He heard a grass rather.
+
+### INPUT:
+What is the action in 'She was bad'?
+### OUTPUT:
+the action is 'was'.
+
+### INPUT:
+In the sentence 'She is interesting', what part of speech is 'she'?
+### OUTPUT:
+'she' is a pronoun in that sentence.
+
+### INPUT:
+In the sentence 'It is blue', what part of speech is 'blue'?
+### OUTPUT:
+'blue' is an adjective in that sentence.
+
+### INPUT:
+Read this sentence: They are black.
+### OUTPUT:
+Okay: They are black.
+
+### INPUT:
+In the sentence 'She sees a family', what part of speech is 'sees'?
+### OUTPUT:
+'sees' is a verb in that sentence.
+
+### INPUT:
+Read this sentence: They are good.
+### OUTPUT:
+Okay: They are good.
+
+### INPUT:
+Read this sentence: They gave a town outside.
+### OUTPUT:
+Okay: They gave a town outside.
+
+### INPUT:
+In the sentence 'She ared', what part of speech is 'she'?
+### OUTPUT:
+'she' is a pronoun in that sentence.
+
+### INPUT:
+In the sentence 'I was', what part of speech is 'was'?
+### OUTPUT:
+'was' is a verb in that sentence.
+
+### INPUT:
+Who or what is the sentence 'He ared' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+What is the action in 'You are beautiful'?
+### OUTPUT:
+the action is 'are'.
+
+### INPUT:
+Who or what is the sentence 'He beens' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+In the sentence 'I saw a person', what part of speech is 'i'?
+### OUTPUT:
+'i' is a pronoun in that sentence.
+
+### INPUT:
+Read this sentence: It was cold.
+### OUTPUT:
+Okay: It was cold.
+
+### INPUT:
+What is the action in 'You were wide'?
+### OUTPUT:
+the action is 'were'.
+
+### INPUT:
+Who or what is the sentence 'He heard a pen' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+In the sentence 'It was rich', what part of speech is 'rich'?
+### OUTPUT:
+'rich' is an adjective in that sentence.
+
+### INPUT:
+Read this sentence: I was good.
+### OUTPUT:
+Okay: I was good.
+
+### INPUT:
+What is the action in 'It says a fish'?
+### OUTPUT:
+the action is 'says'.
+
+### INPUT:
+In the sentence 'She talks', what part of speech is 'talks'?
+### OUTPUT:
+'talks' is a verb in that sentence.
+
+### INPUT:
+Read this sentence: It speaks a person sadly.
+### OUTPUT:
+Okay: It speaks a person sadly.
+
+### INPUT:
+What is the action in 'We see a bird'?
+### OUTPUT:
+the action is 'see'.
+
+### INPUT:
+In the sentence 'He sat', what part of speech is 'he'?
+### OUTPUT:
+'he' is a pronoun in that sentence.
+
+### INPUT:
+Who or what is the sentence 'She had a country happily' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+What is the action in 'She has a family rarely'?
+### OUTPUT:
+the action is 'has'.
+
+### INPUT:
+Read this sentence: You wased.
+### OUTPUT:
+Okay: You wased.
+
+### INPUT:
+Who or what is the sentence 'It walks' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+Read this sentence: It does a dog.
+### OUTPUT:
+Okay: It does a dog.
+
+### INPUT:
+What is the action in 'They see a woman enough'?
+### OUTPUT:
+the action is 'see'.
+
+### INPUT:
+Who or what is the sentence 'It looked' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+Who or what is the sentence 'They beinged' about?
+### OUTPUT:
+the sentence is about 'they'.
+
+### INPUT:
+What is the action in 'They being'?
+### OUTPUT:
+the action is 'being'.
+
+### INPUT:
+In the sentence 'I was', what part of speech is 'was'?
+### OUTPUT:
+'was' is a verb in that sentence.
+
+### INPUT:
+In the sentence 'You walked', what part of speech is 'you'?
+### OUTPUT:
+'you' is a pronoun in that sentence.
+
+### INPUT:
+Who or what is the sentence 'She has a rock nearly' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+Who or what is the sentence 'It ised' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+In the sentence 'She says a road rather', what part of speech is 'she'?
+### OUTPUT:
+'she' is a pronoun in that sentence.
+
+### INPUT:
+Who or what is the sentence 'She ate a pen' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+What is the action in 'It ate a stone'?
+### OUTPUT:
+the action is 'ate'.
+
+### INPUT:
+What is the action in 'He told a town nearly'?
+### OUTPUT:
+the action is 'told'.
+
+### INPUT:
+What is the action in 'I hear a grass'?
+### OUTPUT:
+the action is 'hear'.
+
+### INPUT:
+Read this sentence: I walk.
+### OUTPUT:
+Okay: I walk.
+
+### INPUT:
+In the sentence 'You say a star', what part of speech is 'star'?
+### OUTPUT:
+'star' is a noun in that sentence.
+
+### INPUT:
+Read this sentence: We sat.
+### OUTPUT:
+Okay: We sat.
+
+### INPUT:
+In the sentence 'You told a window well', what part of speech is 'window'?
+### OUTPUT:
+'window' is a noun in that sentence.
+
+### INPUT:
+What is the action in 'It makes a fire here'?
+### OUTPUT:
+the action is 'makes'.
+
+### INPUT:
+Who or what is the sentence 'It looks' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+In the sentence 'They were green', what part of speech is 'they'?
+### OUTPUT:
+'they' is a pronoun in that sentence.
+
+### INPUT:
+Read this sentence: They make a window yesterday.
+### OUTPUT:
+Okay: They make a window yesterday.
+
+### INPUT:
+Read this sentence: She is short.
+### OUTPUT:
+Okay: She is short.
+
+### INPUT:
+Read this sentence: She was big.
+### OUTPUT:
+Okay: She was big.
+
+### INPUT:
+Read this sentence: You made a tree down.
+### OUTPUT:
+Okay: You made a tree down.
+
+### INPUT:
+Read this sentence: They were big.
+### OUTPUT:
+Okay: They were big.
+
+### INPUT:
+Who or what is the sentence 'He did a year' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+What is the action in 'I drink a man'?
+### OUTPUT:
+the action is 'drink'.
+
+### INPUT:
+Who or what is the sentence 'They are bad' about?
+### OUTPUT:
+the sentence is about 'they'.
+
+### INPUT:
+Who or what is the sentence 'We speak a road' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+In the sentence 'We are cool', what part of speech is 'cool'?
+### OUTPUT:
+'cool' is an adjective in that sentence.
+
+### INPUT:
+Who or what is the sentence 'It heard a group' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+Who or what is the sentence 'We run' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+Read this sentence: He looked.
+### OUTPUT:
+Okay: He looked.
+
+### INPUT:
+In the sentence 'You drank a chair', what part of speech is 'chair'?
+### OUTPUT:
+'chair' is a noun in that sentence.
+
+### INPUT:
+In the sentence 'I ised', what part of speech is 'ised'?
+### OUTPUT:
+'ised' is a verb in that sentence.
+
+### INPUT:
+Read this sentence: They do a night easily.
+### OUTPUT:
+Okay: They do a night easily.
+
+### INPUT:
+In the sentence 'She drank a city so', what part of speech is 'drank'?
+### OUTPUT:
+'drank' is a verb in that sentence.
+
+### INPUT:
+What is the action in 'She sees a cat'?
+### OUTPUT:
+the action is 'sees'.
+
+### INPUT:
+Read this sentence: It was fast.
+### OUTPUT:
+Okay: It was fast.
+
+### INPUT:
+In the sentence 'I eat a fish', what part of speech is 'a'?
+### OUTPUT:
+'a' is an article in that sentence.
+
+### INPUT:
+What is the action in 'They speak a cat'?
+### OUTPUT:
+the action is 'speak'.
+
+### INPUT:
+In the sentence 'He ams', what part of speech is 'he'?
+### OUTPUT:
+'he' is a pronoun in that sentence.
+
+### INPUT:
+Who or what is the sentence 'You ared' about?
+### OUTPUT:
+the sentence is about 'you'.
+
+### INPUT:
+What is the action in 'She does a house then'?
+### OUTPUT:
+the action is 'does'.
+
+### INPUT:
+In the sentence 'You give a city then', what part of speech is 'give'?
+### OUTPUT:
+'give' is a verb in that sentence.
+
+### INPUT:
+Read this sentence: He drinks a woman.
+### OUTPUT:
+Okay: He drinks a woman.
+
+### INPUT:
+Read this sentence: It ate a food.
+### OUTPUT:
+Okay: It ate a food.
+
+### INPUT:
+In the sentence 'It ared', what part of speech is 'ared'?
+### OUTPUT:
+'ared' is a verb in that sentence.
+
+### INPUT:
+Read this sentence: They ised.
+### OUTPUT:
+Okay: They ised.
+
+### INPUT:
+What is the action in 'We are long'?
+### OUTPUT:
+the action is 'are'.
+
+### INPUT:
+Who or what is the sentence 'You are cool' about?
+### OUTPUT:
+the sentence is about 'you'.
+
+### INPUT:
+Who or what is the sentence 'We come' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+What is the action in 'I beinged'?
+### OUTPUT:
+the action is 'beinged'.
+
+### INPUT:
+In the sentence 'It sees a day rather', what part of speech is 'rather'?
+### OUTPUT:
+'rather' is an adverb in that sentence.
+
+### INPUT:
+In the sentence 'You were red', what part of speech is 'red'?
+### OUTPUT:
+'red' is an adjective in that sentence.
+
+### INPUT:
+What is the action in 'It said a cat'?
+### OUTPUT:
+the action is 'said'.
+
+### INPUT:
+Read this sentence: It was big.
+### OUTPUT:
+Okay: It was big.
+
+### INPUT:
+Who or what is the sentence 'She ised' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+In the sentence 'You make a table often', what part of speech is 'a'?
+### OUTPUT:
+'a' is an article in that sentence.
+
+### INPUT:
+What is the action in 'They are long'?
+### OUTPUT:
+the action is 'are'.
+
+### INPUT:
+In the sentence 'They come', what part of speech is 'they'?
+### OUTPUT:
+'they' is a pronoun in that sentence.
+
+### INPUT:
+What is the action in 'They do a person'?
+### OUTPUT:
+the action is 'do'.
+
+### INPUT:
+Read this sentence: They said a world then.
+### OUTPUT:
+Okay: They said a world then.
+
+### INPUT:
+In the sentence 'It did a town yesterday', what part of speech is 'yesterday'?
+### OUTPUT:
+'yesterday' is an adverb in that sentence.
+
+### INPUT:
+What is the action in 'They were red'?
+### OUTPUT:
+the action is 'were'.
+
+### INPUT:
+What is the action in 'We were good'?
+### OUTPUT:
+the action is 'were'.
+
+### INPUT:
+In the sentence 'She speaks a tree', what part of speech is 'speaks'?
+### OUTPUT:
+'speaks' is a verb in that sentence.
+
+### INPUT:
+In the sentence 'She ate a house', what part of speech is 'she'?
+### OUTPUT:
+'she' is a pronoun in that sentence.
+
+### INPUT:
+Who or what is the sentence 'She was interesting' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+Read this sentence: They wered.
+### OUTPUT:
+Okay: They wered.
+
+### INPUT:
+In the sentence 'It told an earth', what part of speech is 'it'?
+### OUTPUT:
+'it' is a pronoun in that sentence.
+
+### INPUT:
+What is the action in 'We ate a pen hard'?
+### OUTPUT:
+the action is 'ate'.
+
+### INPUT:
+Read this sentence: She sat.
+### OUTPUT:
+Okay: She sat.
+
+### INPUT:
+What is the action in 'It talks'?
+### OUTPUT:
+the action is 'talks'.
+
+### INPUT:
+Who or what is the sentence 'We are fast' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+In the sentence 'We am', what part of speech is 'am'?
+### OUTPUT:
+'am' is a verb in that sentence.
+
+### INPUT:
+Who or what is the sentence 'They say a flower' about?
+### OUTPUT:
+the sentence is about 'they'.
+
+### INPUT:
+In the sentence 'I hear a rock', what part of speech is 'hear'?
+### OUTPUT:
+'hear' is a verb in that sentence.
+
+### INPUT:
+What is the action in 'It walks'?
+### OUTPUT:
+the action is 'walks'.
+
+### INPUT:
+Who or what is the sentence 'We stood' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+Read this sentence: He is new.
+### OUTPUT:
+Okay: He is new.
+
+### INPUT:
+What is the action in 'It came'?
+### OUTPUT:
+the action is 'came'.
+
+### INPUT:
+Read this sentence: We were short.
+### OUTPUT:
+Okay: We were short.
+
+### INPUT:
+What is the action in 'You are open'?
+### OUTPUT:
+the action is 'are'.
+
+### INPUT:
+Who or what is the sentence 'It ared' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+In the sentence 'I am weak', what part of speech is 'am'?
+### OUTPUT:
+'am' is a verb in that sentence.
+
+### INPUT:
+In the sentence 'He was strong', what part of speech is 'was'?
+### OUTPUT:
+'was' is a verb in that sentence.
+
+### INPUT:
+What is the action in 'He spoke a night'?
+### OUTPUT:
+the action is 'spoke'.
+
+### INPUT:
+Read this sentence: It eats a child.
+### OUTPUT:
+Okay: It eats a child.
+
+### INPUT:
+Who or what is the sentence 'I did a food' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+What is the action in 'She was good'?
+### OUTPUT:
+the action is 'was'.
+
+### INPUT:
+In the sentence 'It eats a group', what part of speech is 'it'?
+### OUTPUT:
+'it' is a pronoun in that sentence.
+
+### INPUT:
+Who or what is the sentence 'It was open' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+In the sentence 'It says a car', what part of speech is 'car'?
+### OUTPUT:
+'car' is a noun in that sentence.
+
+### INPUT:
+Who or what is the sentence 'We drink a group' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+Who or what is the sentence 'They went' about?
+### OUTPUT:
+the sentence is about 'they'.
+
+### INPUT:
+Read this sentence: They are long.
+### OUTPUT:
+Okay: They are long.
+
+### INPUT:
+Read this sentence: I sat.
+### OUTPUT:
+Okay: I sat.
+
+### INPUT:
+Who or what is the sentence 'You are closed' about?
+### OUTPUT:
+the sentence is about 'you'.
+
+### INPUT:
+In the sentence 'She stands', what part of speech is 'stands'?
+### OUTPUT:
+'stands' is a verb in that sentence.
+
+### INPUT:
+Read this sentence: You were long.
+### OUTPUT:
+Okay: You were long.
+
+### INPUT:
+Who or what is the sentence 'She takes a team today' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+In the sentence 'It talked', what part of speech is 'talked'?
+### OUTPUT:
+'talked' is a verb in that sentence.
+
+### INPUT:
+In the sentence 'He heard a city yesterday', what part of speech is 'he'?
+### OUTPUT:
+'he' is a pronoun in that sentence.
+
+### INPUT:
+What is the action in 'She does a chair yesterday'?
+### OUTPUT:
+the action is 'does'.
+
+### INPUT:
+Read this sentence: It beened.
+### OUTPUT:
+Okay: It beened.
+
+### INPUT:
+Who or what is the sentence 'They walk' about?
+### OUTPUT:
+the sentence is about 'they'.
+
+### INPUT:
+What is the action in 'We speak a star sometimes'?
+### OUTPUT:
+the action is 'speak'.
+
+### INPUT:
+Read this sentence: You were hard.
+### OUTPUT:
+Okay: You were hard.
+
+### INPUT:
+Read this sentence: You were dead.
+### OUTPUT:
+Okay: You were dead.
+
+### INPUT:
+Who or what is the sentence 'It was closed' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+In the sentence 'They are dirty', what part of speech is 'they'?
+### OUTPUT:
+'they' is a pronoun in that sentence.
+
+### INPUT:
+Who or what is the sentence 'It was sad' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+Who or what is the sentence 'She is poor' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+Read this sentence: He said a grass nowhere.
+### OUTPUT:
+Okay: He said a grass nowhere.
+
+### INPUT:
+What is the action in 'You said a table quickly'?
+### OUTPUT:
+the action is 'said'.
+
+### INPUT:
+What is the action in 'He ams'?
+### OUTPUT:
+the action is 'ams'.
+
+### INPUT:
+In the sentence 'She saw a star', what part of speech is 'she'?
+### OUTPUT:
+'she' is a pronoun in that sentence.
+
+### INPUT:
+Read this sentence: He takes a cat.
+### OUTPUT:
+Okay: He takes a cat.
+
+### INPUT:
+Read this sentence: I was yellow.
+### OUTPUT:
+Okay: I was yellow.
+
+### INPUT:
+Who or what is the sentence 'You were closed' about?
+### OUTPUT:
+the sentence is about 'you'.
+
+### INPUT:
+Who or what is the sentence 'I take a dog very' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+Read this sentence: I speak a tree.
+### OUTPUT:
+Okay: I speak a tree.
+
+### INPUT:
+Who or what is the sentence 'They hear a door' about?
+### OUTPUT:
+the sentence is about 'they'.
+
+### INPUT:
+What is the action in 'You drink a bird'?
+### OUTPUT:
+the action is 'drink'.
+
+### INPUT:
+What is the action in 'You look'?
+### OUTPUT:
+the action is 'look'.
+
+### INPUT:
+What is the action in 'He stands'?
+### OUTPUT:
+the action is 'stands'.
+
+### INPUT:
+Who or what is the sentence 'We stand' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+Read this sentence: It ised.
+### OUTPUT:
+Okay: It ised.
+
+### INPUT:
+Read this sentence: It ises.
+### OUTPUT:
+Okay: It ises.
+
+### INPUT:
+In the sentence 'I am happy', what part of speech is 'i'?
+### OUTPUT:
+'i' is a pronoun in that sentence.
+
+### INPUT:
+In the sentence 'She speaks a man', what part of speech is 'speaks'?
+### OUTPUT:
+'speaks' is a verb in that sentence.
+
+### INPUT:
+What is the action in 'You walk'?
+### OUTPUT:
+the action is 'walk'.
+
+### INPUT:
+Read this sentence: You did a dog tomorrow.
+### OUTPUT:
+Okay: You did a dog tomorrow.
+
+### INPUT:
+Read this sentence: She is dirty.
+### OUTPUT:
+Okay: She is dirty.
+
+### INPUT:
+What is the action in 'I was red'?
+### OUTPUT:
+the action is 'was'.
+
+### INPUT:
+Who or what is the sentence 'We are short' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+Who or what is the sentence 'I heard a country in' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+Who or what is the sentence 'He tells a dog soon' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+What is the action in 'We are strong'?
+### OUTPUT:
+the action is 'are'.
+
+### INPUT:
+Read this sentence: I do a man.
+### OUTPUT:
+Okay: I do a man.
+
+### INPUT:
+Read this sentence: She looked.
+### OUTPUT:
+Okay: She looked.
+
+### INPUT:
+In the sentence 'He drinks a dog quite', what part of speech is 'a'?
+### OUTPUT:
+'a' is an article in that sentence.
+
+### INPUT:
+In the sentence 'They spoke a chair', what part of speech is 'a'?
+### OUTPUT:
+'a' is an article in that sentence.
+
+### INPUT:
+Read this sentence: It gives a group.
+### OUTPUT:
+Okay: It gives a group.
+
+### INPUT:
+In the sentence 'I speak a group', what part of speech is 'a'?
+### OUTPUT:
+'a' is an article in that sentence.
+
+### INPUT:
+Read this sentence: They were cool.
+### OUTPUT:
+Okay: They were cool.
+
+### INPUT:
+In the sentence 'He eats a cat too', what part of speech is 'cat'?
+### OUTPUT:
+'cat' is a noun in that sentence.
+
+### INPUT:
+Read this sentence: He is short.
+### OUTPUT:
+Okay: He is short.
+
+### INPUT:
+Read this sentence: It sits.
+### OUTPUT:
+Okay: It sits.
+
+### INPUT:
+Who or what is the sentence 'They are interesting' about?
+### OUTPUT:
+the sentence is about 'they'.
+
+### INPUT:
+What is the action in 'They tell a chair'?
+### OUTPUT:
+the action is 'tell'.
+
+### INPUT:
+Who or what is the sentence 'She is wide' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+What is the action in 'She walks'?
+### OUTPUT:
+the action is 'walks'.
+
+### INPUT:
+Read this sentence: You look.
+### OUTPUT:
+Okay: You look.
+
+### INPUT:
+Who or what is the sentence 'It amed' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+Who or what is the sentence 'It drinks a person' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+In the sentence 'I drank a family', what part of speech is 'drank'?
+### OUTPUT:
+'drank' is a verb in that sentence.
+
+### INPUT:
+Who or what is the sentence 'They ate a group today' about?
+### OUTPUT:
+the sentence is about 'they'.
+
+### INPUT:
+In the sentence 'It runs', what part of speech is 'it'?
+### OUTPUT:
+'it' is a pronoun in that sentence.
+
+### INPUT:
+Who or what is the sentence 'You do a road rarely' about?
+### OUTPUT:
+the sentence is about 'you'.
+
+### INPUT:
+In the sentence 'It is strong', what part of speech is 'is'?
+### OUTPUT:
+'is' is a verb in that sentence.
+
+### INPUT:
+Read this sentence: He was bright.
+### OUTPUT:
+Okay: He was bright.
+
+### INPUT:
+In the sentence 'It tells a car nowhere', what part of speech is 'car'?
+### OUTPUT:
+'car' is a noun in that sentence.
+
+### INPUT:
+What is the action in 'She does a world'?
+### OUTPUT:
+the action is 'does'.
+
+### INPUT:
+Who or what is the sentence 'We were big' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+Who or what is the sentence 'We have a person late' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+Who or what is the sentence 'It hears a window' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+What is the action in 'We were sad'?
+### OUTPUT:
+the action is 'were'.
+
+### INPUT:
+What is the action in 'I are'?
+### OUTPUT:
+the action is 'are'.
+
+### INPUT:
+In the sentence 'They ran', what part of speech is 'ran'?
+### OUTPUT:
+'ran' is a verb in that sentence.
+
+### INPUT:
+What is the action in 'They am'?
+### OUTPUT:
+the action is 'am'.
+
+### INPUT:
+Read this sentence: I am bad.
+### OUTPUT:
+Okay: I am bad.
+
+### INPUT:
+Who or what is the sentence 'It wered' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+What is the action in 'You spoke a window'?
+### OUTPUT:
+the action is 'spoke'.
+
+### INPUT:
+Read this sentence: She was strong.
+### OUTPUT:
+Okay: She was strong.
+
+### INPUT:
+What is the action in 'I come'?
+### OUTPUT:
+the action is 'come'.
+
+### INPUT:
+Read this sentence: He did a rock.
+### OUTPUT:
+Okay: He did a rock.
+
+### INPUT:
+In the sentence 'You ate a world often', what part of speech is 'a'?
+### OUTPUT:
+'a' is an article in that sentence.
+
+### INPUT:
+Read this sentence: She takes an air.
+### OUTPUT:
+Okay: She takes an air.
+
+### INPUT:
+Who or what is the sentence 'We were dark' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+In the sentence 'She did a chair', what part of speech is 'a'?
+### OUTPUT:
+'a' is an article in that sentence.
+
+### INPUT:
+In the sentence 'They are hard', what part of speech is 'they'?
+### OUTPUT:
+'they' is a pronoun in that sentence.
+
+### INPUT:
+What is the action in 'It was old'?
+### OUTPUT:
+the action is 'was'.
+
+### INPUT:
+Who or what is the sentence 'You been' about?
+### OUTPUT:
+the sentence is about 'you'.
+
+### INPUT:
+Who or what is the sentence 'You was' about?
+### OUTPUT:
+the sentence is about 'you'.
+
+### INPUT:
+What is the action in 'He ate a group'?
+### OUTPUT:
+the action is 'ate'.
+
+### INPUT:
+Read this sentence: It is yellow.
+### OUTPUT:
+Okay: It is yellow.
+
+### INPUT:
+What is the action in 'They ate a town'?
+### OUTPUT:
+the action is 'ate'.
+
+### INPUT:
+Read this sentence: They wered.
+### OUTPUT:
+Okay: They wered.
+
+### INPUT:
+Read this sentence: We are young.
+### OUTPUT:
+Okay: We are young.
+
+### INPUT:
+In the sentence 'He heard an air today', what part of speech is 'today'?
+### OUTPUT:
+'today' is an adverb in that sentence.
+
+### INPUT:
+In the sentence 'She said a stone', what part of speech is 'she'?
+### OUTPUT:
+'she' is a pronoun in that sentence.
+
+### INPUT:
+What is the action in 'You ran'?
+### OUTPUT:
+the action is 'ran'.
+
+### INPUT:
+In the sentence 'She takes a group everywhere', what part of speech is 'a'?
+### OUTPUT:
+'a' is an article in that sentence.
+
+### INPUT:
+Read this sentence: I have a fire away.
+### OUTPUT:
+Okay: I have a fire away.
+
+### INPUT:
+In the sentence 'She hears a night', what part of speech is 'she'?
+### OUTPUT:
+'she' is a pronoun in that sentence.
+
+### INPUT:
+Who or what is the sentence 'You saw a night sometimes' about?
+### OUTPUT:
+the sentence is about 'you'.
+
+### INPUT:
+Who or what is the sentence 'I was white' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+Read this sentence: We amed.
+### OUTPUT:
+Okay: We amed.
+
+### INPUT:
+Who or what is the sentence 'We go' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+Who or what is the sentence 'She talked' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+Who or what is the sentence 'She hears a star' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+In the sentence 'He sees a house', what part of speech is 'house'?
+### OUTPUT:
+'house' is a noun in that sentence.
+
+### INPUT:
+Who or what is the sentence 'You make a man early' about?
+### OUTPUT:
+the sentence is about 'you'.
+
+### INPUT:
+What is the action in 'We made a group'?
+### OUTPUT:
+the action is 'made'.
+
+### INPUT:
+In the sentence 'He takes a cat', what part of speech is 'he'?
+### OUTPUT:
+'he' is a pronoun in that sentence.
+
+### INPUT:
+In the sentence 'I stood', what part of speech is 'i'?
+### OUTPUT:
+'i' is a pronoun in that sentence.
+
+### INPUT:
+Read this sentence: I ate a day.
+### OUTPUT:
+Okay: I ate a day.
+
+### INPUT:
+Who or what is the sentence 'They said a fire' about?
+### OUTPUT:
+the sentence is about 'they'.
+
+### INPUT:
+Who or what is the sentence 'He jumped' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+In the sentence 'We walk', what part of speech is 'we'?
+### OUTPUT:
+'we' is a pronoun in that sentence.
+
+### INPUT:
+Read this sentence: You are bad.
+### OUTPUT:
+Okay: You are bad.
+
+### INPUT:
+Read this sentence: She was sad.
+### OUTPUT:
+Okay: She was sad.
+
+### INPUT:
+In the sentence 'He beens', what part of speech is 'he'?
+### OUTPUT:
+'he' is a pronoun in that sentence.
+
+### INPUT:
+Who or what is the sentence 'He was clean' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+Who or what is the sentence 'She had a tree soon' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+In the sentence 'They were slow', what part of speech is 'were'?
+### OUTPUT:
+'were' is a verb in that sentence.
+
+### INPUT:
+What is the action in 'They had a man tomorrow'?
+### OUTPUT:
+the action is 'had'.
+
+### INPUT:
+Who or what is the sentence 'We come' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+Who or what is the sentence 'She drank a food' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+What is the action in 'You told a night'?
+### OUTPUT:
+the action is 'told'.
+
+### INPUT:
+In the sentence 'It does a year fast', what part of speech is 'fast'?
+### OUTPUT:
+'fast' is an adverb in that sentence.
+
+### INPUT:
+In the sentence 'She beens', what part of speech is 'she'?
+### OUTPUT:
+'she' is a pronoun in that sentence.
+
+### INPUT:
+What is the action in 'You run'?
+### OUTPUT:
+the action is 'run'.
+
+### INPUT:
+Who or what is the sentence 'It saw a woman' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+Who or what is the sentence 'She eats a stone almost' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+What is the action in 'We amed'?
+### OUTPUT:
+the action is 'amed'.
+
+### INPUT:
+Who or what is the sentence 'We tell a pen' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+What is the action in 'He speaks a star'?
+### OUTPUT:
+the action is 'speaks'.
+
+### INPUT:
+Who or what is the sentence 'It hears a friend sadly' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+Read this sentence: We are old.
+### OUTPUT:
+Okay: We are old.
+
+### INPUT:
+Read this sentence: He was open.
+### OUTPUT:
+Okay: He was open.
+
+### INPUT:
+In the sentence 'You beinged', what part of speech is 'you'?
+### OUTPUT:
+'you' is a pronoun in that sentence.
+
+### INPUT:
+In the sentence 'They spoke a moon everywhere', what part of speech is 'a'?
+### OUTPUT:
+'a' is an article in that sentence.
+
+### INPUT:
+Who or what is the sentence 'He hears a road fast' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+Who or what is the sentence 'I spoke a sun' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+In the sentence 'You beened', what part of speech is 'beened'?
+### OUTPUT:
+'beened' is a verb in that sentence.
+
+### INPUT:
+Read this sentence: I am white.
+### OUTPUT:
+Okay: I am white.
+
+### INPUT:
+What is the action in 'You are black'?
+### OUTPUT:
+the action is 'are'.
+
+### INPUT:
+Who or what is the sentence 'He gives a food sometimes' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+What is the action in 'It took a car'?
+### OUTPUT:
+the action is 'took'.
+
+### INPUT:
+Who or what is the sentence 'It spoke a sun rarely' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+Read this sentence: She runs.
+### OUTPUT:
+Okay: She runs.
+
+### INPUT:
+What is the action in 'She gives a grass in'?
+### OUTPUT:
+the action is 'gives'.
+
+### INPUT:
+In the sentence 'You are strong', what part of speech is 'you'?
+### OUTPUT:
+'you' is a pronoun in that sentence.
+
+### INPUT:
+What is the action in 'I spoke a night'?
+### OUTPUT:
+the action is 'spoke'.
+
+### INPUT:
+In the sentence 'She spoke a house quite', what part of speech is 'house'?
+### OUTPUT:
+'house' is a noun in that sentence.
+
+### INPUT:
+Who or what is the sentence 'It looked' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+In the sentence 'He hears a sun then', what part of speech is 'he'?
+### OUTPUT:
+'he' is a pronoun in that sentence.
+
+### INPUT:
+What is the action in 'It took a city easily'?
+### OUTPUT:
+the action is 'took'.
+
+### INPUT:
+What is the action in 'I were'?
+### OUTPUT:
+the action is 'were'.
+
+### INPUT:
+Read this sentence: You were interesting.
+### OUTPUT:
+Okay: You were interesting.
+
+### INPUT:
+Who or what is the sentence 'He makes a house nowhere' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+What is the action in 'It saw a dog'?
+### OUTPUT:
+the action is 'saw'.
+
+### INPUT:
+Who or what is the sentence 'You are interesting' about?
+### OUTPUT:
+the sentence is about 'you'.
+
+### INPUT:
+In the sentence 'We is', what part of speech is 'is'?
+### OUTPUT:
+'is' is a verb in that sentence.
+
+### INPUT:
+Read this sentence: We is.
+### OUTPUT:
+Okay: We is.
+
+### INPUT:
+In the sentence 'I was warm', what part of speech is 'i'?
+### OUTPUT:
+'i' is a pronoun in that sentence.
+
+### INPUT:
+In the sentence 'He amed', what part of speech is 'he'?
+### OUTPUT:
+'he' is a pronoun in that sentence.
+
+### INPUT:
+Who or what is the sentence 'He heard a person' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+In the sentence 'She spoke a chair down', what part of speech is 'spoke'?
+### OUTPUT:
+'spoke' is a verb in that sentence.
+
+### INPUT:
+Read this sentence: She speaks a tree.
+### OUTPUT:
+Okay: She speaks a tree.
+
+### INPUT:
+In the sentence 'We were interesting', what part of speech is 'were'?
+### OUTPUT:
+'were' is a verb in that sentence.
+
+### INPUT:
+Read this sentence: I say a city often.
+### OUTPUT:
+Okay: I say a city often.
+
+### INPUT:
+Read this sentence: You are fast.
+### OUTPUT:
+Okay: You are fast.
+
+### INPUT:
+Who or what is the sentence 'He was small' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+In the sentence 'We are open', what part of speech is 'we'?
+### OUTPUT:
+'we' is a pronoun in that sentence.
+
+### INPUT:
+Who or what is the sentence 'They were bad' about?
+### OUTPUT:
+the sentence is about 'they'.
+
+### INPUT:
+What is the action in 'They did a door'?
+### OUTPUT:
+the action is 'did'.
+
+### INPUT:
+What is the action in 'He made a world in'?
+### OUTPUT:
+the action is 'made'.
+
+### INPUT:
+Who or what is the sentence 'It heard a sun such' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+Read this sentence: We have a book there.
+### OUTPUT:
+Okay: We have a book there.
+
+### INPUT:
+Who or what is the sentence 'It was heavy' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+Who or what is the sentence 'It jumped' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+In the sentence 'We told a bird', what part of speech is 'a'?
+### OUTPUT:
+'a' is an article in that sentence.
+
+### INPUT:
+Who or what is the sentence 'It drank a person back' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+In the sentence 'It makes a grass', what part of speech is 'grass'?
+### OUTPUT:
+'grass' is a noun in that sentence.
+
+### INPUT:
+Who or what is the sentence 'They were strong' about?
+### OUTPUT:
+the sentence is about 'they'.
+
+### INPUT:
+What is the action in 'We heard a window late'?
+### OUTPUT:
+the action is 'heard'.
+
+### INPUT:
+What is the action in 'It amed'?
+### OUTPUT:
+the action is 'amed'.
+
+### INPUT:
+In the sentence 'He is hard', what part of speech is 'is'?
+### OUTPUT:
+'is' is a verb in that sentence.
+
+### INPUT:
+In the sentence 'You ran', what part of speech is 'ran'?
+### OUTPUT:
+'ran' is a verb in that sentence.
+
+### INPUT:
+In the sentence 'It is good', what part of speech is 'it'?
+### OUTPUT:
+'it' is a pronoun in that sentence.
+
+### INPUT:
+Read this sentence: She told a sun.
+### OUTPUT:
+Okay: She told a sun.
+
+### INPUT:
+What is the action in 'He tells a year here'?
+### OUTPUT:
+the action is 'tells'.
+
+### INPUT:
+What is the action in 'She is yellow'?
+### OUTPUT:
+the action is 'is'.
+
+### INPUT:
+In the sentence 'I is', what part of speech is 'is'?
+### OUTPUT:
+'is' is a verb in that sentence.
+
+### INPUT:
+What is the action in 'She heard a day'?
+### OUTPUT:
+the action is 'heard'.
+
+### INPUT:
+Who or what is the sentence 'We looked' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+Read this sentence: We came.
+### OUTPUT:
+Okay: We came.
+
+### INPUT:
+What is the action in 'It eats a food'?
+### OUTPUT:
+the action is 'eats'.
+
+### INPUT:
+Who or what is the sentence 'We were green' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+What is the action in 'I give a house very'?
+### OUTPUT:
+the action is 'give'.
+
+### INPUT:
+What is the action in 'I did a star nearly'?
+### OUTPUT:
+the action is 'did'.
+
+### INPUT:
+Who or what is the sentence 'You told a group today' about?
+### OUTPUT:
+the sentence is about 'you'.
+
+### INPUT:
+Read this sentence: She stands.
+### OUTPUT:
+Okay: She stands.
+
+### INPUT:
+What is the action in 'He hears a day fast'?
+### OUTPUT:
+the action is 'hears'.
+
+### INPUT:
+Read this sentence: He comes.
+### OUTPUT:
+Okay: He comes.
+
+### INPUT:
+Who or what is the sentence 'She is warm' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+What is the action in 'I amed'?
+### OUTPUT:
+the action is 'amed'.
+
+### INPUT:
+In the sentence 'He is fast', what part of speech is 'is'?
+### OUTPUT:
+'is' is a verb in that sentence.
+
+### INPUT:
+Who or what is the sentence 'We drank a table sadly' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+Read this sentence: I was cold.
+### OUTPUT:
+Okay: I was cold.
+
+### INPUT:
+In the sentence 'You tell a star', what part of speech is 'you'?
+### OUTPUT:
+'you' is a pronoun in that sentence.
+
+### INPUT:
+What is the action in 'They are'?
+### OUTPUT:
+the action is 'are'.
+
+### INPUT:
+Who or what is the sentence 'It amed' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+Read this sentence: They spoke a moon quite.
+### OUTPUT:
+Okay: They spoke a moon quite.
+
+### INPUT:
+Read this sentence: He was wide.
+### OUTPUT:
+Okay: He was wide.
+
+### INPUT:
+Read this sentence: I say a person enough.
+### OUTPUT:
+Okay: I say a person enough.
+
+### INPUT:
+What is the action in 'He drinks a family almost'?
+### OUTPUT:
+the action is 'drinks'.
+
+### INPUT:
+In the sentence 'It makes a person', what part of speech is 'a'?
+### OUTPUT:
+'a' is an article in that sentence.
+
+### INPUT:
+Who or what is the sentence 'She hears a country' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+In the sentence 'They were cold', what part of speech is 'they'?
+### OUTPUT:
+'they' is a pronoun in that sentence.
+
+### INPUT:
+Read this sentence: We heard a grass too.
+### OUTPUT:
+Okay: We heard a grass too.
+
+### INPUT:
+What is the action in 'They tell a city tomorrow'?
+### OUTPUT:
+the action is 'tell'.
+
+### INPUT:
+What is the action in 'It was slow'?
+### OUTPUT:
+the action is 'was'.
+
+### INPUT:
+What is the action in 'They had a stone'?
+### OUTPUT:
+the action is 'had'.
+
+### INPUT:
+In the sentence 'He was warm', what part of speech is 'warm'?
+### OUTPUT:
+'warm' is an adjective in that sentence.
+
+### INPUT:
+In the sentence 'She ares', what part of speech is 'she'?
+### OUTPUT:
+'she' is a pronoun in that sentence.
+
+### INPUT:
+Who or what is the sentence 'I sit' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+Who or what is the sentence 'She drank a team sometimes' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+What is the action in 'She has a book'?
+### OUTPUT:
+the action is 'has'.
+
+### INPUT:
+Read this sentence: It was slow.
+### OUTPUT:
+Okay: It was slow.
+
+### INPUT:
+In the sentence 'They talk', what part of speech is 'they'?
+### OUTPUT:
+'they' is a pronoun in that sentence.
+
+### INPUT:
+Who or what is the sentence 'I drink a country almost' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+Read this sentence: It walks.
+### OUTPUT:
+Okay: It walks.
+
+### INPUT:
+What is the action in 'You wased'?
+### OUTPUT:
+the action is 'wased'.
+
+### INPUT:
+In the sentence 'I see a window', what part of speech is 'a'?
+### OUTPUT:
+'a' is an article in that sentence.
+
+### INPUT:
+Who or what is the sentence 'He was strong' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+Who or what is the sentence 'He jumped' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+In the sentence 'You was', what part of speech is 'was'?
+### OUTPUT:
+'was' is a verb in that sentence.
+
+### INPUT:
+In the sentence 'They saw a pen', what part of speech is 'saw'?
+### OUTPUT:
+'saw' is a verb in that sentence.
+
+### INPUT:
+In the sentence 'I am beautiful', what part of speech is 'beautiful'?
+### OUTPUT:
+'beautiful' is an adjective in that sentence.
+
+### INPUT:
+Read this sentence: It has a country well.
+### OUTPUT:
+Okay: It has a country well.
+
+### INPUT:
+Who or what is the sentence 'I was soft' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+In the sentence 'She eats a day fast', what part of speech is 'eats'?
+### OUTPUT:
+'eats' is a verb in that sentence.
+
+### INPUT:
+Who or what is the sentence 'You stood' about?
+### OUTPUT:
+the sentence is about 'you'.
+
+### INPUT:
+What is the action in 'You said a woman'?
+### OUTPUT:
+the action is 'said'.
+
+### INPUT:
+In the sentence 'It sat', what part of speech is 'sat'?
+### OUTPUT:
+'sat' is a verb in that sentence.
+
+### INPUT:
+Read this sentence: He was interesting.
+### OUTPUT:
+Okay: He was interesting.
+
+### INPUT:
+Who or what is the sentence 'It ate a friend never' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+Who or what is the sentence 'It walks' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+Read this sentence: They were wide.
+### OUTPUT:
+Okay: They were wide.
+
+### INPUT:
+What is the action in 'It ised'?
+### OUTPUT:
+the action is 'ised'.
+
+### INPUT:
+Read this sentence: It sat.
+### OUTPUT:
+Okay: It sat.
+
+### INPUT:
+In the sentence 'They have a moon today', what part of speech is 'have'?
+### OUTPUT:
+'have' is a verb in that sentence.
+
+### INPUT:
+In the sentence 'She drinks a water', what part of speech is 'drinks'?
+### OUTPUT:
+'drinks' is a verb in that sentence.
+
+### INPUT:
+Who or what is the sentence 'They wased' about?
+### OUTPUT:
+the sentence is about 'they'.
+
+### INPUT:
+What is the action in 'They have a tree slowly'?
+### OUTPUT:
+the action is 'have'.
+
+### INPUT:
+What is the action in 'It did a fire'?
+### OUTPUT:
+the action is 'did'.
+
+### INPUT:
+Read this sentence: I am empty.
+### OUTPUT:
+Okay: I am empty.
+
+### INPUT:
+In the sentence 'We are full', what part of speech is 'are'?
+### OUTPUT:
+'are' is a verb in that sentence.
+
+### INPUT:
+Read this sentence: You did a book.
+### OUTPUT:
+Okay: You did a book.
+
+### INPUT:
+Who or what is the sentence 'They are full' about?
+### OUTPUT:
+the sentence is about 'they'.
+
+### INPUT:
+Who or what is the sentence 'It came' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+What is the action in 'It did a grass sadly'?
+### OUTPUT:
+the action is 'did'.
+
+### INPUT:
+In the sentence 'It was cool', what part of speech is 'was'?
+### OUTPUT:
+'was' is a verb in that sentence.
+
+### INPUT:
+Read this sentence: You eat a tree.
+### OUTPUT:
+Okay: You eat a tree.
+
+### INPUT:
+In the sentence 'We are', what part of speech is 'are'?
+### OUTPUT:
+'are' is a verb in that sentence.
+
+### INPUT:
+Read this sentence: I told a house.
+### OUTPUT:
+Okay: I told a house.
+
+### INPUT:
+In the sentence 'We give a car quite', what part of speech is 'we'?
+### OUTPUT:
+'we' is a pronoun in that sentence.
+
+### INPUT:
+What is the action in 'We are'?
+### OUTPUT:
+the action is 'are'.
+
+### INPUT:
+Who or what is the sentence 'We drank a door' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+What is the action in 'She took a town'?
+### OUTPUT:
+the action is 'took'.
+
+### INPUT:
+Read this sentence: It says a star badly.
+### OUTPUT:
+Okay: It says a star badly.
+
+### INPUT:
+Who or what is the sentence 'You are empty' about?
+### OUTPUT:
+the sentence is about 'you'.
+
+### INPUT:
+What is the action in 'It makes a town fast'?
+### OUTPUT:
+the action is 'makes'.
+
+### INPUT:
+Read this sentence: You are wide.
+### OUTPUT:
+Okay: You are wide.
+
+### INPUT:
+Read this sentence: We talk.
+### OUTPUT:
+Okay: We talk.
+
+### INPUT:
+In the sentence 'It saw a team', what part of speech is 'team'?
+### OUTPUT:
+'team' is a noun in that sentence.
+
+### INPUT:
+Read this sentence: They gave a child usually.
+### OUTPUT:
+Okay: They gave a child usually.
+
+### INPUT:
+Read this sentence: It makes a city out.
+### OUTPUT:
+Okay: It makes a city out.
+
+### INPUT:
+What is the action in 'I give a grass never'?
+### OUTPUT:
+the action is 'give'.
+
+### INPUT:
+Read this sentence: She ate a tree hard.
+### OUTPUT:
+Okay: She ate a tree hard.
+
+### INPUT:
+In the sentence 'You said a chair easily', what part of speech is 'a'?
+### OUTPUT:
+'a' is an article in that sentence.
+
+### INPUT:
+Who or what is the sentence 'He was bright' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+What is the action in 'We gave a bird'?
+### OUTPUT:
+the action is 'gave'.
+
+### INPUT:
+Read this sentence: You told a fish.
+### OUTPUT:
+Okay: You told a fish.
+
+### INPUT:
+In the sentence 'She looked', what part of speech is 'she'?
+### OUTPUT:
+'she' is a pronoun in that sentence.
+
+### INPUT:
+What is the action in 'I am old'?
+### OUTPUT:
+the action is 'am'.
+
+### INPUT:
+In the sentence 'She amed', what part of speech is 'she'?
+### OUTPUT:
+'she' is a pronoun in that sentence.
+
+### INPUT:
+In the sentence 'You are strong', what part of speech is 'strong'?
+### OUTPUT:
+'strong' is an adjective in that sentence.
+
+### INPUT:
+What is the action in 'You are young'?
+### OUTPUT:
+the action is 'are'.
+
+### INPUT:
+In the sentence 'We beened', what part of speech is 'beened'?
+### OUTPUT:
+'beened' is a verb in that sentence.
+
+### INPUT:
+In the sentence 'They were', what part of speech is 'were'?
+### OUTPUT:
+'were' is a verb in that sentence.
+
+### INPUT:
+Who or what is the sentence 'They were rich' about?
+### OUTPUT:
+the sentence is about 'they'.
+
+### INPUT:
+What is the action in 'They saw a world then'?
+### OUTPUT:
+the action is 'saw'.
+
+### INPUT:
+Who or what is the sentence 'We stand' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+In the sentence 'We were rich', what part of speech is 'rich'?
+### OUTPUT:
+'rich' is an adjective in that sentence.
+
+### INPUT:
+Who or what is the sentence 'He beened' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+In the sentence 'They were short', what part of speech is 'they'?
+### OUTPUT:
+'they' is a pronoun in that sentence.
+
+### INPUT:
+Who or what is the sentence 'You tell a city' about?
+### OUTPUT:
+the sentence is about 'you'.
+
+### INPUT:
+What is the action in 'You speak a cat'?
+### OUTPUT:
+the action is 'speak'.
+
+### INPUT:
+In the sentence 'She jumped', what part of speech is 'jumped'?
+### OUTPUT:
+'jumped' is a verb in that sentence.
+
+### INPUT:
+In the sentence 'I saw a country rarely', what part of speech is 'rarely'?
+### OUTPUT:
+'rarely' is an adverb in that sentence.
+
+### INPUT:
+Read this sentence: It sees a sun.
+### OUTPUT:
+Okay: It sees a sun.
+
+### INPUT:
+In the sentence 'They were bad', what part of speech is 'they'?
+### OUTPUT:
+'they' is a pronoun in that sentence.
+
+### INPUT:
+Who or what is the sentence 'He made a sun' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+In the sentence 'It was dark', what part of speech is 'it'?
+### OUTPUT:
+'it' is a pronoun in that sentence.
+
+### INPUT:
+What is the action in 'He is poor'?
+### OUTPUT:
+the action is 'is'.
+
+### INPUT:
+Read this sentence: She wases.
+### OUTPUT:
+Okay: She wases.
+
+### INPUT:
+What is the action in 'She drank a world hard'?
+### OUTPUT:
+the action is 'drank'.
+
+### INPUT:
+Read this sentence: He talked.
+### OUTPUT:
+Okay: He talked.
+
+### INPUT:
+In the sentence 'She drinks a woman', what part of speech is 'woman'?
+### OUTPUT:
+'woman' is a noun in that sentence.
+
+### INPUT:
+Who or what is the sentence 'She talks' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+Who or what is the sentence 'I is' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+What is the action in 'She told a window'?
+### OUTPUT:
+the action is 'told'.
+
+### INPUT:
+In the sentence 'He takes a fire outside', what part of speech is 'fire'?
+### OUTPUT:
+'fire' is a noun in that sentence.
+
+### INPUT:
+Read this sentence: He had a road.
+### OUTPUT:
+Okay: He had a road.
+
+### INPUT:
+Who or what is the sentence 'You say a world' about?
+### OUTPUT:
+the sentence is about 'you'.
+
+### INPUT:
+What is the action in 'They was'?
+### OUTPUT:
+the action is 'was'.
+
+### INPUT:
+Read this sentence: He drinks a window now.
+### OUTPUT:
+Okay: He drinks a window now.
+
+### INPUT:
+What is the action in 'You sat'?
+### OUTPUT:
+the action is 'sat'.
+
+### INPUT:
+What is the action in 'They took a person'?
+### OUTPUT:
+the action is 'took'.
+
+### INPUT:
+What is the action in 'He is green'?
+### OUTPUT:
+the action is 'is'.
+
+### INPUT:
+What is the action in 'She beened'?
+### OUTPUT:
+the action is 'beened'.
+
+### INPUT:
+Who or what is the sentence 'He is red' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+What is the action in 'We had a grass out'?
+### OUTPUT:
+the action is 'had'.
+
+### INPUT:
+Who or what is the sentence 'They take an air down' about?
+### OUTPUT:
+the sentence is about 'they'.
+
+### INPUT:
+In the sentence 'She looked', what part of speech is 'she'?
+### OUTPUT:
+'she' is a pronoun in that sentence.
+
+### INPUT:
+What is the action in 'It had a moon down'?
+### OUTPUT:
+the action is 'had'.
+
+### INPUT:
+In the sentence 'We drank an air today', what part of speech is 'air'?
+### OUTPUT:
+'air' is a noun in that sentence.
+
+### INPUT:
+What is the action in 'She was narrow'?
+### OUTPUT:
+the action is 'was'.
+
+### INPUT:
+Who or what is the sentence 'You eat a moon up' about?
+### OUTPUT:
+the sentence is about 'you'.
+
+### INPUT:
+What is the action in 'He is long'?
+### OUTPUT:
+the action is 'is'.
+
+### INPUT:
+Who or what is the sentence 'I see a chair fast' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+Read this sentence: We were strong.
+### OUTPUT:
+Okay: We were strong.
+
+### INPUT:
+What is the action in 'You were narrow'?
+### OUTPUT:
+the action is 'were'.
+
+### INPUT:
+Who or what is the sentence 'She sits' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+What is the action in 'He eats an earth'?
+### OUTPUT:
+the action is 'eats'.
+
+### INPUT:
+Read this sentence: I drank a world hard.
+### OUTPUT:
+Okay: I drank a world hard.
+
+### INPUT:
+Who or what is the sentence 'I was narrow' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+In the sentence 'She speaks a house yesterday', what part of speech is 'speaks'?
+### OUTPUT:
+'speaks' is a verb in that sentence.
+
+### INPUT:
+Read this sentence: They are warm.
+### OUTPUT:
+Okay: They are warm.
+
+### INPUT:
+Read this sentence: We took a book happily.
+### OUTPUT:
+Okay: We took a book happily.
+
+### INPUT:
+In the sentence 'You tell a food', what part of speech is 'you'?
+### OUTPUT:
+'you' is a pronoun in that sentence.
+
+### INPUT:
+Who or what is the sentence 'It is young' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+Read this sentence: She was high.
+### OUTPUT:
+Okay: She was high.
+
+### INPUT:
+What is the action in 'It is closed'?
+### OUTPUT:
+the action is 'is'.
+
+### INPUT:
+Read this sentence: You made a road here.
+### OUTPUT:
+Okay: You made a road here.
+
+### INPUT:
+Read this sentence: She is dark.
+### OUTPUT:
+Okay: She is dark.
+
+### INPUT:
+Who or what is the sentence 'They said a road then' about?
+### OUTPUT:
+the sentence is about 'they'.
+
+### INPUT:
+Who or what is the sentence 'You did a car soon' about?
+### OUTPUT:
+the sentence is about 'you'.
+
+### INPUT:
+Read this sentence: It saw a table.
+### OUTPUT:
+Okay: It saw a table.
+
+### INPUT:
+In the sentence 'He weres', what part of speech is 'he'?
+### OUTPUT:
+'he' is a pronoun in that sentence.
+
+### INPUT:
+Who or what is the sentence 'He did a pen' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+What is the action in 'He ran'?
+### OUTPUT:
+the action is 'ran'.
+
+### INPUT:
+Read this sentence: It did a water happily.
+### OUTPUT:
+Okay: It did a water happily.
+
+### INPUT:
+In the sentence 'They are young', what part of speech is 'young'?
+### OUTPUT:
+'young' is an adjective in that sentence.
+
+### INPUT:
+Who or what is the sentence 'They saw a dog down' about?
+### OUTPUT:
+the sentence is about 'they'.
+
+### INPUT:
+Who or what is the sentence 'She gave a team rarely' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+In the sentence 'She was big', what part of speech is 'she'?
+### OUTPUT:
+'she' is a pronoun in that sentence.
+
+### INPUT:
+In the sentence 'I been', what part of speech is 'i'?
+### OUTPUT:
+'i' is a pronoun in that sentence.
+
+### INPUT:
+Read this sentence: We made a year slowly.
+### OUTPUT:
+Okay: We made a year slowly.
+
+### INPUT:
+Read this sentence: She walks.
+### OUTPUT:
+Okay: She walks.
+
+### INPUT:
+What is the action in 'We made a fish quite'?
+### OUTPUT:
+the action is 'made'.
+
+### INPUT:
+Who or what is the sentence 'We heard a tree' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+Who or what is the sentence 'We sat' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+Who or what is the sentence 'You heard a dog such' about?
+### OUTPUT:
+the sentence is about 'you'.
+
+### INPUT:
+Read this sentence: We were weak.
+### OUTPUT:
+Okay: We were weak.
+
+### INPUT:
+Who or what is the sentence 'We give a fish' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+What is the action in 'I drank a town easily'?
+### OUTPUT:
+the action is 'drank'.
+
+### INPUT:
+In the sentence 'She was weak', what part of speech is 'she'?
+### OUTPUT:
+'she' is a pronoun in that sentence.
+
+### INPUT:
+What is the action in 'They make a dog'?
+### OUTPUT:
+the action is 'make'.
+
+### INPUT:
+What is the action in 'She weres'?
+### OUTPUT:
+the action is 'weres'.
+
+### INPUT:
+Read this sentence: They do a grass such.
+### OUTPUT:
+Okay: They do a grass such.
+
+### INPUT:
+Read this sentence: You ate a window then.
+### OUTPUT:
+Okay: You ate a window then.
+
+### INPUT:
+Read this sentence: We sat.
+### OUTPUT:
+Okay: We sat.
+
+### INPUT:
+In the sentence 'They looked', what part of speech is 'looked'?
+### OUTPUT:
+'looked' is a verb in that sentence.
+
+### INPUT:
+What is the action in 'We drink a woman nowhere'?
+### OUTPUT:
+the action is 'drink'.
+
+### INPUT:
+Read this sentence: She drinks a chair here.
+### OUTPUT:
+Okay: She drinks a chair here.
+
+### INPUT:
+In the sentence 'You are hot', what part of speech is 'hot'?
+### OUTPUT:
+'hot' is an adjective in that sentence.
+
+### INPUT:
+Read this sentence: You talked.
+### OUTPUT:
+Okay: You talked.
+
+### INPUT:
+In the sentence 'You have a house badly', what part of speech is 'you'?
+### OUTPUT:
+'you' is a pronoun in that sentence.
+
+### INPUT:
+Who or what is the sentence 'I give a friend' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+Read this sentence: We come.
+### OUTPUT:
+Okay: We come.
+
+### INPUT:
+What is the action in 'They tell a road late'?
+### OUTPUT:
+the action is 'tell'.
+
+### INPUT:
+Read this sentence: She is alive.
+### OUTPUT:
+Okay: She is alive.
+
+### INPUT:
+Read this sentence: He wased.
+### OUTPUT:
+Okay: He wased.
+
+### INPUT:
+What is the action in 'They is'?
+### OUTPUT:
+the action is 'is'.
+
+### INPUT:
+Read this sentence: We make a window in.
+### OUTPUT:
+Okay: We make a window in.
+
+### INPUT:
+In the sentence 'He told a man yesterday', what part of speech is 'a'?
+### OUTPUT:
+'a' is an article in that sentence.
+
+### INPUT:
+In the sentence 'They were dirty', what part of speech is 'were'?
+### OUTPUT:
+'were' is a verb in that sentence.
+
+### INPUT:
+In the sentence 'We spoke a road', what part of speech is 'we'?
+### OUTPUT:
+'we' is a pronoun in that sentence.
+
+### INPUT:
+Who or what is the sentence 'She heard a food here' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+What is the action in 'She is small'?
+### OUTPUT:
+the action is 'is'.
+
+### INPUT:
+In the sentence 'We speak a town everywhere', what part of speech is 'town'?
+### OUTPUT:
+'town' is a noun in that sentence.
+
+### INPUT:
+Who or what is the sentence 'She tells a fire' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+Who or what is the sentence 'It is strong' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+What is the action in 'He went'?
+### OUTPUT:
+the action is 'went'.
+
+### INPUT:
+What is the action in 'It made a table'?
+### OUTPUT:
+the action is 'made'.
+
+### INPUT:
+What is the action in 'I was cool'?
+### OUTPUT:
+the action is 'was'.
+
+### INPUT:
+Who or what is the sentence 'You ared' about?
+### OUTPUT:
+the sentence is about 'you'.
+
+### INPUT:
+Read this sentence: They had a country there.
+### OUTPUT:
+Okay: They had a country there.
+
+### INPUT:
+What is the action in 'You say an earth outside'?
+### OUTPUT:
+the action is 'say'.
+
+### INPUT:
+Read this sentence: She is strong.
+### OUTPUT:
+Okay: She is strong.
+
+### INPUT:
+In the sentence 'We eat a house very', what part of speech is 'house'?
+### OUTPUT:
+'house' is a noun in that sentence.
+
+### INPUT:
+In the sentence 'We make a road', what part of speech is 'make'?
+### OUTPUT:
+'make' is a verb in that sentence.
+
+### INPUT:
+In the sentence 'They heard a star nowhere', what part of speech is 'nowhere'?
+### OUTPUT:
+'nowhere' is an adverb in that sentence.
+
+### INPUT:
+Who or what is the sentence 'He was yellow' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+Read this sentence: We say a road rarely.
+### OUTPUT:
+Okay: We say a road rarely.
+
+### INPUT:
+What is the action in 'She makes a world so'?
+### OUTPUT:
+the action is 'makes'.
+
+### INPUT:
+In the sentence 'They go', what part of speech is 'they'?
+### OUTPUT:
+'they' is a pronoun in that sentence.
+
+### INPUT:
+What is the action in 'He was poor'?
+### OUTPUT:
+the action is 'was'.
+
+### INPUT:
+Read this sentence: They go.
+### OUTPUT:
+Okay: They go.
+
+### INPUT:
+What is the action in 'He did a window'?
+### OUTPUT:
+the action is 'did'.
+
+### INPUT:
+Read this sentence: I saw a woman.
+### OUTPUT:
+Okay: I saw a woman.
+
+### INPUT:
+What is the action in 'I was warm'?
+### OUTPUT:
+the action is 'was'.
+
+### INPUT:
+What is the action in 'You are wide'?
+### OUTPUT:
+the action is 'are'.
+
+### INPUT:
+What is the action in 'You took a child'?
+### OUTPUT:
+the action is 'took'.
+
+### INPUT:
+In the sentence 'It does a door', what part of speech is 'does'?
+### OUTPUT:
+'does' is a verb in that sentence.
+
+### INPUT:
+Who or what is the sentence 'You have a man nearly' about?
+### OUTPUT:
+the sentence is about 'you'.
+
+### INPUT:
+In the sentence 'We do a man sometimes', what part of speech is 'sometimes'?
+### OUTPUT:
+'sometimes' is an adverb in that sentence.
+
+### INPUT:
+What is the action in 'You do a fire in'?
+### OUTPUT:
+the action is 'do'.
+
+### INPUT:
+Read this sentence: You make a flower.
+### OUTPUT:
+Okay: You make a flower.
+
+### INPUT:
+Read this sentence: You ate a dog.
+### OUTPUT:
+Okay: You ate a dog.
+
+### INPUT:
+In the sentence 'She has a moon early', what part of speech is 'moon'?
+### OUTPUT:
+'moon' is a noun in that sentence.
+
+### INPUT:
+Who or what is the sentence 'She heard a chair slowly' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+In the sentence 'He ised', what part of speech is 'ised'?
+### OUTPUT:
+'ised' is a verb in that sentence.
+
+### INPUT:
+What is the action in 'She did a woman badly'?
+### OUTPUT:
+the action is 'did'.
+
+### INPUT:
+Who or what is the sentence 'They came' about?
+### OUTPUT:
+the sentence is about 'they'.
+
+### INPUT:
+Read this sentence: You eat a woman badly.
+### OUTPUT:
+Okay: You eat a woman badly.
+
+### INPUT:
+What is the action in 'You had a dog soon'?
+### OUTPUT:
+the action is 'had'.
+
+### INPUT:
+Who or what is the sentence 'I saw a friend then' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+Read this sentence: They do a tree.
+### OUTPUT:
+Okay: They do a tree.
+
+### INPUT:
+What is the action in 'You give a table sometimes'?
+### OUTPUT:
+the action is 'give'.
+
+### INPUT:
+In the sentence 'I gave a bird here', what part of speech is 'i'?
+### OUTPUT:
+'i' is a pronoun in that sentence.
+
+### INPUT:
+Read this sentence: You were sad.
+### OUTPUT:
+Okay: You were sad.
+
+### INPUT:
+Who or what is the sentence 'We saw a dog now' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+Read this sentence: You are red.
+### OUTPUT:
+Okay: You are red.
+
+### INPUT:
+What is the action in 'I see a country inside'?
+### OUTPUT:
+the action is 'see'.
+
+### INPUT:
+Read this sentence: He drank a door early.
+### OUTPUT:
+Okay: He drank a door early.
+
+### INPUT:
+What is the action in 'He ate a friend'?
+### OUTPUT:
+the action is 'ate'.
+
+### INPUT:
+Who or what is the sentence 'You spoke a night' about?
+### OUTPUT:
+the sentence is about 'you'.
+
+### INPUT:
+In the sentence 'It does a country', what part of speech is 'it'?
+### OUTPUT:
+'it' is a pronoun in that sentence.
+
+### INPUT:
+Who or what is the sentence 'She comes' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+Read this sentence: I am weak.
+### OUTPUT:
+Okay: I am weak.
+
+### INPUT:
+Read this sentence: They were beautiful.
+### OUTPUT:
+Okay: They were beautiful.
+
+### INPUT:
+Who or what is the sentence 'We drank a car so' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+Who or what is the sentence 'She heard a star easily' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+In the sentence 'She is rich', what part of speech is 'she'?
+### OUTPUT:
+'she' is a pronoun in that sentence.
+
+### INPUT:
+What is the action in 'We sat'?
+### OUTPUT:
+the action is 'sat'.
+
+### INPUT:
+Read this sentence: She weres.
+### OUTPUT:
+Okay: She weres.
+
+### INPUT:
+Who or what is the sentence 'It took a year' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+In the sentence 'I was sad', what part of speech is 'was'?
+### OUTPUT:
+'was' is a verb in that sentence.
+
+### INPUT:
+What is the action in 'It spoke a tree then'?
+### OUTPUT:
+the action is 'spoke'.
+
+### INPUT:
+Who or what is the sentence 'We tell a family away' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+Who or what is the sentence 'We were small' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+What is the action in 'They heard a road slowly'?
+### OUTPUT:
+the action is 'heard'.
+
+### INPUT:
+In the sentence 'We see a world sometimes', what part of speech is 'sometimes'?
+### OUTPUT:
+'sometimes' is an adverb in that sentence.
+
+### INPUT:
+What is the action in 'It did a woman'?
+### OUTPUT:
+the action is 'did'.
+
+### INPUT:
+What is the action in 'She sees a child almost'?
+### OUTPUT:
+the action is 'sees'.
+
+### INPUT:
+What is the action in 'They hear a bird rarely'?
+### OUTPUT:
+the action is 'hear'.
+
+### INPUT:
+In the sentence 'It was long', what part of speech is 'long'?
+### OUTPUT:
+'long' is an adjective in that sentence.
+
+### INPUT:
+In the sentence 'It was closed', what part of speech is 'it'?
+### OUTPUT:
+'it' is a pronoun in that sentence.
+
+### INPUT:
+What is the action in 'She was hot'?
+### OUTPUT:
+the action is 'was'.
+
+### INPUT:
+In the sentence 'I heard a flower quickly', what part of speech is 'a'?
+### OUTPUT:
+'a' is an article in that sentence.
+
+### INPUT:
+Read this sentence: I am poor.
+### OUTPUT:
+Okay: I am poor.
+
+### INPUT:
+Read this sentence: We are big.
+### OUTPUT:
+Okay: We are big.
+
+### INPUT:
+What is the action in 'He comes'?
+### OUTPUT:
+the action is 'comes'.
+
+### INPUT:
+Who or what is the sentence 'We were' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+Who or what is the sentence 'He makes a car quickly' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+What is the action in 'We ared'?
+### OUTPUT:
+the action is 'ared'.
+
+### INPUT:
+In the sentence 'It is sad', what part of speech is 'is'?
+### OUTPUT:
+'is' is a verb in that sentence.
+
+### INPUT:
+Read this sentence: They are clean.
+### OUTPUT:
+Okay: They are clean.
+
+### INPUT:
+Who or what is the sentence 'She gave an air' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+Who or what is the sentence 'She spoke a door here' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+Who or what is the sentence 'He was blue' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+Who or what is the sentence 'He amed' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+In the sentence 'It beens', what part of speech is 'beens'?
+### OUTPUT:
+'beens' is a verb in that sentence.
+
+### INPUT:
+In the sentence 'He is rich', what part of speech is 'is'?
+### OUTPUT:
+'is' is a verb in that sentence.
+
+### INPUT:
+Read this sentence: We spoke a water never.
+### OUTPUT:
+Okay: We spoke a water never.
+
+### INPUT:
+In the sentence 'You sat', what part of speech is 'sat'?
+### OUTPUT:
+'sat' is a verb in that sentence.
+
+### INPUT:
+Read this sentence: It is long.
+### OUTPUT:
+Okay: It is long.
+
+### INPUT:
+Read this sentence: They are high.
+### OUTPUT:
+Okay: They are high.
+
+### INPUT:
+Who or what is the sentence 'It runs' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+In the sentence 'I heard a rock', what part of speech is 'rock'?
+### OUTPUT:
+'rock' is a noun in that sentence.
+
+### INPUT:
+Read this sentence: It is weak.
+### OUTPUT:
+Okay: It is weak.
+
+### INPUT:
+What is the action in 'They made a door'?
+### OUTPUT:
+the action is 'made'.
+
+### INPUT:
+Read this sentence: He jumped.
+### OUTPUT:
+Okay: He jumped.
+
+### INPUT:
+In the sentence 'They drank a door', what part of speech is 'a'?
+### OUTPUT:
+'a' is an article in that sentence.
+
+### INPUT:
+What is the action in 'She did a person'?
+### OUTPUT:
+the action is 'did'.
+
+### INPUT:
+What is the action in 'I was low'?
+### OUTPUT:
+the action is 'was'.
+
+### INPUT:
+Who or what is the sentence 'It comes' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+Read this sentence: You were heavy.
+### OUTPUT:
+Okay: You were heavy.
+
+### INPUT:
+Who or what is the sentence 'They took a food here' about?
+### OUTPUT:
+the sentence is about 'they'.
+
+### INPUT:
+What is the action in 'She drinks a tree rarely'?
+### OUTPUT:
+the action is 'drinks'.
+
+### INPUT:
+Who or what is the sentence 'It is happy' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+Who or what is the sentence 'You am' about?
+### OUTPUT:
+the sentence is about 'you'.
+
+### INPUT:
+What is the action in 'He was good'?
+### OUTPUT:
+the action is 'was'.
+
+### INPUT:
+What is the action in 'They were hard'?
+### OUTPUT:
+the action is 'were'.
+
+### INPUT:
+What is the action in 'It makes a city enough'?
+### OUTPUT:
+the action is 'makes'.
+
+### INPUT:
+In the sentence 'You are closed', what part of speech is 'are'?
+### OUTPUT:
+'are' is a verb in that sentence.
+
+### INPUT:
+In the sentence 'I drink a year', what part of speech is 'i'?
+### OUTPUT:
+'i' is a pronoun in that sentence.
+
+### INPUT:
+Read this sentence: It weres.
+### OUTPUT:
+Okay: It weres.
+
+### INPUT:
+Who or what is the sentence 'You been' about?
+### OUTPUT:
+the sentence is about 'you'.
+
+### INPUT:
+Who or what is the sentence 'She is cool' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+In the sentence 'You wased', what part of speech is 'wased'?
+### OUTPUT:
+'wased' is a verb in that sentence.
+
+### INPUT:
+Read this sentence: He is fast.
+### OUTPUT:
+Okay: He is fast.
+
+### INPUT:
+What is the action in 'They speak a sun sadly'?
+### OUTPUT:
+the action is 'speak'.
+
+### INPUT:
+In the sentence 'She said a child down', what part of speech is 'she'?
+### OUTPUT:
+'she' is a pronoun in that sentence.
+
+### INPUT:
+What is the action in 'You are yellow'?
+### OUTPUT:
+the action is 'are'.
+
+### INPUT:
+Who or what is the sentence 'It is cold' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+Who or what is the sentence 'I hear a night' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+In the sentence 'She was light', what part of speech is 'was'?
+### OUTPUT:
+'was' is a verb in that sentence.
+
+### INPUT:
+Read this sentence: I talk.
+### OUTPUT:
+Okay: I talk.
+
+### INPUT:
+What is the action in 'He ises'?
+### OUTPUT:
+the action is 'ises'.
+
+### INPUT:
+What is the action in 'It amed'?
+### OUTPUT:
+the action is 'amed'.
+
+### INPUT:
+What is the action in 'You said a car too'?
+### OUTPUT:
+the action is 'said'.
+
+### INPUT:
+In the sentence 'We were light', what part of speech is 'were'?
+### OUTPUT:
+'were' is a verb in that sentence.
+
+### INPUT:
+Read this sentence: We ared.
+### OUTPUT:
+Okay: We ared.
+
+### INPUT:
+Who or what is the sentence 'They took a group late' about?
+### OUTPUT:
+the sentence is about 'they'.
+
+### INPUT:
+Read this sentence: She was full.
+### OUTPUT:
+Okay: She was full.
+
+### INPUT:
+What is the action in 'He saw a star'?
+### OUTPUT:
+the action is 'saw'.
+
+### INPUT:
+What is the action in 'She sees a day down'?
+### OUTPUT:
+the action is 'sees'.
+
+### INPUT:
+What is the action in 'We talk'?
+### OUTPUT:
+the action is 'talk'.
+
+### INPUT:
+In the sentence 'I see a rock', what part of speech is 'rock'?
+### OUTPUT:
+'rock' is a noun in that sentence.
+
+### INPUT:
+Who or what is the sentence 'I jumped' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+In the sentence 'I are', what part of speech is 'i'?
+### OUTPUT:
+'i' is a pronoun in that sentence.
+
+### INPUT:
+What is the action in 'He saw a city enough'?
+### OUTPUT:
+the action is 'saw'.
+
+### INPUT:
+What is the action in 'I said a night soon'?
+### OUTPUT:
+the action is 'said'.
+
+### INPUT:
+What is the action in 'She hears a day there'?
+### OUTPUT:
+the action is 'hears'.
+
+### INPUT:
+Who or what is the sentence 'I hear a sun' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+Read this sentence: She speaks a moon.
+### OUTPUT:
+Okay: She speaks a moon.
+
+### INPUT:
+Who or what is the sentence 'I ate a door away' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+In the sentence 'You ate a woman quite', what part of speech is 'woman'?
+### OUTPUT:
+'woman' is a noun in that sentence.
+
+### INPUT:
+Who or what is the sentence 'He goes' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+In the sentence 'He drinks a door usually', what part of speech is 'drinks'?
+### OUTPUT:
+'drinks' is a verb in that sentence.
+
+### INPUT:
+In the sentence 'She was closed', what part of speech is 'closed'?
+### OUTPUT:
+'closed' is an adjective in that sentence.
+
+### INPUT:
+Who or what is the sentence 'We drink a woman' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+Read this sentence: She talked.
+### OUTPUT:
+Okay: She talked.
+
+### INPUT:
+In the sentence 'He was wide', what part of speech is 'was'?
+### OUTPUT:
+'was' is a verb in that sentence.
+
+### INPUT:
+Who or what is the sentence 'I spoke a year out' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+Read this sentence: You are hot.
+### OUTPUT:
+Okay: You are hot.
+
+### INPUT:
+In the sentence 'I take a year', what part of speech is 'i'?
+### OUTPUT:
+'i' is a pronoun in that sentence.
+
+### INPUT:
+In the sentence 'We are dirty', what part of speech is 'dirty'?
+### OUTPUT:
+'dirty' is an adjective in that sentence.
+
+### INPUT:
+Who or what is the sentence 'It did a table here' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+What is the action in 'You said a water'?
+### OUTPUT:
+the action is 'said'.
+
+### INPUT:
+In the sentence 'You tell a family', what part of speech is 'you'?
+### OUTPUT:
+'you' is a pronoun in that sentence.
+
+### INPUT:
+Read this sentence: They talk.
+### OUTPUT:
+Okay: They talk.
+
+### INPUT:
+Who or what is the sentence 'They drank a house' about?
+### OUTPUT:
+the sentence is about 'they'.
+
+### INPUT:
+In the sentence 'We gave a cat', what part of speech is 'we'?
+### OUTPUT:
+'we' is a pronoun in that sentence.
+
+### INPUT:
+Read this sentence: We took a town.
+### OUTPUT:
+Okay: We took a town.
+
+### INPUT:
+What is the action in 'It saw a city rarely'?
+### OUTPUT:
+the action is 'saw'.
+
+### INPUT:
+Who or what is the sentence 'I have a star' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+Who or what is the sentence 'It was beautiful' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+Who or what is the sentence 'They heard a bird tomorrow' about?
+### OUTPUT:
+the sentence is about 'they'.
+
+### INPUT:
+What is the action in 'They give a car usually'?
+### OUTPUT:
+the action is 'give'.
+
+### INPUT:
+Who or what is the sentence 'She is wide' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+What is the action in 'He was wide'?
+### OUTPUT:
+the action is 'was'.
+
+### INPUT:
+Who or what is the sentence 'They speak a team' about?
+### OUTPUT:
+the sentence is about 'they'.
+
+### INPUT:
+In the sentence 'We were bright', what part of speech is 'bright'?
+### OUTPUT:
+'bright' is an adjective in that sentence.
+
+### INPUT:
+Read this sentence: It gave a year badly.
+### OUTPUT:
+Okay: It gave a year badly.
+
+### INPUT:
+What is the action in 'He is open'?
+### OUTPUT:
+the action is 'is'.
+
+### INPUT:
+What is the action in 'They had a woman quickly'?
+### OUTPUT:
+the action is 'had'.
+
+### INPUT:
+Read this sentence: We were cold.
+### OUTPUT:
+Okay: We were cold.
+
+### INPUT:
+What is the action in 'She ran'?
+### OUTPUT:
+the action is 'ran'.
+
+### INPUT:
+In the sentence 'I do a stone slowly', what part of speech is 'do'?
+### OUTPUT:
+'do' is a verb in that sentence.
+
+### INPUT:
+Who or what is the sentence 'We are new' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+What is the action in 'You see a family back'?
+### OUTPUT:
+the action is 'see'.
+
+### INPUT:
+Read this sentence: You drank a team hard.
+### OUTPUT:
+Okay: You drank a team hard.
+
+### INPUT:
+Who or what is the sentence 'We are short' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+In the sentence 'You make a man', what part of speech is 'make'?
+### OUTPUT:
+'make' is a verb in that sentence.
+
+### INPUT:
+Who or what is the sentence 'They tell a group everywhere' about?
+### OUTPUT:
+the sentence is about 'they'.
+
+### INPUT:
+Who or what is the sentence 'She hears a year today' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+What is the action in 'I am poor'?
+### OUTPUT:
+the action is 'am'.
+
+### INPUT:
+Who or what is the sentence 'He told a sun almost' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+Read this sentence: We said a grass everywhere.
+### OUTPUT:
+Okay: We said a grass everywhere.
+
+### INPUT:
+Who or what is the sentence 'We see a grass' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+Who or what is the sentence 'We do a book down' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+Who or what is the sentence 'It ares' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+Who or what is the sentence 'They are clean' about?
+### OUTPUT:
+the sentence is about 'they'.
+
+### INPUT:
+Read this sentence: She gave a car outside.
+### OUTPUT:
+Okay: She gave a car outside.
+
+### INPUT:
+What is the action in 'They took a table'?
+### OUTPUT:
+the action is 'took'.
+
+### INPUT:
+What is the action in 'He told a town so'?
+### OUTPUT:
+the action is 'told'.
+
+### INPUT:
+Who or what is the sentence 'We were strong' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+Who or what is the sentence 'She gave a flower well' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+Read this sentence: She ised.
+### OUTPUT:
+Okay: She ised.
+
+### INPUT:
+In the sentence 'It takes a road', what part of speech is 'road'?
+### OUTPUT:
+'road' is a noun in that sentence.
+
+### INPUT:
+Read this sentence: We gave a star yesterday.
+### OUTPUT:
+Okay: We gave a star yesterday.
+
+### INPUT:
+Who or what is the sentence 'We give a town' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+What is the action in 'She made an air late'?
+### OUTPUT:
+the action is 'made'.
+
+### INPUT:
+What is the action in 'They say a bird'?
+### OUTPUT:
+the action is 'say'.
+
+### INPUT:
+In the sentence 'It was wide', what part of speech is 'wide'?
+### OUTPUT:
+'wide' is an adjective in that sentence.
+
+### INPUT:
+In the sentence 'You do a friend back', what part of speech is 'a'?
+### OUTPUT:
+'a' is an article in that sentence.
+
+### INPUT:
+What is the action in 'She was hot'?
+### OUTPUT:
+the action is 'was'.
+
+### INPUT:
+Read this sentence: He is bad.
+### OUTPUT:
+Okay: He is bad.
+
+### INPUT:
+What is the action in 'She ises'?
+### OUTPUT:
+the action is 'ises'.
+
+### INPUT:
+Read this sentence: I is.
+### OUTPUT:
+Okay: I is.
+
+### INPUT:
+What is the action in 'We gave a woman'?
+### OUTPUT:
+the action is 'gave'.
+
+### INPUT:
+Read this sentence: She drinks a grass.
+### OUTPUT:
+Okay: She drinks a grass.
+
+### INPUT:
+In the sentence 'He is cool', what part of speech is 'is'?
+### OUTPUT:
+'is' is a verb in that sentence.
+
+### INPUT:
+What is the action in 'You were cool'?
+### OUTPUT:
+the action is 'were'.
+
+### INPUT:
+Read this sentence: We were light.
+### OUTPUT:
+Okay: We were light.
+
+### INPUT:
+Who or what is the sentence 'It beens' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+In the sentence 'We are dead', what part of speech is 'we'?
+### OUTPUT:
+'we' is a pronoun in that sentence.
+
+### INPUT:
+In the sentence 'She stands', what part of speech is 'stands'?
+### OUTPUT:
+'stands' is a verb in that sentence.
+
+### INPUT:
+Who or what is the sentence 'He ams' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+In the sentence 'They are interesting', what part of speech is 'are'?
+### OUTPUT:
+'are' is a verb in that sentence.
+
+### INPUT:
+What is the action in 'She beens'?
+### OUTPUT:
+the action is 'beens'.
+
+### INPUT:
+Read this sentence: They wered.
+### OUTPUT:
+Okay: They wered.
+
+### INPUT:
+What is the action in 'You give a city'?
+### OUTPUT:
+the action is 'give'.
+
+### INPUT:
+Read this sentence: We speak a woman always.
+### OUTPUT:
+Okay: We speak a woman always.
+
+### INPUT:
+Read this sentence: He made a group.
+### OUTPUT:
+Okay: He made a group.
+
+### INPUT:
+Who or what is the sentence 'He took a town slowly' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+What is the action in 'We wered'?
+### OUTPUT:
+the action is 'wered'.
+
+### INPUT:
+Read this sentence: It takes a window.
+### OUTPUT:
+Okay: It takes a window.
+
+### INPUT:
+Read this sentence: You are bad.
+### OUTPUT:
+Okay: You are bad.
+
+### INPUT:
+Read this sentence: They speak a world.
+### OUTPUT:
+Okay: They speak a world.
+
+### INPUT:
+In the sentence 'He was soft', what part of speech is 'soft'?
+### OUTPUT:
+'soft' is an adjective in that sentence.
+
+### INPUT:
+In the sentence 'You were rich', what part of speech is 'you'?
+### OUTPUT:
+'you' is a pronoun in that sentence.
+
+### INPUT:
+Read this sentence: It eats a man there.
+### OUTPUT:
+Okay: It eats a man there.
+
+### INPUT:
+What is the action in 'It is narrow'?
+### OUTPUT:
+the action is 'is'.
+
+### INPUT:
+Who or what is the sentence 'We went' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+What is the action in 'She weres'?
+### OUTPUT:
+the action is 'weres'.
+
+### INPUT:
+Read this sentence: It was short.
+### OUTPUT:
+Okay: It was short.
+
+### INPUT:
+Read this sentence: He stood.
+### OUTPUT:
+Okay: He stood.
+
+### INPUT:
+What is the action in 'We had a car in'?
+### OUTPUT:
+the action is 'had'.
+
+### INPUT:
+What is the action in 'She is full'?
+### OUTPUT:
+the action is 'is'.
+
+### INPUT:
+Who or what is the sentence 'I go' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+Who or what is the sentence 'We walked' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+Who or what is the sentence 'He weres' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+Who or what is the sentence 'I do a food rather' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+Read this sentence: She hears a road.
+### OUTPUT:
+Okay: She hears a road.
+
+### INPUT:
+Read this sentence: They jump.
+### OUTPUT:
+Okay: They jump.
+
+### INPUT:
+Who or what is the sentence 'He ares' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+Read this sentence: It has a group.
+### OUTPUT:
+Okay: It has a group.
+
+### INPUT:
+Read this sentence: I was low.
+### OUTPUT:
+Okay: I was low.
+
+### INPUT:
+Who or what is the sentence 'She wases' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+In the sentence 'You gave a tree', what part of speech is 'gave'?
+### OUTPUT:
+'gave' is a verb in that sentence.
+
+### INPUT:
+What is the action in 'We are dead'?
+### OUTPUT:
+the action is 'are'.
+
+### INPUT:
+Read this sentence: We heard a woman.
+### OUTPUT:
+Okay: We heard a woman.
+
+### INPUT:
+In the sentence 'I was bad', what part of speech is 'i'?
+### OUTPUT:
+'i' is a pronoun in that sentence.
+
+### INPUT:
+In the sentence 'I saw a door', what part of speech is 'saw'?
+### OUTPUT:
+'saw' is a verb in that sentence.
+
+### INPUT:
+In the sentence 'He was beautiful', what part of speech is 'beautiful'?
+### OUTPUT:
+'beautiful' is an adjective in that sentence.
+
+### INPUT:
+Who or what is the sentence 'You hear a star late' about?
+### OUTPUT:
+the sentence is about 'you'.
+
+### INPUT:
+Who or what is the sentence 'They gave a team' about?
+### OUTPUT:
+the sentence is about 'they'.
+
+### INPUT:
+Read this sentence: She sees an earth.
+### OUTPUT:
+Okay: She sees an earth.
+
+### INPUT:
+Who or what is the sentence 'He is bright' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+Who or what is the sentence 'It speaks a year' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+Read this sentence: We eat a pen enough.
+### OUTPUT:
+Okay: We eat a pen enough.
+
+### INPUT:
+What is the action in 'They talk'?
+### OUTPUT:
+the action is 'talk'.
+
+### INPUT:
+Who or what is the sentence 'It saw a cat' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+In the sentence 'We were full', what part of speech is 'were'?
+### OUTPUT:
+'were' is a verb in that sentence.
+
+### INPUT:
+Read this sentence: He stands.
+### OUTPUT:
+Okay: He stands.
+
+### INPUT:
+What is the action in 'She did a country'?
+### OUTPUT:
+the action is 'did'.
+
+### INPUT:
+In the sentence 'She saw a person up', what part of speech is 'up'?
+### OUTPUT:
+'up' is an adverb in that sentence.
+
+### INPUT:
+Who or what is the sentence 'We beened' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+In the sentence 'They said a town enough', what part of speech is 'town'?
+### OUTPUT:
+'town' is a noun in that sentence.
+
+### INPUT:
+In the sentence 'We ate a house', what part of speech is 'we'?
+### OUTPUT:
+'we' is a pronoun in that sentence.
+
+### INPUT:
+What is the action in 'You told a sun soon'?
+### OUTPUT:
+the action is 'told'.
+
+### INPUT:
+What is the action in 'They hear a tree'?
+### OUTPUT:
+the action is 'hear'.
+
+### INPUT:
+In the sentence 'He ate an air', what part of speech is 'he'?
+### OUTPUT:
+'he' is a pronoun in that sentence.
+
+### INPUT:
+In the sentence 'You made a night', what part of speech is 'you'?
+### OUTPUT:
+'you' is a pronoun in that sentence.
+
+### INPUT:
+Read this sentence: He hears a tree up.
+### OUTPUT:
+Okay: He hears a tree up.
+
+### INPUT:
+What is the action in 'We do a door'?
+### OUTPUT:
+the action is 'do'.
+
+### INPUT:
+In the sentence 'It was cool', what part of speech is 'was'?
+### OUTPUT:
+'was' is a verb in that sentence.
+
+### INPUT:
+In the sentence 'He talked', what part of speech is 'talked'?
+### OUTPUT:
+'talked' is a verb in that sentence.
+
+### INPUT:
+Read this sentence: It wases.
+### OUTPUT:
+Okay: It wases.
+
+### INPUT:
+In the sentence 'It takes a stone hard', what part of speech is 'hard'?
+### OUTPUT:
+'hard' is an adverb in that sentence.
+
+### INPUT:
+In the sentence 'I is', what part of speech is 'is'?
+### OUTPUT:
+'is' is a verb in that sentence.
+
+### INPUT:
+Who or what is the sentence 'He speaks a friend well' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+Read this sentence: You take a door.
+### OUTPUT:
+Okay: You take a door.
+
+### INPUT:
+What is the action in 'It drinks an air fast'?
+### OUTPUT:
+the action is 'drinks'.
+
+### INPUT:
+Who or what is the sentence 'I am alive' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+Who or what is the sentence 'He saw a rock' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+Read this sentence: I am slow.
+### OUTPUT:
+Okay: I am slow.
+
+### INPUT:
+In the sentence 'It gave a moon now', what part of speech is 'moon'?
+### OUTPUT:
+'moon' is a noun in that sentence.
+
+### INPUT:
+Read this sentence: We make a chair.
+### OUTPUT:
+Okay: We make a chair.
+
+### INPUT:
+Who or what is the sentence 'We had a family' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+Who or what is the sentence 'I am empty' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+In the sentence 'It came', what part of speech is 'it'?
+### OUTPUT:
+'it' is a pronoun in that sentence.
+
+### INPUT:
+Read this sentence: It sees a fish nearly.
+### OUTPUT:
+Okay: It sees a fish nearly.
+
+### INPUT:
+Who or what is the sentence 'He walks' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+Read this sentence: I jump.
+### OUTPUT:
+Okay: I jump.
+
+### INPUT:
+Read this sentence: You make a woman here.
+### OUTPUT:
+Okay: You make a woman here.
+
+### INPUT:
+In the sentence 'I am green', what part of speech is 'am'?
+### OUTPUT:
+'am' is a verb in that sentence.
+
+### INPUT:
+In the sentence 'We made a day', what part of speech is 'a'?
+### OUTPUT:
+'a' is an article in that sentence.
+
+### INPUT:
+In the sentence 'He talked', what part of speech is 'talked'?
+### OUTPUT:
+'talked' is a verb in that sentence.
+
+### INPUT:
+Read this sentence: You told a family slowly.
+### OUTPUT:
+Okay: You told a family slowly.
+
+### INPUT:
+In the sentence 'She makes a bird soon', what part of speech is 'bird'?
+### OUTPUT:
+'bird' is a noun in that sentence.
+
+### INPUT:
+What is the action in 'I was black'?
+### OUTPUT:
+the action is 'was'.
+
+### INPUT:
+Read this sentence: It gives a window.
+### OUTPUT:
+Okay: It gives a window.
+
+### INPUT:
+What is the action in 'You spoke a rock'?
+### OUTPUT:
+the action is 'spoke'.
+
+### INPUT:
+Who or what is the sentence 'You saw a sun so' about?
+### OUTPUT:
+the sentence is about 'you'.
+
+### INPUT:
+Who or what is the sentence 'You took a friend' about?
+### OUTPUT:
+the sentence is about 'you'.
+
+### INPUT:
+Who or what is the sentence 'We are slow' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+Who or what is the sentence 'He said a bird' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+Who or what is the sentence 'I was white' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+In the sentence 'They told a person', what part of speech is 'told'?
+### OUTPUT:
+'told' is a verb in that sentence.
+
+### INPUT:
+Read this sentence: You were rich.
+### OUTPUT:
+Okay: You were rich.
+
+### INPUT:
+In the sentence 'They are wide', what part of speech is 'they'?
+### OUTPUT:
+'they' is a pronoun in that sentence.
+
+### INPUT:
+Who or what is the sentence 'We come' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+Read this sentence: You are heavy.
+### OUTPUT:
+Okay: You are heavy.
+
+### INPUT:
+What is the action in 'It is narrow'?
+### OUTPUT:
+the action is 'is'.
+
+### INPUT:
+Read this sentence: I take a cat rarely.
+### OUTPUT:
+Okay: I take a cat rarely.
+
+### INPUT:
+What is the action in 'We tell a fish'?
+### OUTPUT:
+the action is 'tell'.
+
+### INPUT:
+In the sentence 'I saw a table', what part of speech is 'a'?
+### OUTPUT:
+'a' is an article in that sentence.
+
+### INPUT:
+What is the action in 'He is cold'?
+### OUTPUT:
+the action is 'is'.
+
+### INPUT:
+Read this sentence: We are hard.
+### OUTPUT:
+Okay: We are hard.
+
+### INPUT:
+Who or what is the sentence 'They are dark' about?
+### OUTPUT:
+the sentence is about 'they'.
+
+### INPUT:
+What is the action in 'I heard a day'?
+### OUTPUT:
+the action is 'heard'.
+
+### INPUT:
+Read this sentence: It came.
+### OUTPUT:
+Okay: It came.
+
+### INPUT:
+Who or what is the sentence 'He beened' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+In the sentence 'She wered', what part of speech is 'she'?
+### OUTPUT:
+'she' is a pronoun in that sentence.
+
+### INPUT:
+What is the action in 'I took a bird'?
+### OUTPUT:
+the action is 'took'.
+
+### INPUT:
+Who or what is the sentence 'He walks' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+Read this sentence: She beings.
+### OUTPUT:
+Okay: She beings.
+
+### INPUT:
+Who or what is the sentence 'We jump' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+Read this sentence: It makes a fish.
+### OUTPUT:
+Okay: It makes a fish.
+
+### INPUT:
+What is the action in 'He makes a chair'?
+### OUTPUT:
+the action is 'makes'.
+
+### INPUT:
+In the sentence 'He is dirty', what part of speech is 'dirty'?
+### OUTPUT:
+'dirty' is an adjective in that sentence.
+
+### INPUT:
+What is the action in 'I had a table'?
+### OUTPUT:
+the action is 'had'.
+
+### INPUT:
+In the sentence 'It was dead', what part of speech is 'was'?
+### OUTPUT:
+'was' is a verb in that sentence.
+
+### INPUT:
+In the sentence 'We look', what part of speech is 'we'?
+### OUTPUT:
+'we' is a pronoun in that sentence.
+
+### INPUT:
+What is the action in 'You make a cat'?
+### OUTPUT:
+the action is 'make'.
+
+### INPUT:
+In the sentence 'We were old', what part of speech is 'old'?
+### OUTPUT:
+'old' is an adjective in that sentence.
+
+### INPUT:
+Read this sentence: She spoke a cat.
+### OUTPUT:
+Okay: She spoke a cat.
+
+### INPUT:
+In the sentence 'They ate a book', what part of speech is 'ate'?
+### OUTPUT:
+'ate' is a verb in that sentence.
+
+### INPUT:
+Read this sentence: They drink a house.
+### OUTPUT:
+Okay: They drink a house.
+
+### INPUT:
+Who or what is the sentence 'He is white' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+Read this sentence: It wases.
+### OUTPUT:
+Okay: It wases.
+
+### INPUT:
+Who or what is the sentence 'They were cool' about?
+### OUTPUT:
+the sentence is about 'they'.
+
+### INPUT:
+What is the action in 'You were rich'?
+### OUTPUT:
+the action is 'were'.
+
+### INPUT:
+Read this sentence: She jumps.
+### OUTPUT:
+Okay: She jumps.
+
+### INPUT:
+Read this sentence: They are yellow.
+### OUTPUT:
+Okay: They are yellow.
+
+### INPUT:
+In the sentence 'I ared', what part of speech is 'i'?
+### OUTPUT:
+'i' is a pronoun in that sentence.
+
+### INPUT:
+In the sentence 'I walk', what part of speech is 'walk'?
+### OUTPUT:
+'walk' is a verb in that sentence.
+
+### INPUT:
+In the sentence 'They said a car', what part of speech is 'said'?
+### OUTPUT:
+'said' is a verb in that sentence.
+
+### INPUT:
+Read this sentence: He eats a chair.
+### OUTPUT:
+Okay: He eats a chair.
+
+### INPUT:
+In the sentence 'We are white', what part of speech is 'we'?
+### OUTPUT:
+'we' is a pronoun in that sentence.
+
+### INPUT:
+What is the action in 'You am'?
+### OUTPUT:
+the action is 'am'.
+
+### INPUT:
+What is the action in 'She is new'?
+### OUTPUT:
+the action is 'is'.
+
+### INPUT:
+What is the action in 'We drank a star today'?
+### OUTPUT:
+the action is 'drank'.
+
+### INPUT:
+What is the action in 'I spoke a road'?
+### OUTPUT:
+the action is 'spoke'.
+
+### INPUT:
+Read this sentence: She was soft.
+### OUTPUT:
+Okay: She was soft.
+
+### INPUT:
+Read this sentence: It gave a country out.
+### OUTPUT:
+Okay: It gave a country out.
+
+### INPUT:
+Who or what is the sentence 'She saw a flower' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+Who or what is the sentence 'We drink a moon' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+Read this sentence: She was bright.
+### OUTPUT:
+Okay: She was bright.
+
+### INPUT:
+In the sentence 'We drink a star', what part of speech is 'we'?
+### OUTPUT:
+'we' is a pronoun in that sentence.
+
+### INPUT:
+What is the action in 'We eat a rock inside'?
+### OUTPUT:
+the action is 'eat'.
+
+### INPUT:
+Who or what is the sentence 'He makes a fish often' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+What is the action in 'They are poor'?
+### OUTPUT:
+the action is 'are'.
+
+### INPUT:
+Who or what is the sentence 'We are dead' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+Who or what is the sentence 'I am red' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+What is the action in 'It looks'?
+### OUTPUT:
+the action is 'looks'.
+
+### INPUT:
+Who or what is the sentence 'They say a family' about?
+### OUTPUT:
+the sentence is about 'they'.
+
+### INPUT:
+What is the action in 'I saw a dog'?
+### OUTPUT:
+the action is 'saw'.
+
+### INPUT:
+In the sentence 'You were long', what part of speech is 'long'?
+### OUTPUT:
+'long' is an adjective in that sentence.
+
+### INPUT:
+Who or what is the sentence 'I am cold' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+What is the action in 'It is sad'?
+### OUTPUT:
+the action is 'is'.
+
+### INPUT:
+In the sentence 'I drank a cat quite', what part of speech is 'a'?
+### OUTPUT:
+'a' is an article in that sentence.
+
+### INPUT:
+Read this sentence: You ate an earth.
+### OUTPUT:
+Okay: You ate an earth.
+
+### INPUT:
+What is the action in 'You are yellow'?
+### OUTPUT:
+the action is 'are'.
+
+### INPUT:
+Who or what is the sentence 'You were new' about?
+### OUTPUT:
+the sentence is about 'you'.
+
+### INPUT:
+In the sentence 'It was heavy', what part of speech is 'was'?
+### OUTPUT:
+'was' is a verb in that sentence.
+
+### INPUT:
+In the sentence 'She is beautiful', what part of speech is 'is'?
+### OUTPUT:
+'is' is a verb in that sentence.
+
+### INPUT:
+Read this sentence: She said a door.
+### OUTPUT:
+Okay: She said a door.
+
+### INPUT:
+Who or what is the sentence 'We sit' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+In the sentence 'It makes a tree', what part of speech is 'a'?
+### OUTPUT:
+'a' is an article in that sentence.
+
+### INPUT:
+In the sentence 'She is light', what part of speech is 'is'?
+### OUTPUT:
+'is' is a verb in that sentence.
+
+### INPUT:
+Read this sentence: They ate a pen almost.
+### OUTPUT:
+Okay: They ate a pen almost.
+
+### INPUT:
+In the sentence 'I went', what part of speech is 'i'?
+### OUTPUT:
+'i' is a pronoun in that sentence.
+
+### INPUT:
+In the sentence 'I told a sun nowhere', what part of speech is 'sun'?
+### OUTPUT:
+'sun' is a noun in that sentence.
+
+### INPUT:
+Read this sentence: I were.
+### OUTPUT:
+Okay: I were.
+
+### INPUT:
+In the sentence 'You had a friend quite', what part of speech is 'had'?
+### OUTPUT:
+'had' is a verb in that sentence.
+
+### INPUT:
+What is the action in 'You walked'?
+### OUTPUT:
+the action is 'walked'.
+
+### INPUT:
+Read this sentence: She was new.
+### OUTPUT:
+Okay: She was new.
+
+### INPUT:
+In the sentence 'You wered', what part of speech is 'you'?
+### OUTPUT:
+'you' is a pronoun in that sentence.
+
+### INPUT:
+Read this sentence: You hear a window.
+### OUTPUT:
+Okay: You hear a window.
+
+### INPUT:
+Read this sentence: She was short.
+### OUTPUT:
+Okay: She was short.
+
+### INPUT:
+Who or what is the sentence 'I said a food out' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+What is the action in 'She beings'?
+### OUTPUT:
+the action is 'beings'.
+
+### INPUT:
+In the sentence 'She gave a dog sadly', what part of speech is 'sadly'?
+### OUTPUT:
+'sadly' is an adverb in that sentence.
+
+### INPUT:
+What is the action in 'He was beautiful'?
+### OUTPUT:
+the action is 'was'.
+
+### INPUT:
+What is the action in 'She saw a group very'?
+### OUTPUT:
+the action is 'saw'.
+
+### INPUT:
+What is the action in 'It drinks a stone'?
+### OUTPUT:
+the action is 'drinks'.
+
+### INPUT:
+Read this sentence: They were young.
+### OUTPUT:
+Okay: They were young.
+
+### INPUT:
+Read this sentence: She was good.
+### OUTPUT:
+Okay: She was good.
+
+### INPUT:
+What is the action in 'You see a dog away'?
+### OUTPUT:
+the action is 'see'.
+
+### INPUT:
+Who or what is the sentence 'I beened' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+Read this sentence: It ams.
+### OUTPUT:
+Okay: It ams.
+
+### INPUT:
+What is the action in 'We wased'?
+### OUTPUT:
+the action is 'wased'.
+
+### INPUT:
+Who or what is the sentence 'You is' about?
+### OUTPUT:
+the sentence is about 'you'.
+
+### INPUT:
+In the sentence 'She takes an earth', what part of speech is 'takes'?
+### OUTPUT:
+'takes' is a verb in that sentence.
+
+### INPUT:
+What is the action in 'It hears a man'?
+### OUTPUT:
+the action is 'hears'.
+
+### INPUT:
+Who or what is the sentence 'You do a chair' about?
+### OUTPUT:
+the sentence is about 'you'.
+
+### INPUT:
+In the sentence 'You tell a bird', what part of speech is 'tell'?
+### OUTPUT:
+'tell' is a verb in that sentence.
+
+### INPUT:
+In the sentence 'We saw a child', what part of speech is 'we'?
+### OUTPUT:
+'we' is a pronoun in that sentence.
+
+### INPUT:
+What is the action in 'She told a man then'?
+### OUTPUT:
+the action is 'told'.
+
+### INPUT:
+In the sentence 'He is bad', what part of speech is 'he'?
+### OUTPUT:
+'he' is a pronoun in that sentence.
+
+### INPUT:
+Read this sentence: You take a day sadly.
+### OUTPUT:
+Okay: You take a day sadly.
+
+### INPUT:
+In the sentence 'You were clean', what part of speech is 'were'?
+### OUTPUT:
+'were' is a verb in that sentence.
+
+### INPUT:
+Read this sentence: It was wide.
+### OUTPUT:
+Okay: It was wide.
+
+### INPUT:
+What is the action in 'He is red'?
+### OUTPUT:
+the action is 'is'.
+
+### INPUT:
+Who or what is the sentence 'It hears a star' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+Read this sentence: I was clean.
+### OUTPUT:
+Okay: I was clean.
+
+### INPUT:
+Who or what is the sentence 'I do a rock' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+Read this sentence: She said a man always.
+### OUTPUT:
+Okay: She said a man always.
+
+### INPUT:
+Read this sentence: We are.
+### OUTPUT:
+Okay: We are.
+
+### INPUT:
+Read this sentence: He was bad.
+### OUTPUT:
+Okay: He was bad.
+
+### INPUT:
+In the sentence 'It speaks a rock', what part of speech is 'a'?
+### OUTPUT:
+'a' is an article in that sentence.
+
+### INPUT:
+In the sentence 'They make a child', what part of speech is 'make'?
+### OUTPUT:
+'make' is a verb in that sentence.
+
+### INPUT:
+What is the action in 'You hear a bird'?
+### OUTPUT:
+the action is 'hear'.
+
+### INPUT:
+What is the action in 'She drank a star enough'?
+### OUTPUT:
+the action is 'drank'.
+
+### INPUT:
+Read this sentence: We are slow.
+### OUTPUT:
+Okay: We are slow.
+
+### INPUT:
+Read this sentence: You do a town nearly.
+### OUTPUT:
+Okay: You do a town nearly.
+
+### INPUT:
+In the sentence 'We tell a night', what part of speech is 'we'?
+### OUTPUT:
+'we' is a pronoun in that sentence.
+
+### INPUT:
+Read this sentence: You had a fire.
+### OUTPUT:
+Okay: You had a fire.
+
+### INPUT:
+Read this sentence: They saw a rock back.
+### OUTPUT:
+Okay: They saw a rock back.
+
+### INPUT:
+Read this sentence: We are soft.
+### OUTPUT:
+Okay: We are soft.
+
+### INPUT:
+In the sentence 'They had a person', what part of speech is 'a'?
+### OUTPUT:
+'a' is an article in that sentence.
+
+### INPUT:
+What is the action in 'It says an earth'?
+### OUTPUT:
+the action is 'says'.
+
+### INPUT:
+In the sentence 'We were closed', what part of speech is 'we'?
+### OUTPUT:
+'we' is a pronoun in that sentence.
+
+### INPUT:
+What is the action in 'She did a city nearly'?
+### OUTPUT:
+the action is 'did'.
+
+### INPUT:
+Who or what is the sentence 'He had a country late' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+In the sentence 'She spoke a man always', what part of speech is 'man'?
+### OUTPUT:
+'man' is a noun in that sentence.
+
+### INPUT:
+What is the action in 'I stood'?
+### OUTPUT:
+the action is 'stood'.
+
+### INPUT:
+In the sentence 'You were bad', what part of speech is 'bad'?
+### OUTPUT:
+'bad' is an adjective in that sentence.
+
+### INPUT:
+Who or what is the sentence 'It drank a tree outside' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+Who or what is the sentence 'He was black' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+Who or what is the sentence 'We did a country soon' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+In the sentence 'We were big', what part of speech is 'big'?
+### OUTPUT:
+'big' is an adjective in that sentence.
+
+### INPUT:
+Who or what is the sentence 'They speak a year fast' about?
+### OUTPUT:
+the sentence is about 'they'.
+
+### INPUT:
+What is the action in 'I tell a stone'?
+### OUTPUT:
+the action is 'tell'.
+
+### INPUT:
+Who or what is the sentence 'They saw a night' about?
+### OUTPUT:
+the sentence is about 'they'.
+
+### INPUT:
+Read this sentence: We come.
+### OUTPUT:
+Okay: We come.
+
+### INPUT:
+What is the action in 'He drank an air quickly'?
+### OUTPUT:
+the action is 'drank'.
+
+### INPUT:
+What is the action in 'We were black'?
+### OUTPUT:
+the action is 'were'.
+
+### INPUT:
+What is the action in 'We run'?
+### OUTPUT:
+the action is 'run'.
+
+### INPUT:
+Read this sentence: It took a night.
+### OUTPUT:
+Okay: It took a night.
+
+### INPUT:
+Read this sentence: We were strong.
+### OUTPUT:
+Okay: We were strong.
+
+### INPUT:
+Read this sentence: They give a day late.
+### OUTPUT:
+Okay: They give a day late.
+
+### INPUT:
+Read this sentence: I am.
+### OUTPUT:
+Okay: I am.
+
+### INPUT:
+Read this sentence: He ate a water.
+### OUTPUT:
+Okay: He ate a water.
+
+### INPUT:
+What is the action in 'They give a fire'?
+### OUTPUT:
+the action is 'give'.
+
+### INPUT:
+Who or what is the sentence 'It eats a water' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+Who or what is the sentence 'He went' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+Who or what is the sentence 'It said a door usually' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+Who or what is the sentence 'I am strong' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+Who or what is the sentence 'She talks' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+Who or what is the sentence 'I hear a car' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+In the sentence 'He has a person', what part of speech is 'he'?
+### OUTPUT:
+'he' is a pronoun in that sentence.
+
+### INPUT:
+In the sentence 'I see a rock', what part of speech is 'rock'?
+### OUTPUT:
+'rock' is a noun in that sentence.
+
+### INPUT:
+In the sentence 'It beings', what part of speech is 'beings'?
+### OUTPUT:
+'beings' is a verb in that sentence.
+
+### INPUT:
+Read this sentence: It saw an air.
+### OUTPUT:
+Okay: It saw an air.
+
+### INPUT:
+In the sentence 'She wases', what part of speech is 'she'?
+### OUTPUT:
+'she' is a pronoun in that sentence.
+
+### INPUT:
+What is the action in 'He is young'?
+### OUTPUT:
+the action is 'is'.
+
+### INPUT:
+Read this sentence: It stood.
+### OUTPUT:
+Okay: It stood.
+
+### INPUT:
+In the sentence 'She took a group', what part of speech is 'she'?
+### OUTPUT:
+'she' is a pronoun in that sentence.
+
+### INPUT:
+What is the action in 'I had a book'?
+### OUTPUT:
+the action is 'had'.
+
+### INPUT:
+Who or what is the sentence 'I am full' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+In the sentence 'It is green', what part of speech is 'green'?
+### OUTPUT:
+'green' is an adjective in that sentence.
+
+### INPUT:
+In the sentence 'He runs', what part of speech is 'runs'?
+### OUTPUT:
+'runs' is a verb in that sentence.
+
+### INPUT:
+In the sentence 'You talked', what part of speech is 'you'?
+### OUTPUT:
+'you' is a pronoun in that sentence.
+
+### INPUT:
+What is the action in 'I am rich'?
+### OUTPUT:
+the action is 'am'.
+
+### INPUT:
+Who or what is the sentence 'It heard an air tomorrow' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+What is the action in 'It drinks a pen'?
+### OUTPUT:
+the action is 'drinks'.
+
+### INPUT:
+Read this sentence: I hear an earth.
+### OUTPUT:
+Okay: I hear an earth.
+
+### INPUT:
+Read this sentence: She was empty.
+### OUTPUT:
+Okay: She was empty.
+
+### INPUT:
+In the sentence 'You gave a day', what part of speech is 'you'?
+### OUTPUT:
+'you' is a pronoun in that sentence.
+
+### INPUT:
+Read this sentence: They spoke a child quickly.
+### OUTPUT:
+Okay: They spoke a child quickly.
+
+### INPUT:
+What is the action in 'We had a year such'?
+### OUTPUT:
+the action is 'had'.
+
+### INPUT:
+Read this sentence: I wered.
+### OUTPUT:
+Okay: I wered.
+
+### INPUT:
+In the sentence 'It gives a moon', what part of speech is 'a'?
+### OUTPUT:
+'a' is an article in that sentence.
+
+### INPUT:
+In the sentence 'She tells a year nowhere', what part of speech is 'tells'?
+### OUTPUT:
+'tells' is a verb in that sentence.
+
+### INPUT:
+Who or what is the sentence 'It wased' about?
+### OUTPUT:
+the sentence is about 'it'.
+
+### INPUT:
+Read this sentence: He was black.
+### OUTPUT:
+Okay: He was black.
+
+### INPUT:
+What is the action in 'She gave a cat'?
+### OUTPUT:
+the action is 'gave'.
+
+### INPUT:
+In the sentence 'They ate a man now', what part of speech is 'man'?
+### OUTPUT:
+'man' is a noun in that sentence.
+
+### INPUT:
+Read this sentence: They made a water.
+### OUTPUT:
+Okay: They made a water.
+
+### INPUT:
+What is the action in 'They am'?
+### OUTPUT:
+the action is 'am'.
+
+### INPUT:
+Who or what is the sentence 'I stood' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+In the sentence 'You do a night', what part of speech is 'do'?
+### OUTPUT:
+'do' is a verb in that sentence.
+
+### INPUT:
+Read this sentence: They being.
+### OUTPUT:
+Okay: They being.
+
+### INPUT:
+What is the action in 'We were white'?
+### OUTPUT:
+the action is 'were'.
+
+### INPUT:
+Who or what is the sentence 'They spoke a stone' about?
+### OUTPUT:
+the sentence is about 'they'.
+
+### INPUT:
+Who or what is the sentence 'He looks' about?
+### OUTPUT:
+the sentence is about 'he'.
+
+### INPUT:
+What is the action in 'I take a bird hard'?
+### OUTPUT:
+the action is 'take'.
+
+### INPUT:
+Read this sentence: She gave a pen.
+### OUTPUT:
+Okay: She gave a pen.
+
+### INPUT:
+Who or what is the sentence 'She was strong' about?
+### OUTPUT:
+the sentence is about 'she'.
+
+### INPUT:
+Who or what is the sentence 'They was' about?
+### OUTPUT:
+the sentence is about 'they'.
+
+### INPUT:
+Read this sentence: It is red.
+### OUTPUT:
+Okay: It is red.
+
+### INPUT:
+Who or what is the sentence 'I heard a food' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+Who or what is the sentence 'We say a team rather' about?
+### OUTPUT:
+the sentence is about 'we'.
+
+### INPUT:
+Who or what is the sentence 'They told a food rarely' about?
+### OUTPUT:
+the sentence is about 'they'.
+
+### INPUT:
+In the sentence 'They take a water so', what part of speech is 'a'?
+### OUTPUT:
+'a' is an article in that sentence.
+
+### INPUT:
+Read this sentence: You have a dog here.
+### OUTPUT:
+Okay: You have a dog here.
+
+### INPUT:
+What is the action in 'I ate a book inside'?
+### OUTPUT:
+the action is 'ate'.
+
+### INPUT:
+In the sentence 'They speak a world', what part of speech is 'a'?
+### OUTPUT:
+'a' is an article in that sentence.
+
+### INPUT:
+What is the action in 'He does a chair everywhere'?
+### OUTPUT:
+the action is 'does'.
+
+### INPUT:
+What is the action in 'I was bad'?
+### OUTPUT:
+the action is 'was'.
+
+### INPUT:
+In the sentence 'She has a sun', what part of speech is 'a'?
+### OUTPUT:
+'a' is an article in that sentence.
+
+### INPUT:
+Who or what is the sentence 'I am yellow' about?
+### OUTPUT:
+the sentence is about 'i'.
+
+### INPUT:
+Who or what is the sentence 'You were old' about?
+### OUTPUT:
+the sentence is about 'you'.
+
+### INPUT:
+What is the action in 'He told a moon'?
+### OUTPUT:
+the action is 'told'.
+
+### INPUT:
+What is the action in 'He takes a year yesterday'?
+### OUTPUT:
+the action is 'takes'.
+
+### INPUT:
+What is the action in 'They tell a food never'?
+### OUTPUT:
+the action is 'tell'.
+
+### INPUT:
+Read this sentence: It talked.
+### OUTPUT:
+Okay: It talked.
+
+### INPUT:
+Read this sentence: You heard a window almost.
+### OUTPUT:
+Okay: You heard a window almost.
+
+### INPUT:
+In the sentence 'It told a year', what part of speech is 'a'?
+### OUTPUT:
+'a' is an article in that sentence.
+
+### INPUT:
+What is the action in 'It jumped'?
+### OUTPUT:
+the action is 'jumped'.
+
+### INPUT:
+Who or what is the sentence 'They looked' about?
+### OUTPUT:
+the sentence is about 'they'.
+
+### INPUT:
+What is the action in 'You are soft'?
+### OUTPUT:
+the action is 'are'.
+
+### INPUT:
+Who or what is the sentence 'They saw a chair up' about?
+### OUTPUT:
+the sentence is about 'they'.
+
+### INPUT:
+Read this sentence: We wased.
+### OUTPUT:
+Okay: We wased.
+
+### INPUT:
+What is the action in 'She drinks a town'?
+### OUTPUT:
+the action is 'drinks'.
+
+### INPUT:
+What is the action in 'He has a city'?
+### OUTPUT:
+the action is 'has'.
+

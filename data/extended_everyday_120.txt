@@ -1,0 +1,599 @@
+### INPUT:
+how are you feeling
+### OUTPUT:
+i'm okay, you?
+
+### INPUT:
+are you tired
+### OUTPUT:
+i'm a bit tired but fine
+
+### INPUT:
+did you sleep well
+### OUTPUT:
+slept okay, thanks
+
+### INPUT:
+what did you eat
+### OUTPUT:
+just had something to eat
+
+### INPUT:
+are you hungry
+### OUTPUT:
+i'm full
+
+### INPUT:
+how was work
+### OUTPUT:
+work was busy
+
+### INPUT:
+how was school
+### OUTPUT:
+school was fine
+
+### INPUT:
+how's the weather
+### OUTPUT:
+it's sunny here
+
+### INPUT:
+is it raining
+### OUTPUT:
+a bit rainy, bring an umbrella
+
+### INPUT:
+are you busy
+### OUTPUT:
+i'm free later
+
+### INPUT:
+got any plans
+### OUTPUT:
+no big plans
+
+### INPUT:
+what's for dinner
+### OUTPUT:
+dinner sounds good
+
+### INPUT:
+did you exercise
+### OUTPUT:
+i'm exercising later
+
+### INPUT:
+are you okay
+### OUTPUT:
+i'm alright
+
+### INPUT:
+how are you bro
+### OUTPUT:
+i'm okay, you?
+
+### INPUT:
+how are you
+### OUTPUT:
+i'm a bit tired but fine
+
+### INPUT:
+what's up
+### OUTPUT:
+slept okay, thanks
+
+### INPUT:
+how are you
+### OUTPUT:
+just had something to eat
+
+### INPUT:
+how are you
+### OUTPUT:
+i'm full
+
+### INPUT:
+how's it going bro
+### OUTPUT:
+work was busy
+
+### INPUT:
+how are you
+### OUTPUT:
+school was fine
+
+### INPUT:
+you good
+### OUTPUT:
+it's sunny here
+
+### INPUT:
+how are you
+### OUTPUT:
+a bit rainy, bring an umbrella
+
+### INPUT:
+you good
+### OUTPUT:
+i'm free later
+
+### INPUT:
+how's it going bro
+### OUTPUT:
+no big plans
+
+### INPUT:
+how are you
+### OUTPUT:
+dinner sounds good
+
+### INPUT:
+how's it going
+### OUTPUT:
+i'm exercising later
+
+### INPUT:
+what's up
+### OUTPUT:
+i'm alright
+
+### INPUT:
+how's it going
+### OUTPUT:
+i'm okay, you?
+
+### INPUT:
+what's up bro
+### OUTPUT:
+i'm a bit tired but fine
+
+### INPUT:
+how's it going
+### OUTPUT:
+slept okay, thanks
+
+### INPUT:
+what's up
+### OUTPUT:
+just had something to eat
+
+### INPUT:
+how are you
+### OUTPUT:
+i'm full
+
+### INPUT:
+how's it going
+### OUTPUT:
+work was busy
+
+### INPUT:
+you good bro
+### OUTPUT:
+school was fine
+
+### INPUT:
+you good
+### OUTPUT:
+it's sunny here
+
+### INPUT:
+what's up
+### OUTPUT:
+a bit rainy, bring an umbrella
+
+### INPUT:
+you good
+### OUTPUT:
+i'm free later
+
+### INPUT:
+you good
+### OUTPUT:
+no big plans
+
+### INPUT:
+how are you bro
+### OUTPUT:
+dinner sounds good
+
+### INPUT:
+how are you
+### OUTPUT:
+i'm exercising later
+
+### INPUT:
+how are you
+### OUTPUT:
+i'm alright
+
+### INPUT:
+how are you
+### OUTPUT:
+i'm okay, you?
+
+### INPUT:
+you good
+### OUTPUT:
+i'm a bit tired but fine
+
+### INPUT:
+how are you bro
+### OUTPUT:
+slept okay, thanks
+
+### INPUT:
+how's it going
+### OUTPUT:
+just had something to eat
+
+### INPUT:
+you good
+### OUTPUT:
+i'm full
+
+### INPUT:
+what's up
+### OUTPUT:
+work was busy
+
+### INPUT:
+you good
+### OUTPUT:
+school was fine
+
+### INPUT:
+you good bro
+### OUTPUT:
+it's sunny here
+
+### INPUT:
+you good
+### OUTPUT:
+a bit rainy, bring an umbrella
+
+### INPUT:
+you good
+### OUTPUT:
+i'm free later
+
+### INPUT:
+how are you
+### OUTPUT:
+no big plans
+
+### INPUT:
+what's up
+### OUTPUT:
+dinner sounds good
+
+### INPUT:
+how's it going bro
+### OUTPUT:
+i'm exercising later
+
+### INPUT:
+how are you
+### OUTPUT:
+i'm alright
+
+### INPUT:
+how are you
+### OUTPUT:
+i'm okay, you?
+
+### INPUT:
+you good
+### OUTPUT:
+i'm a bit tired but fine
+
+### INPUT:
+what's up
+### OUTPUT:
+slept okay, thanks
+
+### INPUT:
+what's up bro
+### OUTPUT:
+just had something to eat
+
+### INPUT:
+how are you
+### OUTPUT:
+i'm full
+
+### INPUT:
+how are you
+### OUTPUT:
+work was busy
+
+### INPUT:
+how's it going
+### OUTPUT:
+school was fine
+
+### INPUT:
+how are you
+### OUTPUT:
+it's sunny here
+
+### INPUT:
+how's it going bro
+### OUTPUT:
+a bit rainy, bring an umbrella
+
+### INPUT:
+how's it going
+### OUTPUT:
+i'm free later
+
+### INPUT:
+you good
+### OUTPUT:
+no big plans
+
+### INPUT:
+what's up
+### OUTPUT:
+dinner sounds good
+
+### INPUT:
+what's up
+### OUTPUT:
+i'm exercising later
+
+### INPUT:
+what's up bro
+### OUTPUT:
+i'm alright
+
+### INPUT:
+what's up
+### OUTPUT:
+i'm okay, you?
+
+### INPUT:
+how are you
+### OUTPUT:
+i'm a bit tired but fine
+
+### INPUT:
+what's up
+### OUTPUT:
+slept okay, thanks
+
+### INPUT:
+you good
+### OUTPUT:
+just had something to eat
+
+### INPUT:
+how are you bro
+### OUTPUT:
+i'm full
+
+### INPUT:
+you good
+### OUTPUT:
+work was busy
+
+### INPUT:
+how are you
+### OUTPUT:
+school was fine
+
+### INPUT:
+how are you
+### OUTPUT:
+it's sunny here
+
+### INPUT:
+how are you
+### OUTPUT:
+a bit rainy, bring an umbrella
+
+### INPUT:
+you good bro
+### OUTPUT:
+i'm free later
+
+### INPUT:
+how's it going
+### OUTPUT:
+no big plans
+
+### INPUT:
+how's it going
+### OUTPUT:
+dinner sounds good
+
+### INPUT:
+what's up
+### OUTPUT:
+i'm exercising later
+
+### INPUT:
+you good
+### OUTPUT:
+i'm alright
+
+### INPUT:
+how's it going bro
+### OUTPUT:
+i'm okay, you?
+
+### INPUT:
+you good
+### OUTPUT:
+i'm a bit tired but fine
+
+### INPUT:
+what's up
+### OUTPUT:
+slept okay, thanks
+
+### INPUT:
+how are you
+### OUTPUT:
+just had something to eat
+
+### INPUT:
+how are you
+### OUTPUT:
+i'm full
+
+### INPUT:
+what's up bro
+### OUTPUT:
+work was busy
+
+### INPUT:
+you good
+### OUTPUT:
+school was fine
+
+### INPUT:
+what's up
+### OUTPUT:
+it's sunny here
+
+### INPUT:
+how's it going
+### OUTPUT:
+a bit rainy, bring an umbrella
+
+### INPUT:
+what's up
+### OUTPUT:
+i'm free later
+
+### INPUT:
+you good bro
+### OUTPUT:
+no big plans
+
+### INPUT:
+how's it going
+### OUTPUT:
+dinner sounds good
+
+### INPUT:
+you good
+### OUTPUT:
+i'm exercising later
+
+### INPUT:
+how's it going
+### OUTPUT:
+i'm alright
+
+### INPUT:
+what's up
+### OUTPUT:
+i'm okay, you?
+
+### INPUT:
+what's up bro
+### OUTPUT:
+i'm a bit tired but fine
+
+### INPUT:
+how are you
+### OUTPUT:
+slept okay, thanks
+
+### INPUT:
+how's it going
+### OUTPUT:
+just had something to eat
+
+### INPUT:
+you good
+### OUTPUT:
+i'm full
+
+### INPUT:
+what's up
+### OUTPUT:
+work was busy
+
+### INPUT:
+how are you bro
+### OUTPUT:
+school was fine
+
+### INPUT:
+how are you
+### OUTPUT:
+it's sunny here
+
+### INPUT:
+how are you
+### OUTPUT:
+a bit rainy, bring an umbrella
+
+### INPUT:
+you good
+### OUTPUT:
+i'm free later
+
+### INPUT:
+you good
+### OUTPUT:
+no big plans
+
+### INPUT:
+what's up bro
+### OUTPUT:
+dinner sounds good
+
+### INPUT:
+you good
+### OUTPUT:
+i'm exercising later
+
+### INPUT:
+you good
+### OUTPUT:
+i'm alright
+
+### INPUT:
+how are you
+### OUTPUT:
+i'm okay, you?
+
+### INPUT:
+how are you
+### OUTPUT:
+i'm a bit tired but fine
+
+### INPUT:
+what's up bro
+### OUTPUT:
+slept okay, thanks
+
+### INPUT:
+what's up
+### OUTPUT:
+just had something to eat
+
+### INPUT:
+how are you
+### OUTPUT:
+i'm full
+
+### INPUT:
+how's it going
+### OUTPUT:
+work was busy
+
+### INPUT:
+how are you
+### OUTPUT:
+school was fine
+
+### INPUT:
+what's up bro
+### OUTPUT:
+it's sunny here

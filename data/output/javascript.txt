@@ -1,0 +1,211 @@
+// === Strings ===
+let greeting = "Hello, " + name + "!";
+let template = `You are ${age} years old.`;
+console.log(greeting.toUpperCase());
+console.log(template.includes("years"));
+let multiline = `This is a
+multiline string`;
+
+// === Arrays ===
+let fruits = ["apple", "banana", "orange"];
+fruits.push("grape");
+fruits.pop();
+let citrus = fruits.slice(1, 2);
+fruits.forEach(fruit => console.log(fruit));
+let longFruits = fruits.filter(f => f.length > 5);
+let uppercased = fruits.map(f => f.toUpperCase());
+let found = fruits.find(f => f.startsWith("a"));
+let allLong = fruits.every(f => f.length > 3);
+let sum = numbers.reduce((acc, n) => acc + n, 0);
+
+// === Functions ===
+function add(a, b) {
+  return a + b;
+}
+const subtract = function(a, b) {
+  return a - b;
+};
+const multiply = (a, b) => a * b;
+const greet = (name = "Guest") => `Hello, ${name}!`;
+function outer() {
+  let count = 0;
+  return function inner() {
+    count++;
+    return count;
+  };
+}
+const counter = outer();
+console.log(counter()); // 1
+
+// === Loops ===
+for (let i = 0; i < 5; i++) {
+  console.log(i);
+}
+let j = 0;
+while (j < 3) {
+  console.log(j);
+  j++;
+}
+do {
+  console.log(j);
+  j--;
+} while (j > -1);
+
+// === Error Handling ===
+try {
+  throw new Error("Something went wrong");
+} catch (error) {
+  console.error(error.message);
+} finally {
+  console.log("Cleanup");
+}
+
+// === Promises ===
+let promise = new Promise((resolve, reject) => {
+  let success = true;
+  setTimeout(() => {
+    if (success) resolve("Data loaded");
+    else reject("Network error");
+  }, 1000);
+});
+promise
+  .then(data => console.log(data))
+  .catch(err => console.error(err))
+  .finally(() => console.log("Promise finished"));
+
+// === Modules (export/import) ===
+// export function sum(a, b) { return a + b; }
+// import { sum } from './math.js';
+
+// === Node.js basics ===
+const fs = require('fs');
+const path = require('path');
+
+// Write file synchronously
+try {
+  fs.writeFileSync('output.txt', 'Hello, Node!');
+} catch (err) {
+  console.error(err);
+}
+
+// === Algorithms ===
+
+// Fibonacci
+function fibonacci(n) {
+  if (n <= 1) return n;
+  return fibonacci(n - 1) + fibonacci(n - 2);
+}
+function fibonacciIter(n) {
+  let a = 0, b = 1, temp;
+  for (let i = 2; i <= n; i++) {
+    temp = a + b;
+    a = b;
+    b = temp;
+  }
+  return n ? b : a;
+}
+
+// Palindrome
+function isPalindrome(str) {
+  let cleaned = str.toLowerCase().replace(/[^a-z0-9]/g, '');
+  return cleaned === cleaned.split('').reverse().join('');
+}
+
+// Binary search
+function binarySearch(arr, target) {
+  let left = 0, right = arr.length - 1;
+  while (left <= right) {
+    let mid = Math.floor((left + right) / 2);
+    if (arr[mid] === target) return mid;
+    else if (arr[mid] < target) left = mid + 1;
+    else right = mid - 1;
+  }
+  return -1;
+}
+
+// Merge sort
+function mergeSort(arr) {
+  if (arr.length <= 1) return arr;
+  const mid = Math.floor(arr.length / 2);
+  const left = mergeSort(arr.slice(0, mid));
+  const right = mergeSort(arr.slice(mid));
+  return merge(left, right);
+}
+function merge(left, right) {
+  let result = [], i = 0, j = 0;
+  while (i < left.length && j < right.length) {
+    if (left[i] < right[j]) result.push(left[i++]);
+    else result.push(right[j++]);
+  }
+  return result.concat(left.slice(i)).concat(right.slice(j));
+}
+
+function throttle(fn, limit) {
+  let inThrottle;
+  return function (...args) {
+    if (!inThrottle) {
+      fn.apply(this, args);
+      inThrottle = true;
+      setTimeout(() => (inThrottle = false), limit);
+    }
+  };
+}
+
+function generateId() {
+  return Math.random().toString(36).substr(2, 9);
+}
+
+let phoneRegex = /^\d{3}-\d{3}-\d{4}$/;
+let phone = "123-456-7890";
+console.log(phoneRegex.test(phone));
+
+// === JSON ===
+let jsonString = JSON.stringify(car);
+let parsedCar = JSON.parse(jsonString);
+
+let set = new Set([1, 2, 3, 3, 4]);
+set.add(5);
+console.log(set.has(3));
+set.delete(2);
+console.log([...set]);
+
+// === Destructuring ===
+let colors = ["red", "green", "blue"];
+let [firstColor, , thirdColor] = colors;
+console.log(firstColor, thirdColor);
+
+// === Optional Chaining and Nullish Coalescing ===
+let maybeUser = null;
+console.log(maybeUser?.email); // undefined
+let nameOrDefault = maybeUser?.username ?? "Anonymous";
+console.log(nameOrDefault);
+
+// === Event Loop Example ===
+console.log("Start");
+setTimeout(() => console.log("Timeout"), 0);
+Promise.resolve().then(() => console.log("Promise"));
+console.log("End");
+
+// === Generators ===
+function* idGenerator() {
+  let id = 0;
+  while (true) {
+    yield id++;
+  }
+}
+const gen = idGenerator();
+console.log(gen.next().value); // 0
+console.log(gen.next().value); // 1
+
+// === Real-world patterns (fetch with retry) ===
+async function fetchWithRetry(url, retries = 3) {
+  for (let i = 0; i < retries; i++) {
+    try {
+      let response = await fetch(url);
+      if (response.ok) return await response.json();
+    } catch (err) {
+      if (i === retries - 1) throw err;
+      await new Promise(resolve => setTimeout(resolve, 1000 * (i + 1)));
+    }
+  }
+}

@@ -1,0 +1,71 @@
+Hello
+
+Hi
+
+How are you?
+
+What is your name?
+
+Thank you
+
+Goodbye
+
+What is a computer?
+
+What is programming?
+
+What is the internet?
+
+What is a file?
+
+What is software?
+
+Explain a loop
+
+Explain a function
+
+Explain a variable
+
+Explain memory
+
+Explain an algorithm
+
+Help me write code
+
+My code is not working
+
+Fix this problem
+
+What should I do next?
+
+I am stuck
+
+Repeat Hello world
+
+Say yes
+
+Say no
+
+Answer briefly
+
+Stop
+
+I do not understand
+
+That is confusing
+
+That is wrong
+
+Try again
+
+That did not work
+
+What is the sun?
+
+What is water?
+
+What is time?
+
+What is energy?
+
+What is a system?

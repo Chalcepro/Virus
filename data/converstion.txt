@@ -1,4 +1,4 @@
-ME: So what even is a machine learning model?
+'''ME: So what even is a machine learning model?
 YOU: It’s a program that learns patterns from examples. You give it data, it finds the rules.
 ME: Like showing it pictures of cats and dogs?
 YOU: Exactly. It looks at many labeled pictures and figures out what makes a cat a cat.

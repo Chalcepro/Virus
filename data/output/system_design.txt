@@ -1,0 +1,133 @@
+## Scalability Principles
+
+Horizontal Scaling: Add more servers
+- Requires load balancing
+- Better fault tolerance
+- More complex to implement
+
+Least Connections: Route to server with fewest active connections
+- Best for long-lived connections
+
+IP Hash: Route based on client IP
+- Ensures same client always goes to same server
+
+### Indexing
+CREATE INDEX idx_email ON users(email);
+CREATE INDEX idx_name ON users(name);
+CREATE INDEX idx_created_at ON users(created_at);
+
+### Normalization
+1NF: Atomic values, no repeating groups
+2NF: First normal form + no partial dependencies
+3NF: Second normal form + no transitive dependencies
+
+Pros: Linear scalability
+Cons: Complex queries, rebalancing
+
+### Cache-Aside Pattern
+1. Check cache for data
+2. If miss, fetch from database
+3. Write to cache
+4. Return to client
+
+Pros: Data consistency
+Cons: Higher latency
+
+Pros: Lower latency
+Cons: Risk of data loss
+
+### Service Decomposition
+User Service: Manages user profiles
+Order Service: Manages orders
+Payment Service: Processes payments
+Notification Service: Sends notifications
+
+Asynchronous: Message queues, event streams
+- Loose coupling
+- Better for non-critical operations
+
+## Consistency Models
+
+### CAP Theorem
+Consistency: All nodes see same data
+Availability: System always responds
+Partition Tolerance: System works despite network partitions
+
+### Eventual Consistency
+System becomes consistent over time
+Better availability
+Acceptable for many use cases (social media feeds, etc.)
+
+### Queue-Based Processing
+Producer: Sends messages to queue
+Consumer: Processes messages from queue
+Broker: Manages queue
+
+### Message Queue Pattern
+1. User submits large order
+2. Order service puts message in queue
+3. Returns immediately to user
+4. Processing service picks up message
+5. Processes asynchronously
+
+### Key Metrics
+Latency: How long requests take
+Throughput: Requests per second
+Error Rate: Failed requests percentage
+CPU/Memory/Disk Usage: Resource utilization
+
+Aggregation tools: ELK stack, Splunk, DataDog
+
+def circuit_breaker(func, failure_threshold=5):
+    failures = 0
+    state = 'CLOSED'  # Normal operation
+
+if state == 'OPEN':
+            raise Exception("Circuit breaker is open")
+
+States:
+CLOSED: Normal operation
+OPEN: Failing, reject requests
+HALF_OPEN: Test if service recovered
+
+class BulkheadExecutor:
+    def __init__(self, thread_pool_size=10):
+        self.executor = ThreadPoolExecutor(max_workers=thread_pool_size)
+
+Isolates resources:
+- Each service gets dedicated thread pool
+- Prevents cascade failures
+- Resource exhaustion in one service doesn't affect others
+
+### Token Bucket Algorithm
+- Add tokens at fixed rate
+- Request consumes tokens
+- Request denied if no tokens
+
+def rate_limit():
+        nonlocal tokens, last_refill
+        now = time.time()
+        elapsed = now - last_refill
+        tokens = min(max_tokens, tokens + elapsed * refill_rate)
+        last_refill = now
+
+return rate_limit
+
+### Backup Strategies
+Full Backup: Complete copy of all data
+Incremental: Only changes since last backup
+Differential: Changes since last full backup
+
+### Recovery Time Objective (RTO)
+Maximum acceptable downtime
+Example: RTO of 4 hours means system must be back up within 4 hours
+
+### Active-Passive
+One active server, one standby
+Standby takes over on failure
+Simple but wastes resources
+
+### Active-Active
+Multiple servers, all active
+Automatic failover
+Requires load balancing

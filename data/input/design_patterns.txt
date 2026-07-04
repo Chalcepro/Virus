@@ -1,0 +1,156 @@
+# Design Patterns in Object-Oriented Programming
+
+### Singleton Pattern
+class Singleton:
+    _instance = None
+
+class DatabaseConnection(Singleton):
+    def __init__(self):
+        self.connection = None
+
+def query(self, sql):
+        print(f"Executing: {sql}")
+
+### Factory Pattern
+class AnimalFactory:
+    @staticmethod
+    def create_animal(animal_type):
+        if animal_type == "dog":
+            return Dog()
+        elif animal_type == "cat":
+            return Cat()
+        else:
+            raise ValueError(f"Unknown animal: {animal_type}")
+
+class Dog(Animal):
+    def speak(self):
+        return "Woof!"
+
+### Builder Pattern
+class StringBuilder:
+    def __init__(self):
+        self.parts = []
+
+def add_paragraph(self, text):
+        self.parts.append(f"<p>{text}</p>")
+        return self
+
+def build(self):
+        return "".join(self.parts)
+
+## Structural Patterns
+
+class ModernPaymentInterface:
+    def pay(self, amount):
+        pass
+
+def pay(self, amount):
+        return self.legacy_system.process_payment(amount)
+
+@timing_decorator
+def slow_function():
+    import time
+    time.sleep(1)
+    return "Done"
+
+class RealImage(Image):
+    def __init__(self, filename):
+        self.filename = filename
+        self.load()
+
+def display(self):
+        print(f"Displaying {self.filename}")
+
+def display(self):
+        if self.real_image is None:
+            self.real_image = RealImage(self.filename)
+        self.real_image.display()
+
+### Observer Pattern
+class Subject:
+    def __init__(self):
+        self._observers = []
+
+def detach(self, observer):
+        self._observers.remove(observer)
+
+class Observer:
+    def update(self, message):
+        pass
+
+def update(self, message):
+        print(f"{self.name} received: {message}")
+
+class CreditCardPayment(PaymentStrategy):
+    def pay(self, amount):
+        return f"Paid ${amount} with credit card"
+
+class BitcoinPayment(PaymentStrategy):
+    def pay(self, amount):
+        return f"Paid {amount} Bitcoin"
+
+def process(self, amount):
+        return self.strategy.pay(amount)
+
+class LightOnCommand(Command):
+    def __init__(self, light):
+        self.light = light
+
+class Light:
+    def turn_on(self):
+        print("Light is on")
+
+class RemoteControl:
+    def __init__(self):
+        self.command = None
+
+def press_button(self):
+        self.command.execute()
+
+class SolidState(State):
+    def handle(self, context):
+        print("Changing to liquid")
+        context.state = LiquidState()
+
+class GasState(State):
+    def handle(self, context):
+        print("Changing to solid")
+        context.state = SolidState()
+
+def transition(self):
+        self.state.handle(self)
+
+def add(self, item):
+        self.items.append(item)
+
+collection = Collection()
+collection.add("A")
+collection.add("B")
+collection.add("C")
+
+## Architectural Patterns
+
+def set_data(self, key, value):
+        self.data[key] = value
+
+class View:
+    def render(self, data):
+        print(f"Displaying: {data}")
+
+def update_model(self, key, value):
+        self.model.set_data(key, value)
+        self.refresh_view(key)
+
+### Repository Pattern
+class Repository:
+    def __init__(self):
+        self.data = []
+
+def find_by_id(self, item_id):
+        for item in self.data:
+            if item.id == item_id:
+                return item
+        return None
+
+def remove(self, item):
+        self.data.remove(item)

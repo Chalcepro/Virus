@@ -1,0 +1,7500 @@
+### INPUT:
+You were young.
+### OUTPUT:
+you (pronoun), were (verb), young (adjective)
+
+### INPUT:
+We are high.
+### OUTPUT:
+we (pronoun), are (verb), high (adjective)
+
+### INPUT:
+It beened.
+### OUTPUT:
+it (pronoun), beened (verb)
+
+### INPUT:
+She says a city nearly.
+### OUTPUT:
+she (pronoun), says (verb), a (article), city (noun), nearly (adverb)
+
+### INPUT:
+I am black.
+### OUTPUT:
+i (pronoun), am (verb), black (adjective)
+
+### INPUT:
+He comes.
+### OUTPUT:
+he (pronoun), comes (verb)
+
+### INPUT:
+He stands.
+### OUTPUT:
+he (pronoun), stands (verb)
+
+### INPUT:
+She saw a town out.
+### OUTPUT:
+she (pronoun), saw (verb), a (article), town (noun), out (adverb)
+
+### INPUT:
+I spoke a fish today.
+### OUTPUT:
+i (pronoun), spoke (verb), a (article), fish (noun), today (adverb)
+
+### INPUT:
+He eats a friend hard.
+### OUTPUT:
+he (pronoun), eats (verb), a (article), friend (noun), hard (adverb)
+
+### INPUT:
+It is black.
+### OUTPUT:
+it (pronoun), is (verb), black (adjective)
+
+### INPUT:
+They sat.
+### OUTPUT:
+they (pronoun), sat (verb)
+
+### INPUT:
+He does a star always.
+### OUTPUT:
+he (pronoun), does (verb), a (article), star (noun), always (adverb)
+
+### INPUT:
+It has a child.
+### OUTPUT:
+it (pronoun), has (verb), a (article), child (noun)
+
+### INPUT:
+He walks.
+### OUTPUT:
+he (pronoun), walks (verb)
+
+### INPUT:
+He takes a water.
+### OUTPUT:
+he (pronoun), takes (verb), a (article), water (noun)
+
+### INPUT:
+She did a window.
+### OUTPUT:
+she (pronoun), did (verb), a (article), window (noun)
+
+### INPUT:
+They were small.
+### OUTPUT:
+they (pronoun), were (verb), small (adjective)
+
+### INPUT:
+I am small.
+### OUTPUT:
+i (pronoun), am (verb), small (adjective)
+
+### INPUT:
+You made a book.
+### OUTPUT:
+you (pronoun), made (verb), a (article), book (noun)
+
+### INPUT:
+It told a road often.
+### OUTPUT:
+it (pronoun), told (verb), a (article), road (noun), often (adverb)
+
+### INPUT:
+He hears a friend.
+### OUTPUT:
+he (pronoun), hears (verb), a (article), friend (noun)
+
+### INPUT:
+He ate a table.
+### OUTPUT:
+he (pronoun), ate (verb), a (article), table (noun)
+
+### INPUT:
+We come.
+### OUTPUT:
+we (pronoun), come (verb)
+
+### INPUT:
+I drink a sun out.
+### OUTPUT:
+i (pronoun), drink (verb), a (article), sun (noun), out (adverb)
+
+### INPUT:
+We are warm.
+### OUTPUT:
+we (pronoun), are (verb), warm (adjective)
+
+### INPUT:
+You looked.
+### OUTPUT:
+you (pronoun), looked (verb)
+
+### INPUT:
+I was hot.
+### OUTPUT:
+i (pronoun), was (verb), hot (adjective)
+
+### INPUT:
+It was new.
+### OUTPUT:
+it (pronoun), was (verb), new (adjective)
+
+### INPUT:
+He hears a fire.
+### OUTPUT:
+he (pronoun), hears (verb), a (article), fire (noun)
+
+### INPUT:
+He tells a car.
+### OUTPUT:
+he (pronoun), tells (verb), a (article), car (noun)
+
+### INPUT:
+It took a person late.
+### OUTPUT:
+it (pronoun), took (verb), a (article), person (noun), late (adverb)
+
+### INPUT:
+He jumps.
+### OUTPUT:
+he (pronoun), jumps (verb)
+
+### INPUT:
+It ate a moon.
+### OUTPUT:
+it (pronoun), ate (verb), a (article), moon (noun)
+
+### INPUT:
+He went.
+### OUTPUT:
+he (pronoun), went (verb)
+
+### INPUT:
+We was.
+### OUTPUT:
+we (pronoun), was (verb)
+
+### INPUT:
+You were warm.
+### OUTPUT:
+you (pronoun), were (verb), warm (adjective)
+
+### INPUT:
+They have a road.
+### OUTPUT:
+they (pronoun), have (verb), a (article), road (noun)
+
+### INPUT:
+It does a world slowly.
+### OUTPUT:
+it (pronoun), does (verb), a (article), world (noun), slowly (adverb)
+
+### INPUT:
+I eat a table.
+### OUTPUT:
+i (pronoun), eat (verb), a (article), table (noun)
+
+### INPUT:
+She is narrow.
+### OUTPUT:
+she (pronoun), is (verb), narrow (adjective)
+
+### INPUT:
+We go.
+### OUTPUT:
+we (pronoun), go (verb)
+
+### INPUT:
+I made a house out.
+### OUTPUT:
+i (pronoun), made (verb), a (article), house (noun), out (adverb)
+
+### INPUT:
+We being.
+### OUTPUT:
+we (pronoun), being (verb)
+
+### INPUT:
+They are hot.
+### OUTPUT:
+they (pronoun), are (verb), hot (adjective)
+
+### INPUT:
+You have a grass.
+### OUTPUT:
+you (pronoun), have (verb), a (article), grass (noun)
+
+### INPUT:
+I made a year happily.
+### OUTPUT:
+i (pronoun), made (verb), a (article), year (noun), happily (adverb)
+
+### INPUT:
+It sees an air.
+### OUTPUT:
+it (pronoun), sees (verb), an (article), air (noun)
+
+### INPUT:
+It was heavy.
+### OUTPUT:
+it (pronoun), was (verb), heavy (adjective)
+
+### INPUT:
+She eats a stone.
+### OUTPUT:
+she (pronoun), eats (verb), a (article), stone (noun)
+
+### INPUT:
+We are yellow.
+### OUTPUT:
+we (pronoun), are (verb), yellow (adjective)
+
+### INPUT:
+We did a year up.
+### OUTPUT:
+we (pronoun), did (verb), a (article), year (noun), up (adverb)
+
+### INPUT:
+They drank a country tomorrow.
+### OUTPUT:
+they (pronoun), drank (verb), a (article), country (noun), tomorrow (adverb)
+
+### INPUT:
+She is small.
+### OUTPUT:
+she (pronoun), is (verb), small (adjective)
+
+### INPUT:
+I was soft.
+### OUTPUT:
+i (pronoun), was (verb), soft (adjective)
+
+### INPUT:
+She heard a man easily.
+### OUTPUT:
+she (pronoun), heard (verb), a (article), man (noun), easily (adverb)
+
+### INPUT:
+We come.
+### OUTPUT:
+we (pronoun), come (verb)
+
+### INPUT:
+It is dirty.
+### OUTPUT:
+it (pronoun), is (verb), dirty (adjective)
+
+### INPUT:
+We are high.
+### OUTPUT:
+we (pronoun), are (verb), high (adjective)
+
+### INPUT:
+She told a dog.
+### OUTPUT:
+she (pronoun), told (verb), a (article), dog (noun)
+
+### INPUT:
+She takes a flower.
+### OUTPUT:
+she (pronoun), takes (verb), a (article), flower (noun)
+
+### INPUT:
+We saw a star rarely.
+### OUTPUT:
+we (pronoun), saw (verb), a (article), star (noun), rarely (adverb)
+
+### INPUT:
+I said a cat sometimes.
+### OUTPUT:
+i (pronoun), said (verb), a (article), cat (noun), sometimes (adverb)
+
+### INPUT:
+I was green.
+### OUTPUT:
+i (pronoun), was (verb), green (adjective)
+
+### INPUT:
+He ared.
+### OUTPUT:
+he (pronoun), ared (verb)
+
+### INPUT:
+She jumped.
+### OUTPUT:
+she (pronoun), jumped (verb)
+
+### INPUT:
+They were cold.
+### OUTPUT:
+they (pronoun), were (verb), cold (adjective)
+
+### INPUT:
+I walked.
+### OUTPUT:
+i (pronoun), walked (verb)
+
+### INPUT:
+You are cold.
+### OUTPUT:
+you (pronoun), are (verb), cold (adjective)
+
+### INPUT:
+You said a tree slowly.
+### OUTPUT:
+you (pronoun), said (verb), a (article), tree (noun), slowly (adverb)
+
+### INPUT:
+We drink a fish nowhere.
+### OUTPUT:
+we (pronoun), drink (verb), a (article), fish (noun), nowhere (adverb)
+
+### INPUT:
+We speak a stone sadly.
+### OUTPUT:
+we (pronoun), speak (verb), a (article), stone (noun), sadly (adverb)
+
+### INPUT:
+She tells an air.
+### OUTPUT:
+she (pronoun), tells (verb), an (article), air (noun)
+
+### INPUT:
+He was full.
+### OUTPUT:
+he (pronoun), was (verb), full (adjective)
+
+### INPUT:
+We were white.
+### OUTPUT:
+we (pronoun), were (verb), white (adjective)
+
+### INPUT:
+It was empty.
+### OUTPUT:
+it (pronoun), was (verb), empty (adjective)
+
+### INPUT:
+You take a door easily.
+### OUTPUT:
+you (pronoun), take (verb), a (article), door (noun), easily (adverb)
+
+### INPUT:
+It heard a flower.
+### OUTPUT:
+it (pronoun), heard (verb), a (article), flower (noun)
+
+### INPUT:
+She was beautiful.
+### OUTPUT:
+she (pronoun), was (verb), beautiful (adjective)
+
+### INPUT:
+I see an air.
+### OUTPUT:
+i (pronoun), see (verb), an (article), air (noun)
+
+### INPUT:
+You ared.
+### OUTPUT:
+you (pronoun), ared (verb)
+
+### INPUT:
+I am short.
+### OUTPUT:
+i (pronoun), am (verb), short (adjective)
+
+### INPUT:
+We did a man there.
+### OUTPUT:
+we (pronoun), did (verb), a (article), man (noun), there (adverb)
+
+### INPUT:
+They were slow.
+### OUTPUT:
+they (pronoun), were (verb), slow (adjective)
+
+### INPUT:
+It said a table such.
+### OUTPUT:
+it (pronoun), said (verb), a (article), table (noun), such (adverb)
+
+### INPUT:
+He hears a sun.
+### OUTPUT:
+he (pronoun), hears (verb), a (article), sun (noun)
+
+### INPUT:
+She spoke a dog badly.
+### OUTPUT:
+she (pronoun), spoke (verb), a (article), dog (noun), badly (adverb)
+
+### INPUT:
+We beinged.
+### OUTPUT:
+we (pronoun), beinged (verb)
+
+### INPUT:
+I tell a city up.
+### OUTPUT:
+i (pronoun), tell (verb), a (article), city (noun), up (adverb)
+
+### INPUT:
+They drink a woman now.
+### OUTPUT:
+they (pronoun), drink (verb), a (article), woman (noun), now (adverb)
+
+### INPUT:
+They have a grass.
+### OUTPUT:
+they (pronoun), have (verb), a (article), grass (noun)
+
+### INPUT:
+I stand.
+### OUTPUT:
+i (pronoun), stand (verb)
+
+### INPUT:
+We have a water.
+### OUTPUT:
+we (pronoun), have (verb), a (article), water (noun)
+
+### INPUT:
+It took a tree.
+### OUTPUT:
+it (pronoun), took (verb), a (article), tree (noun)
+
+### INPUT:
+I is.
+### OUTPUT:
+i (pronoun), is (verb)
+
+### INPUT:
+He heard a group.
+### OUTPUT:
+he (pronoun), heard (verb), a (article), group (noun)
+
+### INPUT:
+It ises.
+### OUTPUT:
+it (pronoun), ises (verb)
+
+### INPUT:
+He took a child down.
+### OUTPUT:
+he (pronoun), took (verb), a (article), child (noun), down (adverb)
+
+### INPUT:
+I tell a water.
+### OUTPUT:
+i (pronoun), tell (verb), a (article), water (noun)
+
+### INPUT:
+You being.
+### OUTPUT:
+you (pronoun), being (verb)
+
+### INPUT:
+He hears a tree here.
+### OUTPUT:
+he (pronoun), hears (verb), a (article), tree (noun), here (adverb)
+
+### INPUT:
+I had an air.
+### OUTPUT:
+i (pronoun), had (verb), an (article), air (noun)
+
+### INPUT:
+We told a person quickly.
+### OUTPUT:
+we (pronoun), told (verb), a (article), person (noun), quickly (adverb)
+
+### INPUT:
+You are hard.
+### OUTPUT:
+you (pronoun), are (verb), hard (adjective)
+
+### INPUT:
+They heard a woman.
+### OUTPUT:
+they (pronoun), heard (verb), a (article), woman (noun)
+
+### INPUT:
+He speaks a book nearly.
+### OUTPUT:
+he (pronoun), speaks (verb), a (article), book (noun), nearly (adverb)
+
+### INPUT:
+You make a star so.
+### OUTPUT:
+you (pronoun), make (verb), a (article), star (noun), so (adverb)
+
+### INPUT:
+She walks.
+### OUTPUT:
+she (pronoun), walks (verb)
+
+### INPUT:
+It sees a star.
+### OUTPUT:
+it (pronoun), sees (verb), a (article), star (noun)
+
+### INPUT:
+You was.
+### OUTPUT:
+you (pronoun), was (verb)
+
+### INPUT:
+We drank a car then.
+### OUTPUT:
+we (pronoun), drank (verb), a (article), car (noun), then (adverb)
+
+### INPUT:
+You are full.
+### OUTPUT:
+you (pronoun), are (verb), full (adjective)
+
+### INPUT:
+He takes a sun here.
+### OUTPUT:
+he (pronoun), takes (verb), a (article), sun (noun), here (adverb)
+
+### INPUT:
+You were happy.
+### OUTPUT:
+you (pronoun), were (verb), happy (adjective)
+
+### INPUT:
+He jumps.
+### OUTPUT:
+he (pronoun), jumps (verb)
+
+### INPUT:
+I was light.
+### OUTPUT:
+i (pronoun), was (verb), light (adjective)
+
+### INPUT:
+He spoke a tree.
+### OUTPUT:
+he (pronoun), spoke (verb), a (article), tree (noun)
+
+### INPUT:
+We being.
+### OUTPUT:
+we (pronoun), being (verb)
+
+### INPUT:
+It made a person.
+### OUTPUT:
+it (pronoun), made (verb), a (article), person (noun)
+
+### INPUT:
+We were weak.
+### OUTPUT:
+we (pronoun), were (verb), weak (adjective)
+
+### INPUT:
+You wased.
+### OUTPUT:
+you (pronoun), wased (verb)
+
+### INPUT:
+I beened.
+### OUTPUT:
+i (pronoun), beened (verb)
+
+### INPUT:
+He talks.
+### OUTPUT:
+he (pronoun), talks (verb)
+
+### INPUT:
+He came.
+### OUTPUT:
+he (pronoun), came (verb)
+
+### INPUT:
+He is alive.
+### OUTPUT:
+he (pronoun), is (verb), alive (adjective)
+
+### INPUT:
+He was big.
+### OUTPUT:
+he (pronoun), was (verb), big (adjective)
+
+### INPUT:
+They go.
+### OUTPUT:
+they (pronoun), go (verb)
+
+### INPUT:
+We beened.
+### OUTPUT:
+we (pronoun), beened (verb)
+
+### INPUT:
+She made a table in.
+### OUTPUT:
+she (pronoun), made (verb), a (article), table (noun), in (adverb)
+
+### INPUT:
+They have a water.
+### OUTPUT:
+they (pronoun), have (verb), a (article), water (noun)
+
+### INPUT:
+He says a grass.
+### OUTPUT:
+he (pronoun), says (verb), a (article), grass (noun)
+
+### INPUT:
+It is green.
+### OUTPUT:
+it (pronoun), is (verb), green (adjective)
+
+### INPUT:
+You tell a house enough.
+### OUTPUT:
+you (pronoun), tell (verb), a (article), house (noun), enough (adverb)
+
+### INPUT:
+It amed.
+### OUTPUT:
+it (pronoun), amed (verb)
+
+### INPUT:
+I drank a day.
+### OUTPUT:
+i (pronoun), drank (verb), a (article), day (noun)
+
+### INPUT:
+I were.
+### OUTPUT:
+i (pronoun), were (verb)
+
+### INPUT:
+You heard a table nowhere.
+### OUTPUT:
+you (pronoun), heard (verb), a (article), table (noun), nowhere (adverb)
+
+### INPUT:
+We do a pen never.
+### OUTPUT:
+we (pronoun), do (verb), a (article), pen (noun), never (adverb)
+
+### INPUT:
+It was cold.
+### OUTPUT:
+it (pronoun), was (verb), cold (adjective)
+
+### INPUT:
+We were hot.
+### OUTPUT:
+we (pronoun), were (verb), hot (adjective)
+
+### INPUT:
+You saw a child.
+### OUTPUT:
+you (pronoun), saw (verb), a (article), child (noun)
+
+### INPUT:
+He gives a person.
+### OUTPUT:
+he (pronoun), gives (verb), a (article), person (noun)
+
+### INPUT:
+She is hot.
+### OUTPUT:
+she (pronoun), is (verb), hot (adjective)
+
+### INPUT:
+We drink a grass.
+### OUTPUT:
+we (pronoun), drink (verb), a (article), grass (noun)
+
+### INPUT:
+I being.
+### OUTPUT:
+i (pronoun), being (verb)
+
+### INPUT:
+He ate a year.
+### OUTPUT:
+he (pronoun), ate (verb), a (article), year (noun)
+
+### INPUT:
+I hear a group.
+### OUTPUT:
+i (pronoun), hear (verb), a (article), group (noun)
+
+### INPUT:
+He does a window.
+### OUTPUT:
+he (pronoun), does (verb), a (article), window (noun)
+
+### INPUT:
+They took a cat fast.
+### OUTPUT:
+they (pronoun), took (verb), a (article), cat (noun), fast (adverb)
+
+### INPUT:
+I am high.
+### OUTPUT:
+i (pronoun), am (verb), high (adjective)
+
+### INPUT:
+I am yellow.
+### OUTPUT:
+i (pronoun), am (verb), yellow (adjective)
+
+### INPUT:
+It is dead.
+### OUTPUT:
+it (pronoun), is (verb), dead (adjective)
+
+### INPUT:
+They say a star.
+### OUTPUT:
+they (pronoun), say (verb), a (article), star (noun)
+
+### INPUT:
+It is cool.
+### OUTPUT:
+it (pronoun), is (verb), cool (adjective)
+
+### INPUT:
+I being.
+### OUTPUT:
+i (pronoun), being (verb)
+
+### INPUT:
+She drinks a moon so.
+### OUTPUT:
+she (pronoun), drinks (verb), a (article), moon (noun), so (adverb)
+
+### INPUT:
+We see a moon.
+### OUTPUT:
+we (pronoun), see (verb), a (article), moon (noun)
+
+### INPUT:
+He was empty.
+### OUTPUT:
+he (pronoun), was (verb), empty (adjective)
+
+### INPUT:
+I was cool.
+### OUTPUT:
+i (pronoun), was (verb), cool (adjective)
+
+### INPUT:
+She was small.
+### OUTPUT:
+she (pronoun), was (verb), small (adjective)
+
+### INPUT:
+She is dead.
+### OUTPUT:
+she (pronoun), is (verb), dead (adjective)
+
+### INPUT:
+I tell a door inside.
+### OUTPUT:
+i (pronoun), tell (verb), a (article), door (noun), inside (adverb)
+
+### INPUT:
+She ares.
+### OUTPUT:
+she (pronoun), ares (verb)
+
+### INPUT:
+You eat a fish very.
+### OUTPUT:
+you (pronoun), eat (verb), a (article), fish (noun), very (adverb)
+
+### INPUT:
+I gave a team.
+### OUTPUT:
+i (pronoun), gave (verb), a (article), team (noun)
+
+### INPUT:
+You are young.
+### OUTPUT:
+you (pronoun), are (verb), young (adjective)
+
+### INPUT:
+It is red.
+### OUTPUT:
+it (pronoun), is (verb), red (adjective)
+
+### INPUT:
+She beings.
+### OUTPUT:
+she (pronoun), beings (verb)
+
+### INPUT:
+You ate a rock.
+### OUTPUT:
+you (pronoun), ate (verb), a (article), rock (noun)
+
+### INPUT:
+It is dirty.
+### OUTPUT:
+it (pronoun), is (verb), dirty (adjective)
+
+### INPUT:
+We give a door too.
+### OUTPUT:
+we (pronoun), give (verb), a (article), door (noun), too (adverb)
+
+### INPUT:
+It heard a rock.
+### OUTPUT:
+it (pronoun), heard (verb), a (article), rock (noun)
+
+### INPUT:
+I tell a city.
+### OUTPUT:
+i (pronoun), tell (verb), a (article), city (noun)
+
+### INPUT:
+He drank a chair.
+### OUTPUT:
+he (pronoun), drank (verb), a (article), chair (noun)
+
+### INPUT:
+I do a bird.
+### OUTPUT:
+i (pronoun), do (verb), a (article), bird (noun)
+
+### INPUT:
+She is poor.
+### OUTPUT:
+she (pronoun), is (verb), poor (adjective)
+
+### INPUT:
+We told a water rather.
+### OUTPUT:
+we (pronoun), told (verb), a (article), water (noun), rather (adverb)
+
+### INPUT:
+She took an earth.
+### OUTPUT:
+she (pronoun), took (verb), an (article), earth (noun)
+
+### INPUT:
+You ate a cat nearly.
+### OUTPUT:
+you (pronoun), ate (verb), a (article), cat (noun), nearly (adverb)
+
+### INPUT:
+You made a team up.
+### OUTPUT:
+you (pronoun), made (verb), a (article), team (noun), up (adverb)
+
+### INPUT:
+She drank a house.
+### OUTPUT:
+she (pronoun), drank (verb), a (article), house (noun)
+
+### INPUT:
+She said a car.
+### OUTPUT:
+she (pronoun), said (verb), a (article), car (noun)
+
+### INPUT:
+I take a table hard.
+### OUTPUT:
+i (pronoun), take (verb), a (article), table (noun), hard (adverb)
+
+### INPUT:
+I am soft.
+### OUTPUT:
+i (pronoun), am (verb), soft (adjective)
+
+### INPUT:
+I drink a team well.
+### OUTPUT:
+i (pronoun), drink (verb), a (article), team (noun), well (adverb)
+
+### INPUT:
+She speaks a door.
+### OUTPUT:
+she (pronoun), speaks (verb), a (article), door (noun)
+
+### INPUT:
+They say a team.
+### OUTPUT:
+they (pronoun), say (verb), a (article), team (noun)
+
+### INPUT:
+He is clean.
+### OUTPUT:
+he (pronoun), is (verb), clean (adjective)
+
+### INPUT:
+You were hot.
+### OUTPUT:
+you (pronoun), were (verb), hot (adjective)
+
+### INPUT:
+It speaks a team out.
+### OUTPUT:
+it (pronoun), speaks (verb), a (article), team (noun), out (adverb)
+
+### INPUT:
+He ate a person.
+### OUTPUT:
+he (pronoun), ate (verb), a (article), person (noun)
+
+### INPUT:
+You took a night.
+### OUTPUT:
+you (pronoun), took (verb), a (article), night (noun)
+
+### INPUT:
+You were hot.
+### OUTPUT:
+you (pronoun), were (verb), hot (adjective)
+
+### INPUT:
+We are.
+### OUTPUT:
+we (pronoun), are (verb)
+
+### INPUT:
+He does a friend everywhere.
+### OUTPUT:
+he (pronoun), does (verb), a (article), friend (noun), everywhere (adverb)
+
+### INPUT:
+She was high.
+### OUTPUT:
+she (pronoun), was (verb), high (adjective)
+
+### INPUT:
+He drank a flower.
+### OUTPUT:
+he (pronoun), drank (verb), a (article), flower (noun)
+
+### INPUT:
+It has a fish.
+### OUTPUT:
+it (pronoun), has (verb), a (article), fish (noun)
+
+### INPUT:
+He was dirty.
+### OUTPUT:
+he (pronoun), was (verb), dirty (adjective)
+
+### INPUT:
+We are fast.
+### OUTPUT:
+we (pronoun), are (verb), fast (adjective)
+
+### INPUT:
+He gives a friend.
+### OUTPUT:
+he (pronoun), gives (verb), a (article), friend (noun)
+
+### INPUT:
+It said a fish badly.
+### OUTPUT:
+it (pronoun), said (verb), a (article), fish (noun), badly (adverb)
+
+### INPUT:
+It takes a bird slowly.
+### OUTPUT:
+it (pronoun), takes (verb), a (article), bird (noun), slowly (adverb)
+
+### INPUT:
+It ares.
+### OUTPUT:
+it (pronoun), ares (verb)
+
+### INPUT:
+It is young.
+### OUTPUT:
+it (pronoun), is (verb), young (adjective)
+
+### INPUT:
+It spoke a family.
+### OUTPUT:
+it (pronoun), spoke (verb), a (article), family (noun)
+
+### INPUT:
+He gives a rock.
+### OUTPUT:
+he (pronoun), gives (verb), a (article), rock (noun)
+
+### INPUT:
+I hear a chair.
+### OUTPUT:
+i (pronoun), hear (verb), a (article), chair (noun)
+
+### INPUT:
+I take a chair so.
+### OUTPUT:
+i (pronoun), take (verb), a (article), chair (noun), so (adverb)
+
+### INPUT:
+They were hot.
+### OUTPUT:
+they (pronoun), were (verb), hot (adjective)
+
+### INPUT:
+We are.
+### OUTPUT:
+we (pronoun), are (verb)
+
+### INPUT:
+You saw a cat happily.
+### OUTPUT:
+you (pronoun), saw (verb), a (article), cat (noun), happily (adverb)
+
+### INPUT:
+She looks.
+### OUTPUT:
+she (pronoun), looks (verb)
+
+### INPUT:
+I drink a cat.
+### OUTPUT:
+i (pronoun), drink (verb), a (article), cat (noun)
+
+### INPUT:
+She hears a city.
+### OUTPUT:
+she (pronoun), hears (verb), a (article), city (noun)
+
+### INPUT:
+It speaks a house often.
+### OUTPUT:
+it (pronoun), speaks (verb), a (article), house (noun), often (adverb)
+
+### INPUT:
+We ran.
+### OUTPUT:
+we (pronoun), ran (verb)
+
+### INPUT:
+We made a car enough.
+### OUTPUT:
+we (pronoun), made (verb), a (article), car (noun), enough (adverb)
+
+### INPUT:
+You drink a day soon.
+### OUTPUT:
+you (pronoun), drink (verb), a (article), day (noun), soon (adverb)
+
+### INPUT:
+He comes.
+### OUTPUT:
+he (pronoun), comes (verb)
+
+### INPUT:
+We wered.
+### OUTPUT:
+we (pronoun), wered (verb)
+
+### INPUT:
+We were yellow.
+### OUTPUT:
+we (pronoun), were (verb), yellow (adjective)
+
+### INPUT:
+You come.
+### OUTPUT:
+you (pronoun), come (verb)
+
+### INPUT:
+You have a food.
+### OUTPUT:
+you (pronoun), have (verb), a (article), food (noun)
+
+### INPUT:
+He gave a child.
+### OUTPUT:
+he (pronoun), gave (verb), a (article), child (noun)
+
+### INPUT:
+She did a cat slowly.
+### OUTPUT:
+she (pronoun), did (verb), a (article), cat (noun), slowly (adverb)
+
+### INPUT:
+It speaks a man everywhere.
+### OUTPUT:
+it (pronoun), speaks (verb), a (article), man (noun), everywhere (adverb)
+
+### INPUT:
+You walk.
+### OUTPUT:
+you (pronoun), walk (verb)
+
+### INPUT:
+I look.
+### OUTPUT:
+i (pronoun), look (verb)
+
+### INPUT:
+We are small.
+### OUTPUT:
+we (pronoun), are (verb), small (adjective)
+
+### INPUT:
+You walk.
+### OUTPUT:
+you (pronoun), walk (verb)
+
+### INPUT:
+I are.
+### OUTPUT:
+i (pronoun), are (verb)
+
+### INPUT:
+They have a sun.
+### OUTPUT:
+they (pronoun), have (verb), a (article), sun (noun)
+
+### INPUT:
+You talk.
+### OUTPUT:
+you (pronoun), talk (verb)
+
+### INPUT:
+I jump.
+### OUTPUT:
+i (pronoun), jump (verb)
+
+### INPUT:
+I was beautiful.
+### OUTPUT:
+i (pronoun), was (verb), beautiful (adjective)
+
+### INPUT:
+He ams.
+### OUTPUT:
+he (pronoun), ams (verb)
+
+### INPUT:
+He was small.
+### OUTPUT:
+he (pronoun), was (verb), small (adjective)
+
+### INPUT:
+He was slow.
+### OUTPUT:
+he (pronoun), was (verb), slow (adjective)
+
+### INPUT:
+They were poor.
+### OUTPUT:
+they (pronoun), were (verb), poor (adjective)
+
+### INPUT:
+It had a dog nowhere.
+### OUTPUT:
+it (pronoun), had (verb), a (article), dog (noun), nowhere (adverb)
+
+### INPUT:
+It sat.
+### OUTPUT:
+it (pronoun), sat (verb)
+
+### INPUT:
+We were slow.
+### OUTPUT:
+we (pronoun), were (verb), slow (adjective)
+
+### INPUT:
+It speaks a door.
+### OUTPUT:
+it (pronoun), speaks (verb), a (article), door (noun)
+
+### INPUT:
+It hears a year sadly.
+### OUTPUT:
+it (pronoun), hears (verb), a (article), year (noun), sadly (adverb)
+
+### INPUT:
+She sat.
+### OUTPUT:
+she (pronoun), sat (verb)
+
+### INPUT:
+She gives a fire out.
+### OUTPUT:
+she (pronoun), gives (verb), a (article), fire (noun), out (adverb)
+
+### INPUT:
+He is yellow.
+### OUTPUT:
+he (pronoun), is (verb), yellow (adjective)
+
+### INPUT:
+You drank a friend.
+### OUTPUT:
+you (pronoun), drank (verb), a (article), friend (noun)
+
+### INPUT:
+They sat.
+### OUTPUT:
+they (pronoun), sat (verb)
+
+### INPUT:
+I was long.
+### OUTPUT:
+i (pronoun), was (verb), long (adjective)
+
+### INPUT:
+She takes a dog here.
+### OUTPUT:
+she (pronoun), takes (verb), a (article), dog (noun), here (adverb)
+
+### INPUT:
+He told a town.
+### OUTPUT:
+he (pronoun), told (verb), a (article), town (noun)
+
+### INPUT:
+We heard a grass.
+### OUTPUT:
+we (pronoun), heard (verb), a (article), grass (noun)
+
+### INPUT:
+He gives a food.
+### OUTPUT:
+he (pronoun), gives (verb), a (article), food (noun)
+
+### INPUT:
+We did a food.
+### OUTPUT:
+we (pronoun), did (verb), a (article), food (noun)
+
+### INPUT:
+She had a day.
+### OUTPUT:
+she (pronoun), had (verb), a (article), day (noun)
+
+### INPUT:
+He makes a child.
+### OUTPUT:
+he (pronoun), makes (verb), a (article), child (noun)
+
+### INPUT:
+He had a team.
+### OUTPUT:
+he (pronoun), had (verb), a (article), team (noun)
+
+### INPUT:
+You have a food.
+### OUTPUT:
+you (pronoun), have (verb), a (article), food (noun)
+
+### INPUT:
+You are new.
+### OUTPUT:
+you (pronoun), are (verb), new (adjective)
+
+### INPUT:
+We drank a door.
+### OUTPUT:
+we (pronoun), drank (verb), a (article), door (noun)
+
+### INPUT:
+She stands.
+### OUTPUT:
+she (pronoun), stands (verb)
+
+### INPUT:
+We spoke a tree.
+### OUTPUT:
+we (pronoun), spoke (verb), a (article), tree (noun)
+
+### INPUT:
+I am dirty.
+### OUTPUT:
+i (pronoun), am (verb), dirty (adjective)
+
+### INPUT:
+You wased.
+### OUTPUT:
+you (pronoun), wased (verb)
+
+### INPUT:
+I tell a tree soon.
+### OUTPUT:
+i (pronoun), tell (verb), a (article), tree (noun), soon (adverb)
+
+### INPUT:
+I was interesting.
+### OUTPUT:
+i (pronoun), was (verb), interesting (adjective)
+
+### INPUT:
+I was white.
+### OUTPUT:
+i (pronoun), was (verb), white (adjective)
+
+### INPUT:
+They heard a family soon.
+### OUTPUT:
+they (pronoun), heard (verb), a (article), family (noun), soon (adverb)
+
+### INPUT:
+She tells a food.
+### OUTPUT:
+she (pronoun), tells (verb), a (article), food (noun)
+
+### INPUT:
+She is white.
+### OUTPUT:
+she (pronoun), is (verb), white (adjective)
+
+### INPUT:
+He tells a rock up.
+### OUTPUT:
+he (pronoun), tells (verb), a (article), rock (noun), up (adverb)
+
+### INPUT:
+It looked.
+### OUTPUT:
+it (pronoun), looked (verb)
+
+### INPUT:
+She is hard.
+### OUTPUT:
+she (pronoun), is (verb), hard (adjective)
+
+### INPUT:
+He talks.
+### OUTPUT:
+he (pronoun), talks (verb)
+
+### INPUT:
+It says a book.
+### OUTPUT:
+it (pronoun), says (verb), a (article), book (noun)
+
+### INPUT:
+We make a road slowly.
+### OUTPUT:
+we (pronoun), make (verb), a (article), road (noun), slowly (adverb)
+
+### INPUT:
+She was strong.
+### OUTPUT:
+she (pronoun), was (verb), strong (adjective)
+
+### INPUT:
+She does a pen.
+### OUTPUT:
+she (pronoun), does (verb), a (article), pen (noun)
+
+### INPUT:
+He is cold.
+### OUTPUT:
+he (pronoun), is (verb), cold (adjective)
+
+### INPUT:
+I ate a house nowhere.
+### OUTPUT:
+i (pronoun), ate (verb), a (article), house (noun), nowhere (adverb)
+
+### INPUT:
+It spoke a book soon.
+### OUTPUT:
+it (pronoun), spoke (verb), a (article), book (noun), soon (adverb)
+
+### INPUT:
+It was black.
+### OUTPUT:
+it (pronoun), was (verb), black (adjective)
+
+### INPUT:
+You saw a table easily.
+### OUTPUT:
+you (pronoun), saw (verb), a (article), table (noun), easily (adverb)
+
+### INPUT:
+We did a woman.
+### OUTPUT:
+we (pronoun), did (verb), a (article), woman (noun)
+
+### INPUT:
+We took a star.
+### OUTPUT:
+we (pronoun), took (verb), a (article), star (noun)
+
+### INPUT:
+They did a table down.
+### OUTPUT:
+they (pronoun), did (verb), a (article), table (noun), down (adverb)
+
+### INPUT:
+He is alive.
+### OUTPUT:
+he (pronoun), is (verb), alive (adjective)
+
+### INPUT:
+She took a window down.
+### OUTPUT:
+she (pronoun), took (verb), a (article), window (noun), down (adverb)
+
+### INPUT:
+He went.
+### OUTPUT:
+he (pronoun), went (verb)
+
+### INPUT:
+She was hard.
+### OUTPUT:
+she (pronoun), was (verb), hard (adjective)
+
+### INPUT:
+We say a chair often.
+### OUTPUT:
+we (pronoun), say (verb), a (article), chair (noun), often (adverb)
+
+### INPUT:
+I give a food badly.
+### OUTPUT:
+i (pronoun), give (verb), a (article), food (noun), badly (adverb)
+
+### INPUT:
+We are big.
+### OUTPUT:
+we (pronoun), are (verb), big (adjective)
+
+### INPUT:
+We speak a day.
+### OUTPUT:
+we (pronoun), speak (verb), a (article), day (noun)
+
+### INPUT:
+They go.
+### OUTPUT:
+they (pronoun), go (verb)
+
+### INPUT:
+He saw a man.
+### OUTPUT:
+he (pronoun), saw (verb), a (article), man (noun)
+
+### INPUT:
+It has a group hard.
+### OUTPUT:
+it (pronoun), has (verb), a (article), group (noun), hard (adverb)
+
+### INPUT:
+She is closed.
+### OUTPUT:
+she (pronoun), is (verb), closed (adjective)
+
+### INPUT:
+We make a pen.
+### OUTPUT:
+we (pronoun), make (verb), a (article), pen (noun)
+
+### INPUT:
+She went.
+### OUTPUT:
+she (pronoun), went (verb)
+
+### INPUT:
+She did a fish.
+### OUTPUT:
+she (pronoun), did (verb), a (article), fish (noun)
+
+### INPUT:
+You had a stone late.
+### OUTPUT:
+you (pronoun), had (verb), a (article), stone (noun), late (adverb)
+
+### INPUT:
+It gives a cat then.
+### OUTPUT:
+it (pronoun), gives (verb), a (article), cat (noun), then (adverb)
+
+### INPUT:
+We were heavy.
+### OUTPUT:
+we (pronoun), were (verb), heavy (adjective)
+
+### INPUT:
+They made an earth inside.
+### OUTPUT:
+they (pronoun), made (verb), an (article), earth (noun), inside (adverb)
+
+### INPUT:
+You take an earth too.
+### OUTPUT:
+you (pronoun), take (verb), an (article), earth (noun), too (adverb)
+
+### INPUT:
+It walks.
+### OUTPUT:
+it (pronoun), walks (verb)
+
+### INPUT:
+It is weak.
+### OUTPUT:
+it (pronoun), is (verb), weak (adjective)
+
+### INPUT:
+I hear a star too.
+### OUTPUT:
+i (pronoun), hear (verb), a (article), star (noun), too (adverb)
+
+### INPUT:
+I took an earth.
+### OUTPUT:
+i (pronoun), took (verb), an (article), earth (noun)
+
+### INPUT:
+They were bright.
+### OUTPUT:
+they (pronoun), were (verb), bright (adjective)
+
+### INPUT:
+She said a tree.
+### OUTPUT:
+she (pronoun), said (verb), a (article), tree (noun)
+
+### INPUT:
+They are warm.
+### OUTPUT:
+they (pronoun), are (verb), warm (adjective)
+
+### INPUT:
+They were hard.
+### OUTPUT:
+they (pronoun), were (verb), hard (adjective)
+
+### INPUT:
+It spoke a road rarely.
+### OUTPUT:
+it (pronoun), spoke (verb), a (article), road (noun), rarely (adverb)
+
+### INPUT:
+They drank an air.
+### OUTPUT:
+they (pronoun), drank (verb), an (article), air (noun)
+
+### INPUT:
+We spoke a table.
+### OUTPUT:
+we (pronoun), spoke (verb), a (article), table (noun)
+
+### INPUT:
+She wases.
+### OUTPUT:
+she (pronoun), wases (verb)
+
+### INPUT:
+He sat.
+### OUTPUT:
+he (pronoun), sat (verb)
+
+### INPUT:
+You being.
+### OUTPUT:
+you (pronoun), being (verb)
+
+### INPUT:
+It stood.
+### OUTPUT:
+it (pronoun), stood (verb)
+
+### INPUT:
+I been.
+### OUTPUT:
+i (pronoun), been (verb)
+
+### INPUT:
+We see a bird.
+### OUTPUT:
+we (pronoun), see (verb), a (article), bird (noun)
+
+### INPUT:
+We eat an earth badly.
+### OUTPUT:
+we (pronoun), eat (verb), an (article), earth (noun), badly (adverb)
+
+### INPUT:
+They were cool.
+### OUTPUT:
+they (pronoun), were (verb), cool (adjective)
+
+### INPUT:
+I said a dog.
+### OUTPUT:
+i (pronoun), said (verb), a (article), dog (noun)
+
+### INPUT:
+She gives a city happily.
+### OUTPUT:
+she (pronoun), gives (verb), a (article), city (noun), happily (adverb)
+
+### INPUT:
+It wased.
+### OUTPUT:
+it (pronoun), wased (verb)
+
+### INPUT:
+I take a sun almost.
+### OUTPUT:
+i (pronoun), take (verb), a (article), sun (noun), almost (adverb)
+
+### INPUT:
+They told a country.
+### OUTPUT:
+they (pronoun), told (verb), a (article), country (noun)
+
+### INPUT:
+We being.
+### OUTPUT:
+we (pronoun), being (verb)
+
+### INPUT:
+We eat a tree.
+### OUTPUT:
+we (pronoun), eat (verb), a (article), tree (noun)
+
+### INPUT:
+We sit.
+### OUTPUT:
+we (pronoun), sit (verb)
+
+### INPUT:
+They sit.
+### OUTPUT:
+they (pronoun), sit (verb)
+
+### INPUT:
+I spoke a world.
+### OUTPUT:
+i (pronoun), spoke (verb), a (article), world (noun)
+
+### INPUT:
+We had a window.
+### OUTPUT:
+we (pronoun), had (verb), a (article), window (noun)
+
+### INPUT:
+They stood.
+### OUTPUT:
+they (pronoun), stood (verb)
+
+### INPUT:
+We beinged.
+### OUTPUT:
+we (pronoun), beinged (verb)
+
+### INPUT:
+I had a bird quickly.
+### OUTPUT:
+i (pronoun), had (verb), a (article), bird (noun), quickly (adverb)
+
+### INPUT:
+We jump.
+### OUTPUT:
+we (pronoun), jump (verb)
+
+### INPUT:
+He had a group then.
+### OUTPUT:
+he (pronoun), had (verb), a (article), group (noun), then (adverb)
+
+### INPUT:
+He says a world outside.
+### OUTPUT:
+he (pronoun), says (verb), a (article), world (noun), outside (adverb)
+
+### INPUT:
+You drink an earth enough.
+### OUTPUT:
+you (pronoun), drink (verb), an (article), earth (noun), enough (adverb)
+
+### INPUT:
+She told a flower.
+### OUTPUT:
+she (pronoun), told (verb), a (article), flower (noun)
+
+### INPUT:
+He was cold.
+### OUTPUT:
+he (pronoun), was (verb), cold (adjective)
+
+### INPUT:
+They ran.
+### OUTPUT:
+they (pronoun), ran (verb)
+
+### INPUT:
+It told a child.
+### OUTPUT:
+it (pronoun), told (verb), a (article), child (noun)
+
+### INPUT:
+We told a group soon.
+### OUTPUT:
+we (pronoun), told (verb), a (article), group (noun), soon (adverb)
+
+### INPUT:
+We ate a food early.
+### OUTPUT:
+we (pronoun), ate (verb), a (article), food (noun), early (adverb)
+
+### INPUT:
+You were rich.
+### OUTPUT:
+you (pronoun), were (verb), rich (adjective)
+
+### INPUT:
+They stood.
+### OUTPUT:
+they (pronoun), stood (verb)
+
+### INPUT:
+They did a stone.
+### OUTPUT:
+they (pronoun), did (verb), a (article), stone (noun)
+
+### INPUT:
+It is light.
+### OUTPUT:
+it (pronoun), is (verb), light (adjective)
+
+### INPUT:
+You had a woman often.
+### OUTPUT:
+you (pronoun), had (verb), a (article), woman (noun), often (adverb)
+
+### INPUT:
+She talked.
+### OUTPUT:
+she (pronoun), talked (verb)
+
+### INPUT:
+They are low.
+### OUTPUT:
+they (pronoun), are (verb), low (adjective)
+
+### INPUT:
+It says a house soon.
+### OUTPUT:
+it (pronoun), says (verb), a (article), house (noun), soon (adverb)
+
+### INPUT:
+They did a food down.
+### OUTPUT:
+they (pronoun), did (verb), a (article), food (noun), down (adverb)
+
+### INPUT:
+You hear a car.
+### OUTPUT:
+you (pronoun), hear (verb), a (article), car (noun)
+
+### INPUT:
+He gave a world.
+### OUTPUT:
+he (pronoun), gave (verb), a (article), world (noun)
+
+### INPUT:
+They were bright.
+### OUTPUT:
+they (pronoun), were (verb), bright (adjective)
+
+### INPUT:
+I make an earth.
+### OUTPUT:
+i (pronoun), make (verb), an (article), earth (noun)
+
+### INPUT:
+We beened.
+### OUTPUT:
+we (pronoun), beened (verb)
+
+### INPUT:
+He runs.
+### OUTPUT:
+he (pronoun), runs (verb)
+
+### INPUT:
+It was poor.
+### OUTPUT:
+it (pronoun), was (verb), poor (adjective)
+
+### INPUT:
+I talk.
+### OUTPUT:
+i (pronoun), talk (verb)
+
+### INPUT:
+He speaks a tree fast.
+### OUTPUT:
+he (pronoun), speaks (verb), a (article), tree (noun), fast (adverb)
+
+### INPUT:
+He eats an air tomorrow.
+### OUTPUT:
+he (pronoun), eats (verb), an (article), air (noun), tomorrow (adverb)
+
+### INPUT:
+I ate a fish.
+### OUTPUT:
+i (pronoun), ate (verb), a (article), fish (noun)
+
+### INPUT:
+They beened.
+### OUTPUT:
+they (pronoun), beened (verb)
+
+### INPUT:
+They give a friend everywhere.
+### OUTPUT:
+they (pronoun), give (verb), a (article), friend (noun), everywhere (adverb)
+
+### INPUT:
+He ams.
+### OUTPUT:
+he (pronoun), ams (verb)
+
+### INPUT:
+We do a moon.
+### OUTPUT:
+we (pronoun), do (verb), a (article), moon (noun)
+
+### INPUT:
+They saw an earth.
+### OUTPUT:
+they (pronoun), saw (verb), an (article), earth (noun)
+
+### INPUT:
+You eat a day.
+### OUTPUT:
+you (pronoun), eat (verb), a (article), day (noun)
+
+### INPUT:
+It is small.
+### OUTPUT:
+it (pronoun), is (verb), small (adjective)
+
+### INPUT:
+They beinged.
+### OUTPUT:
+they (pronoun), beinged (verb)
+
+### INPUT:
+You am.
+### OUTPUT:
+you (pronoun), am (verb)
+
+### INPUT:
+We is.
+### OUTPUT:
+we (pronoun), is (verb)
+
+### INPUT:
+She says an earth early.
+### OUTPUT:
+she (pronoun), says (verb), an (article), earth (noun), early (adverb)
+
+### INPUT:
+He makes a sun then.
+### OUTPUT:
+he (pronoun), makes (verb), a (article), sun (noun), then (adverb)
+
+### INPUT:
+They see a cat up.
+### OUTPUT:
+they (pronoun), see (verb), a (article), cat (noun), up (adverb)
+
+### INPUT:
+You hear a house.
+### OUTPUT:
+you (pronoun), hear (verb), a (article), house (noun)
+
+### INPUT:
+They are narrow.
+### OUTPUT:
+they (pronoun), are (verb), narrow (adjective)
+
+### INPUT:
+They ran.
+### OUTPUT:
+they (pronoun), ran (verb)
+
+### INPUT:
+He amed.
+### OUTPUT:
+he (pronoun), amed (verb)
+
+### INPUT:
+I took an earth.
+### OUTPUT:
+i (pronoun), took (verb), an (article), earth (noun)
+
+### INPUT:
+You had a fish.
+### OUTPUT:
+you (pronoun), had (verb), a (article), fish (noun)
+
+### INPUT:
+It saw a flower.
+### OUTPUT:
+it (pronoun), saw (verb), a (article), flower (noun)
+
+### INPUT:
+She told a child.
+### OUTPUT:
+she (pronoun), told (verb), a (article), child (noun)
+
+### INPUT:
+He gives a year.
+### OUTPUT:
+he (pronoun), gives (verb), a (article), year (noun)
+
+### INPUT:
+He is hard.
+### OUTPUT:
+he (pronoun), is (verb), hard (adjective)
+
+### INPUT:
+She beinged.
+### OUTPUT:
+she (pronoun), beinged (verb)
+
+### INPUT:
+It walks.
+### OUTPUT:
+it (pronoun), walks (verb)
+
+### INPUT:
+They spoke a pen.
+### OUTPUT:
+they (pronoun), spoke (verb), a (article), pen (noun)
+
+### INPUT:
+He is wide.
+### OUTPUT:
+he (pronoun), is (verb), wide (adjective)
+
+### INPUT:
+You are happy.
+### OUTPUT:
+you (pronoun), are (verb), happy (adjective)
+
+### INPUT:
+She saw a fish never.
+### OUTPUT:
+she (pronoun), saw (verb), a (article), fish (noun), never (adverb)
+
+### INPUT:
+She does an air.
+### OUTPUT:
+she (pronoun), does (verb), an (article), air (noun)
+
+### INPUT:
+I did a year.
+### OUTPUT:
+i (pronoun), did (verb), a (article), year (noun)
+
+### INPUT:
+She ate a star.
+### OUTPUT:
+she (pronoun), ate (verb), a (article), star (noun)
+
+### INPUT:
+It saw a table.
+### OUTPUT:
+it (pronoun), saw (verb), a (article), table (noun)
+
+### INPUT:
+We see a person.
+### OUTPUT:
+we (pronoun), see (verb), a (article), person (noun)
+
+### INPUT:
+It beings.
+### OUTPUT:
+it (pronoun), beings (verb)
+
+### INPUT:
+You are beautiful.
+### OUTPUT:
+you (pronoun), are (verb), beautiful (adjective)
+
+### INPUT:
+You ate a house.
+### OUTPUT:
+you (pronoun), ate (verb), a (article), house (noun)
+
+### INPUT:
+It says an air never.
+### OUTPUT:
+it (pronoun), says (verb), an (article), air (noun), never (adverb)
+
+### INPUT:
+I tell a rock badly.
+### OUTPUT:
+i (pronoun), tell (verb), a (article), rock (noun), badly (adverb)
+
+### INPUT:
+You are heavy.
+### OUTPUT:
+you (pronoun), are (verb), heavy (adjective)
+
+### INPUT:
+You are closed.
+### OUTPUT:
+you (pronoun), are (verb), closed (adjective)
+
+### INPUT:
+He is bright.
+### OUTPUT:
+he (pronoun), is (verb), bright (adjective)
+
+### INPUT:
+I say a child sometimes.
+### OUTPUT:
+i (pronoun), say (verb), a (article), child (noun), sometimes (adverb)
+
+### INPUT:
+He drinks a stone outside.
+### OUTPUT:
+he (pronoun), drinks (verb), a (article), stone (noun), outside (adverb)
+
+### INPUT:
+I go.
+### OUTPUT:
+i (pronoun), go (verb)
+
+### INPUT:
+It looks.
+### OUTPUT:
+it (pronoun), looks (verb)
+
+### INPUT:
+He speaks a country.
+### OUTPUT:
+he (pronoun), speaks (verb), a (article), country (noun)
+
+### INPUT:
+I talk.
+### OUTPUT:
+i (pronoun), talk (verb)
+
+### INPUT:
+They are poor.
+### OUTPUT:
+they (pronoun), are (verb), poor (adjective)
+
+### INPUT:
+We make a book rarely.
+### OUTPUT:
+we (pronoun), make (verb), a (article), book (noun), rarely (adverb)
+
+### INPUT:
+I come.
+### OUTPUT:
+i (pronoun), come (verb)
+
+### INPUT:
+She came.
+### OUTPUT:
+she (pronoun), came (verb)
+
+### INPUT:
+I was.
+### OUTPUT:
+i (pronoun), was (verb)
+
+### INPUT:
+They hear a chair.
+### OUTPUT:
+they (pronoun), hear (verb), a (article), chair (noun)
+
+### INPUT:
+You ate a friend there.
+### OUTPUT:
+you (pronoun), ate (verb), a (article), friend (noun), there (adverb)
+
+### INPUT:
+She eats an earth usually.
+### OUTPUT:
+she (pronoun), eats (verb), an (article), earth (noun), usually (adverb)
+
+### INPUT:
+They say a tree quite.
+### OUTPUT:
+they (pronoun), say (verb), a (article), tree (noun), quite (adverb)
+
+### INPUT:
+They were light.
+### OUTPUT:
+they (pronoun), were (verb), light (adjective)
+
+### INPUT:
+It stood.
+### OUTPUT:
+it (pronoun), stood (verb)
+
+### INPUT:
+They are wide.
+### OUTPUT:
+they (pronoun), are (verb), wide (adjective)
+
+### INPUT:
+I looked.
+### OUTPUT:
+i (pronoun), looked (verb)
+
+### INPUT:
+She talked.
+### OUTPUT:
+she (pronoun), talked (verb)
+
+### INPUT:
+You were.
+### OUTPUT:
+you (pronoun), were (verb)
+
+### INPUT:
+We ate a bird happily.
+### OUTPUT:
+we (pronoun), ate (verb), a (article), bird (noun), happily (adverb)
+
+### INPUT:
+We were dark.
+### OUTPUT:
+we (pronoun), were (verb), dark (adjective)
+
+### INPUT:
+He sits.
+### OUTPUT:
+he (pronoun), sits (verb)
+
+### INPUT:
+You walked.
+### OUTPUT:
+you (pronoun), walked (verb)
+
+### INPUT:
+He is young.
+### OUTPUT:
+he (pronoun), is (verb), young (adjective)
+
+### INPUT:
+I give a road.
+### OUTPUT:
+i (pronoun), give (verb), a (article), road (noun)
+
+### INPUT:
+She is rich.
+### OUTPUT:
+she (pronoun), is (verb), rich (adjective)
+
+### INPUT:
+I did a table.
+### OUTPUT:
+i (pronoun), did (verb), a (article), table (noun)
+
+### INPUT:
+It was warm.
+### OUTPUT:
+it (pronoun), was (verb), warm (adjective)
+
+### INPUT:
+We are bad.
+### OUTPUT:
+we (pronoun), are (verb), bad (adjective)
+
+### INPUT:
+It was closed.
+### OUTPUT:
+it (pronoun), was (verb), closed (adjective)
+
+### INPUT:
+You did an earth.
+### OUTPUT:
+you (pronoun), did (verb), an (article), earth (noun)
+
+### INPUT:
+It made a rock often.
+### OUTPUT:
+it (pronoun), made (verb), a (article), rock (noun), often (adverb)
+
+### INPUT:
+He goes.
+### OUTPUT:
+he (pronoun), goes (verb)
+
+### INPUT:
+It told a cat.
+### OUTPUT:
+it (pronoun), told (verb), a (article), cat (noun)
+
+### INPUT:
+They are white.
+### OUTPUT:
+they (pronoun), are (verb), white (adjective)
+
+### INPUT:
+She was cold.
+### OUTPUT:
+she (pronoun), was (verb), cold (adjective)
+
+### INPUT:
+He is slow.
+### OUTPUT:
+he (pronoun), is (verb), slow (adjective)
+
+### INPUT:
+It jumps.
+### OUTPUT:
+it (pronoun), jumps (verb)
+
+### INPUT:
+We were slow.
+### OUTPUT:
+we (pronoun), were (verb), slow (adjective)
+
+### INPUT:
+He had a book away.
+### OUTPUT:
+he (pronoun), had (verb), a (article), book (noun), away (adverb)
+
+### INPUT:
+She says a fire.
+### OUTPUT:
+she (pronoun), says (verb), a (article), fire (noun)
+
+### INPUT:
+It gives a night.
+### OUTPUT:
+it (pronoun), gives (verb), a (article), night (noun)
+
+### INPUT:
+He stood.
+### OUTPUT:
+he (pronoun), stood (verb)
+
+### INPUT:
+I tell a country rather.
+### OUTPUT:
+i (pronoun), tell (verb), a (article), country (noun), rather (adverb)
+
+### INPUT:
+She stood.
+### OUTPUT:
+she (pronoun), stood (verb)
+
+### INPUT:
+They gave a group well.
+### OUTPUT:
+they (pronoun), gave (verb), a (article), group (noun), well (adverb)
+
+### INPUT:
+We made a year rarely.
+### OUTPUT:
+we (pronoun), made (verb), a (article), year (noun), rarely (adverb)
+
+### INPUT:
+She was bright.
+### OUTPUT:
+she (pronoun), was (verb), bright (adjective)
+
+### INPUT:
+I had a stone there.
+### OUTPUT:
+i (pronoun), had (verb), a (article), stone (noun), there (adverb)
+
+### INPUT:
+You did a water now.
+### OUTPUT:
+you (pronoun), did (verb), a (article), water (noun), now (adverb)
+
+### INPUT:
+It heard a car usually.
+### OUTPUT:
+it (pronoun), heard (verb), a (article), car (noun), usually (adverb)
+
+### INPUT:
+He is yellow.
+### OUTPUT:
+he (pronoun), is (verb), yellow (adjective)
+
+### INPUT:
+I eat a day quite.
+### OUTPUT:
+i (pronoun), eat (verb), a (article), day (noun), quite (adverb)
+
+### INPUT:
+It spoke a town nearly.
+### OUTPUT:
+it (pronoun), spoke (verb), a (article), town (noun), nearly (adverb)
+
+### INPUT:
+She made a fire happily.
+### OUTPUT:
+she (pronoun), made (verb), a (article), fire (noun), happily (adverb)
+
+### INPUT:
+I was open.
+### OUTPUT:
+i (pronoun), was (verb), open (adjective)
+
+### INPUT:
+I were.
+### OUTPUT:
+i (pronoun), were (verb)
+
+### INPUT:
+We were light.
+### OUTPUT:
+we (pronoun), were (verb), light (adjective)
+
+### INPUT:
+She makes a moon.
+### OUTPUT:
+she (pronoun), makes (verb), a (article), moon (noun)
+
+### INPUT:
+We did a car then.
+### OUTPUT:
+we (pronoun), did (verb), a (article), car (noun), then (adverb)
+
+### INPUT:
+He was good.
+### OUTPUT:
+he (pronoun), was (verb), good (adjective)
+
+### INPUT:
+I am full.
+### OUTPUT:
+i (pronoun), am (verb), full (adjective)
+
+### INPUT:
+They were soft.
+### OUTPUT:
+they (pronoun), were (verb), soft (adjective)
+
+### INPUT:
+It speaks a road yesterday.
+### OUTPUT:
+it (pronoun), speaks (verb), a (article), road (noun), yesterday (adverb)
+
+### INPUT:
+You ate a friend.
+### OUTPUT:
+you (pronoun), ate (verb), a (article), friend (noun)
+
+### INPUT:
+It walked.
+### OUTPUT:
+it (pronoun), walked (verb)
+
+### INPUT:
+They eat a water very.
+### OUTPUT:
+they (pronoun), eat (verb), a (article), water (noun), very (adverb)
+
+### INPUT:
+She sat.
+### OUTPUT:
+she (pronoun), sat (verb)
+
+### INPUT:
+You look.
+### OUTPUT:
+you (pronoun), look (verb)
+
+### INPUT:
+They took a town out.
+### OUTPUT:
+they (pronoun), took (verb), a (article), town (noun), out (adverb)
+
+### INPUT:
+She gives a pen.
+### OUTPUT:
+she (pronoun), gives (verb), a (article), pen (noun)
+
+### INPUT:
+It does a book.
+### OUTPUT:
+it (pronoun), does (verb), a (article), book (noun)
+
+### INPUT:
+I look.
+### OUTPUT:
+i (pronoun), look (verb)
+
+### INPUT:
+It told a fish enough.
+### OUTPUT:
+it (pronoun), told (verb), a (article), fish (noun), enough (adverb)
+
+### INPUT:
+You went.
+### OUTPUT:
+you (pronoun), went (verb)
+
+### INPUT:
+You were fast.
+### OUTPUT:
+you (pronoun), were (verb), fast (adjective)
+
+### INPUT:
+They are rich.
+### OUTPUT:
+they (pronoun), are (verb), rich (adjective)
+
+### INPUT:
+You beened.
+### OUTPUT:
+you (pronoun), beened (verb)
+
+### INPUT:
+I hear a moon rather.
+### OUTPUT:
+i (pronoun), hear (verb), a (article), moon (noun), rather (adverb)
+
+### INPUT:
+I went.
+### OUTPUT:
+i (pronoun), went (verb)
+
+### INPUT:
+I see a family.
+### OUTPUT:
+i (pronoun), see (verb), a (article), family (noun)
+
+### INPUT:
+I made a water.
+### OUTPUT:
+i (pronoun), made (verb), a (article), water (noun)
+
+### INPUT:
+She drank a child such.
+### OUTPUT:
+she (pronoun), drank (verb), a (article), child (noun), such (adverb)
+
+### INPUT:
+She speaks a moon in.
+### OUTPUT:
+she (pronoun), speaks (verb), a (article), moon (noun), in (adverb)
+
+### INPUT:
+I look.
+### OUTPUT:
+i (pronoun), look (verb)
+
+### INPUT:
+She saw a cat.
+### OUTPUT:
+she (pronoun), saw (verb), a (article), cat (noun)
+
+### INPUT:
+It was high.
+### OUTPUT:
+it (pronoun), was (verb), high (adjective)
+
+### INPUT:
+It wased.
+### OUTPUT:
+it (pronoun), wased (verb)
+
+### INPUT:
+We were good.
+### OUTPUT:
+we (pronoun), were (verb), good (adjective)
+
+### INPUT:
+They ared.
+### OUTPUT:
+they (pronoun), ared (verb)
+
+### INPUT:
+You made a year.
+### OUTPUT:
+you (pronoun), made (verb), a (article), year (noun)
+
+### INPUT:
+She is fast.
+### OUTPUT:
+she (pronoun), is (verb), fast (adjective)
+
+### INPUT:
+He is interesting.
+### OUTPUT:
+he (pronoun), is (verb), interesting (adjective)
+
+### INPUT:
+I hear a night.
+### OUTPUT:
+i (pronoun), hear (verb), a (article), night (noun)
+
+### INPUT:
+She heard a door.
+### OUTPUT:
+she (pronoun), heard (verb), a (article), door (noun)
+
+### INPUT:
+You were dead.
+### OUTPUT:
+you (pronoun), were (verb), dead (adjective)
+
+### INPUT:
+We gave a man often.
+### OUTPUT:
+we (pronoun), gave (verb), a (article), man (noun), often (adverb)
+
+### INPUT:
+You make a table early.
+### OUTPUT:
+you (pronoun), make (verb), a (article), table (noun), early (adverb)
+
+### INPUT:
+It heard a moon almost.
+### OUTPUT:
+it (pronoun), heard (verb), a (article), moon (noun), almost (adverb)
+
+### INPUT:
+They drink a road.
+### OUTPUT:
+they (pronoun), drink (verb), a (article), road (noun)
+
+### INPUT:
+We wased.
+### OUTPUT:
+we (pronoun), wased (verb)
+
+### INPUT:
+He runs.
+### OUTPUT:
+he (pronoun), runs (verb)
+
+### INPUT:
+We see a woman sometimes.
+### OUTPUT:
+we (pronoun), see (verb), a (article), woman (noun), sometimes (adverb)
+
+### INPUT:
+I do an earth.
+### OUTPUT:
+i (pronoun), do (verb), an (article), earth (noun)
+
+### INPUT:
+I am alive.
+### OUTPUT:
+i (pronoun), am (verb), alive (adjective)
+
+### INPUT:
+You are warm.
+### OUTPUT:
+you (pronoun), are (verb), warm (adjective)
+
+### INPUT:
+He said a moon.
+### OUTPUT:
+he (pronoun), said (verb), a (article), moon (noun)
+
+### INPUT:
+He sees a dog here.
+### OUTPUT:
+he (pronoun), sees (verb), a (article), dog (noun), here (adverb)
+
+### INPUT:
+I was empty.
+### OUTPUT:
+i (pronoun), was (verb), empty (adjective)
+
+### INPUT:
+They tell a fire too.
+### OUTPUT:
+they (pronoun), tell (verb), a (article), fire (noun), too (adverb)
+
+### INPUT:
+He sits.
+### OUTPUT:
+he (pronoun), sits (verb)
+
+### INPUT:
+We are open.
+### OUTPUT:
+we (pronoun), are (verb), open (adjective)
+
+### INPUT:
+I looked.
+### OUTPUT:
+i (pronoun), looked (verb)
+
+### INPUT:
+They speak a chair there.
+### OUTPUT:
+they (pronoun), speak (verb), a (article), chair (noun), there (adverb)
+
+### INPUT:
+We looked.
+### OUTPUT:
+we (pronoun), looked (verb)
+
+### INPUT:
+We did a day.
+### OUTPUT:
+we (pronoun), did (verb), a (article), day (noun)
+
+### INPUT:
+I drank a year happily.
+### OUTPUT:
+i (pronoun), drank (verb), a (article), year (noun), happily (adverb)
+
+### INPUT:
+We sit.
+### OUTPUT:
+we (pronoun), sit (verb)
+
+### INPUT:
+You ared.
+### OUTPUT:
+you (pronoun), ared (verb)
+
+### INPUT:
+We wased.
+### OUTPUT:
+we (pronoun), wased (verb)
+
+### INPUT:
+It drank a fire.
+### OUTPUT:
+it (pronoun), drank (verb), a (article), fire (noun)
+
+### INPUT:
+He had a road too.
+### OUTPUT:
+he (pronoun), had (verb), a (article), road (noun), too (adverb)
+
+### INPUT:
+We have a man inside.
+### OUTPUT:
+we (pronoun), have (verb), a (article), man (noun), inside (adverb)
+
+### INPUT:
+They heard a bird.
+### OUTPUT:
+they (pronoun), heard (verb), a (article), bird (noun)
+
+### INPUT:
+It is red.
+### OUTPUT:
+it (pronoun), is (verb), red (adjective)
+
+### INPUT:
+You ate a door.
+### OUTPUT:
+you (pronoun), ate (verb), a (article), door (noun)
+
+### INPUT:
+She was bad.
+### OUTPUT:
+she (pronoun), was (verb), bad (adjective)
+
+### INPUT:
+You saw a stone.
+### OUTPUT:
+you (pronoun), saw (verb), a (article), stone (noun)
+
+### INPUT:
+We hear a cat out.
+### OUTPUT:
+we (pronoun), hear (verb), a (article), cat (noun), out (adverb)
+
+### INPUT:
+We say a water badly.
+### OUTPUT:
+we (pronoun), say (verb), a (article), water (noun), badly (adverb)
+
+### INPUT:
+He takes a pen.
+### OUTPUT:
+he (pronoun), takes (verb), a (article), pen (noun)
+
+### INPUT:
+We take a chair almost.
+### OUTPUT:
+we (pronoun), take (verb), a (article), chair (noun), almost (adverb)
+
+### INPUT:
+They heard a pen never.
+### OUTPUT:
+they (pronoun), heard (verb), a (article), pen (noun), never (adverb)
+
+### INPUT:
+She talked.
+### OUTPUT:
+she (pronoun), talked (verb)
+
+### INPUT:
+He ises.
+### OUTPUT:
+he (pronoun), ises (verb)
+
+### INPUT:
+We speak a flower.
+### OUTPUT:
+we (pronoun), speak (verb), a (article), flower (noun)
+
+### INPUT:
+He beens.
+### OUTPUT:
+he (pronoun), beens (verb)
+
+### INPUT:
+He saw a country easily.
+### OUTPUT:
+he (pronoun), saw (verb), a (article), country (noun), easily (adverb)
+
+### INPUT:
+She beings.
+### OUTPUT:
+she (pronoun), beings (verb)
+
+### INPUT:
+We came.
+### OUTPUT:
+we (pronoun), came (verb)
+
+### INPUT:
+She beinged.
+### OUTPUT:
+she (pronoun), beinged (verb)
+
+### INPUT:
+I said a car.
+### OUTPUT:
+i (pronoun), said (verb), a (article), car (noun)
+
+### INPUT:
+We were white.
+### OUTPUT:
+we (pronoun), were (verb), white (adjective)
+
+### INPUT:
+We run.
+### OUTPUT:
+we (pronoun), run (verb)
+
+### INPUT:
+They stood.
+### OUTPUT:
+they (pronoun), stood (verb)
+
+### INPUT:
+You were dirty.
+### OUTPUT:
+you (pronoun), were (verb), dirty (adjective)
+
+### INPUT:
+They have a water.
+### OUTPUT:
+they (pronoun), have (verb), a (article), water (noun)
+
+### INPUT:
+You were full.
+### OUTPUT:
+you (pronoun), were (verb), full (adjective)
+
+### INPUT:
+You were high.
+### OUTPUT:
+you (pronoun), were (verb), high (adjective)
+
+### INPUT:
+They spoke a child.
+### OUTPUT:
+they (pronoun), spoke (verb), a (article), child (noun)
+
+### INPUT:
+I was.
+### OUTPUT:
+i (pronoun), was (verb)
+
+### INPUT:
+She weres.
+### OUTPUT:
+she (pronoun), weres (verb)
+
+### INPUT:
+He gives a family too.
+### OUTPUT:
+he (pronoun), gives (verb), a (article), family (noun), too (adverb)
+
+### INPUT:
+We go.
+### OUTPUT:
+we (pronoun), go (verb)
+
+### INPUT:
+She takes a moon.
+### OUTPUT:
+she (pronoun), takes (verb), a (article), moon (noun)
+
+### INPUT:
+They been.
+### OUTPUT:
+they (pronoun), been (verb)
+
+### INPUT:
+You have an earth quickly.
+### OUTPUT:
+you (pronoun), have (verb), an (article), earth (noun), quickly (adverb)
+
+### INPUT:
+You ised.
+### OUTPUT:
+you (pronoun), ised (verb)
+
+### INPUT:
+It weres.
+### OUTPUT:
+it (pronoun), weres (verb)
+
+### INPUT:
+She is big.
+### OUTPUT:
+she (pronoun), is (verb), big (adjective)
+
+### INPUT:
+She speaks a cat.
+### OUTPUT:
+she (pronoun), speaks (verb), a (article), cat (noun)
+
+### INPUT:
+It heard a rock hard.
+### OUTPUT:
+it (pronoun), heard (verb), a (article), rock (noun), hard (adverb)
+
+### INPUT:
+She was dark.
+### OUTPUT:
+she (pronoun), was (verb), dark (adjective)
+
+### INPUT:
+It gave a car.
+### OUTPUT:
+it (pronoun), gave (verb), a (article), car (noun)
+
+### INPUT:
+It ised.
+### OUTPUT:
+it (pronoun), ised (verb)
+
+### INPUT:
+She took a table often.
+### OUTPUT:
+she (pronoun), took (verb), a (article), table (noun), often (adverb)
+
+### INPUT:
+They are green.
+### OUTPUT:
+they (pronoun), are (verb), green (adjective)
+
+### INPUT:
+We drank a chair.
+### OUTPUT:
+we (pronoun), drank (verb), a (article), chair (noun)
+
+### INPUT:
+He was bright.
+### OUTPUT:
+he (pronoun), was (verb), bright (adjective)
+
+### INPUT:
+She spoke a pen.
+### OUTPUT:
+she (pronoun), spoke (verb), a (article), pen (noun)
+
+### INPUT:
+You do a pen.
+### OUTPUT:
+you (pronoun), do (verb), a (article), pen (noun)
+
+### INPUT:
+We drank a person.
+### OUTPUT:
+we (pronoun), drank (verb), a (article), person (noun)
+
+### INPUT:
+You were light.
+### OUTPUT:
+you (pronoun), were (verb), light (adjective)
+
+### INPUT:
+It gives a pen out.
+### OUTPUT:
+it (pronoun), gives (verb), a (article), pen (noun), out (adverb)
+
+### INPUT:
+We jumped.
+### OUTPUT:
+we (pronoun), jumped (verb)
+
+### INPUT:
+They do a country out.
+### OUTPUT:
+they (pronoun), do (verb), a (article), country (noun), out (adverb)
+
+### INPUT:
+She wases.
+### OUTPUT:
+she (pronoun), wases (verb)
+
+### INPUT:
+It makes a car.
+### OUTPUT:
+it (pronoun), makes (verb), a (article), car (noun)
+
+### INPUT:
+They gave a fish.
+### OUTPUT:
+they (pronoun), gave (verb), a (article), fish (noun)
+
+### INPUT:
+I say a bird quickly.
+### OUTPUT:
+i (pronoun), say (verb), a (article), bird (noun), quickly (adverb)
+
+### INPUT:
+He drank a table.
+### OUTPUT:
+he (pronoun), drank (verb), a (article), table (noun)
+
+### INPUT:
+It hears a world well.
+### OUTPUT:
+it (pronoun), hears (verb), a (article), world (noun), well (adverb)
+
+### INPUT:
+He is old.
+### OUTPUT:
+he (pronoun), is (verb), old (adjective)
+
+### INPUT:
+I went.
+### OUTPUT:
+i (pronoun), went (verb)
+
+### INPUT:
+We were hard.
+### OUTPUT:
+we (pronoun), were (verb), hard (adjective)
+
+### INPUT:
+I ared.
+### OUTPUT:
+i (pronoun), ared (verb)
+
+### INPUT:
+I am open.
+### OUTPUT:
+i (pronoun), am (verb), open (adjective)
+
+### INPUT:
+He heard a flower.
+### OUTPUT:
+he (pronoun), heard (verb), a (article), flower (noun)
+
+### INPUT:
+I ran.
+### OUTPUT:
+i (pronoun), ran (verb)
+
+### INPUT:
+I speak a window now.
+### OUTPUT:
+i (pronoun), speak (verb), a (article), window (noun), now (adverb)
+
+### INPUT:
+They were interesting.
+### OUTPUT:
+they (pronoun), were (verb), interesting (adjective)
+
+### INPUT:
+She was big.
+### OUTPUT:
+she (pronoun), was (verb), big (adjective)
+
+### INPUT:
+You beinged.
+### OUTPUT:
+you (pronoun), beinged (verb)
+
+### INPUT:
+They eat a house today.
+### OUTPUT:
+they (pronoun), eat (verb), a (article), house (noun), today (adverb)
+
+### INPUT:
+You had a flower everywhere.
+### OUTPUT:
+you (pronoun), had (verb), a (article), flower (noun), everywhere (adverb)
+
+### INPUT:
+He says a city.
+### OUTPUT:
+he (pronoun), says (verb), a (article), city (noun)
+
+### INPUT:
+You gave a team.
+### OUTPUT:
+you (pronoun), gave (verb), a (article), team (noun)
+
+### INPUT:
+You are.
+### OUTPUT:
+you (pronoun), are (verb)
+
+### INPUT:
+It made a sun rarely.
+### OUTPUT:
+it (pronoun), made (verb), a (article), sun (noun), rarely (adverb)
+
+### INPUT:
+He is rich.
+### OUTPUT:
+he (pronoun), is (verb), rich (adjective)
+
+### INPUT:
+You ate a child up.
+### OUTPUT:
+you (pronoun), ate (verb), a (article), child (noun), up (adverb)
+
+### INPUT:
+We stand.
+### OUTPUT:
+we (pronoun), stand (verb)
+
+### INPUT:
+He was good.
+### OUTPUT:
+he (pronoun), was (verb), good (adjective)
+
+### INPUT:
+It was heavy.
+### OUTPUT:
+it (pronoun), was (verb), heavy (adjective)
+
+### INPUT:
+It drinks a person.
+### OUTPUT:
+it (pronoun), drinks (verb), a (article), person (noun)
+
+### INPUT:
+He speaks a child now.
+### OUTPUT:
+he (pronoun), speaks (verb), a (article), child (noun), now (adverb)
+
+### INPUT:
+They amed.
+### OUTPUT:
+they (pronoun), amed (verb)
+
+### INPUT:
+He is light.
+### OUTPUT:
+he (pronoun), is (verb), light (adjective)
+
+### INPUT:
+I had an air so.
+### OUTPUT:
+i (pronoun), had (verb), an (article), air (noun), so (adverb)
+
+### INPUT:
+It was high.
+### OUTPUT:
+it (pronoun), was (verb), high (adjective)
+
+### INPUT:
+He sees a table.
+### OUTPUT:
+he (pronoun), sees (verb), a (article), table (noun)
+
+### INPUT:
+They take a grass.
+### OUTPUT:
+they (pronoun), take (verb), a (article), grass (noun)
+
+### INPUT:
+She gave a water then.
+### OUTPUT:
+she (pronoun), gave (verb), a (article), water (noun), then (adverb)
+
+### INPUT:
+He ises.
+### OUTPUT:
+he (pronoun), ises (verb)
+
+### INPUT:
+I was green.
+### OUTPUT:
+i (pronoun), was (verb), green (adjective)
+
+### INPUT:
+He ares.
+### OUTPUT:
+he (pronoun), ares (verb)
+
+### INPUT:
+They had a tree easily.
+### OUTPUT:
+they (pronoun), had (verb), a (article), tree (noun), easily (adverb)
+
+### INPUT:
+You spoke a day back.
+### OUTPUT:
+you (pronoun), spoke (verb), a (article), day (noun), back (adverb)
+
+### INPUT:
+We come.
+### OUTPUT:
+we (pronoun), come (verb)
+
+### INPUT:
+You eat a moon.
+### OUTPUT:
+you (pronoun), eat (verb), a (article), moon (noun)
+
+### INPUT:
+It speaks a road enough.
+### OUTPUT:
+it (pronoun), speaks (verb), a (article), road (noun), enough (adverb)
+
+### INPUT:
+You walk.
+### OUTPUT:
+you (pronoun), walk (verb)
+
+### INPUT:
+I drink a world.
+### OUTPUT:
+i (pronoun), drink (verb), a (article), world (noun)
+
+### INPUT:
+I am green.
+### OUTPUT:
+i (pronoun), am (verb), green (adjective)
+
+### INPUT:
+We are new.
+### OUTPUT:
+we (pronoun), are (verb), new (adjective)
+
+### INPUT:
+He ams.
+### OUTPUT:
+he (pronoun), ams (verb)
+
+### INPUT:
+She amed.
+### OUTPUT:
+she (pronoun), amed (verb)
+
+### INPUT:
+They tell a bird.
+### OUTPUT:
+they (pronoun), tell (verb), a (article), bird (noun)
+
+### INPUT:
+They beinged.
+### OUTPUT:
+they (pronoun), beinged (verb)
+
+### INPUT:
+She ate a dog sometimes.
+### OUTPUT:
+she (pronoun), ate (verb), a (article), dog (noun), sometimes (adverb)
+
+### INPUT:
+She is clean.
+### OUTPUT:
+she (pronoun), is (verb), clean (adjective)
+
+### INPUT:
+I am small.
+### OUTPUT:
+i (pronoun), am (verb), small (adjective)
+
+### INPUT:
+You do a car.
+### OUTPUT:
+you (pronoun), do (verb), a (article), car (noun)
+
+### INPUT:
+She was young.
+### OUTPUT:
+she (pronoun), was (verb), young (adjective)
+
+### INPUT:
+You had a team.
+### OUTPUT:
+you (pronoun), had (verb), a (article), team (noun)
+
+### INPUT:
+They were fast.
+### OUTPUT:
+they (pronoun), were (verb), fast (adjective)
+
+### INPUT:
+It was cold.
+### OUTPUT:
+it (pronoun), was (verb), cold (adjective)
+
+### INPUT:
+You were hot.
+### OUTPUT:
+you (pronoun), were (verb), hot (adjective)
+
+### INPUT:
+I ared.
+### OUTPUT:
+i (pronoun), ared (verb)
+
+### INPUT:
+She drinks a dog.
+### OUTPUT:
+she (pronoun), drinks (verb), a (article), dog (noun)
+
+### INPUT:
+I do a road.
+### OUTPUT:
+i (pronoun), do (verb), a (article), road (noun)
+
+### INPUT:
+He gives an earth.
+### OUTPUT:
+he (pronoun), gives (verb), an (article), earth (noun)
+
+### INPUT:
+They have a door.
+### OUTPUT:
+they (pronoun), have (verb), a (article), door (noun)
+
+### INPUT:
+They went.
+### OUTPUT:
+they (pronoun), went (verb)
+
+### INPUT:
+You took a fire there.
+### OUTPUT:
+you (pronoun), took (verb), a (article), fire (noun), there (adverb)
+
+### INPUT:
+He eats a book so.
+### OUTPUT:
+he (pronoun), eats (verb), a (article), book (noun), so (adverb)
+
+### INPUT:
+They was.
+### OUTPUT:
+they (pronoun), was (verb)
+
+### INPUT:
+You are heavy.
+### OUTPUT:
+you (pronoun), are (verb), heavy (adjective)
+
+### INPUT:
+She took a friend soon.
+### OUTPUT:
+she (pronoun), took (verb), a (article), friend (noun), soon (adverb)
+
+### INPUT:
+I came.
+### OUTPUT:
+i (pronoun), came (verb)
+
+### INPUT:
+You say a man sometimes.
+### OUTPUT:
+you (pronoun), say (verb), a (article), man (noun), sometimes (adverb)
+
+### INPUT:
+He made a man quite.
+### OUTPUT:
+he (pronoun), made (verb), a (article), man (noun), quite (adverb)
+
+### INPUT:
+They spoke a table.
+### OUTPUT:
+they (pronoun), spoke (verb), a (article), table (noun)
+
+### INPUT:
+I was old.
+### OUTPUT:
+i (pronoun), was (verb), old (adjective)
+
+### INPUT:
+They went.
+### OUTPUT:
+they (pronoun), went (verb)
+
+### INPUT:
+We gave a group.
+### OUTPUT:
+we (pronoun), gave (verb), a (article), group (noun)
+
+### INPUT:
+It eats a man here.
+### OUTPUT:
+it (pronoun), eats (verb), a (article), man (noun), here (adverb)
+
+### INPUT:
+You wered.
+### OUTPUT:
+you (pronoun), wered (verb)
+
+### INPUT:
+We ate a pen.
+### OUTPUT:
+we (pronoun), ate (verb), a (article), pen (noun)
+
+### INPUT:
+You speak a chair.
+### OUTPUT:
+you (pronoun), speak (verb), a (article), chair (noun)
+
+### INPUT:
+They are red.
+### OUTPUT:
+they (pronoun), are (verb), red (adjective)
+
+### INPUT:
+I told an air enough.
+### OUTPUT:
+i (pronoun), told (verb), an (article), air (noun), enough (adverb)
+
+### INPUT:
+I gave a child tomorrow.
+### OUTPUT:
+i (pronoun), gave (verb), a (article), child (noun), tomorrow (adverb)
+
+### INPUT:
+You go.
+### OUTPUT:
+you (pronoun), go (verb)
+
+### INPUT:
+We eat a fish sometimes.
+### OUTPUT:
+we (pronoun), eat (verb), a (article), fish (noun), sometimes (adverb)
+
+### INPUT:
+I being.
+### OUTPUT:
+i (pronoun), being (verb)
+
+### INPUT:
+I saw a woman.
+### OUTPUT:
+i (pronoun), saw (verb), a (article), woman (noun)
+
+### INPUT:
+It says a stone.
+### OUTPUT:
+it (pronoun), says (verb), a (article), stone (noun)
+
+### INPUT:
+You went.
+### OUTPUT:
+you (pronoun), went (verb)
+
+### INPUT:
+We looked.
+### OUTPUT:
+we (pronoun), looked (verb)
+
+### INPUT:
+He jumped.
+### OUTPUT:
+he (pronoun), jumped (verb)
+
+### INPUT:
+It walks.
+### OUTPUT:
+it (pronoun), walks (verb)
+
+### INPUT:
+He ate a food happily.
+### OUTPUT:
+he (pronoun), ate (verb), a (article), food (noun), happily (adverb)
+
+### INPUT:
+It said a star always.
+### OUTPUT:
+it (pronoun), said (verb), a (article), star (noun), always (adverb)
+
+### INPUT:
+He did a star there.
+### OUTPUT:
+he (pronoun), did (verb), a (article), star (noun), there (adverb)
+
+### INPUT:
+They told a star.
+### OUTPUT:
+they (pronoun), told (verb), a (article), star (noun)
+
+### INPUT:
+You give a road.
+### OUTPUT:
+you (pronoun), give (verb), a (article), road (noun)
+
+### INPUT:
+You were green.
+### OUTPUT:
+you (pronoun), were (verb), green (adjective)
+
+### INPUT:
+They walk.
+### OUTPUT:
+they (pronoun), walk (verb)
+
+### INPUT:
+We amed.
+### OUTPUT:
+we (pronoun), amed (verb)
+
+### INPUT:
+She gave a cat down.
+### OUTPUT:
+she (pronoun), gave (verb), a (article), cat (noun), down (adverb)
+
+### INPUT:
+It did a sun late.
+### OUTPUT:
+it (pronoun), did (verb), a (article), sun (noun), late (adverb)
+
+### INPUT:
+We drank a moon away.
+### OUTPUT:
+we (pronoun), drank (verb), a (article), moon (noun), away (adverb)
+
+### INPUT:
+I was dirty.
+### OUTPUT:
+i (pronoun), was (verb), dirty (adjective)
+
+### INPUT:
+He made a fire.
+### OUTPUT:
+he (pronoun), made (verb), a (article), fire (noun)
+
+### INPUT:
+You drink a city here.
+### OUTPUT:
+you (pronoun), drink (verb), a (article), city (noun), here (adverb)
+
+### INPUT:
+They say a child.
+### OUTPUT:
+they (pronoun), say (verb), a (article), child (noun)
+
+### INPUT:
+They take a grass.
+### OUTPUT:
+they (pronoun), take (verb), a (article), grass (noun)
+
+### INPUT:
+He tells an earth.
+### OUTPUT:
+he (pronoun), tells (verb), an (article), earth (noun)
+
+### INPUT:
+She sees a day there.
+### OUTPUT:
+she (pronoun), sees (verb), a (article), day (noun), there (adverb)
+
+### INPUT:
+He ised.
+### OUTPUT:
+he (pronoun), ised (verb)
+
+### INPUT:
+He tells a year outside.
+### OUTPUT:
+he (pronoun), tells (verb), a (article), year (noun), outside (adverb)
+
+### INPUT:
+We beinged.
+### OUTPUT:
+we (pronoun), beinged (verb)
+
+### INPUT:
+I take a table.
+### OUTPUT:
+i (pronoun), take (verb), a (article), table (noun)
+
+### INPUT:
+It was empty.
+### OUTPUT:
+it (pronoun), was (verb), empty (adjective)
+
+### INPUT:
+It said a sun.
+### OUTPUT:
+it (pronoun), said (verb), a (article), sun (noun)
+
+### INPUT:
+It is green.
+### OUTPUT:
+it (pronoun), is (verb), green (adjective)
+
+### INPUT:
+I looked.
+### OUTPUT:
+i (pronoun), looked (verb)
+
+### INPUT:
+He was hot.
+### OUTPUT:
+he (pronoun), was (verb), hot (adjective)
+
+### INPUT:
+They made a car.
+### OUTPUT:
+they (pronoun), made (verb), a (article), car (noun)
+
+### INPUT:
+You see a tree never.
+### OUTPUT:
+you (pronoun), see (verb), a (article), tree (noun), never (adverb)
+
+### INPUT:
+We are narrow.
+### OUTPUT:
+we (pronoun), are (verb), narrow (adjective)
+
+### INPUT:
+I had a year nowhere.
+### OUTPUT:
+i (pronoun), had (verb), a (article), year (noun), nowhere (adverb)
+
+### INPUT:
+He heard a sun rather.
+### OUTPUT:
+he (pronoun), heard (verb), a (article), sun (noun), rather (adverb)
+
+### INPUT:
+They have a family.
+### OUTPUT:
+they (pronoun), have (verb), a (article), family (noun)
+
+### INPUT:
+We are yellow.
+### OUTPUT:
+we (pronoun), are (verb), yellow (adjective)
+
+### INPUT:
+I am narrow.
+### OUTPUT:
+i (pronoun), am (verb), narrow (adjective)
+
+### INPUT:
+It told a stone enough.
+### OUTPUT:
+it (pronoun), told (verb), a (article), stone (noun), enough (adverb)
+
+### INPUT:
+It beens.
+### OUTPUT:
+it (pronoun), beens (verb)
+
+### INPUT:
+She made a window easily.
+### OUTPUT:
+she (pronoun), made (verb), a (article), window (noun), easily (adverb)
+
+### INPUT:
+She saw a road quickly.
+### OUTPUT:
+she (pronoun), saw (verb), a (article), road (noun), quickly (adverb)
+
+### INPUT:
+She does a bird.
+### OUTPUT:
+she (pronoun), does (verb), a (article), bird (noun)
+
+### INPUT:
+They were low.
+### OUTPUT:
+they (pronoun), were (verb), low (adjective)
+
+### INPUT:
+I hear a house quite.
+### OUTPUT:
+i (pronoun), hear (verb), a (article), house (noun), quite (adverb)
+
+### INPUT:
+She jumps.
+### OUTPUT:
+she (pronoun), jumps (verb)
+
+### INPUT:
+I took a person.
+### OUTPUT:
+i (pronoun), took (verb), a (article), person (noun)
+
+### INPUT:
+They were slow.
+### OUTPUT:
+they (pronoun), were (verb), slow (adjective)
+
+### INPUT:
+She eats a friend now.
+### OUTPUT:
+she (pronoun), eats (verb), a (article), friend (noun), now (adverb)
+
+### INPUT:
+You were bright.
+### OUTPUT:
+you (pronoun), were (verb), bright (adjective)
+
+### INPUT:
+It comes.
+### OUTPUT:
+it (pronoun), comes (verb)
+
+### INPUT:
+He is low.
+### OUTPUT:
+he (pronoun), is (verb), low (adjective)
+
+### INPUT:
+It was long.
+### OUTPUT:
+it (pronoun), was (verb), long (adjective)
+
+### INPUT:
+He speaks a child there.
+### OUTPUT:
+he (pronoun), speaks (verb), a (article), child (noun), there (adverb)
+
+### INPUT:
+He heard a table sadly.
+### OUTPUT:
+he (pronoun), heard (verb), a (article), table (noun), sadly (adverb)
+
+### INPUT:
+She took a stone.
+### OUTPUT:
+she (pronoun), took (verb), a (article), stone (noun)
+
+### INPUT:
+They said a person.
+### OUTPUT:
+they (pronoun), said (verb), a (article), person (noun)
+
+### INPUT:
+We say a cat back.
+### OUTPUT:
+we (pronoun), say (verb), a (article), cat (noun), back (adverb)
+
+### INPUT:
+It amed.
+### OUTPUT:
+it (pronoun), amed (verb)
+
+### INPUT:
+You beened.
+### OUTPUT:
+you (pronoun), beened (verb)
+
+### INPUT:
+We are yellow.
+### OUTPUT:
+we (pronoun), are (verb), yellow (adjective)
+
+### INPUT:
+We made a man yesterday.
+### OUTPUT:
+we (pronoun), made (verb), a (article), man (noun), yesterday (adverb)
+
+### INPUT:
+She sits.
+### OUTPUT:
+she (pronoun), sits (verb)
+
+### INPUT:
+They jump.
+### OUTPUT:
+they (pronoun), jump (verb)
+
+### INPUT:
+I have a country then.
+### OUTPUT:
+i (pronoun), have (verb), a (article), country (noun), then (adverb)
+
+### INPUT:
+We have a year yesterday.
+### OUTPUT:
+we (pronoun), have (verb), a (article), year (noun), yesterday (adverb)
+
+### INPUT:
+They have a man.
+### OUTPUT:
+they (pronoun), have (verb), a (article), man (noun)
+
+### INPUT:
+I talked.
+### OUTPUT:
+i (pronoun), talked (verb)
+
+### INPUT:
+She goes.
+### OUTPUT:
+she (pronoun), goes (verb)
+
+### INPUT:
+We were wide.
+### OUTPUT:
+we (pronoun), were (verb), wide (adjective)
+
+### INPUT:
+We see a bird.
+### OUTPUT:
+we (pronoun), see (verb), a (article), bird (noun)
+
+### INPUT:
+He heard a family.
+### OUTPUT:
+he (pronoun), heard (verb), a (article), family (noun)
+
+### INPUT:
+He is hot.
+### OUTPUT:
+he (pronoun), is (verb), hot (adjective)
+
+### INPUT:
+You are empty.
+### OUTPUT:
+you (pronoun), are (verb), empty (adjective)
+
+### INPUT:
+I said a sun.
+### OUTPUT:
+i (pronoun), said (verb), a (article), sun (noun)
+
+### INPUT:
+You took a town.
+### OUTPUT:
+you (pronoun), took (verb), a (article), town (noun)
+
+### INPUT:
+She stands.
+### OUTPUT:
+she (pronoun), stands (verb)
+
+### INPUT:
+He took a moon.
+### OUTPUT:
+he (pronoun), took (verb), a (article), moon (noun)
+
+### INPUT:
+They are.
+### OUTPUT:
+they (pronoun), are (verb)
+
+### INPUT:
+We jump.
+### OUTPUT:
+we (pronoun), jump (verb)
+
+### INPUT:
+He was small.
+### OUTPUT:
+he (pronoun), was (verb), small (adjective)
+
+### INPUT:
+You make a night often.
+### OUTPUT:
+you (pronoun), make (verb), a (article), night (noun), often (adverb)
+
+### INPUT:
+You being.
+### OUTPUT:
+you (pronoun), being (verb)
+
+### INPUT:
+It is cool.
+### OUTPUT:
+it (pronoun), is (verb), cool (adjective)
+
+### INPUT:
+I are.
+### OUTPUT:
+i (pronoun), are (verb)
+
+### INPUT:
+We speak a fish.
+### OUTPUT:
+we (pronoun), speak (verb), a (article), fish (noun)
+
+### INPUT:
+He made a rock.
+### OUTPUT:
+he (pronoun), made (verb), a (article), rock (noun)
+
+### INPUT:
+We said a window.
+### OUTPUT:
+we (pronoun), said (verb), a (article), window (noun)
+
+### INPUT:
+They jumped.
+### OUTPUT:
+they (pronoun), jumped (verb)
+
+### INPUT:
+We do a pen then.
+### OUTPUT:
+we (pronoun), do (verb), a (article), pen (noun), then (adverb)
+
+### INPUT:
+I ate a bird out.
+### OUTPUT:
+i (pronoun), ate (verb), a (article), bird (noun), out (adverb)
+
+### INPUT:
+We stood.
+### OUTPUT:
+we (pronoun), stood (verb)
+
+### INPUT:
+I said a door here.
+### OUTPUT:
+i (pronoun), said (verb), a (article), door (noun), here (adverb)
+
+### INPUT:
+He eats a rock.
+### OUTPUT:
+he (pronoun), eats (verb), a (article), rock (noun)
+
+### INPUT:
+He is happy.
+### OUTPUT:
+he (pronoun), is (verb), happy (adjective)
+
+### INPUT:
+I stand.
+### OUTPUT:
+i (pronoun), stand (verb)
+
+### INPUT:
+It did a pen sometimes.
+### OUTPUT:
+it (pronoun), did (verb), a (article), pen (noun), sometimes (adverb)
+
+### INPUT:
+You give a town happily.
+### OUTPUT:
+you (pronoun), give (verb), a (article), town (noun), happily (adverb)
+
+### INPUT:
+You were warm.
+### OUTPUT:
+you (pronoun), were (verb), warm (adjective)
+
+### INPUT:
+You hear a town out.
+### OUTPUT:
+you (pronoun), hear (verb), a (article), town (noun), out (adverb)
+
+### INPUT:
+I drink a fish.
+### OUTPUT:
+i (pronoun), drink (verb), a (article), fish (noun)
+
+### INPUT:
+We have a woman hard.
+### OUTPUT:
+we (pronoun), have (verb), a (article), woman (noun), hard (adverb)
+
+### INPUT:
+They speak a dog.
+### OUTPUT:
+they (pronoun), speak (verb), a (article), dog (noun)
+
+### INPUT:
+It did a pen never.
+### OUTPUT:
+it (pronoun), did (verb), a (article), pen (noun), never (adverb)
+
+### INPUT:
+We talk.
+### OUTPUT:
+we (pronoun), talk (verb)
+
+### INPUT:
+It does a fish.
+### OUTPUT:
+it (pronoun), does (verb), a (article), fish (noun)
+
+### INPUT:
+It says a book.
+### OUTPUT:
+it (pronoun), says (verb), a (article), book (noun)
+
+### INPUT:
+It looks.
+### OUTPUT:
+it (pronoun), looks (verb)
+
+### INPUT:
+I was strong.
+### OUTPUT:
+i (pronoun), was (verb), strong (adjective)
+
+### INPUT:
+He tells a star.
+### OUTPUT:
+he (pronoun), tells (verb), a (article), star (noun)
+
+### INPUT:
+They go.
+### OUTPUT:
+they (pronoun), go (verb)
+
+### INPUT:
+You say a table.
+### OUTPUT:
+you (pronoun), say (verb), a (article), table (noun)
+
+### INPUT:
+You take an air.
+### OUTPUT:
+you (pronoun), take (verb), an (article), air (noun)
+
+### INPUT:
+They being.
+### OUTPUT:
+they (pronoun), being (verb)
+
+### INPUT:
+It amed.
+### OUTPUT:
+it (pronoun), amed (verb)
+
+### INPUT:
+You walk.
+### OUTPUT:
+you (pronoun), walk (verb)
+
+### INPUT:
+I was full.
+### OUTPUT:
+i (pronoun), was (verb), full (adjective)
+
+### INPUT:
+They are hard.
+### OUTPUT:
+they (pronoun), are (verb), hard (adjective)
+
+### INPUT:
+He has a water sadly.
+### OUTPUT:
+he (pronoun), has (verb), a (article), water (noun), sadly (adverb)
+
+### INPUT:
+She tells a friend out.
+### OUTPUT:
+she (pronoun), tells (verb), a (article), friend (noun), out (adverb)
+
+### INPUT:
+I am hot.
+### OUTPUT:
+i (pronoun), am (verb), hot (adjective)
+
+### INPUT:
+You give a grass.
+### OUTPUT:
+you (pronoun), give (verb), a (article), grass (noun)
+
+### INPUT:
+It took a fish.
+### OUTPUT:
+it (pronoun), took (verb), a (article), fish (noun)
+
+### INPUT:
+They took an air there.
+### OUTPUT:
+they (pronoun), took (verb), an (article), air (noun), there (adverb)
+
+### INPUT:
+You take an air so.
+### OUTPUT:
+you (pronoun), take (verb), an (article), air (noun), so (adverb)
+
+### INPUT:
+I spoke a stone almost.
+### OUTPUT:
+i (pronoun), spoke (verb), a (article), stone (noun), almost (adverb)
+
+### INPUT:
+They being.
+### OUTPUT:
+they (pronoun), being (verb)
+
+### INPUT:
+It spoke a grass now.
+### OUTPUT:
+it (pronoun), spoke (verb), a (article), grass (noun), now (adverb)
+
+### INPUT:
+I am young.
+### OUTPUT:
+i (pronoun), am (verb), young (adjective)
+
+### INPUT:
+It ate a year usually.
+### OUTPUT:
+it (pronoun), ate (verb), a (article), year (noun), usually (adverb)
+
+### INPUT:
+You beened.
+### OUTPUT:
+you (pronoun), beened (verb)
+
+### INPUT:
+I hear a friend happily.
+### OUTPUT:
+i (pronoun), hear (verb), a (article), friend (noun), happily (adverb)
+
+### INPUT:
+She speaks an air now.
+### OUTPUT:
+she (pronoun), speaks (verb), an (article), air (noun), now (adverb)
+
+### INPUT:
+You are young.
+### OUTPUT:
+you (pronoun), are (verb), young (adjective)
+
+### INPUT:
+She said a road almost.
+### OUTPUT:
+she (pronoun), said (verb), a (article), road (noun), almost (adverb)
+
+### INPUT:
+She does a cat.
+### OUTPUT:
+she (pronoun), does (verb), a (article), cat (noun)
+
+### INPUT:
+I go.
+### OUTPUT:
+i (pronoun), go (verb)
+
+### INPUT:
+We said a book very.
+### OUTPUT:
+we (pronoun), said (verb), a (article), book (noun), very (adverb)
+
+### INPUT:
+They speak a star easily.
+### OUTPUT:
+they (pronoun), speak (verb), a (article), star (noun), easily (adverb)
+
+### INPUT:
+He was warm.
+### OUTPUT:
+he (pronoun), was (verb), warm (adjective)
+
+### INPUT:
+We were alive.
+### OUTPUT:
+we (pronoun), were (verb), alive (adjective)
+
+### INPUT:
+We make a stone here.
+### OUTPUT:
+we (pronoun), make (verb), a (article), stone (noun), here (adverb)
+
+### INPUT:
+They sit.
+### OUTPUT:
+they (pronoun), sit (verb)
+
+### INPUT:
+He did a chair almost.
+### OUTPUT:
+he (pronoun), did (verb), a (article), chair (noun), almost (adverb)
+
+### INPUT:
+He makes a table quickly.
+### OUTPUT:
+he (pronoun), makes (verb), a (article), table (noun), quickly (adverb)
+
+### INPUT:
+You are rich.
+### OUTPUT:
+you (pronoun), are (verb), rich (adjective)
+
+### INPUT:
+You came.
+### OUTPUT:
+you (pronoun), came (verb)
+
+### INPUT:
+They did a dog.
+### OUTPUT:
+they (pronoun), did (verb), a (article), dog (noun)
+
+### INPUT:
+We drank a friend there.
+### OUTPUT:
+we (pronoun), drank (verb), a (article), friend (noun), there (adverb)
+
+### INPUT:
+We spoke a food then.
+### OUTPUT:
+we (pronoun), spoke (verb), a (article), food (noun), then (adverb)
+
+### INPUT:
+They do a fire badly.
+### OUTPUT:
+they (pronoun), do (verb), a (article), fire (noun), badly (adverb)
+
+### INPUT:
+You speak a city.
+### OUTPUT:
+you (pronoun), speak (verb), a (article), city (noun)
+
+### INPUT:
+I gave a water.
+### OUTPUT:
+i (pronoun), gave (verb), a (article), water (noun)
+
+### INPUT:
+We saw a night often.
+### OUTPUT:
+we (pronoun), saw (verb), a (article), night (noun), often (adverb)
+
+### INPUT:
+It says a flower everywhere.
+### OUTPUT:
+it (pronoun), says (verb), a (article), flower (noun), everywhere (adverb)
+
+### INPUT:
+He wased.
+### OUTPUT:
+he (pronoun), wased (verb)
+
+### INPUT:
+They were weak.
+### OUTPUT:
+they (pronoun), were (verb), weak (adjective)
+
+### INPUT:
+You are clean.
+### OUTPUT:
+you (pronoun), are (verb), clean (adjective)
+
+### INPUT:
+We saw a food happily.
+### OUTPUT:
+we (pronoun), saw (verb), a (article), food (noun), happily (adverb)
+
+### INPUT:
+They did a rock.
+### OUTPUT:
+they (pronoun), did (verb), a (article), rock (noun)
+
+### INPUT:
+He tells an earth everywhere.
+### OUTPUT:
+he (pronoun), tells (verb), an (article), earth (noun), everywhere (adverb)
+
+### INPUT:
+He is narrow.
+### OUTPUT:
+he (pronoun), is (verb), narrow (adjective)
+
+### INPUT:
+It ises.
+### OUTPUT:
+it (pronoun), ises (verb)
+
+### INPUT:
+He was white.
+### OUTPUT:
+he (pronoun), was (verb), white (adjective)
+
+### INPUT:
+They were.
+### OUTPUT:
+they (pronoun), were (verb)
+
+### INPUT:
+You looked.
+### OUTPUT:
+you (pronoun), looked (verb)
+
+### INPUT:
+She amed.
+### OUTPUT:
+she (pronoun), amed (verb)
+
+### INPUT:
+She said a fire today.
+### OUTPUT:
+she (pronoun), said (verb), a (article), fire (noun), today (adverb)
+
+### INPUT:
+We spoke a table.
+### OUTPUT:
+we (pronoun), spoke (verb), a (article), table (noun)
+
+### INPUT:
+We drank a star.
+### OUTPUT:
+we (pronoun), drank (verb), a (article), star (noun)
+
+### INPUT:
+They go.
+### OUTPUT:
+they (pronoun), go (verb)
+
+### INPUT:
+You gave a night such.
+### OUTPUT:
+you (pronoun), gave (verb), a (article), night (noun), such (adverb)
+
+### INPUT:
+You take a child.
+### OUTPUT:
+you (pronoun), take (verb), a (article), child (noun)
+
+### INPUT:
+I wased.
+### OUTPUT:
+i (pronoun), wased (verb)
+
+### INPUT:
+We are alive.
+### OUTPUT:
+we (pronoun), are (verb), alive (adjective)
+
+### INPUT:
+We drank a group almost.
+### OUTPUT:
+we (pronoun), drank (verb), a (article), group (noun), almost (adverb)
+
+### INPUT:
+You are cool.
+### OUTPUT:
+you (pronoun), are (verb), cool (adjective)
+
+### INPUT:
+We jumped.
+### OUTPUT:
+we (pronoun), jumped (verb)
+
+### INPUT:
+We are bright.
+### OUTPUT:
+we (pronoun), are (verb), bright (adjective)
+
+### INPUT:
+They am.
+### OUTPUT:
+they (pronoun), am (verb)
+
+### INPUT:
+She takes a table.
+### OUTPUT:
+she (pronoun), takes (verb), a (article), table (noun)
+
+### INPUT:
+It ate a flower rather.
+### OUTPUT:
+it (pronoun), ate (verb), a (article), flower (noun), rather (adverb)
+
+### INPUT:
+It beens.
+### OUTPUT:
+it (pronoun), beens (verb)
+
+### INPUT:
+You ised.
+### OUTPUT:
+you (pronoun), ised (verb)
+
+### INPUT:
+It was heavy.
+### OUTPUT:
+it (pronoun), was (verb), heavy (adjective)
+
+### INPUT:
+It hears a year.
+### OUTPUT:
+it (pronoun), hears (verb), a (article), year (noun)
+
+### INPUT:
+They look.
+### OUTPUT:
+they (pronoun), look (verb)
+
+### INPUT:
+She ared.
+### OUTPUT:
+she (pronoun), ared (verb)
+
+### INPUT:
+We jumped.
+### OUTPUT:
+we (pronoun), jumped (verb)
+
+### INPUT:
+She wered.
+### OUTPUT:
+she (pronoun), wered (verb)
+
+### INPUT:
+They say a town.
+### OUTPUT:
+they (pronoun), say (verb), a (article), town (noun)
+
+### INPUT:
+I was full.
+### OUTPUT:
+i (pronoun), was (verb), full (adjective)
+
+### INPUT:
+She makes a team up.
+### OUTPUT:
+she (pronoun), makes (verb), a (article), team (noun), up (adverb)
+
+### INPUT:
+It heard a pen.
+### OUTPUT:
+it (pronoun), heard (verb), a (article), pen (noun)
+
+### INPUT:
+He hears a house away.
+### OUTPUT:
+he (pronoun), hears (verb), a (article), house (noun), away (adverb)
+
+### INPUT:
+They talked.
+### OUTPUT:
+they (pronoun), talked (verb)
+
+### INPUT:
+You did a year.
+### OUTPUT:
+you (pronoun), did (verb), a (article), year (noun)
+
+### INPUT:
+I are.
+### OUTPUT:
+i (pronoun), are (verb)
+
+### INPUT:
+I took a friend.
+### OUTPUT:
+i (pronoun), took (verb), a (article), friend (noun)
+
+### INPUT:
+We were red.
+### OUTPUT:
+we (pronoun), were (verb), red (adjective)
+
+### INPUT:
+He was happy.
+### OUTPUT:
+he (pronoun), was (verb), happy (adjective)
+
+### INPUT:
+We are.
+### OUTPUT:
+we (pronoun), are (verb)
+
+### INPUT:
+They have a grass fast.
+### OUTPUT:
+they (pronoun), have (verb), a (article), grass (noun), fast (adverb)
+
+### INPUT:
+They are interesting.
+### OUTPUT:
+they (pronoun), are (verb), interesting (adjective)
+
+### INPUT:
+She was bad.
+### OUTPUT:
+she (pronoun), was (verb), bad (adjective)
+
+### INPUT:
+She was beautiful.
+### OUTPUT:
+she (pronoun), was (verb), beautiful (adjective)
+
+### INPUT:
+It wased.
+### OUTPUT:
+it (pronoun), wased (verb)
+
+### INPUT:
+He took a dog.
+### OUTPUT:
+he (pronoun), took (verb), a (article), dog (noun)
+
+### INPUT:
+They did a tree.
+### OUTPUT:
+they (pronoun), did (verb), a (article), tree (noun)
+
+### INPUT:
+They tell a table badly.
+### OUTPUT:
+they (pronoun), tell (verb), a (article), table (noun), badly (adverb)
+
+### INPUT:
+You was.
+### OUTPUT:
+you (pronoun), was (verb)
+
+### INPUT:
+They jump.
+### OUTPUT:
+they (pronoun), jump (verb)
+
+### INPUT:
+You give a town easily.
+### OUTPUT:
+you (pronoun), give (verb), a (article), town (noun), easily (adverb)
+
+### INPUT:
+It was light.
+### OUTPUT:
+it (pronoun), was (verb), light (adjective)
+
+### INPUT:
+They took a man quickly.
+### OUTPUT:
+they (pronoun), took (verb), a (article), man (noun), quickly (adverb)
+
+### INPUT:
+He tells a book.
+### OUTPUT:
+he (pronoun), tells (verb), a (article), book (noun)
+
+### INPUT:
+You been.
+### OUTPUT:
+you (pronoun), been (verb)
+
+### INPUT:
+They drank a world sadly.
+### OUTPUT:
+they (pronoun), drank (verb), a (article), world (noun), sadly (adverb)
+
+### INPUT:
+She takes a child enough.
+### OUTPUT:
+she (pronoun), takes (verb), a (article), child (noun), enough (adverb)
+
+### INPUT:
+It saw a pen in.
+### OUTPUT:
+it (pronoun), saw (verb), a (article), pen (noun), in (adverb)
+
+### INPUT:
+We hear a woman quickly.
+### OUTPUT:
+we (pronoun), hear (verb), a (article), woman (noun), quickly (adverb)
+
+### INPUT:
+We have a bird late.
+### OUTPUT:
+we (pronoun), have (verb), a (article), bird (noun), late (adverb)
+
+### INPUT:
+They run.
+### OUTPUT:
+they (pronoun), run (verb)
+
+### INPUT:
+I wased.
+### OUTPUT:
+i (pronoun), wased (verb)
+
+### INPUT:
+They take a bird.
+### OUTPUT:
+they (pronoun), take (verb), a (article), bird (noun)
+
+### INPUT:
+I saw a grass slowly.
+### OUTPUT:
+i (pronoun), saw (verb), a (article), grass (noun), slowly (adverb)
+
+### INPUT:
+They have a book today.
+### OUTPUT:
+they (pronoun), have (verb), a (article), book (noun), today (adverb)
+
+### INPUT:
+It does a food.
+### OUTPUT:
+it (pronoun), does (verb), a (article), food (noun)
+
+### INPUT:
+I jumped.
+### OUTPUT:
+i (pronoun), jumped (verb)
+
+### INPUT:
+It jumps.
+### OUTPUT:
+it (pronoun), jumps (verb)
+
+### INPUT:
+She wased.
+### OUTPUT:
+she (pronoun), wased (verb)
+
+### INPUT:
+I look.
+### OUTPUT:
+i (pronoun), look (verb)
+
+### INPUT:
+I have a man so.
+### OUTPUT:
+i (pronoun), have (verb), a (article), man (noun), so (adverb)
+
+### INPUT:
+It drinks a town away.
+### OUTPUT:
+it (pronoun), drinks (verb), a (article), town (noun), away (adverb)
+
+### INPUT:
+I am dead.
+### OUTPUT:
+i (pronoun), am (verb), dead (adjective)
+
+### INPUT:
+I say a night.
+### OUTPUT:
+i (pronoun), say (verb), a (article), night (noun)
+
+### INPUT:
+They were warm.
+### OUTPUT:
+they (pronoun), were (verb), warm (adjective)
+
+### INPUT:
+It gave an air.
+### OUTPUT:
+it (pronoun), gave (verb), an (article), air (noun)
+
+### INPUT:
+I drink a bird.
+### OUTPUT:
+i (pronoun), drink (verb), a (article), bird (noun)
+
+### INPUT:
+It wases.
+### OUTPUT:
+it (pronoun), wases (verb)
+
+### INPUT:
+It gave a man hard.
+### OUTPUT:
+it (pronoun), gave (verb), a (article), man (noun), hard (adverb)
+
+### INPUT:
+We run.
+### OUTPUT:
+we (pronoun), run (verb)
+
+### INPUT:
+They ate a window.
+### OUTPUT:
+they (pronoun), ate (verb), a (article), window (noun)
+
+### INPUT:
+He was alive.
+### OUTPUT:
+he (pronoun), was (verb), alive (adjective)
+
+### INPUT:
+They spoke a fire.
+### OUTPUT:
+they (pronoun), spoke (verb), a (article), fire (noun)
+
+### INPUT:
+She sat.
+### OUTPUT:
+she (pronoun), sat (verb)
+
+### INPUT:
+You took a rock.
+### OUTPUT:
+you (pronoun), took (verb), a (article), rock (noun)
+
+### INPUT:
+They were white.
+### OUTPUT:
+they (pronoun), were (verb), white (adjective)
+
+### INPUT:
+It ran.
+### OUTPUT:
+it (pronoun), ran (verb)
+
+### INPUT:
+It is young.
+### OUTPUT:
+it (pronoun), is (verb), young (adjective)
+
+### INPUT:
+They are white.
+### OUTPUT:
+they (pronoun), are (verb), white (adjective)
+
+### INPUT:
+It is red.
+### OUTPUT:
+it (pronoun), is (verb), red (adjective)
+
+### INPUT:
+They am.
+### OUTPUT:
+they (pronoun), am (verb)
+
+### INPUT:
+He drank a town well.
+### OUTPUT:
+he (pronoun), drank (verb), a (article), town (noun), well (adverb)
+
+### INPUT:
+You do a fish enough.
+### OUTPUT:
+you (pronoun), do (verb), a (article), fish (noun), enough (adverb)
+
+### INPUT:
+It had a friend.
+### OUTPUT:
+it (pronoun), had (verb), a (article), friend (noun)
+
+### INPUT:
+You is.
+### OUTPUT:
+you (pronoun), is (verb)
+
+### INPUT:
+She sat.
+### OUTPUT:
+she (pronoun), sat (verb)
+
+### INPUT:
+It took a door.
+### OUTPUT:
+it (pronoun), took (verb), a (article), door (noun)
+
+### INPUT:
+You were old.
+### OUTPUT:
+you (pronoun), were (verb), old (adjective)
+
+### INPUT:
+I am closed.
+### OUTPUT:
+i (pronoun), am (verb), closed (adjective)
+
+### INPUT:
+It took a family.
+### OUTPUT:
+it (pronoun), took (verb), a (article), family (noun)
+
+### INPUT:
+It drinks a moon.
+### OUTPUT:
+it (pronoun), drinks (verb), a (article), moon (noun)
+
+### INPUT:
+I am dead.
+### OUTPUT:
+i (pronoun), am (verb), dead (adjective)
+
+### INPUT:
+I are.
+### OUTPUT:
+i (pronoun), are (verb)
+
+### INPUT:
+It sits.
+### OUTPUT:
+it (pronoun), sits (verb)
+
+### INPUT:
+They made a window fast.
+### OUTPUT:
+they (pronoun), made (verb), a (article), window (noun), fast (adverb)
+
+### INPUT:
+She was short.
+### OUTPUT:
+she (pronoun), was (verb), short (adjective)
+
+### INPUT:
+We drank a grass.
+### OUTPUT:
+we (pronoun), drank (verb), a (article), grass (noun)
+
+### INPUT:
+They were yellow.
+### OUTPUT:
+they (pronoun), were (verb), yellow (adjective)
+
+### INPUT:
+They went.
+### OUTPUT:
+they (pronoun), went (verb)
+
+### INPUT:
+They are.
+### OUTPUT:
+they (pronoun), are (verb)
+
+### INPUT:
+It was big.
+### OUTPUT:
+it (pronoun), was (verb), big (adjective)
+
+### INPUT:
+I see a family.
+### OUTPUT:
+i (pronoun), see (verb), a (article), family (noun)
+
+### INPUT:
+You were fast.
+### OUTPUT:
+you (pronoun), were (verb), fast (adjective)
+
+### INPUT:
+I ate a sun.
+### OUTPUT:
+i (pronoun), ate (verb), a (article), sun (noun)
+
+### INPUT:
+It is rich.
+### OUTPUT:
+it (pronoun), is (verb), rich (adjective)
+
+### INPUT:
+I speak a cat.
+### OUTPUT:
+i (pronoun), speak (verb), a (article), cat (noun)
+
+### INPUT:
+He is high.
+### OUTPUT:
+he (pronoun), is (verb), high (adjective)
+
+### INPUT:
+He has a day.
+### OUTPUT:
+he (pronoun), has (verb), a (article), day (noun)
+
+### INPUT:
+You were bright.
+### OUTPUT:
+you (pronoun), were (verb), bright (adjective)
+
+### INPUT:
+They look.
+### OUTPUT:
+they (pronoun), look (verb)
+
+### INPUT:
+They were small.
+### OUTPUT:
+they (pronoun), were (verb), small (adjective)
+
+### INPUT:
+You tell an earth.
+### OUTPUT:
+you (pronoun), tell (verb), an (article), earth (noun)
+
+### INPUT:
+He ate a fish.
+### OUTPUT:
+he (pronoun), ate (verb), a (article), fish (noun)
+
+### INPUT:
+They ared.
+### OUTPUT:
+they (pronoun), ared (verb)
+
+### INPUT:
+I made a flower.
+### OUTPUT:
+i (pronoun), made (verb), a (article), flower (noun)
+
+### INPUT:
+I make a country in.
+### OUTPUT:
+i (pronoun), make (verb), a (article), country (noun), in (adverb)
+
+### INPUT:
+I beinged.
+### OUTPUT:
+i (pronoun), beinged (verb)
+
+### INPUT:
+You tell a flower sadly.
+### OUTPUT:
+you (pronoun), tell (verb), a (article), flower (noun), sadly (adverb)
+
+### INPUT:
+I come.
+### OUTPUT:
+i (pronoun), come (verb)
+
+### INPUT:
+She was white.
+### OUTPUT:
+she (pronoun), was (verb), white (adjective)
+
+### INPUT:
+I am soft.
+### OUTPUT:
+i (pronoun), am (verb), soft (adjective)
+
+### INPUT:
+We heard a world.
+### OUTPUT:
+we (pronoun), heard (verb), a (article), world (noun)
+
+### INPUT:
+I tell a city sadly.
+### OUTPUT:
+i (pronoun), tell (verb), a (article), city (noun), sadly (adverb)
+
+### INPUT:
+It says a man.
+### OUTPUT:
+it (pronoun), says (verb), a (article), man (noun)
+
+### INPUT:
+She comes.
+### OUTPUT:
+she (pronoun), comes (verb)
+
+### INPUT:
+They had a table easily.
+### OUTPUT:
+they (pronoun), had (verb), a (article), table (noun), easily (adverb)
+
+### INPUT:
+I heard a night so.
+### OUTPUT:
+i (pronoun), heard (verb), a (article), night (noun), so (adverb)
+
+### INPUT:
+I am alive.
+### OUTPUT:
+i (pronoun), am (verb), alive (adjective)
+
+### INPUT:
+He saw a road quickly.
+### OUTPUT:
+he (pronoun), saw (verb), a (article), road (noun), quickly (adverb)
+
+### INPUT:
+We walked.
+### OUTPUT:
+we (pronoun), walked (verb)
+
+### INPUT:
+We gave a table.
+### OUTPUT:
+we (pronoun), gave (verb), a (article), table (noun)
+
+### INPUT:
+She is new.
+### OUTPUT:
+she (pronoun), is (verb), new (adjective)
+
+### INPUT:
+We looked.
+### OUTPUT:
+we (pronoun), looked (verb)
+
+### INPUT:
+It makes a car.
+### OUTPUT:
+it (pronoun), makes (verb), a (article), car (noun)
+
+### INPUT:
+They eat a year outside.
+### OUTPUT:
+they (pronoun), eat (verb), a (article), year (noun), outside (adverb)
+
+### INPUT:
+He has a food.
+### OUTPUT:
+he (pronoun), has (verb), a (article), food (noun)
+
+### INPUT:
+She eats a door.
+### OUTPUT:
+she (pronoun), eats (verb), a (article), door (noun)
+
+### INPUT:
+She went.
+### OUTPUT:
+she (pronoun), went (verb)
+
+### INPUT:
+He beinged.
+### OUTPUT:
+he (pronoun), beinged (verb)
+
+### INPUT:
+You make a person.
+### OUTPUT:
+you (pronoun), make (verb), a (article), person (noun)
+
+### INPUT:
+He was black.
+### OUTPUT:
+he (pronoun), was (verb), black (adjective)
+
+### INPUT:
+She is blue.
+### OUTPUT:
+she (pronoun), is (verb), blue (adjective)
+
+### INPUT:
+We were alive.
+### OUTPUT:
+we (pronoun), were (verb), alive (adjective)
+
+### INPUT:
+They looked.
+### OUTPUT:
+they (pronoun), looked (verb)
+
+### INPUT:
+You give a day.
+### OUTPUT:
+you (pronoun), give (verb), a (article), day (noun)
+
+### INPUT:
+It did a sun badly.
+### OUTPUT:
+it (pronoun), did (verb), a (article), sun (noun), badly (adverb)
+
+### INPUT:
+It is sad.
+### OUTPUT:
+it (pronoun), is (verb), sad (adjective)
+
+### INPUT:
+You were beautiful.
+### OUTPUT:
+you (pronoun), were (verb), beautiful (adjective)
+
+### INPUT:
+They ate a door.
+### OUTPUT:
+they (pronoun), ate (verb), a (article), door (noun)
+
+### INPUT:
+You drank a family.
+### OUTPUT:
+you (pronoun), drank (verb), a (article), family (noun)
+
+### INPUT:
+He gave a woman now.
+### OUTPUT:
+he (pronoun), gave (verb), a (article), woman (noun), now (adverb)
+
+### INPUT:
+I was slow.
+### OUTPUT:
+i (pronoun), was (verb), slow (adjective)
+
+### INPUT:
+I speak a house never.
+### OUTPUT:
+i (pronoun), speak (verb), a (article), house (noun), never (adverb)
+
+### INPUT:
+She drinks a city.
+### OUTPUT:
+she (pronoun), drinks (verb), a (article), city (noun)
+
+### INPUT:
+They took a road rather.
+### OUTPUT:
+they (pronoun), took (verb), a (article), road (noun), rather (adverb)
+
+### INPUT:
+You beinged.
+### OUTPUT:
+you (pronoun), beinged (verb)
+
+### INPUT:
+She is good.
+### OUTPUT:
+she (pronoun), is (verb), good (adjective)
+
+### INPUT:
+You were closed.
+### OUTPUT:
+you (pronoun), were (verb), closed (adjective)
+
+### INPUT:
+She is high.
+### OUTPUT:
+she (pronoun), is (verb), high (adjective)
+
+### INPUT:
+We are slow.
+### OUTPUT:
+we (pronoun), are (verb), slow (adjective)
+
+### INPUT:
+We say a cat outside.
+### OUTPUT:
+we (pronoun), say (verb), a (article), cat (noun), outside (adverb)
+
+### INPUT:
+We had a window up.
+### OUTPUT:
+we (pronoun), had (verb), a (article), window (noun), up (adverb)
+
+### INPUT:
+She is bad.
+### OUTPUT:
+she (pronoun), is (verb), bad (adjective)
+
+### INPUT:
+She saw a woman.
+### OUTPUT:
+she (pronoun), saw (verb), a (article), woman (noun)
+
+### INPUT:
+She was empty.
+### OUTPUT:
+she (pronoun), was (verb), empty (adjective)
+
+### INPUT:
+You heard a friend yesterday.
+### OUTPUT:
+you (pronoun), heard (verb), a (article), friend (noun), yesterday (adverb)
+
+### INPUT:
+I am soft.
+### OUTPUT:
+i (pronoun), am (verb), soft (adjective)
+
+### INPUT:
+It told a house.
+### OUTPUT:
+it (pronoun), told (verb), a (article), house (noun)
+
+### INPUT:
+He gave a town rarely.
+### OUTPUT:
+he (pronoun), gave (verb), a (article), town (noun), rarely (adverb)
+
+### INPUT:
+He was blue.
+### OUTPUT:
+he (pronoun), was (verb), blue (adjective)
+
+### INPUT:
+We take a door everywhere.
+### OUTPUT:
+we (pronoun), take (verb), a (article), door (noun), everywhere (adverb)
+
+### INPUT:
+We are warm.
+### OUTPUT:
+we (pronoun), are (verb), warm (adjective)
+
+### INPUT:
+We give a person.
+### OUTPUT:
+we (pronoun), give (verb), a (article), person (noun)
+
+### INPUT:
+We were hot.
+### OUTPUT:
+we (pronoun), were (verb), hot (adjective)
+
+### INPUT:
+It makes a family.
+### OUTPUT:
+it (pronoun), makes (verb), a (article), family (noun)
+
+### INPUT:
+I were.
+### OUTPUT:
+i (pronoun), were (verb)
+
+### INPUT:
+I am big.
+### OUTPUT:
+i (pronoun), am (verb), big (adjective)
+
+### INPUT:
+We hear a cat.
+### OUTPUT:
+we (pronoun), hear (verb), a (article), cat (noun)
+
+### INPUT:
+You speak a child.
+### OUTPUT:
+you (pronoun), speak (verb), a (article), child (noun)
+
+### INPUT:
+I jump.
+### OUTPUT:
+i (pronoun), jump (verb)
+
+### INPUT:
+You being.
+### OUTPUT:
+you (pronoun), being (verb)
+
+### INPUT:
+It is young.
+### OUTPUT:
+it (pronoun), is (verb), young (adjective)
+
+### INPUT:
+She was weak.
+### OUTPUT:
+she (pronoun), was (verb), weak (adjective)
+
+### INPUT:
+I was bad.
+### OUTPUT:
+i (pronoun), was (verb), bad (adjective)
+
+### INPUT:
+He is bad.
+### OUTPUT:
+he (pronoun), is (verb), bad (adjective)
+
+### INPUT:
+We come.
+### OUTPUT:
+we (pronoun), come (verb)
+
+### INPUT:
+He did a stone.
+### OUTPUT:
+he (pronoun), did (verb), a (article), stone (noun)
+
+### INPUT:
+It does a fish.
+### OUTPUT:
+it (pronoun), does (verb), a (article), fish (noun)
+
+### INPUT:
+She spoke a dog.
+### OUTPUT:
+she (pronoun), spoke (verb), a (article), dog (noun)
+
+### INPUT:
+They drank a rock.
+### OUTPUT:
+they (pronoun), drank (verb), a (article), rock (noun)
+
+### INPUT:
+It stands.
+### OUTPUT:
+it (pronoun), stands (verb)
+
+### INPUT:
+They made a woman.
+### OUTPUT:
+they (pronoun), made (verb), a (article), woman (noun)
+
+### INPUT:
+It wered.
+### OUTPUT:
+it (pronoun), wered (verb)
+
+### INPUT:
+You give a man.
+### OUTPUT:
+you (pronoun), give (verb), a (article), man (noun)
+
+### INPUT:
+You came.
+### OUTPUT:
+you (pronoun), came (verb)
+
+### INPUT:
+We ate a dog soon.
+### OUTPUT:
+we (pronoun), ate (verb), a (article), dog (noun), soon (adverb)
+
+### INPUT:
+It ises.
+### OUTPUT:
+it (pronoun), ises (verb)
+
+### INPUT:
+It heard a window.
+### OUTPUT:
+it (pronoun), heard (verb), a (article), window (noun)
+
+### INPUT:
+We spoke a table.
+### OUTPUT:
+we (pronoun), spoke (verb), a (article), table (noun)
+
+### INPUT:
+You make an air.
+### OUTPUT:
+you (pronoun), make (verb), an (article), air (noun)
+
+### INPUT:
+He was bright.
+### OUTPUT:
+he (pronoun), was (verb), bright (adjective)
+
+### INPUT:
+They are poor.
+### OUTPUT:
+they (pronoun), are (verb), poor (adjective)
+
+### INPUT:
+He is slow.
+### OUTPUT:
+he (pronoun), is (verb), slow (adjective)
+
+### INPUT:
+You are blue.
+### OUTPUT:
+you (pronoun), are (verb), blue (adjective)
+
+### INPUT:
+I heard a food.
+### OUTPUT:
+i (pronoun), heard (verb), a (article), food (noun)
+
+### INPUT:
+We beinged.
+### OUTPUT:
+we (pronoun), beinged (verb)
+
+### INPUT:
+I am empty.
+### OUTPUT:
+i (pronoun), am (verb), empty (adjective)
+
+### INPUT:
+She beinged.
+### OUTPUT:
+she (pronoun), beinged (verb)
+
+### INPUT:
+They went.
+### OUTPUT:
+they (pronoun), went (verb)
+
+### INPUT:
+They made a star here.
+### OUTPUT:
+they (pronoun), made (verb), a (article), star (noun), here (adverb)
+
+### INPUT:
+It ate a book up.
+### OUTPUT:
+it (pronoun), ate (verb), a (article), book (noun), up (adverb)
+
+### INPUT:
+You walked.
+### OUTPUT:
+you (pronoun), walked (verb)
+
+### INPUT:
+She takes a team.
+### OUTPUT:
+she (pronoun), takes (verb), a (article), team (noun)
+
+### INPUT:
+We jumped.
+### OUTPUT:
+we (pronoun), jumped (verb)
+
+### INPUT:
+It was bad.
+### OUTPUT:
+it (pronoun), was (verb), bad (adjective)
+
+### INPUT:
+We drank a fish.
+### OUTPUT:
+we (pronoun), drank (verb), a (article), fish (noun)
+
+### INPUT:
+They stood.
+### OUTPUT:
+they (pronoun), stood (verb)
+
+### INPUT:
+He looks.
+### OUTPUT:
+he (pronoun), looks (verb)
+
+### INPUT:
+You see a sun inside.
+### OUTPUT:
+you (pronoun), see (verb), a (article), sun (noun), inside (adverb)
+
+### INPUT:
+I was white.
+### OUTPUT:
+i (pronoun), was (verb), white (adjective)
+
+### INPUT:
+I speak a sun down.
+### OUTPUT:
+i (pronoun), speak (verb), a (article), sun (noun), down (adverb)
+
+### INPUT:
+It speaks a grass.
+### OUTPUT:
+it (pronoun), speaks (verb), a (article), grass (noun)
+
+### INPUT:
+We see a person in.
+### OUTPUT:
+we (pronoun), see (verb), a (article), person (noun), in (adverb)
+
+### INPUT:
+They went.
+### OUTPUT:
+they (pronoun), went (verb)
+
+### INPUT:
+It beinged.
+### OUTPUT:
+it (pronoun), beinged (verb)
+
+### INPUT:
+He saw an air.
+### OUTPUT:
+he (pronoun), saw (verb), an (article), air (noun)
+
+### INPUT:
+I ate a woman.
+### OUTPUT:
+i (pronoun), ate (verb), a (article), woman (noun)
+
+### INPUT:
+They are hot.
+### OUTPUT:
+they (pronoun), are (verb), hot (adjective)
+
+### INPUT:
+He goes.
+### OUTPUT:
+he (pronoun), goes (verb)
+
+### INPUT:
+He was cool.
+### OUTPUT:
+he (pronoun), was (verb), cool (adjective)
+
+### INPUT:
+She was low.
+### OUTPUT:
+she (pronoun), was (verb), low (adjective)
+
+### INPUT:
+You are big.
+### OUTPUT:
+you (pronoun), are (verb), big (adjective)
+
+### INPUT:
+They take a fish then.
+### OUTPUT:
+they (pronoun), take (verb), a (article), fish (noun), then (adverb)
+
+### INPUT:
+He did a food.
+### OUTPUT:
+he (pronoun), did (verb), a (article), food (noun)
+
+### INPUT:
+They spoke a table late.
+### OUTPUT:
+they (pronoun), spoke (verb), a (article), table (noun), late (adverb)
+
+### INPUT:
+He is blue.
+### OUTPUT:
+he (pronoun), is (verb), blue (adjective)
+
+### INPUT:
+They are open.
+### OUTPUT:
+they (pronoun), are (verb), open (adjective)
+
+### INPUT:
+He beinged.
+### OUTPUT:
+he (pronoun), beinged (verb)
+
+### INPUT:
+We say an earth late.
+### OUTPUT:
+we (pronoun), say (verb), an (article), earth (noun), late (adverb)
+
+### INPUT:
+I am.
+### OUTPUT:
+i (pronoun), am (verb)
+
+### INPUT:
+You are.
+### OUTPUT:
+you (pronoun), are (verb)
+
+### INPUT:
+She walks.
+### OUTPUT:
+she (pronoun), walks (verb)
+
+### INPUT:
+We told a water.
+### OUTPUT:
+we (pronoun), told (verb), a (article), water (noun)
+
+### INPUT:
+He took a friend quite.
+### OUTPUT:
+he (pronoun), took (verb), a (article), friend (noun), quite (adverb)
+
+### INPUT:
+He had a water rarely.
+### OUTPUT:
+he (pronoun), had (verb), a (article), water (noun), rarely (adverb)
+
+### INPUT:
+She beens.
+### OUTPUT:
+she (pronoun), beens (verb)
+
+### INPUT:
+We hear a man yesterday.
+### OUTPUT:
+we (pronoun), hear (verb), a (article), man (noun), yesterday (adverb)
+
+### INPUT:
+We were closed.
+### OUTPUT:
+we (pronoun), were (verb), closed (adjective)
+
+### INPUT:
+She weres.
+### OUTPUT:
+she (pronoun), weres (verb)
+
+### INPUT:
+She jumps.
+### OUTPUT:
+she (pronoun), jumps (verb)
+
+### INPUT:
+They did a fire.
+### OUTPUT:
+they (pronoun), did (verb), a (article), fire (noun)
+
+### INPUT:
+They walk.
+### OUTPUT:
+they (pronoun), walk (verb)
+
+### INPUT:
+We told a door.
+### OUTPUT:
+we (pronoun), told (verb), a (article), door (noun)
+
+### INPUT:
+She hears a food often.
+### OUTPUT:
+she (pronoun), hears (verb), a (article), food (noun), often (adverb)
+
+### INPUT:
+She is dark.
+### OUTPUT:
+she (pronoun), is (verb), dark (adjective)
+
+### INPUT:
+It wases.
+### OUTPUT:
+it (pronoun), wases (verb)
+
+### INPUT:
+I take a country.
+### OUTPUT:
+i (pronoun), take (verb), a (article), country (noun)
+
+### INPUT:
+I walked.
+### OUTPUT:
+i (pronoun), walked (verb)
+
+### INPUT:
+It has a man.
+### OUTPUT:
+it (pronoun), has (verb), a (article), man (noun)
+
+### INPUT:
+It hears a chair now.
+### OUTPUT:
+it (pronoun), hears (verb), a (article), chair (noun), now (adverb)
+
+### INPUT:
+She sees a group early.
+### OUTPUT:
+she (pronoun), sees (verb), a (article), group (noun), early (adverb)
+
+### INPUT:
+She is yellow.
+### OUTPUT:
+she (pronoun), is (verb), yellow (adjective)
+
+### INPUT:
+I eat an air then.
+### OUTPUT:
+i (pronoun), eat (verb), an (article), air (noun), then (adverb)
+
+### INPUT:
+You did a window.
+### OUTPUT:
+you (pronoun), did (verb), a (article), window (noun)
+
+### INPUT:
+They hear a family.
+### OUTPUT:
+they (pronoun), hear (verb), a (article), family (noun)
+
+### INPUT:
+We talked.
+### OUTPUT:
+we (pronoun), talked (verb)
+
+### INPUT:
+It was slow.
+### OUTPUT:
+it (pronoun), was (verb), slow (adjective)
+
+### INPUT:
+She drinks a house very.
+### OUTPUT:
+she (pronoun), drinks (verb), a (article), house (noun), very (adverb)
+
+### INPUT:
+He makes a door too.
+### OUTPUT:
+he (pronoun), makes (verb), a (article), door (noun), too (adverb)
+
+### INPUT:
+She had a child.
+### OUTPUT:
+she (pronoun), had (verb), a (article), child (noun)
+
+### INPUT:
+You tell a fire.
+### OUTPUT:
+you (pronoun), tell (verb), a (article), fire (noun)
+
+### INPUT:
+He saw a friend yesterday.
+### OUTPUT:
+he (pronoun), saw (verb), a (article), friend (noun), yesterday (adverb)
+
+### INPUT:
+You hear a family sometimes.
+### OUTPUT:
+you (pronoun), hear (verb), a (article), family (noun), sometimes (adverb)
+
+### INPUT:
+You wered.
+### OUTPUT:
+you (pronoun), wered (verb)
+
+### INPUT:
+They gave a stone down.
+### OUTPUT:
+they (pronoun), gave (verb), a (article), stone (noun), down (adverb)
+
+### INPUT:
+It was green.
+### OUTPUT:
+it (pronoun), was (verb), green (adjective)
+
+### INPUT:
+It sees a woman easily.
+### OUTPUT:
+it (pronoun), sees (verb), a (article), woman (noun), easily (adverb)
+
+### INPUT:
+I was long.
+### OUTPUT:
+i (pronoun), was (verb), long (adjective)
+
+### INPUT:
+We wered.
+### OUTPUT:
+we (pronoun), wered (verb)
+
+### INPUT:
+We were closed.
+### OUTPUT:
+we (pronoun), were (verb), closed (adjective)
+
+### INPUT:
+She gives a country quickly.
+### OUTPUT:
+she (pronoun), gives (verb), a (article), country (noun), quickly (adverb)
+
+### INPUT:
+He wased.
+### OUTPUT:
+he (pronoun), wased (verb)
+
+### INPUT:
+You did a cat such.
+### OUTPUT:
+you (pronoun), did (verb), a (article), cat (noun), such (adverb)
+
+### INPUT:
+We told a food.
+### OUTPUT:
+we (pronoun), told (verb), a (article), food (noun)
+
+### INPUT:
+They saw a country.
+### OUTPUT:
+they (pronoun), saw (verb), a (article), country (noun)
+
+### INPUT:
+He drinks a table slowly.
+### OUTPUT:
+he (pronoun), drinks (verb), a (article), table (noun), slowly (adverb)
+
+### INPUT:
+She was hard.
+### OUTPUT:
+she (pronoun), was (verb), hard (adjective)
+
+### INPUT:
+It was small.
+### OUTPUT:
+it (pronoun), was (verb), small (adjective)
+
+### INPUT:
+We were weak.
+### OUTPUT:
+we (pronoun), were (verb), weak (adjective)
+
+### INPUT:
+He wased.
+### OUTPUT:
+he (pronoun), wased (verb)
+
+### INPUT:
+He is low.
+### OUTPUT:
+he (pronoun), is (verb), low (adjective)
+
+### INPUT:
+They ran.
+### OUTPUT:
+they (pronoun), ran (verb)
+
+### INPUT:
+He was hard.
+### OUTPUT:
+he (pronoun), was (verb), hard (adjective)
+
+### INPUT:
+I drank a person.
+### OUTPUT:
+i (pronoun), drank (verb), a (article), person (noun)
+
+### INPUT:
+We see a chair.
+### OUTPUT:
+we (pronoun), see (verb), a (article), chair (noun)
+
+### INPUT:
+You are slow.
+### OUTPUT:
+you (pronoun), are (verb), slow (adjective)
+
+### INPUT:
+I had a book now.
+### OUTPUT:
+i (pronoun), had (verb), a (article), book (noun), now (adverb)
+
+### INPUT:
+She talks.
+### OUTPUT:
+she (pronoun), talks (verb)
+
+### INPUT:
+They wased.
+### OUTPUT:
+they (pronoun), wased (verb)
+
+### INPUT:
+We have a window almost.
+### OUTPUT:
+we (pronoun), have (verb), a (article), window (noun), almost (adverb)
+
+### INPUT:
+I drank a fish.
+### OUTPUT:
+i (pronoun), drank (verb), a (article), fish (noun)
+
+### INPUT:
+I eat a food.
+### OUTPUT:
+i (pronoun), eat (verb), a (article), food (noun)
+
+### INPUT:
+She sees a book.
+### OUTPUT:
+she (pronoun), sees (verb), a (article), book (noun)
+
+### INPUT:
+It says a person.
+### OUTPUT:
+it (pronoun), says (verb), a (article), person (noun)
+
+### INPUT:
+They are wide.
+### OUTPUT:
+they (pronoun), are (verb), wide (adjective)
+
+### INPUT:
+She was hot.
+### OUTPUT:
+she (pronoun), was (verb), hot (adjective)
+
+### INPUT:
+She eats a window then.
+### OUTPUT:
+she (pronoun), eats (verb), a (article), window (noun), then (adverb)
+
+### INPUT:
+They say a friend.
+### OUTPUT:
+they (pronoun), say (verb), a (article), friend (noun)
+
+### INPUT:
+It walked.
+### OUTPUT:
+it (pronoun), walked (verb)
+
+### INPUT:
+She makes a dog almost.
+### OUTPUT:
+she (pronoun), makes (verb), a (article), dog (noun), almost (adverb)
+
+### INPUT:
+It was interesting.
+### OUTPUT:
+it (pronoun), was (verb), interesting (adjective)
+
+### INPUT:
+She looks.
+### OUTPUT:
+she (pronoun), looks (verb)
+
+### INPUT:
+We take a cat out.
+### OUTPUT:
+we (pronoun), take (verb), a (article), cat (noun), out (adverb)
+
+### INPUT:
+She talked.
+### OUTPUT:
+she (pronoun), talked (verb)
+
+### INPUT:
+He made a family nearly.
+### OUTPUT:
+he (pronoun), made (verb), a (article), family (noun), nearly (adverb)
+
+### INPUT:
+She heard a night.
+### OUTPUT:
+she (pronoun), heard (verb), a (article), night (noun)
+
+### INPUT:
+It has a food.
+### OUTPUT:
+it (pronoun), has (verb), a (article), food (noun)
+
+### INPUT:
+They were clean.
+### OUTPUT:
+they (pronoun), were (verb), clean (adjective)
+
+### INPUT:
+It is dark.
+### OUTPUT:
+it (pronoun), is (verb), dark (adjective)
+
+### INPUT:
+They drank a stone happily.
+### OUTPUT:
+they (pronoun), drank (verb), a (article), stone (noun), happily (adverb)
+
+### INPUT:
+They drank a world.
+### OUTPUT:
+they (pronoun), drank (verb), a (article), world (noun)
+
+### INPUT:
+It did a tree quickly.
+### OUTPUT:
+it (pronoun), did (verb), a (article), tree (noun), quickly (adverb)
+
+### INPUT:
+I was.
+### OUTPUT:
+i (pronoun), was (verb)
+
+### INPUT:
+It is wide.
+### OUTPUT:
+it (pronoun), is (verb), wide (adjective)
+
+### INPUT:
+I had a flower enough.
+### OUTPUT:
+i (pronoun), had (verb), a (article), flower (noun), enough (adverb)
+
+### INPUT:
+I am hard.
+### OUTPUT:
+i (pronoun), am (verb), hard (adjective)
+
+### INPUT:
+I am full.
+### OUTPUT:
+i (pronoun), am (verb), full (adjective)
+
+### INPUT:
+They were high.
+### OUTPUT:
+they (pronoun), were (verb), high (adjective)
+
+### INPUT:
+They gave a night.
+### OUTPUT:
+they (pronoun), gave (verb), a (article), night (noun)
+
+### INPUT:
+She took a rock well.
+### OUTPUT:
+she (pronoun), took (verb), a (article), rock (noun), well (adverb)
+
+### INPUT:
+They is.
+### OUTPUT:
+they (pronoun), is (verb)
+
+### INPUT:
+He wases.
+### OUTPUT:
+he (pronoun), wases (verb)
+
+### INPUT:
+They did a bird.
+### OUTPUT:
+they (pronoun), did (verb), a (article), bird (noun)
+
+### INPUT:
+I drank a car happily.
+### OUTPUT:
+i (pronoun), drank (verb), a (article), car (noun), happily (adverb)
+
+### INPUT:
+It made a car.
+### OUTPUT:
+it (pronoun), made (verb), a (article), car (noun)
+
+### INPUT:
+They were poor.
+### OUTPUT:
+they (pronoun), were (verb), poor (adjective)
+
+### INPUT:
+We drink a window.
+### OUTPUT:
+we (pronoun), drink (verb), a (article), window (noun)
+
+### INPUT:
+You were red.
+### OUTPUT:
+you (pronoun), were (verb), red (adjective)
+
+### INPUT:
+They heard a day.
+### OUTPUT:
+they (pronoun), heard (verb), a (article), day (noun)
+
+### INPUT:
+You are red.
+### OUTPUT:
+you (pronoun), are (verb), red (adjective)
+
+### INPUT:
+We are low.
+### OUTPUT:
+we (pronoun), are (verb), low (adjective)
+
+### INPUT:
+I tell a rock sometimes.
+### OUTPUT:
+i (pronoun), tell (verb), a (article), rock (noun), sometimes (adverb)
+
+### INPUT:
+You beened.
+### OUTPUT:
+you (pronoun), beened (verb)
+
+### INPUT:
+He sees a city such.
+### OUTPUT:
+he (pronoun), sees (verb), a (article), city (noun), such (adverb)
+
+### INPUT:
+She looked.
+### OUTPUT:
+she (pronoun), looked (verb)
+
+### INPUT:
+She made a night.
+### OUTPUT:
+she (pronoun), made (verb), a (article), night (noun)
+
+### INPUT:
+It is hard.
+### OUTPUT:
+it (pronoun), is (verb), hard (adjective)
+
+### INPUT:
+He is happy.
+### OUTPUT:
+he (pronoun), is (verb), happy (adjective)
+
+### INPUT:
+I was beautiful.
+### OUTPUT:
+i (pronoun), was (verb), beautiful (adjective)
+
+### INPUT:
+He told a world very.
+### OUTPUT:
+he (pronoun), told (verb), a (article), world (noun), very (adverb)
+
+### INPUT:
+They ate a food.
+### OUTPUT:
+they (pronoun), ate (verb), a (article), food (noun)
+
+### INPUT:
+I spoke a grass.
+### OUTPUT:
+i (pronoun), spoke (verb), a (article), grass (noun)
+
+### INPUT:
+She was dirty.
+### OUTPUT:
+she (pronoun), was (verb), dirty (adjective)
+
+### INPUT:
+He hears a group.
+### OUTPUT:
+he (pronoun), hears (verb), a (article), group (noun)
+
+### INPUT:
+He had a child.
+### OUTPUT:
+he (pronoun), had (verb), a (article), child (noun)
+
+### INPUT:
+I talked.
+### OUTPUT:
+i (pronoun), talked (verb)
+
+### INPUT:
+It sits.
+### OUTPUT:
+it (pronoun), sits (verb)
+
+### INPUT:
+We speak a book.
+### OUTPUT:
+we (pronoun), speak (verb), a (article), book (noun)
+
+### INPUT:
+He eats a tree.
+### OUTPUT:
+he (pronoun), eats (verb), a (article), tree (noun)
+
+### INPUT:
+He ran.
+### OUTPUT:
+he (pronoun), ran (verb)
+
+### INPUT:
+We gave a town today.
+### OUTPUT:
+we (pronoun), gave (verb), a (article), town (noun), today (adverb)
+
+### INPUT:
+You go.
+### OUTPUT:
+you (pronoun), go (verb)
+
+### INPUT:
+I come.
+### OUTPUT:
+i (pronoun), come (verb)
+
+### INPUT:
+She was closed.
+### OUTPUT:
+she (pronoun), was (verb), closed (adjective)
+
+### INPUT:
+It weres.
+### OUTPUT:
+it (pronoun), weres (verb)
+
+### INPUT:
+It stood.
+### OUTPUT:
+it (pronoun), stood (verb)
+
+### INPUT:
+They took a dog slowly.
+### OUTPUT:
+they (pronoun), took (verb), a (article), dog (noun), slowly (adverb)
+
+### INPUT:
+It wased.
+### OUTPUT:
+it (pronoun), wased (verb)
+
+### INPUT:
+We said a country.
+### OUTPUT:
+we (pronoun), said (verb), a (article), country (noun)
+
+### INPUT:
+He spoke a town.
+### OUTPUT:
+he (pronoun), spoke (verb), a (article), town (noun)
+
+### INPUT:
+You see a chair.
+### OUTPUT:
+you (pronoun), see (verb), a (article), chair (noun)
+
+### INPUT:
+You is.
+### OUTPUT:
+you (pronoun), is (verb)
+
+### INPUT:
+She beened.
+### OUTPUT:
+she (pronoun), beened (verb)
+
+### INPUT:
+You were.
+### OUTPUT:
+you (pronoun), were (verb)
+
+### INPUT:
+They eat a child.
+### OUTPUT:
+they (pronoun), eat (verb), a (article), child (noun)
+
+### INPUT:
+They are bad.
+### OUTPUT:
+they (pronoun), are (verb), bad (adjective)
+
+### INPUT:
+She said a rock happily.
+### OUTPUT:
+she (pronoun), said (verb), a (article), rock (noun), happily (adverb)
+
+### INPUT:
+She does a child.
+### OUTPUT:
+she (pronoun), does (verb), a (article), child (noun)
+
+### INPUT:
+You jump.
+### OUTPUT:
+you (pronoun), jump (verb)
+
+### INPUT:
+They are old.
+### OUTPUT:
+they (pronoun), are (verb), old (adjective)
+
+### INPUT:
+We jumped.
+### OUTPUT:
+we (pronoun), jumped (verb)
+
+### INPUT:
+I did a flower late.
+### OUTPUT:
+i (pronoun), did (verb), a (article), flower (noun), late (adverb)
+
+### INPUT:
+He tells a food.
+### OUTPUT:
+he (pronoun), tells (verb), a (article), food (noun)
+
+### INPUT:
+You walked.
+### OUTPUT:
+you (pronoun), walked (verb)
+
+### INPUT:
+They have a door too.
+### OUTPUT:
+they (pronoun), have (verb), a (article), door (noun), too (adverb)
+
+### INPUT:
+It walked.
+### OUTPUT:
+it (pronoun), walked (verb)
+
+### INPUT:
+I am bright.
+### OUTPUT:
+i (pronoun), am (verb), bright (adjective)
+
+### INPUT:
+You heard a man.
+### OUTPUT:
+you (pronoun), heard (verb), a (article), man (noun)
+
+### INPUT:
+We made a car late.
+### OUTPUT:
+we (pronoun), made (verb), a (article), car (noun), late (adverb)
+
+### INPUT:
+We hear a moon fast.
+### OUTPUT:
+we (pronoun), hear (verb), a (article), moon (noun), fast (adverb)
+
+### INPUT:
+I did a year.
+### OUTPUT:
+i (pronoun), did (verb), a (article), year (noun)
+
+### INPUT:
+You were cold.
+### OUTPUT:
+you (pronoun), were (verb), cold (adjective)
+
+### INPUT:
+I am long.
+### OUTPUT:
+i (pronoun), am (verb), long (adjective)
+
+### INPUT:
+I saw a car easily.
+### OUTPUT:
+i (pronoun), saw (verb), a (article), car (noun), easily (adverb)
+
+### INPUT:
+He sits.
+### OUTPUT:
+he (pronoun), sits (verb)
+
+### INPUT:
+He heard a book so.
+### OUTPUT:
+he (pronoun), heard (verb), a (article), book (noun), so (adverb)
+
+### INPUT:
+He drank a family down.
+### OUTPUT:
+he (pronoun), drank (verb), a (article), family (noun), down (adverb)
+
+### INPUT:
+I make a tree.
+### OUTPUT:
+i (pronoun), make (verb), a (article), tree (noun)
+
+### INPUT:
+We see a family.
+### OUTPUT:
+we (pronoun), see (verb), a (article), family (noun)
+
+### INPUT:
+I am.
+### OUTPUT:
+i (pronoun), am (verb)
+
+### INPUT:
+You give a night.
+### OUTPUT:
+you (pronoun), give (verb), a (article), night (noun)
+
+### INPUT:
+We are high.
+### OUTPUT:
+we (pronoun), are (verb), high (adjective)
+
+### INPUT:
+You made a flower today.
+### OUTPUT:
+you (pronoun), made (verb), a (article), flower (noun), today (adverb)
+
+### INPUT:
+I were.
+### OUTPUT:
+i (pronoun), were (verb)
+
+### INPUT:
+We speak a pen.
+### OUTPUT:
+we (pronoun), speak (verb), a (article), pen (noun)
+
+### INPUT:
+I went.
+### OUTPUT:
+i (pronoun), went (verb)
+
+### INPUT:
+I are.
+### OUTPUT:
+i (pronoun), are (verb)
+
+### INPUT:
+It amed.
+### OUTPUT:
+it (pronoun), amed (verb)
+
+### INPUT:
+He does a man down.
+### OUTPUT:
+he (pronoun), does (verb), a (article), man (noun), down (adverb)
+
+### INPUT:
+He is young.
+### OUTPUT:
+he (pronoun), is (verb), young (adjective)
+
+### INPUT:
+We did a table.
+### OUTPUT:
+we (pronoun), did (verb), a (article), table (noun)
+
+### INPUT:
+She looked.
+### OUTPUT:
+she (pronoun), looked (verb)
+
+### INPUT:
+He sat.
+### OUTPUT:
+he (pronoun), sat (verb)
+
+### INPUT:
+It made a child out.
+### OUTPUT:
+it (pronoun), made (verb), a (article), child (noun), out (adverb)
+
+### INPUT:
+He told a bird early.
+### OUTPUT:
+he (pronoun), told (verb), a (article), bird (noun), early (adverb)
+
+### INPUT:
+We took a man outside.
+### OUTPUT:
+we (pronoun), took (verb), a (article), man (noun), outside (adverb)
+
+### INPUT:
+She was high.
+### OUTPUT:
+she (pronoun), was (verb), high (adjective)
+
+### INPUT:
+We talked.
+### OUTPUT:
+we (pronoun), talked (verb)
+
+### INPUT:
+We had a day.
+### OUTPUT:
+we (pronoun), had (verb), a (article), day (noun)
+
+### INPUT:
+He is light.
+### OUTPUT:
+he (pronoun), is (verb), light (adjective)
+
+### INPUT:
+He wered.
+### OUTPUT:
+he (pronoun), wered (verb)
+
+### INPUT:
+It ised.
+### OUTPUT:
+it (pronoun), ised (verb)
+
+### INPUT:
+He made a book.
+### OUTPUT:
+he (pronoun), made (verb), a (article), book (noun)
+
+### INPUT:
+I said a person.
+### OUTPUT:
+i (pronoun), said (verb), a (article), person (noun)
+
+### INPUT:
+I was alive.
+### OUTPUT:
+i (pronoun), was (verb), alive (adjective)
+
+### INPUT:
+They told a flower.
+### OUTPUT:
+they (pronoun), told (verb), a (article), flower (noun)
+
+### INPUT:
+You were new.
+### OUTPUT:
+you (pronoun), were (verb), new (adjective)
+
+### INPUT:
+We see a fire.
+### OUTPUT:
+we (pronoun), see (verb), a (article), fire (noun)
+
+### INPUT:
+We are white.
+### OUTPUT:
+we (pronoun), are (verb), white (adjective)
+
+### INPUT:
+They are blue.
+### OUTPUT:
+they (pronoun), are (verb), blue (adjective)
+
+### INPUT:
+She talked.
+### OUTPUT:
+she (pronoun), talked (verb)
+
+### INPUT:
+It drank a pen.
+### OUTPUT:
+it (pronoun), drank (verb), a (article), pen (noun)
+
+### INPUT:
+It was long.
+### OUTPUT:
+it (pronoun), was (verb), long (adjective)
+
+### INPUT:
+She is low.
+### OUTPUT:
+she (pronoun), is (verb), low (adjective)
+
+### INPUT:
+They ate an earth.
+### OUTPUT:
+they (pronoun), ate (verb), an (article), earth (noun)
+
+### INPUT:
+He stood.
+### OUTPUT:
+he (pronoun), stood (verb)
+
+### INPUT:
+You run.
+### OUTPUT:
+you (pronoun), run (verb)
+
+### INPUT:
+I heard a child.
+### OUTPUT:
+i (pronoun), heard (verb), a (article), child (noun)
+
+### INPUT:
+It gave a food.
+### OUTPUT:
+it (pronoun), gave (verb), a (article), food (noun)
+
+### INPUT:
+It ams.
+### OUTPUT:
+it (pronoun), ams (verb)
+
+### INPUT:
+I went.
+### OUTPUT:
+i (pronoun), went (verb)
+
+### INPUT:
+He told an earth.
+### OUTPUT:
+he (pronoun), told (verb), an (article), earth (noun)
+
+### INPUT:
+I am.
+### OUTPUT:
+i (pronoun), am (verb)
+
+### INPUT:
+We tell a child usually.
+### OUTPUT:
+we (pronoun), tell (verb), a (article), child (noun), usually (adverb)
+
+### INPUT:
+We ate a city.
+### OUTPUT:
+we (pronoun), ate (verb), a (article), city (noun)
+
+### INPUT:
+She was alive.
+### OUTPUT:
+she (pronoun), was (verb), alive (adjective)
+
+### INPUT:
+I ate a sun up.
+### OUTPUT:
+i (pronoun), ate (verb), a (article), sun (noun), up (adverb)
+
+### INPUT:
+They give a rock.
+### OUTPUT:
+they (pronoun), give (verb), a (article), rock (noun)
+
+### INPUT:
+They drink a day outside.
+### OUTPUT:
+they (pronoun), drink (verb), a (article), day (noun), outside (adverb)
+
+### INPUT:
+She talked.
+### OUTPUT:
+she (pronoun), talked (verb)
+
+### INPUT:
+I jump.
+### OUTPUT:
+i (pronoun), jump (verb)
+
+### INPUT:
+I told a star.
+### OUTPUT:
+i (pronoun), told (verb), a (article), star (noun)
+
+### INPUT:
+We said a city here.
+### OUTPUT:
+we (pronoun), said (verb), a (article), city (noun), here (adverb)
+
+### INPUT:
+It does a stone.
+### OUTPUT:
+it (pronoun), does (verb), a (article), stone (noun)
+
+### INPUT:
+He talked.
+### OUTPUT:
+he (pronoun), talked (verb)
+
+### INPUT:
+He said a group.
+### OUTPUT:
+he (pronoun), said (verb), a (article), group (noun)
+
+### INPUT:
+They were bad.
+### OUTPUT:
+they (pronoun), were (verb), bad (adjective)
+
+### INPUT:
+He is empty.
+### OUTPUT:
+he (pronoun), is (verb), empty (adjective)
+
+### INPUT:
+He is open.
+### OUTPUT:
+he (pronoun), is (verb), open (adjective)
+
+### INPUT:
+You wered.
+### OUTPUT:
+you (pronoun), wered (verb)
+
+### INPUT:
+You wased.
+### OUTPUT:
+you (pronoun), wased (verb)
+
+### INPUT:
+We talk.
+### OUTPUT:
+we (pronoun), talk (verb)
+
+### INPUT:
+She spoke a woman today.
+### OUTPUT:
+she (pronoun), spoke (verb), a (article), woman (noun), today (adverb)
+
+### INPUT:
+They say a fish slowly.
+### OUTPUT:
+they (pronoun), say (verb), a (article), fish (noun), slowly (adverb)
+
+### INPUT:
+He takes a moon such.
+### OUTPUT:
+he (pronoun), takes (verb), a (article), moon (noun), such (adverb)
+
+### INPUT:
+It beinged.
+### OUTPUT:
+it (pronoun), beinged (verb)
+
+### INPUT:
+I take a window.
+### OUTPUT:
+i (pronoun), take (verb), a (article), window (noun)
+
+### INPUT:
+They took a road.
+### OUTPUT:
+they (pronoun), took (verb), a (article), road (noun)
+
+### INPUT:
+We do a food.
+### OUTPUT:
+we (pronoun), do (verb), a (article), food (noun)
+
+### INPUT:
+We are weak.
+### OUTPUT:
+we (pronoun), are (verb), weak (adjective)
+
+### INPUT:
+He ises.
+### OUTPUT:
+he (pronoun), ises (verb)
+
+### INPUT:
+It is clean.
+### OUTPUT:
+it (pronoun), is (verb), clean (adjective)
+
+### INPUT:
+We said a world.
+### OUTPUT:
+we (pronoun), said (verb), a (article), world (noun)
+
+### INPUT:
+She made a country.
+### OUTPUT:
+she (pronoun), made (verb), a (article), country (noun)
+
+### INPUT:
+We drink a car.
+### OUTPUT:
+we (pronoun), drink (verb), a (article), car (noun)
+
+### INPUT:
+He jumps.
+### OUTPUT:
+he (pronoun), jumps (verb)
+
+### INPUT:
+I give a woman.
+### OUTPUT:
+i (pronoun), give (verb), a (article), woman (noun)
+
+### INPUT:
+They have a grass back.
+### OUTPUT:
+they (pronoun), have (verb), a (article), grass (noun), back (adverb)
+
+### INPUT:
+You say a friend.
+### OUTPUT:
+you (pronoun), say (verb), a (article), friend (noun)
+
+### INPUT:
+You are old.
+### OUTPUT:
+you (pronoun), are (verb), old (adjective)
+
+### INPUT:
+I am small.
+### OUTPUT:
+i (pronoun), am (verb), small (adjective)
+
+### INPUT:
+You is.
+### OUTPUT:
+you (pronoun), is (verb)
+
+### INPUT:
+We were bad.
+### OUTPUT:
+we (pronoun), were (verb), bad (adjective)
+
+### INPUT:
+It spoke a country.
+### OUTPUT:
+it (pronoun), spoke (verb), a (article), country (noun)
+
+### INPUT:
+We is.
+### OUTPUT:
+we (pronoun), is (verb)
+
+### INPUT:
+I took a country.
+### OUTPUT:
+i (pronoun), took (verb), a (article), country (noun)
+
+### INPUT:
+She has a town up.
+### OUTPUT:
+she (pronoun), has (verb), a (article), town (noun), up (adverb)
+
+### INPUT:
+They heard a woman always.
+### OUTPUT:
+they (pronoun), heard (verb), a (article), woman (noun), always (adverb)
+
+### INPUT:
+You are closed.
+### OUTPUT:
+you (pronoun), are (verb), closed (adjective)
+
+### INPUT:
+I was black.
+### OUTPUT:
+i (pronoun), was (verb), black (adjective)
+
+### INPUT:
+She ares.
+### OUTPUT:
+she (pronoun), ares (verb)
+
+### INPUT:
+It made a dog nearly.
+### OUTPUT:
+it (pronoun), made (verb), a (article), dog (noun), nearly (adverb)
+
+### INPUT:
+You were red.
+### OUTPUT:
+you (pronoun), were (verb), red (adjective)
+
+### INPUT:
+We were empty.
+### OUTPUT:
+we (pronoun), were (verb), empty (adjective)
+
+### INPUT:
+It sees a tree today.
+### OUTPUT:
+it (pronoun), sees (verb), a (article), tree (noun), today (adverb)
+
+### INPUT:
+They hear a child rarely.
+### OUTPUT:
+they (pronoun), hear (verb), a (article), child (noun), rarely (adverb)
+
+### INPUT:
+He ared.
+### OUTPUT:
+he (pronoun), ared (verb)
+
+### INPUT:
+He wased.
+### OUTPUT:
+he (pronoun), wased (verb)
+
+### INPUT:
+She ate a water.
+### OUTPUT:
+she (pronoun), ate (verb), a (article), water (noun)
+
+### INPUT:
+It is light.
+### OUTPUT:
+it (pronoun), is (verb), light (adjective)
+
+### INPUT:
+He takes a book.
+### OUTPUT:
+he (pronoun), takes (verb), a (article), book (noun)
+
+### INPUT:
+She took a tree tomorrow.
+### OUTPUT:
+she (pronoun), took (verb), a (article), tree (noun), tomorrow (adverb)
+
+### INPUT:
+She looks.
+### OUTPUT:
+she (pronoun), looks (verb)
+
+### INPUT:
+You took a tree.
+### OUTPUT:
+you (pronoun), took (verb), a (article), tree (noun)
+
+### INPUT:
+You drank a window quite.
+### OUTPUT:
+you (pronoun), drank (verb), a (article), window (noun), quite (adverb)
+
+### INPUT:
+She gives a town.
+### OUTPUT:
+she (pronoun), gives (verb), a (article), town (noun)
+
+### INPUT:
+We did a stone.
+### OUTPUT:
+we (pronoun), did (verb), a (article), stone (noun)
+
+### INPUT:
+They talk.
+### OUTPUT:
+they (pronoun), talk (verb)
+
+### INPUT:
+They take a world fast.
+### OUTPUT:
+they (pronoun), take (verb), a (article), world (noun), fast (adverb)
+
+### INPUT:
+They speak a friend almost.
+### OUTPUT:
+they (pronoun), speak (verb), a (article), friend (noun), almost (adverb)
+
+### INPUT:
+We say an earth.
+### OUTPUT:
+we (pronoun), say (verb), an (article), earth (noun)
+
+### INPUT:
+They jumped.
+### OUTPUT:
+they (pronoun), jumped (verb)
+
+### INPUT:
+You spoke a country.
+### OUTPUT:
+you (pronoun), spoke (verb), a (article), country (noun)
+
+### INPUT:
+They walk.
+### OUTPUT:
+they (pronoun), walk (verb)
+
+### INPUT:
+You drink a day.
+### OUTPUT:
+you (pronoun), drink (verb), a (article), day (noun)
+
+### INPUT:
+He is hard.
+### OUTPUT:
+he (pronoun), is (verb), hard (adjective)
+
+### INPUT:
+I spoke a grass.
+### OUTPUT:
+i (pronoun), spoke (verb), a (article), grass (noun)
+
+### INPUT:
+You had a star.
+### OUTPUT:
+you (pronoun), had (verb), a (article), star (noun)
+
+### INPUT:
+They run.
+### OUTPUT:
+they (pronoun), run (verb)
+
+### INPUT:
+We sat.
+### OUTPUT:
+we (pronoun), sat (verb)
+
+### INPUT:
+They ate a woman yesterday.
+### OUTPUT:
+they (pronoun), ate (verb), a (article), woman (noun), yesterday (adverb)
+
+### INPUT:
+He is low.
+### OUTPUT:
+he (pronoun), is (verb), low (adjective)
+
+### INPUT:
+You spoke a star easily.
+### OUTPUT:
+you (pronoun), spoke (verb), a (article), star (noun), easily (adverb)
+
+### INPUT:
+It did a rock always.
+### OUTPUT:
+it (pronoun), did (verb), a (article), rock (noun), always (adverb)
+
+### INPUT:
+They told a man.
+### OUTPUT:
+they (pronoun), told (verb), a (article), man (noun)
+
+### INPUT:
+She goes.
+### OUTPUT:
+she (pronoun), goes (verb)
+
+### INPUT:
+We are.
+### OUTPUT:
+we (pronoun), are (verb)
+
+### INPUT:
+I speak a friend in.
+### OUTPUT:
+i (pronoun), speak (verb), a (article), friend (noun), in (adverb)
+
+### INPUT:
+She sees a water.
+### OUTPUT:
+she (pronoun), sees (verb), a (article), water (noun)
+
+### INPUT:
+You take a moon so.
+### OUTPUT:
+you (pronoun), take (verb), a (article), moon (noun), so (adverb)
+
+### INPUT:
+I wased.
+### OUTPUT:
+i (pronoun), wased (verb)
+
+### INPUT:
+It gave a woman usually.
+### OUTPUT:
+it (pronoun), gave (verb), a (article), woman (noun), usually (adverb)
+
+### INPUT:
+I jump.
+### OUTPUT:
+i (pronoun), jump (verb)
+
+### INPUT:
+They are warm.
+### OUTPUT:
+they (pronoun), are (verb), warm (adjective)
+
+### INPUT:
+I am bad.
+### OUTPUT:
+i (pronoun), am (verb), bad (adjective)
+
+### INPUT:
+I ared.
+### OUTPUT:
+i (pronoun), ared (verb)
+
+### INPUT:
+We did a star.
+### OUTPUT:
+we (pronoun), did (verb), a (article), star (noun)
+
+### INPUT:
+It beens.
+### OUTPUT:
+it (pronoun), beens (verb)
+
+### INPUT:
+She was low.
+### OUTPUT:
+she (pronoun), was (verb), low (adjective)
+
+### INPUT:
+You wased.
+### OUTPUT:
+you (pronoun), wased (verb)
+
+### INPUT:
+She took a sun.
+### OUTPUT:
+she (pronoun), took (verb), a (article), sun (noun)
+
+### INPUT:
+They drank a family happily.
+### OUTPUT:
+they (pronoun), drank (verb), a (article), family (noun), happily (adverb)
+
+### INPUT:
+They heard a chair outside.
+### OUTPUT:
+they (pronoun), heard (verb), a (article), chair (noun), outside (adverb)
+
+### INPUT:
+He saw a group away.
+### OUTPUT:
+he (pronoun), saw (verb), a (article), group (noun), away (adverb)
+
+### INPUT:
+You spoke a child.
+### OUTPUT:
+you (pronoun), spoke (verb), a (article), child (noun)
+
+### INPUT:
+She jumps.
+### OUTPUT:
+she (pronoun), jumps (verb)
+
+### INPUT:
+We ised.
+### OUTPUT:
+we (pronoun), ised (verb)
+
+### INPUT:
+I drink a moon often.
+### OUTPUT:
+i (pronoun), drink (verb), a (article), moon (noun), often (adverb)
+
+### INPUT:
+He stood.
+### OUTPUT:
+he (pronoun), stood (verb)
+
+### INPUT:
+I eat a chair out.
+### OUTPUT:
+i (pronoun), eat (verb), a (article), chair (noun), out (adverb)
+
+### INPUT:
+They drink a country.
+### OUTPUT:
+they (pronoun), drink (verb), a (article), country (noun)
+
+### INPUT:
+You speak a star.
+### OUTPUT:
+you (pronoun), speak (verb), a (article), star (noun)
+
+### INPUT:
+It heard a food sadly.
+### OUTPUT:
+it (pronoun), heard (verb), a (article), food (noun), sadly (adverb)
+
+### INPUT:
+He walked.
+### OUTPUT:
+he (pronoun), walked (verb)
+
+### INPUT:
+She jumps.
+### OUTPUT:
+she (pronoun), jumps (verb)
+
+### INPUT:
+We made a year.
+### OUTPUT:
+we (pronoun), made (verb), a (article), year (noun)
+
+### INPUT:
+I spoke a grass.
+### OUTPUT:
+i (pronoun), spoke (verb), a (article), grass (noun)
+
+### INPUT:
+It was cold.
+### OUTPUT:
+it (pronoun), was (verb), cold (adjective)
+
+### INPUT:
+They being.
+### OUTPUT:
+they (pronoun), being (verb)
+
+### INPUT:
+He is sad.
+### OUTPUT:
+he (pronoun), is (verb), sad (adjective)
+
+### INPUT:
+We were cool.
+### OUTPUT:
+we (pronoun), were (verb), cool (adjective)
+
+### INPUT:
+She is soft.
+### OUTPUT:
+she (pronoun), is (verb), soft (adjective)
+
+### INPUT:
+She is strong.
+### OUTPUT:
+she (pronoun), is (verb), strong (adjective)
+
+### INPUT:
+You are light.
+### OUTPUT:
+you (pronoun), are (verb), light (adjective)
+
+### INPUT:
+I speak a window.
+### OUTPUT:
+i (pronoun), speak (verb), a (article), window (noun)
+
+### INPUT:
+We were clean.
+### OUTPUT:
+we (pronoun), were (verb), clean (adjective)
+
+### INPUT:
+She saw a book.
+### OUTPUT:
+she (pronoun), saw (verb), a (article), book (noun)
+
+### INPUT:
+You are weak.
+### OUTPUT:
+you (pronoun), are (verb), weak (adjective)
+
+### INPUT:
+You tell a moon such.
+### OUTPUT:
+you (pronoun), tell (verb), a (article), moon (noun), such (adverb)
+
+### INPUT:
+He takes a country enough.
+### OUTPUT:
+he (pronoun), takes (verb), a (article), country (noun), enough (adverb)
+
+### INPUT:
+We were heavy.
+### OUTPUT:
+we (pronoun), were (verb), heavy (adjective)
+
+### INPUT:
+You told a chair out.
+### OUTPUT:
+you (pronoun), told (verb), a (article), chair (noun), out (adverb)
+
+### INPUT:
+I was bad.
+### OUTPUT:
+i (pronoun), was (verb), bad (adjective)
+
+### INPUT:
+We do a window.
+### OUTPUT:
+we (pronoun), do (verb), a (article), window (noun)
+
+### INPUT:
+They were strong.
+### OUTPUT:
+they (pronoun), were (verb), strong (adjective)
+
+### INPUT:
+He gave an earth today.
+### OUTPUT:
+he (pronoun), gave (verb), an (article), earth (noun), today (adverb)
+
+### INPUT:
+I see a world.
+### OUTPUT:
+i (pronoun), see (verb), a (article), world (noun)
+
+### INPUT:
+He drank a city.
+### OUTPUT:
+he (pronoun), drank (verb), a (article), city (noun)
+
+### INPUT:
+We do a woman.
+### OUTPUT:
+we (pronoun), do (verb), a (article), woman (noun)
+
+### INPUT:
+He was bad.
+### OUTPUT:
+he (pronoun), was (verb), bad (adjective)
+
+### INPUT:
+She is big.
+### OUTPUT:
+she (pronoun), is (verb), big (adjective)
+
+### INPUT:
+She makes a cat outside.
+### OUTPUT:
+she (pronoun), makes (verb), a (article), cat (noun), outside (adverb)
+
+### INPUT:
+I hear a moon early.
+### OUTPUT:
+i (pronoun), hear (verb), a (article), moon (noun), early (adverb)
+
+### INPUT:
+It drinks a grass.
+### OUTPUT:
+it (pronoun), drinks (verb), a (article), grass (noun)
+
+### INPUT:
+You make a year yesterday.
+### OUTPUT:
+you (pronoun), make (verb), a (article), year (noun), yesterday (adverb)
+
+### INPUT:
+It walked.
+### OUTPUT:
+it (pronoun), walked (verb)
+
+### INPUT:
+We being.
+### OUTPUT:
+we (pronoun), being (verb)
+
+### INPUT:
+You did a grass.
+### OUTPUT:
+you (pronoun), did (verb), a (article), grass (noun)
+
+### INPUT:
+She was red.
+### OUTPUT:
+she (pronoun), was (verb), red (adjective)
+
+### INPUT:
+We give a friend.
+### OUTPUT:
+we (pronoun), give (verb), a (article), friend (noun)
+
+### INPUT:
+You were warm.
+### OUTPUT:
+you (pronoun), were (verb), warm (adjective)
+
+### INPUT:
+It is high.
+### OUTPUT:
+it (pronoun), is (verb), high (adjective)
+
+### INPUT:
+He comes.
+### OUTPUT:
+he (pronoun), comes (verb)
+
+### INPUT:
+She was bright.
+### OUTPUT:
+she (pronoun), was (verb), bright (adjective)
+
+### INPUT:
+She made a world sometimes.
+### OUTPUT:
+she (pronoun), made (verb), a (article), world (noun), sometimes (adverb)
+
+### INPUT:
+They sit.
+### OUTPUT:
+they (pronoun), sit (verb)
+
+### INPUT:
+You see a man.
+### OUTPUT:
+you (pronoun), see (verb), a (article), man (noun)
+
+### INPUT:
+You said a flower down.
+### OUTPUT:
+you (pronoun), said (verb), a (article), flower (noun), down (adverb)
+
+### INPUT:
+They walk.
+### OUTPUT:
+they (pronoun), walk (verb)
+
+### INPUT:
+I drank a flower.
+### OUTPUT:
+i (pronoun), drank (verb), a (article), flower (noun)
+
+### INPUT:
+She weres.
+### OUTPUT:
+she (pronoun), weres (verb)
+
+### INPUT:
+You stood.
+### OUTPUT:
+you (pronoun), stood (verb)
+
+### INPUT:
+You amed.
+### OUTPUT:
+you (pronoun), amed (verb)
+
+### INPUT:
+She was long.
+### OUTPUT:
+she (pronoun), was (verb), long (adjective)
+
+### INPUT:
+He walks.
+### OUTPUT:
+he (pronoun), walks (verb)
+
+### INPUT:
+You say a cat slowly.
+### OUTPUT:
+you (pronoun), say (verb), a (article), cat (noun), slowly (adverb)
+
+### INPUT:
+They were.
+### OUTPUT:
+they (pronoun), were (verb)
+
+### INPUT:
+He drank a family there.
+### OUTPUT:
+he (pronoun), drank (verb), a (article), family (noun), there (adverb)
+
+### INPUT:
+She is dirty.
+### OUTPUT:
+she (pronoun), is (verb), dirty (adjective)
+
+### INPUT:
+It was good.
+### OUTPUT:
+it (pronoun), was (verb), good (adjective)
+
+### INPUT:
+I made a book everywhere.
+### OUTPUT:
+i (pronoun), made (verb), a (article), book (noun), everywhere (adverb)
+
+### INPUT:
+We wered.
+### OUTPUT:
+we (pronoun), wered (verb)
+
+### INPUT:
+We being.
+### OUTPUT:
+we (pronoun), being (verb)
+
+### INPUT:
+It is short.
+### OUTPUT:
+it (pronoun), is (verb), short (adjective)
+
+### INPUT:
+They are weak.
+### OUTPUT:
+they (pronoun), are (verb), weak (adjective)
+
+### INPUT:
+It made a sun.
+### OUTPUT:
+it (pronoun), made (verb), a (article), sun (noun)
+
+### INPUT:
+We walked.
+### OUTPUT:
+we (pronoun), walked (verb)
+
+### INPUT:
+It was white.
+### OUTPUT:
+it (pronoun), was (verb), white (adjective)
+
+### INPUT:
+She makes a country too.
+### OUTPUT:
+she (pronoun), makes (verb), a (article), country (noun), too (adverb)
+
+### INPUT:
+He took a town.
+### OUTPUT:
+he (pronoun), took (verb), a (article), town (noun)
+
+### INPUT:
+We ran.
+### OUTPUT:
+we (pronoun), ran (verb)
+
+### INPUT:
+We had a fish.
+### OUTPUT:
+we (pronoun), had (verb), a (article), fish (noun)
+
+### INPUT:
+We see a day.
+### OUTPUT:
+we (pronoun), see (verb), a (article), day (noun)
+
+### INPUT:
+They heard a city.
+### OUTPUT:
+they (pronoun), heard (verb), a (article), city (noun)
+
+### INPUT:
+They are happy.
+### OUTPUT:
+they (pronoun), are (verb), happy (adjective)
+
+### INPUT:
+It told a fire.
+### OUTPUT:
+it (pronoun), told (verb), a (article), fire (noun)
+
+### INPUT:
+You did a year.
+### OUTPUT:
+you (pronoun), did (verb), a (article), year (noun)
+
+### INPUT:
+It is cold.
+### OUTPUT:
+it (pronoun), is (verb), cold (adjective)
+
+### INPUT:
+I see a cat everywhere.
+### OUTPUT:
+i (pronoun), see (verb), a (article), cat (noun), everywhere (adverb)
+
+### INPUT:
+He jumped.
+### OUTPUT:
+he (pronoun), jumped (verb)
+
+### INPUT:
+You spoke a town.
+### OUTPUT:
+you (pronoun), spoke (verb), a (article), town (noun)
+
+### INPUT:
+They been.
+### OUTPUT:
+they (pronoun), been (verb)
+
+### INPUT:
+They drank a man.
+### OUTPUT:
+they (pronoun), drank (verb), a (article), man (noun)
+
+### INPUT:
+You ate a fish.
+### OUTPUT:
+you (pronoun), ate (verb), a (article), fish (noun)
+
+### INPUT:
+They are blue.
+### OUTPUT:
+they (pronoun), are (verb), blue (adjective)
+
+### INPUT:
+They saw a window sometimes.
+### OUTPUT:
+they (pronoun), saw (verb), a (article), window (noun), sometimes (adverb)
+
+### INPUT:
+They take a world outside.
+### OUTPUT:
+they (pronoun), take (verb), a (article), world (noun), outside (adverb)
+
+### INPUT:
+It was dark.
+### OUTPUT:
+it (pronoun), was (verb), dark (adjective)
+
+### INPUT:
+It says a chair.
+### OUTPUT:
+it (pronoun), says (verb), a (article), chair (noun)
+
+### INPUT:
+We drink a person.
+### OUTPUT:
+we (pronoun), drink (verb), a (article), person (noun)
+
+### INPUT:
+He is new.
+### OUTPUT:
+he (pronoun), is (verb), new (adjective)
+
+### INPUT:
+They beened.
+### OUTPUT:
+they (pronoun), beened (verb)
+
+### INPUT:
+I drank a fire.
+### OUTPUT:
+i (pronoun), drank (verb), a (article), fire (noun)
+
+### INPUT:
+You hear a house quickly.
+### OUTPUT:
+you (pronoun), hear (verb), a (article), house (noun), quickly (adverb)
+

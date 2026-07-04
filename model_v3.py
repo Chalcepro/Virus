@@ -121,3 +121,77 @@ class HybridCodeGenerator(nn.Module):
             input_ids = torch.cat([input_ids, next_id])
 
         return input_ids
+
+    def _adapt_state_dict_vocab(self, state_dict, target_vocab_size):
+        """Resize checkpoint embeddings and output projection to match current vocab."""
+        if not isinstance(state_dict, dict):
+            raise TypeError("Expected state_dict to be a dict")
+
+        state_dict = dict(state_dict)
+
+        if "embedding.weight" in state_dict:
+            old_emb = state_dict["embedding.weight"]
+            old_vocab_size, old_emb_dim = old_emb.size()
+            target_emb_dim = self.embedding.embedding_dim
+            if old_vocab_size != target_vocab_size or old_emb_dim != target_emb_dim:
+                new_emb = torch.zeros(target_vocab_size, target_emb_dim, device=old_emb.device)
+                copy_vocab = min(old_vocab_size, target_vocab_size)
+                copy_dim = min(old_emb_dim, target_emb_dim)
+                new_emb[:copy_vocab, :copy_dim] = old_emb[:copy_vocab, :copy_dim]
+                state_dict["embedding.weight"] = new_emb
+
+        if "output_fc.weight" in state_dict:
+            old_out = state_dict["output_fc.weight"]
+            old_vocab_size, old_out_dim = old_out.size()
+            target_out_dim = self.output_fc.in_features
+            if old_vocab_size != target_vocab_size or old_out_dim != target_out_dim:
+                new_out = torch.zeros(target_vocab_size, target_out_dim, device=old_out.device)
+                copy_vocab = min(old_vocab_size, target_vocab_size)
+                copy_dim = min(old_out_dim, target_out_dim)
+                new_out[:copy_vocab, :copy_dim] = old_out[:copy_vocab, :copy_dim]
+                state_dict["output_fc.weight"] = new_out
+
+        if "output_fc.bias" in state_dict:
+            old_bias = state_dict["output_fc.bias"]
+            old_vocab_size = old_bias.size(0)
+            if old_vocab_size != target_vocab_size:
+                new_bias = torch.zeros(target_vocab_size, device=old_bias.device)
+                copy_size = min(old_vocab_size, target_vocab_size)
+                new_bias[:copy_size] = old_bias[:copy_size]
+                state_dict["output_fc.bias"] = new_bias
+
+        return state_dict
+
+    def load_state_dict_adaptive(self, state_dict, strict=True):
+        state_dict = self._adapt_state_dict_vocab(state_dict, self.embedding.num_embeddings)
+        result = super().load_state_dict(state_dict, strict=False)
+        if strict and (result.missing_keys or result.unexpected_keys):
+            raise RuntimeError(
+                f"Adaptive state_dict load failed. Missing keys: {result.missing_keys}, "
+                f"Unexpected keys: {result.unexpected_keys}"
+            )
+        return result
+
+    def resize_vocab(self, new_vocab_size):
+        """Resize embedding and output projection to a new vocabulary size."""
+        old_vocab_size = self.embedding.num_embeddings
+        if new_vocab_size == old_vocab_size:
+            return
+
+        emb_dim = self.embedding.embedding_dim
+        old_emb = self.embedding.weight.data
+        new_emb = torch.zeros(new_vocab_size, emb_dim, device=old_emb.device)
+        copy_size = min(old_vocab_size, new_vocab_size)
+        new_emb[:copy_size] = old_emb[:copy_size]
+        self.embedding = nn.Embedding(new_vocab_size, emb_dim)
+        self.embedding.weight.data.copy_(new_emb)
+
+        old_out = self.output_fc.weight.data
+        old_bias = self.output_fc.bias.data
+        new_out = torch.zeros(new_vocab_size, old_out.size(1), device=old_out.device)
+        new_bias = torch.zeros(new_vocab_size, device=old_bias.device)
+        new_out[:copy_size] = old_out[:copy_size]
+        new_bias[:copy_size] = old_bias[:copy_size]
+        self.output_fc = nn.Linear(old_out.size(1), new_vocab_size)
+        self.output_fc.weight.data.copy_(new_out)
+        self.output_fc.bias.data.copy_(new_bias)
