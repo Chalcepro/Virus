@@ -1,6 +1,15 @@
 import inspect
 import torch
 
+
+def get_device():
+    if torch.cuda.is_available():
+        return torch.device("cuda")
+    if hasattr(torch.backends, "mps") and torch.backends.mps.is_available():
+        return torch.device("mps")
+    return torch.device("cpu")
+
+
 def torch_load(path, map_location=None, **kwargs):
     if "weights_only" in inspect.signature(torch.load).parameters and "weights_only" not in kwargs:
         kwargs["weights_only"] = False

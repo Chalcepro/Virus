@@ -19,9 +19,27 @@ import torch.optim as optim
 import config
 from dataset import CodeDataset, ReplayTrainer
 from model_v3 import HybridCodeGenerator
-from utils import torch_load
+from utils import get_device, torch_load
 
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+def resolve_device(requested=None):
+    if requested is None:
+        return get_device()
+    requested = requested.lower()
+    if requested == "cuda":
+        if not torch.cuda.is_available():
+            raise RuntimeError("CUDA requested but torch.cuda.is_available() is False")
+        return torch.device("cuda")
+    if requested == "mps":
+        if not hasattr(torch.backends, "mps") or not torch.backends.mps.is_available():
+            raise RuntimeError("MPS requested but torch.backends.mps.is_available() is False")
+        return torch.device("mps")
+    if requested == "cpu":
+        return torch.device("cpu")
+    raise ValueError(f"Unsupported device '{requested}'. Use 'cpu', 'cuda', or 'mps'.")
+
+
+device = get_device()
 
 
 def resize_model_vocab(model, new_vocab_size, old_vocab_size):
@@ -319,11 +337,19 @@ def parse_args():
         default=str(config.MODEL_PATH),
         help="Path to the weights/checkpoint file to train and save",
     )
+    parser.add_argument(
+        "--device",
+        choices=["cpu", "cuda", "mps"],
+        default=None,
+        help="Force a device: cpu, cuda, or mps (defaults to auto-detect)",
+    )
     return parser.parse_args()
 
 
 def main():
     args = parse_args()
+    global device
+    device = resolve_device(args.device)
     config.REPLAY_RATIO = args.replay_ratio
     config.MODEL_PATH = Path(args.model).expanduser()
 

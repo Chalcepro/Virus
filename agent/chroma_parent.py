@@ -20,7 +20,7 @@ import config
 import torch
 import websockets
 from sentence_transformers import SentenceTransformer
-from utils import torch_load
+from utils import get_device, torch_load
 
 logging.basicConfig(
     level=logging.INFO,
@@ -49,7 +49,7 @@ def load_model_and_vocab(model_path=None, vocab_path=None):
     stoi = vocab["stoi"]
     itos = vocab["itos"]
     vocab_size = vocab["vocab_size"]
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    device = get_device()
     model = HybridCodeGenerator(vocab_size=vocab_size, embed_size=64, state_size=128)
     checkpoint = torch_load(str(model_path), map_location=device)
     model.load_state_dict_adaptive(checkpoint)

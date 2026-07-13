@@ -5,7 +5,7 @@ import torch
 
 import config
 from model_v3 import HybridCodeGenerator
-from utils import torch_load
+from utils import get_device, torch_load
 
 
 def load_vocab():
@@ -23,7 +23,7 @@ def load_vocab():
 
 
 def generate(prompt="def ", max_tokens=200, temperature=0.8, top_k=40):
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    device = get_device()
     stoi, itos, vocab_size = load_vocab()
 
     model = HybridCodeGenerator(
