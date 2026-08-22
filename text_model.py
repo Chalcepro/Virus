@@ -1,21 +1,40 @@
-import torch
+import argparse
+import json
 import os
 import sys
-import json
+
+import torch
+
 import config
 from dataset import CodeDataset
 from model_v3 import HybridCodeGenerator
 from utils import torch_load
 
+
+def parse_args():
+    parser = argparse.ArgumentParser(description="Interactive Virus text model")
+    parser.add_argument(
+        "--profile",
+        choices=sorted(config.PROFILE_CONFIGS.keys()),
+        default=config.DEFAULT_PROFILE,
+        help="Model profile to load",
+    )
+    return parser.parse_args()
+
+
+ARGS = parse_args()
+config.apply_profile(ARGS.profile)
+
 # === Settings ===
-MODEL_PATH = config.MODEL_PATH                   # your trained weights
-DATA_FILE = config.DATA_DIR / "python.txt"      # file to generate from
-VOCAB_FILE = config.VOCAB_FILE                 # vocabulary from training
+MODEL_PATH = config.MODEL_PATH
+DATA_FILE = config.DATA_DIR / "python.txt"
+VOCAB_FILE = config.VOCAB_FILE
 MAX_NEW_TOKENS = 200                           # how many characters to generate
 TEMPERATURE = 0.8                              # randomness (higher = more creative)
 TOP_K = 40                                     # nucleus sampling top‑k
 
 # === Load dataset and model ===
+print(f"Using profile: {config.ACTIVE_PROFILE}")
 print(f"Using model checkpoint: {MODEL_PATH}")
 device = torch.device("cpu")
 
@@ -51,7 +70,10 @@ print(f"Loaded vocabulary: {vocab_size_to_use} characters")
 print(f"Checkpoint was trained with: {checkpoint_vocab_size} vocabulary size")
 
 # Load the specific file for generation prompts
-dataset = CodeDataset(str(DATA_FILE), block_size=config.BLOCK_SIZE)
+if DATA_FILE.exists():
+    dataset = CodeDataset(str(DATA_FILE), block_size=config.BLOCK_SIZE)
+else:
+    dataset = None
 
 # Create model with the full vocab size and adapt the checkpoint if needed
 # Use sizes from config so they match training/checkpoint settings

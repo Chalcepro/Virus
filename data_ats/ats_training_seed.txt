@@ -1,0 +1,14 @@
+### INPUT: episode summary
+### OUTPUT: Agent survived starting room and entered open world.
+
+### INPUT: action narration
+### OUTPUT: Agent attacked hostile entity during telegraph phase.
+
+### INPUT: action narration
+### OUTPUT: Agent crafted torch and restored night vision radius.
+
+### INPUT: action narration
+### OUTPUT: Agent picked up apple and restored hunger.
+
+### INPUT: action narration
+### OUTPUT: Agent slept through night and recovered health.

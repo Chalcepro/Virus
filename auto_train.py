@@ -309,6 +309,12 @@ def print_domain_scores(scores):
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Train HybridCodeGenerator on data/*.txt")
+    parser.add_argument(
+        "--profile",
+        choices=sorted(config.PROFILE_CONFIGS.keys()),
+        default=config.DEFAULT_PROFILE,
+        help="Training profile to use (controls data/model/vocab/state paths)",
+    )
     parser.add_argument("--lr", type=float, default=config.LEARNING_RATE)
     parser.add_argument("--epochs", type=int, default=config.EPOCHS)
     parser.add_argument("--files", nargs="+", help="Only train on specific file names")
@@ -348,6 +354,7 @@ def parse_args():
 
 def main():
     args = parse_args()
+    config.apply_profile(args.profile)
     global device
     device = resolve_device(args.device)
     config.REPLAY_RATIO = args.replay_ratio
@@ -356,11 +363,13 @@ def main():
     print("=" * 60)
     print("AUTO TRAIN")
     print("=" * 60)
+    print(f"Profile: {config.ACTIVE_PROFILE}")
     mode = "sequential (legacy)" if args.sequential else "mixed + replay (default)"
     split_text = "split-mode" if args.split_data else "mixed root + split"
     base_data_text = "+ base-data" if args.base_data else ""
     print(f"Mode: {mode} | data layout: {split_text} {base_data_text}")
     print(f"Device: {device}")
+    print(f"Data dir: {config.DATA_DIR}")
     print("Press Ctrl+C to stop safely\n")
 
     state = load_state()

@@ -1,4 +1,5 @@
 import json
+import argparse
 import sys
 
 import torch
@@ -22,7 +23,9 @@ def load_vocab():
     return stoi, itos, vocab["vocab_size"]
 
 
-def generate(prompt="def ", max_tokens=200, temperature=0.8, top_k=40):
+def generate(prompt="def ", max_tokens=200, temperature=0.8, top_k=40, profile=None):
+    if profile:
+        config.apply_profile(profile)
     device = get_device()
     stoi, itos, vocab_size = load_vocab()
 
@@ -58,5 +61,27 @@ def generate(prompt="def ", max_tokens=200, temperature=0.8, top_k=40):
     print(generated)
 
 
+def parse_args():
+    parser = argparse.ArgumentParser(description="Generate text from Virus model")
+    parser.add_argument(
+        "--profile",
+        choices=sorted(config.PROFILE_CONFIGS.keys()),
+        default=config.DEFAULT_PROFILE,
+        help="Model profile to load",
+    )
+    parser.add_argument("--prompt", default="def ")
+    parser.add_argument("--max-tokens", type=int, default=300)
+    parser.add_argument("--temperature", type=float, default=0.9)
+    parser.add_argument("--top-k", type=int, default=40)
+    return parser.parse_args()
+
+
 if __name__ == "__main__":
-    generate(prompt="def ", max_tokens=300, temperature=0.9, top_k=40)
+    args = parse_args()
+    generate(
+        prompt=args.prompt,
+        max_tokens=args.max_tokens,
+        temperature=args.temperature,
+        top_k=args.top_k,
+        profile=args.profile,
+    )

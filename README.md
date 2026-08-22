@@ -24,7 +24,33 @@ For the Minecraft agent, install the full environment:
 python3 -m pip install -r requirements.txt
 ```
 
-## Quick start
+## Profile-based models
+
+Virus now supports two training/inference profiles:
+
+| Profile | Data dir | Model | Vocab | State |
+|---------|----------|-------|-------|-------|
+| `general` | `data/` | `model_v3.pt` | `vocab.json` | `auto_train_state.json` |
+| `ats` | `data_ats/` | `model_ats_v3.pt` | `vocab_ats.json` | `auto_train_state_ats.json` |
+
+```bash
+# General profile (default)
+python3 auto_train.py --profile general
+
+# ATS-specialized profile
+python3 auto_train.py --profile ats --epochs 30 --lr 0.0001
+
+# Generate with profile
+python3 generate_v3.py --profile ats --prompt "### INPUT: action narration\n### OUTPUT:"
+python3 text_model.py --profile ats
+```
+
+Create a fresh profile checkpoint:
+
+```bash
+python3 scripts/create_v3.py --profile ats
+```
+
 
 ```bash
 # Train on new data files (balanced sampling + replay)
